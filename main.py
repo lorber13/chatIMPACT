@@ -1,6 +1,12 @@
 import streamlit as st
 
+from database import db
+
+models = db["Models"].find()
+
 st.write("""
-# My first app
-Hello *world!*
+# Database
+## Models
 """)
+
+st.json([*models])
