@@ -1,6 +1,7 @@
 import streamlit as st
+from database import getDatabase
 
-from database import db
+db = getDatabase("Paper")
 
 models = db["Models"].find()
 

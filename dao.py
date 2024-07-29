@@ -1,5 +1,3 @@
-from database import db
-
 """
 query = [
     {
@@ -54,6 +52,22 @@ result = [
 ]
 """
 
-def query(specification):
-    pass
-
+def query(database, specifications):
+    if specifications and len(specifications) == 1:
+        specification = specifications[0]
+        collection = database[specification["collection"]]
+        if "project" in specification:
+            if "filters" in specification:
+                items = list(collection.find(filter = specification["filters"], projection = specification["project"]))
+            else:
+                items = list(collection.find(projection = specification["project"]))
+        else:
+            if "filters" in specification:
+                items = list(collection.find(filter = specification["filters"]))
+            else:
+                items = list(collection.find())
+        for item in items:
+            del item["_id"]
+        return items
+    else:
+        return []

@@ -1,9 +1,6 @@
 from pymongo import MongoClient
 from auth import CONNECTION_STRING
 
-def getDatabase():
+def getDatabase(name):
     client = MongoClient(CONNECTION_STRING)
-    return client['Paper']
-
-db = getDatabase()
-
+    return client[name]
