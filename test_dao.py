@@ -178,5 +178,52 @@ class SingleCollection(unittest.TestCase):
         self.assertNotIn("version", res[0])
         self.assertNotIn("numberOfParameters [B]", res[0])
 
+    def test_wrong_filter(self):
+        db["Models"].insert_many([
+            {
+                "name": "model1",
+                "version": "LLaMA",
+                "numberOfParameters [B]": 3
+            },
+            {
+                "name": "model2",
+                "version": "GPT",
+                "numberOfParameters [B]": 5
+            }
+        ])
+
+        res = query(db, [
+            {
+                "collection": "Models",
+                "filters": {"nam": "model1"},
+            },
+        ])
+        self.assertEqual(len(res), 0)
+
+    def test_wrong_project(self):
+        db["Models"].insert_many([
+            {
+                "name": "model1",
+                "version": "LLaMA",
+                "numberOfParameters [B]": 3
+            },
+            {
+                "name": "model2",
+                "version": "GPT",
+                "numberOfParameters [B]": 5
+            }
+        ])
+
+        res = query(db, [
+            {
+                "collection": "Models",
+                "project": ["nam"],
+            },
+        ])
+        self.assertEqual(len(res), 2)
+        for item in res:
+            self.assertEqual(item, {})
+
+
 if __name__ == '__main__':
     unittest.main()
