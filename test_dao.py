@@ -1,4 +1,4 @@
-from dao import query
+from dao import Dao
 import unittest
 
 from database import getDatabase
@@ -26,7 +26,8 @@ class SingleCollection(unittest.TestCase):
             }
         ])
 
-        res = query(db, [
+        dao = Dao(db)
+        res = dao.query([
             {
                 "collection": "Models"
             }
@@ -43,7 +44,8 @@ class SingleCollection(unittest.TestCase):
             }
         ])
 
-        res = query(db, [
+        dao = Dao(db)
+        res = dao.query([
             {
                 "collection": "Datasets"
             }
@@ -60,7 +62,8 @@ class SingleCollection(unittest.TestCase):
             }
         ])
 
-        res = query(db, [
+        dao = Dao(db)
+        res = dao.query([
             {
                 "collection": "Metrics"
             }
@@ -77,7 +80,8 @@ class SingleCollection(unittest.TestCase):
             }
         ])
 
-        res = query(db, [
+        dao = Dao(db)
+        res = dao.query([
             {
                 "collection": "Downstream Tasks"
             }
@@ -94,11 +98,12 @@ class SingleCollection(unittest.TestCase):
             }
         ])
 
-        res = query(db, [])
+        dao = Dao(db)
+        res = dao.query([])
         self.assertEqual(len(res), 0)
-        res = query(db, None)
+        res = dao.query(None)
         self.assertEqual(len(res), 0)
-        res = query(db, {})
+        res = dao.query({})
         self.assertEqual(len(res), 0)
 
     def test_project(self):
@@ -115,7 +120,8 @@ class SingleCollection(unittest.TestCase):
             }
         ])
 
-        res = query(db, [
+        dao = Dao(db)
+        res = dao.query([
             {
                 "collection": "Models",
                 "project": ["name"],
@@ -123,9 +129,10 @@ class SingleCollection(unittest.TestCase):
         ])
         self.assertEqual(len(res), 2)
         for item in res:
-            self.assertIn("name", item)
-            self.assertNotIn("version", item)
-            self.assertNotIn("numberOfParameters [B]", item)
+            self.assertIn("Models", item)
+            self.assertIn("name", item["Models"])
+            self.assertNotIn("version", item["Models"])
+            self.assertNotIn("numberOfParameters [B]", item["Models"])
 
     def test_filter(self):
         db["Models"].insert_many([
@@ -141,16 +148,17 @@ class SingleCollection(unittest.TestCase):
             }
         ])
 
-        res = query(db, [
+        dao = Dao(db)
+        res = dao.query([
             {
                 "collection": "Models",
                 "filters": {"name": "model1"},
             },
         ])
         self.assertEqual(len(res), 1)
-        self.assertEqual(res[0]["name"], "model1")
-        self.assertEqual(res[0]["version"], "LLaMA")
-        self.assertEqual(res[0]["numberOfParameters [B]"], 3)
+        self.assertEqual(res[0]["Models"]["name"], "model1")
+        self.assertEqual(res[0]["Models"]["version"], "LLaMA")
+        self.assertEqual(res[0]["Models"]["numberOfParameters [B]"], 3)
 
     def test_filter_project(self):
         db["Models"].insert_many([
@@ -166,7 +174,8 @@ class SingleCollection(unittest.TestCase):
             }
         ])
 
-        res = query(db, [
+        dao = Dao(db)
+        res = dao.query([
             {
                 "collection": "Models",
                 "project": ["name"],
@@ -174,9 +183,9 @@ class SingleCollection(unittest.TestCase):
             },
         ])
         self.assertEqual(len(res), 1)
-        self.assertEqual(res[0]["name"], "model1")
-        self.assertNotIn("version", res[0])
-        self.assertNotIn("numberOfParameters [B]", res[0])
+        self.assertEqual(res[0]["Models"]["name"], "model1")
+        self.assertNotIn("version", res[0]["Models"])
+        self.assertNotIn("numberOfParameters [B]", res[0]["Models"])
 
     def test_wrong_filter(self):
         db["Models"].insert_many([
@@ -192,7 +201,8 @@ class SingleCollection(unittest.TestCase):
             }
         ])
 
-        res = query(db, [
+        dao = Dao(db)
+        res = dao.query([
             {
                 "collection": "Models",
                 "filters": {"nam": "model1"},
@@ -214,7 +224,8 @@ class SingleCollection(unittest.TestCase):
             }
         ])
 
-        res = query(db, [
+        dao = Dao(db)
+        res = dao.query([
             {
                 "collection": "Models",
                 "project": ["nam"],
@@ -222,7 +233,7 @@ class SingleCollection(unittest.TestCase):
         ])
         self.assertEqual(len(res), 2)
         for item in res:
-            self.assertEqual(item, {})
+            self.assertEqual(item, {"Models": {}})
 
 
 if __name__ == '__main__':

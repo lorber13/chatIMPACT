@@ -7,8 +7,7 @@ query = [
             "openSource"
         ],
         "filters": {
-            "name": "ll",
-            "openSource": True
+            "name": "ll", "openSource": True
         }
     },
     {
@@ -52,10 +51,19 @@ result = [
 ]
 """
 
-def query(database, specifications):
-    if specifications and len(specifications) == 1:
-        specification = specifications[0]
-        collection = database[specification["collection"]]
+class Dao:
+    def __init__(self, database) -> None:
+        self.database = database
+
+    def query(self, specifications):
+        if specifications and len(specifications) == 1:
+            return self.__singleCollectionQuery(specifications[0])
+        else:
+            return self.__singleJoinQuery(specifications)
+
+    def __singleCollectionQuery(self, specification):
+        collection = self.database[specification["collection"]]
+        results = []
         if "project" in specification:
             if "filters" in specification:
                 items = list(collection.find(filter = specification["filters"], projection = specification["project"]))
@@ -68,6 +76,13 @@ def query(database, specifications):
                 items = list(collection.find())
         for item in items:
             del item["_id"]
-        return items
-    else:
+            result = {}
+            result[collection.name] = item
+            results.append(result)
+        return results
+
+    def __singleJoinQuery(self, specifications):
+        return []
+
+    def __multipleJoinQuery(self, specifications):
         return []
