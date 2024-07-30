@@ -50,6 +50,9 @@
 # ]
 
 
+import sys
+
+
 class Dao:
     """data access object"""
 
@@ -60,6 +63,8 @@ class Dao:
         """perform a query"""
         if specifications and len(specifications) == 1:
             return self.__single_collection_query(specifications[0])
+        if not specifications:
+            return []
         return self.__single_join_query(specifications)
 
     def __single_collection_query(self, specification):
@@ -87,8 +92,174 @@ class Dao:
             results.append(result)
         return results
 
+    def __construct_match_obj(self, specifications):
+        match_obj = {"$match": {}}
+        for specification in specifications:
+            if "filters" in specification:
+                for filt in specification["filters"]:
+                    field = f"{specification["collection"]}.{filt}"
+                    value = specification["filters"][filt]
+                    match_obj["$match"][field] = value
+        return match_obj
+
+    def __project_obj(self, specifications):
+        project_obj = {"$project": {"_id": False}}
+        for specification in specifications:
+            if "project" in specification:
+                for project in specification["project"]:
+                    field = f"{specification["collection"]}.{project}"
+                    project_obj["$project"][field] = True
+        return project_obj
+
+    def __join_database(self, specifications):
+        collections = set()
+        for specification in specifications:
+            collections.add(specification["collection"])
+        if "Models" in collections and "Metrics" in collections:
+            join_database = self.database["Evaluate"]
+        elif "Models" in collections and "Downstream Tasks" in collections:
+            join_database = self.database["Suited For"]
+        elif "Models" in collections and "Datasets" in collections:
+            join_database = self.database["Train"]
+        elif "Datasets" in collections and "Downstream Tasks" in collections:
+            join_database = self.database["Enable"]
+        elif "Metrics" in collections and "Downstream Tasks" in collections:
+            join_database = self.database["Assess"]
+        else:
+            join_database = None
+        return join_database
+
+    def __construct_join_obj(self, specifications):
+        collections = set()
+        for specification in specifications:
+            collections.add(specification["collection"])
+        if "Models" in collections and "Metrics" in collections:
+            join_obj = [
+                {
+                    "$lookup": {
+                        "from": "Models",
+                        "localField": "Models",
+                        "foreignField": "_id",
+                        "as": "Models",
+                    },
+                },
+                {
+                    "$lookup": {
+                        "from": "Metrics",
+                        "localField": "Metrics",
+                        "foreignField": "_id",
+                        "as": "Metrics",
+                    },
+                },
+                {"$unwind": {"path": "$Models"}},
+                {"$unwind": {"path": "$Metrics"}},
+            ]
+        elif "Models" in collections and "Downstream Tasks" in collections:
+            join_obj = [
+                {
+                    "$lookup": {
+                        "from": "Models",
+                        "localField": "Models",
+                        "foreignField": "_id",
+                        "as": "Models",
+                    },
+                },
+                {
+                    "$lookup": {
+                        "from": "Downstream Tasks",
+                        "localField": "Downstream Tasks",
+                        "foreignField": "_id",
+                        "as": "Downstream Tasks",
+                    },
+                },
+                {"$unwind": {"path": "$Models"}},
+                {"$unwind": {"path": "$Downstream Tasks"}},
+            ]
+        elif "Models" in collections and "Datasets" in collections:
+            join_obj = [
+                {
+                    "$lookup": {
+                        "from": "Models",
+                        "localField": "Models",
+                        "foreignField": "_id",
+                        "as": "Models",
+                    },
+                },
+                {
+                    "$lookup": {
+                        "from": "Datasets",
+                        "localField": "Datasets",
+                        "foreignField": "_id",
+                        "as": "Datasets",
+                    },
+                },
+                {"$unwind": {"path": "$Models"}},
+                {"$unwind": {"path": "$Datasets"}},
+            ]
+        elif "Datasets" in collections and "Downstream Tasks" in collections:
+            join_obj = [
+                {
+                    "$lookup": {
+                        "from": "Datasets",
+                        "localField": "Datasets",
+                        "foreignField": "_id",
+                        "as": "Datasets",
+                    },
+                },
+                {
+                    "$lookup": {
+                        "from": "Downstream Tasks",
+                        "localField": "Downstream Tasks",
+                        "foreignField": "_id",
+                        "as": "Downstream Tasks",
+                    },
+                },
+                {"$unwind": {"path": "$Datasets"}},
+                {"$unwind": {"path": "$Downstream Tasks"}},
+            ]
+        elif "Metrics" in collections and "Downstream Tasks" in collections:
+            join_obj = [
+                {
+                    "$lookup": {
+                        "from": "Metrics",
+                        "localField": "Metrics",
+                        "foreignField": "_id",
+                        "as": "Metrics",
+                    },
+                },
+                {
+                    "$lookup": {
+                        "from": "Downstream Tasks",
+                        "localField": "Downstream Tasks",
+                        "foreignField": "_id",
+                        "as": "Downstream Tasks",
+                    },
+                },
+                {"$unwind": {"path": "$Metrics"}},
+                {"$unwind": {"path": "$Downstream Tasks"}},
+            ]
+        else:
+            sys.exit(1)  # error
+        return join_obj
+
+    def __remove_ids(self, specifications):
+        unset = {"$unset": ["_id"]}
+        for specification in specifications:
+            unset["$unset"].append(f"{specification["collection"]}._id")
+        return unset
+
     def __single_join_query(self, specifications):
-        return []
+        join_database = self.__join_database(specifications)
+
+        if join_database is None:
+            return []
+
+        pipeline = self.__construct_join_obj(specifications)
+        pipeline.append(self.__construct_match_obj(specifications))
+        pipeline.append(self.__remove_ids(specifications))
+        pipeline.append(self.__project_obj(specifications))
+
+        return list(join_database.aggregate(pipeline))
 
     def __multiple_join_query(self, specifications):
         return []
