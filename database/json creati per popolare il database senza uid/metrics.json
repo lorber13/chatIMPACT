@@ -1,0 +1,121 @@
+[
+    {
+        "Name":"BLEU",
+        "Description ":"Measures overlap between generated text and reference translations.",
+        "Context-free\/Context-depedent":"Context-free",
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":"N-gram level"
+    },
+    {
+        "Name":"ROUGE",
+        "Description ":"Evaluates text summarization by measuring overlap of n-grams.",
+        "Context-free\/Context-depedent":"Context-free",
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":"N-gram level"
+    },
+    {
+        "Name":"METEOR",
+        "Description ":"Considers synonyms and stemming for translation.",
+        "Context-free\/Context-depedent":"Context-free",
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":"N-gram level"
+    },
+    {
+        "Name":"Perplexity",
+        "Description ":"Measures how well a probability distribution predicts a sample.",
+        "Context-free\/Context-depedent":"Context-free",
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":"Word level"
+    },
+    {
+        "Name":"BERTScore",
+        "Description ":"Uses BERT embeddings to compare generated text to reference text.",
+        "Context-free\/Context-depedent":"Context-dependent",
+        "Feature-based\/End-to-end (only if trained)":"Feature-based",
+        "Granularity (untrained) ":null
+    },
+    {
+        "Name":"Groot",
+        "Description ":"Adversarial testing metric that uses tree-based semantic transformation to test the robustness and safety of text-to-image generative models by decomposing prompts into detailed semantic trees.",
+        "Context-free\/Context-depedent":"Context-dependent",
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":"High (tree-based decomposition)"
+    },
+    {
+        "Name":"SHAP",
+        "Description ":"Explains model predictions based on feature contributions.",
+        "Context-free\/Context-depedent":"Context-free",
+        "Feature-based\/End-to-end (only if trained)":"Feature-based",
+        "Granularity (untrained) ":null
+    },
+    {
+        "Name":"LIME",
+        "Description ":"Provides local explanations for model predictions.",
+        "Context-free\/Context-depedent":"Context-free",
+        "Feature-based\/End-to-end (only if trained)":"Feature-based",
+        "Granularity (untrained) ":null
+    },
+    {
+        "Name":"PARENT",
+        "Description ":"Evaluates the quality of data-to-text generation by considering precision, recall, and n-gram overlap while also factoring in entity precision and recall.",
+        "Context-free\/Context-depedent":"Context-dependent",
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":"Sentence and entity level"
+    },
+    {
+        "Name":"MQAG",
+        "Description ":"Uses multiple-choice QA and generation to assess information consistency.",
+        "Context-free\/Context-depedent":"Context-dependent",
+        "Feature-based\/End-to-end (only if trained)":"End-to-end",
+        "Granularity (untrained) ":null
+    },
+    {
+        "Name":"mFACT",
+        "Description ":"A metric to evaluate the faithfulness of summarisation models in multiple languages by detecting hallucinations",
+        "Context-free\/Context-depedent":"Context-dependent",
+        "Feature-based\/End-to-end (only if trained)":"End-to-end",
+        "Granularity (untrained) ":null
+    },
+    {
+        "Name":"Human Judgments",
+        "Description ":"Human evaluators assess text quality based on criteria like relevance.",
+        "Context-free\/Context-depedent":null,
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":null
+    },
+    {
+        "Name":"Pairwise Comparison",
+        "Description ":"Humans compare outputs from different models to determine superiority.",
+        "Context-free\/Context-depedent":null,
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":null
+    },
+    {
+        "Name":"Turing Test",
+        "Description ":"Evaluates if the generated responses are indistinguishable from human ones.",
+        "Context-free\/Context-depedent":null,
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":null
+    },
+    {
+        "Name":"User Feedback and Interaction Logs",
+        "Description ":"Collects feedback from end-users to improve models.",
+        "Context-free\/Context-depedent":null,
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":null
+    },
+    {
+        "Name":"Winograd Schema Challenge",
+        "Description ":"Tests model's understanding of sentence disambiguation.",
+        "Context-free\/Context-depedent":null,
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":null
+    },
+    {
+        "Name":"chrF",
+        "Description ":"ChrF and ChrF++ are two MT evaluation metrics that use the F-score statistic for character n-gram matches. ChrF++ additionally includes word n-grams, which correlate more strongly with direct assessment. We use the implementation that is already present in sacrebleu.\n\nWhile this metric is included in sacreBLEU, the implementation here is slightly different from sacreBLEU in terms of the required input format. Here, the length of the references and hypotheses lists need to be the same, so you may need to transpose your references compared to sacrebleu\u2019s required input format. See https:\/\/github.com\/huggingface\/datasets\/issues\/3154#issuecomment-950746534\n\nSee the sacreBLEU README.md for more information.",
+        "Context-free\/Context-depedent":null,
+        "Feature-based\/End-to-end (only if trained)":null,
+        "Granularity (untrained) ":"character"
+    }
+]

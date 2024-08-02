@@ -1,0 +1,47 @@
+[
+    {
+        "Name": "Word Sense Disambiguation",
+        "Description": "null",
+        "Sub-task": "null"
+    },
+    {
+        "Name": "Common Sense Reasoning",
+        "Description": "null",
+        "Sub-task": "null"
+    },
+    {
+        "Name": "Question Answering",
+        "Description": "null",
+        "Sub-task": "null"
+    },
+    {
+        "Name": "Text Classification",
+        "Description": "null",
+        "Sub-task": "null"
+    },
+    {
+        "Name": "Summarization",
+        "Description": "null",
+        "Sub-task": "null"
+    },
+    {
+        "Name": "Text Classification",
+        "Description": "null",
+        "Sub-task": "null"
+    },
+    {
+        "Name": "Code Generation",
+        "Description": "null",
+        "Sub-task": "null"
+    },
+    {
+        "Name": "Machine Translation",
+        "Description": "null",
+        "Sub-task": "null"
+    },
+    {
+        "Name": "Chat",
+        "Description": "null",
+        "Sub-task": "null"
+    }
+]

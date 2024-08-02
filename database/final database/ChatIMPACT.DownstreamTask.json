@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "66ab8af2444e3f9fec2ec620"
+  },
+  "Name": "Word Sense Disambiguation",
+  "Description": "null",
+  "Sub-task": "null"
+},
+{
+  "_id": {
+    "$oid": "66ab8af2444e3f9fec2ec621"
+  },
+  "Name": "Common Sense Reasoning",
+  "Description": "null",
+  "Sub-task": "null"
+},
+{
+  "_id": {
+    "$oid": "66ab8af2444e3f9fec2ec622"
+  },
+  "Name": "Question Answering",
+  "Description": "null",
+  "Sub-task": "null"
+},
+{
+  "_id": {
+    "$oid": "66ab8af2444e3f9fec2ec623"
+  },
+  "Name": "Text Classification",
+  "Description": "null",
+  "Sub-task": "null"
+},
+{
+  "_id": {
+    "$oid": "66ab8af2444e3f9fec2ec624"
+  },
+  "Name": "Summarization",
+  "Description": "null",
+  "Sub-task": "null"
+},
+{
+  "_id": {
+    "$oid": "66ab8af2444e3f9fec2ec625"
+  },
+  "Name": "Text Classification",
+  "Description": "null",
+  "Sub-task": "null"
+},
+{
+  "_id": {
+    "$oid": "66ab8af2444e3f9fec2ec626"
+  },
+  "Name": "Code Generation",
+  "Description": "null",
+  "Sub-task": "null"
+},
+{
+  "_id": {
+    "$oid": "66ab8af2444e3f9fec2ec627"
+  },
+  "Name": "Machine Translation",
+  "Description": "null",
+  "Sub-task": "null"
+},
+{
+  "_id": {
+    "$oid": "66ab8af2444e3f9fec2ec628"
+  },
+  "Name": "Chat",
+  "Description": "null",
+  "Sub-task": "null"
+},
+{
+  "_id": {
+    "$oid": "66ab94a4444e3f9fec2ec62b"
+  },
+  "Name": "Language Modeling",
+  "Description": "null",
+  "Sub-task": "null"
+},
+{
+  "_id": {
+    "$oid": "66ab94a4444e3f9fec2ec62c"
+  },
+  "Name": "Text Generation",
+  "Description": "null",
+  "Sub-task": "null"
+}]

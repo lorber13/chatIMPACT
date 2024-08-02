@@ -1,0 +1,674 @@
+[
+    {
+        "Name": "C4",
+        "Size [GB]": 7000.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "Apache-2.0",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/1910.10683",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "The Pile",
+        "Size [GB]": 800.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "MIT",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/2101.00027",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "Common Crawl",
+        "Size [GB]": null,
+        "Language": [
+            "English",
+            "Russian",
+            "German",
+            "Japanese",
+            "Chinese",
+            "Spanish",
+            "French",
+            "Italian",
+            "Dutch",
+            "Portuguese",
+            "Polish",
+            "Vietnamese",
+            "Czech",
+            "Turkish",
+            "Indonesian",
+            "Korean",
+            "Persian",
+            "Hungarian",
+            "Swedish",
+            "Arabic",
+            "Greek",
+            "Romanian",
+            "Danish",
+            "Thai",
+            "Ukrainian",
+            "Finnish",
+            "Slovak",
+            "Norwegian",
+            "Bulgarian",
+            "Serbian",
+            "Catalan",
+            "Hebrew",
+            "Croatian",
+            "Hindi",
+            "Slovenian",
+            "Lithuanian",
+            "Estonian",
+            "Latin",
+            "Bengali",
+            "Latvian",
+            "Malay",
+            "Azerbaijani",
+            "Bosnian",
+            "Albanian",
+            "Tamil",
+            "Nepali",
+            "Icelandic",
+            "Georgian",
+            "Galician",
+            "Macedonian",
+            "Basque",
+            "Armenian",
+            "Urdu",
+            "Kazakh",
+            "Malayalam",
+            "Marathi",
+            "Uzbek",
+            "Telugu",
+            "Belarusian",
+            "Mongolian",
+            "Norwegian Nynorsk",
+            "Kannada",
+            "Burmese",
+            "Gujarati",
+            "Welsh",
+            "Khmer",
+            "Tagalog",
+            "Afrikaans",
+            "Esperanto",
+            "Sinhala",
+            "Swahili",
+            "Tatar",
+            "Irish",
+            "Kyrgyz",
+            "Kurdish",
+            "Panjabi",
+            "Tajik",
+            "Odia",
+            "Faroese",
+            "Maltese",
+            "Somali",
+            "Luxembourgish",
+            "Lao",
+            "Amharic",
+            "Malagasy",
+            "Frisian",
+            "Occitan",
+            "Sanskrit",
+            "Bashkir",
+            "Pashto",
+            "Breton",
+            "Divehi",
+            "Turkmen",
+            "Corsican",
+            "Javanese",
+            "Hausa",
+            "Assamese",
+            "Kinyarwanda",
+            "Zulu",
+            "Haitian",
+            "Xhosa",
+            "Sundanese",
+            "Yiddish",
+            "Tibetan",
+            "Cebuano",
+            "Sindhi",
+            "Waray",
+            "Scottish Gaelic",
+            "Romansh",
+            "Uyghur",
+            "Maori",
+            "Kalaallisut",
+            "Tigrinya",
+            "Yoruba",
+            "Bihari",
+            "Scots",
+            "Guarani",
+            "Hawaiian",
+            "Hmong",
+            "Oromo",
+            "Quechua",
+            "Abkhazian",
+            "Igbo",
+            "Interlingua",
+            "Chichewa",
+            "Samoan",
+            "Shona",
+            "Sotho",
+            "Volap\u00fck",
+            "Sango",
+            "Manx",
+            "Interlingue",
+            "Khasi",
+            "Syriac",
+            "Inuktitut",
+            "Lingala",
+            "Luganda",
+            "Mauritian Creole",
+            "Wolof",
+            "Afar",
+            "Akan",
+            "Bislama",
+            "Seychellois Creole"
+        ],
+        "LicenseToUse": "CC",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://commoncrawl.org/",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "WikiMatrix",
+        "Size [GB]": 3.8,
+        "Language": [
+            "English",
+            "Arabic",
+            "Azerbaijani",
+            "Bashkir",
+            "Belarusian",
+            "Bulgarian",
+            "Bengali",
+            "Bosnian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "Greek",
+            "Esperanto",
+            "Spanish",
+            "Estonian",
+            "Basque",
+            "Farsi",
+            "Finnish",
+            "French",
+            "Galician",
+            "Hebrew",
+            "Hindi",
+            "Croatian",
+            "Hungarian",
+            "Indonesian",
+            "Icelandic",
+            "Italian",
+            "Japanese",
+            "Kazakh",
+            "Korean",
+            "Lithuanian",
+            "Macedonian",
+            "Malayalam",
+            "Marathi",
+            "Nepali",
+            "Dutch",
+            "Norwegian",
+            "Occitan",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Sinhala",
+            "Slovak",
+            "Slovenian",
+            "Albanian",
+            "Serbian",
+            "Swedish",
+            "Swahili",
+            "Tamil",
+            "Telugu",
+            "Tagalog",
+            "Turkish",
+            "Tatar",
+            "Ukranian",
+            "Vietnamese",
+            "Chinese"
+        ],
+        "LicenseToUse": "CC BY-SA",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://aclanthology.org/2021.eacl-main.115/",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "SQuAD",
+        "Size [GB]": 100000.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "CC BY-SA 4.0",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://aclanthology.org/D16-1264.pdf",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "OpenMathInstruct-1",
+        "Size [GB]": 1800000.0,
+        "Language": [
+            "English",
+            "LaTeX",
+            "Python"
+        ],
+        "LicenseToUse": "NVIDIA",
+        "Domain": [
+            "Mathematics",
+            "Coding"
+        ],
+        "URI": "https://arxiv.org/pdf/2402.10176",
+        "Fine-Tuning": true
+    },
+    {
+        "Name": "MT-Bench",
+        "Size [GB]": 80.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "Apache-2.0",
+        "Domain": [
+            "Mathematics",
+            "Coding",
+            "STEM",
+            "Humanities",
+            "Social Sciences",
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/2306.05685",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "Hellaswag",
+        "Size [GB]": 70000.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "MIT",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/1905.07830",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "Winogrande",
+        "Size [GB]": 44000.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "Apache-2.0",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/1907.10641",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "PIQA",
+        "Size [GB]": 16000.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "MIT",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/1911.11641",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "SIQA",
+        "Size [GB]": 38000.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "CC-BY",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/1904.09728",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "OpenbookQA",
+        "Size [GB]": 6000.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": null,
+        "Domain": [
+            "Science"
+        ],
+        "URI": "https://arxiv.org/pdf/1809.02789",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "CommonsenseQA",
+        "Size [GB]": 12247.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": null,
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/1811.00937",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "ARC-Challenge",
+        "Size [GB]": 7787.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "CC BY-SA",
+        "Domain": [
+            "Science"
+        ],
+        "URI": "https://arxiv.org/pdf/1803.05457",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "NaturalQuestions",
+        "Size [GB]": 15600.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "Apache-2.0",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://aclanthology.org/Q19-1026.pdf",
+        "Fine-Tuning": true
+    },
+    {
+        "Name": "TriviaQA",
+        "Size [GB]": 95956.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "Apache-2.0",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://aclanthology.org/P17-1147.pdf",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "BoolQ",
+        "Size [GB]": 15942.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "CC BY-SA 3.0",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/1905.10044",
+        "Fine-Tuning": true
+    },
+    {
+        "Name": "QuAC",
+        "Size [GB]": 14000.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "MIT",
+        "Domain": [
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/1808.07036",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "GSM8K",
+        "Size [GB]": 8000.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "MIT",
+        "Domain": [
+            "Mathematics"
+        ],
+        "URI": "https://arxiv.org/pdf/2110.14168",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "MATH",
+        "Size [GB]": 12500.0,
+        "Language": [
+            "English",
+            "LaTeX"
+        ],
+        "LicenseToUse": "MIT",
+        "Domain": [
+            "Mathematics"
+        ],
+        "URI": "https://arxiv.org/pdf/2103.03874",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "HumanEval",
+        "Size [GB]": 164.0,
+        "Language": [
+            "Python"
+        ],
+        "LicenseToUse": "MIT",
+        "Domain": [
+            "Coding"
+        ],
+        "URI": "https://arxiv.org/pdf/2107.03374",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "MBPP",
+        "Size [GB]": 974.0,
+        "Language": [
+            "Python"
+        ],
+        "LicenseToUse": "CC BY 4.0",
+        "Domain": [
+            "Coding"
+        ],
+        "URI": "https://arxiv.org/pdf/2108.07732",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "MMLU",
+        "Size [GB]": 16000.0,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "Apache-2.0",
+        "Domain": [
+            "Mathematics",
+            "Coding",
+            "STEM",
+            "Humanities",
+            "Social Sciences",
+            "Miscellaneous"
+        ],
+        "URI": "https://arxiv.org/pdf/2009.03300",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "AGI Eval",
+        "Size [GB]": 8062.0,
+        "Language": [
+            "English",
+            "Chinese"
+        ],
+        "LicenseToUse": "MIT",
+        "Domain": null,
+        "URI": "https://arxiv.org/pdf/2304.06364",
+        "Fine-Tuning": false
+    },
+    {
+        "Name": "MultiLegalPile",
+        "Size [GB]": 689.0,
+        "Language": [
+            "English",
+            "Portuguese",
+            "German",
+            "Spanish",
+            "French",
+            "Italian",
+            "Czech",
+            "Polish",
+            "Romanian",
+            "Danish",
+            "Dutch",
+            "Greek",
+            "Swedish",
+            "Slovak",
+            "Slovenian",
+            "Hungarian",
+            "Bulgarian",
+            "Finnish",
+            "Estonian",
+            "Maltese",
+            "Lithuanian",
+            "Latvian",
+            "Croatian",
+            "Irish"
+        ],
+        "LicenseToUse": "a CC BY-NC-SA 4.0",
+        "Domain": [
+            "Legal"
+        ],
+        "URI": "https://arxiv.org/abs/2306.02069",
+        "Fine-Tuning": true
+    },
+    {
+        "Name": "Europarl",
+        "Size [GB]": 1.5,
+        "Language": [
+            "French",
+            "Italian",
+            "Spanish",
+            "Portuguese",
+            "Romanian",
+            "English",
+            "Dutch",
+            "German",
+            "Danish",
+            "Swedish",
+            "Bulgarian",
+            "Czech",
+            "Polish",
+            "Slovak",
+            "Slovenian",
+            "Finnish",
+            "Hungarian",
+            "Estonian",
+            "Latvian",
+            "Lithuanian",
+            "Greek"
+        ],
+        "LicenseToUse": null,
+        "Domain": [
+            "Legal"
+        ],
+        "URI": "https://aclanthology.org/2005.mtsummit-papers.11/",
+        "Fine-Tuning": true
+    },
+    {
+        "Name": "The Stack v2",
+        "Size [GB]": 92360.0,
+        "Language": [
+            "English",
+            "Chinese",
+            "French",
+            "Portuguese",
+            "Spanish",
+            "Russian",
+            "German",
+            "Korean",
+            "Japanese",
+            "Uzbek",
+            "Italian",
+            "Indonesian",
+            "Romanian",
+            "Arabic",
+            "Persian (Farsi)",
+            "Catalan",
+            "Hungarian",
+            "Malayalam",
+            "Dutch",
+            "Turkish",
+            "Telugu",
+            "Greek",
+            "Esperanto",
+            "Bengali",
+            "Latvian",
+            "Galician",
+            "Polish",
+            "Gujarati",
+            "Cebuano",
+            "Interlingua",
+            "Kannada",
+            "Serbo-Croatian",
+            "Macedonian",
+            "Urdu",
+            "Swedish",
+            "Latin",
+            "Jakaltek",
+            "Burmese",
+            "Sundanese",
+            "Czech",
+            "Mongolian"
+        ],
+        "LicenseToUse": "other",
+        "Domain": [
+            "Coding"
+        ],
+        "URI": "https://huggingface.co/datasets/bigcode/the-stack",
+        "Fine-Tuning": true
+    },
+    {
+        "Name": "GUIDELINES",
+        "Size [GB]": 0.878,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": "Common Crawl",
+        "Domain": [
+            "Medical"
+        ],
+        "URI": "https://huggingface.co/datasets/epfl-llm/guidelines",
+        "Fine-Tuning": true
+    },
+    {
+        "Name": "S2ORC",
+        "Size [GB]": 80.5,
+        "Language": [
+            "English"
+        ],
+        "LicenseToUse": null,
+        "Domain": [
+            "Academic"
+        ],
+        "URI": "https://aclanthology.org/2020.acl-main.447",
+        "Fine-Tuning": false
+    }
+]
