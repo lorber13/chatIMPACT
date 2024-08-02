@@ -2,41 +2,41 @@
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec5f6"
   },
-  "Name": "C4",
-  "Size [GB]": 7000,
-  "Language": [
+  "name": "C4",
+  "size [GB]": 7000,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "Apache-2.0",
-  "Domain": [
+  "licenseToUse": "Apache-2.0",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/1910.10683",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/1910.10683",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec5f7"
   },
-  "Name": "The Pile",
-  "Size [GB]": 800,
-  "Language": [
+  "name": "The Pile",
+  "size [GB]": 800,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "MIT",
-  "Domain": [
+  "licenseToUse": "MIT",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/2101.00027",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/2101.00027",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec5f8"
   },
-  "Name": "Common Crawl",
-  "Size [GB]": null,
-  "Language": [
+  "name": "Common Crawl",
+  "size [GB]": null,
+  "languages": [
     "English",
     "Russian",
     "German",
@@ -181,20 +181,20 @@
     "Bislama",
     "Seychellois Creole"
   ],
-  "LicenseToUse": "CC",
-  "Domain": [
+  "licenseToUse": "CC",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://commoncrawl.org/",
-  "Fine-Tuning": false
+  "uri": "https://commoncrawl.org/",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec5f9"
   },
-  "Name": "WikiMatrix",
-  "Size [GB]": 3.8,
-  "Language": [
+  "name": "WikiMatrix",
+  "size [GB]": 3.8,
+  "languages": [
     "English",
     "Arabic",
     "Azerbaijani",
@@ -254,59 +254,59 @@
     "Vietnamese",
     "Chinese"
   ],
-  "LicenseToUse": "CC BY-SA",
-  "Domain": [
+  "licenseToUse": "CC BY-SA",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://aclanthology.org/2021.eacl-main.115/",
-  "Fine-Tuning": false
+  "uri": "https://aclanthology.org/2021.eacl-main.115/",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec5fa"
   },
-  "Name": "SQuAD",
-  "Size [GB]": 100000,
-  "Language": [
+  "name": "SQuAD",
+  "size [GB]": 100000,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "CC BY-SA 4.0",
-  "Domain": [
+  "licenseToUse": "CC BY-SA 4.0",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://aclanthology.org/D16-1264.pdf",
-  "Fine-Tuning": false
+  "uri": "https://aclanthology.org/D16-1264.pdf",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec5fb"
   },
-  "Name": "OpenMathInstruct-1",
-  "Size [GB]": 1800000,
-  "Language": [
+  "name": "OpenMathInstruct-1",
+  "size [GB]": 1800000,
+  "languages": [
     "English",
     "LaTeX",
     "Python"
   ],
-  "LicenseToUse": "NVIDIA",
-  "Domain": [
+  "licenseToUse": "NVIDIA",
+  "domain": [
     "Mathematics",
     "Coding"
   ],
-  "URI": "https://arxiv.org/pdf/2402.10176",
-  "Fine-Tuning": true
+  "uri": "https://arxiv.org/pdf/2402.10176",
+  "fineTuning": true
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec5fc"
   },
-  "Name": "MT-Bench",
-  "Size [GB]": 80,
-  "Language": [
+  "name": "MT-Bench",
+  "size [GB]": 80,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "Apache-2.0",
-  "Domain": [
+  "licenseToUse": "Apache-2.0",
+  "domain": [
     "Mathematics",
     "Coding",
     "STEM",
@@ -314,261 +314,261 @@
     "Social Sciences",
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/2306.05685",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/2306.05685",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec5fd"
   },
-  "Name": "Hellaswag",
-  "Size [GB]": 70000,
-  "Language": [
+  "name": "Hellaswag",
+  "size [GB]": 70000,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "MIT",
-  "Domain": [
+  "licenseToUse": "MIT",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/1905.07830",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/1905.07830",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec5fe"
   },
-  "Name": "Winogrande",
-  "Size [GB]": 44000,
-  "Language": [
+  "name": "Winogrande",
+  "size [GB]": 44000,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "Apache-2.0",
-  "Domain": [
+  "licenseToUse": "Apache-2.0",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/1907.10641",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/1907.10641",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec5ff"
   },
-  "Name": "PIQA",
-  "Size [GB]": 16000,
-  "Language": [
+  "name": "PIQA",
+  "size [GB]": 16000,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "MIT",
-  "Domain": [
+  "licenseToUse": "MIT",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/1911.11641",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/1911.11641",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec600"
   },
-  "Name": "SIQA",
-  "Size [GB]": 38000,
-  "Language": [
+  "name": "SIQA",
+  "size [GB]": 38000,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "CC-BY",
-  "Domain": [
+  "licenseToUse": "CC-BY",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/1904.09728",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/1904.09728",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec601"
   },
-  "Name": "OpenbookQA",
-  "Size [GB]": 6000,
-  "Language": [
+  "name": "OpenbookQA",
+  "size [GB]": 6000,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": null,
-  "Domain": [
+  "licenseToUse": null,
+  "domain": [
     "Science"
   ],
-  "URI": "https://arxiv.org/pdf/1809.02789",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/1809.02789",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec602"
   },
-  "Name": "CommonsenseQA",
-  "Size [GB]": 12247,
-  "Language": [
+  "name": "CommonsenseQA",
+  "size [GB]": 12247,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": null,
-  "Domain": [
+  "licenseToUse": null,
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/1811.00937",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/1811.00937",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec603"
   },
-  "Name": "ARC-Challenge",
-  "Size [GB]": 7787,
-  "Language": [
+  "name": "ARC-Challenge",
+  "size [GB]": 7787,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "CC BY-SA",
-  "Domain": [
+  "licenseToUse": "CC BY-SA",
+  "domain": [
     "Science"
   ],
-  "URI": "https://arxiv.org/pdf/1803.05457",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/1803.05457",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec604"
   },
-  "Name": "NaturalQuestions",
-  "Size [GB]": 15600,
-  "Language": [
+  "name": "NaturalQuestions",
+  "size [GB]": 15600,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "Apache-2.0",
-  "Domain": [
+  "licenseToUse": "Apache-2.0",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://aclanthology.org/Q19-1026.pdf",
-  "Fine-Tuning": true
+  "uri": "https://aclanthology.org/Q19-1026.pdf",
+  "fineTuning": true
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec605"
   },
-  "Name": "TriviaQA",
-  "Size [GB]": 95956,
-  "Language": [
+  "name": "TriviaQA",
+  "size [GB]": 95956,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "Apache-2.0",
-  "Domain": [
+  "licenseToUse": "Apache-2.0",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://aclanthology.org/P17-1147.pdf",
-  "Fine-Tuning": false
+  "uri": "https://aclanthology.org/P17-1147.pdf",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec606"
   },
-  "Name": "BoolQ",
-  "Size [GB]": 15942,
-  "Language": [
+  "name": "BoolQ",
+  "size [GB]": 15942,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "CC BY-SA 3.0",
-  "Domain": [
+  "licenseToUse": "CC BY-SA 3.0",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/1905.10044",
-  "Fine-Tuning": true
+  "uri": "https://arxiv.org/pdf/1905.10044",
+  "fineTuning": true
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec607"
   },
-  "Name": "QuAC",
-  "Size [GB]": 14000,
-  "Language": [
+  "name": "QuAC",
+  "size [GB]": 14000,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "MIT",
-  "Domain": [
+  "licenseToUse": "MIT",
+  "domain": [
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/1808.07036",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/1808.07036",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec608"
   },
-  "Name": "GSM8K",
-  "Size [GB]": 8000,
-  "Language": [
+  "name": "GSM8K",
+  "size [GB]": 8000,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "MIT",
-  "Domain": [
+  "licenseToUse": "MIT",
+  "domain": [
     "Mathematics"
   ],
-  "URI": "https://arxiv.org/pdf/2110.14168",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/2110.14168",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec609"
   },
-  "Name": "MATH",
-  "Size [GB]": 12500,
-  "Language": [
+  "name": "MATH",
+  "size [GB]": 12500,
+  "languages": [
     "English",
     "LaTeX"
   ],
-  "LicenseToUse": "MIT",
-  "Domain": [
+  "licenseToUse": "MIT",
+  "domain": [
     "Mathematics"
   ],
-  "URI": "https://arxiv.org/pdf/2103.03874",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/2103.03874",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec60a"
   },
-  "Name": "HumanEval",
-  "Size [GB]": 164,
-  "Language": [
+  "name": "HumanEval",
+  "size [GB]": 164,
+  "languages": [
     "Python"
   ],
-  "LicenseToUse": "MIT",
-  "Domain": [
+  "licenseToUse": "MIT",
+  "domain": [
     "Coding"
   ],
-  "URI": "https://arxiv.org/pdf/2107.03374",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/2107.03374",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec60b"
   },
-  "Name": "MBPP",
-  "Size [GB]": 974,
-  "Language": [
+  "name": "MBPP",
+  "size [GB]": 974,
+  "languages": [
     "Python"
   ],
-  "LicenseToUse": "CC BY 4.0",
-  "Domain": [
+  "licenseToUse": "CC BY 4.0",
+  "domain": [
     "Coding"
   ],
-  "URI": "https://arxiv.org/pdf/2108.07732",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/2108.07732",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec60c"
   },
-  "Name": "MMLU",
-  "Size [GB]": 16000,
-  "Language": [
+  "name": "MMLU",
+  "size [GB]": 16000,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "Apache-2.0",
-  "Domain": [
+  "licenseToUse": "Apache-2.0",
+  "domain": [
     "Mathematics",
     "Coding",
     "STEM",
@@ -576,31 +576,31 @@
     "Social Sciences",
     "Miscellaneous"
   ],
-  "URI": "https://arxiv.org/pdf/2009.03300",
-  "Fine-Tuning": false
+  "uri": "https://arxiv.org/pdf/2009.03300",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec60d"
   },
-  "Name": "AGI Eval",
-  "Size [GB]": 8062,
-  "Language": [
+  "name": "AGI Eval",
+  "size [GB]": 8062,
+  "languages": [
     "English",
     "Chinese"
   ],
-  "LicenseToUse": "MIT",
-  "Domain": null,
-  "URI": "https://arxiv.org/pdf/2304.06364",
-  "Fine-Tuning": false
+  "licenseToUse": "MIT",
+  "domain": null,
+  "uri": "https://arxiv.org/pdf/2304.06364",
+  "fineTuning": false
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec60e"
   },
-  "Name": "MultiLegalPile",
-  "Size [GB]": 689,
-  "Language": [
+  "name": "MultiLegalPile",
+  "size [GB]": 689,
+  "languages": [
     "English",
     "Portuguese",
     "German",
@@ -626,20 +626,20 @@
     "Croatian",
     "Irish"
   ],
-  "LicenseToUse": "a CC BY-NC-SA 4.0",
-  "Domain": [
+  "licenseToUse": "a CC BY-NC-SA 4.0",
+  "domain": [
     "Legal"
   ],
-  "URI": "https://arxiv.org/abs/2306.02069",
-  "Fine-Tuning": true
+  "uri": "https://arxiv.org/abs/2306.02069",
+  "fineTuning": true
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec60f"
   },
-  "Name": "Europarl",
-  "Size [GB]": 1.5,
-  "Language": [
+  "name": "Europarl",
+  "size [GB]": 1.5,
+  "languages": [
     "French",
     "Italian",
     "Spanish",
@@ -662,20 +662,20 @@
     "Lithuanian",
     "Greek"
   ],
-  "LicenseToUse": null,
-  "Domain": [
+  "licenseToUse": null,
+  "domain": [
     "Legal"
   ],
-  "URI": "https://aclanthology.org/2005.mtsummit-papers.11/",
-  "Fine-Tuning": true
+  "uri": "https://aclanthology.org/2005.mtsummit-papers.11/",
+  "fineTuning": true
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec610"
   },
-  "Name": "The Stack v2",
-  "Size [GB]": 92360,
-  "Language": [
+  "name": "The Stack v2",
+  "size [GB]": 92360,
+  "languages": [
     "English",
     "Chinese",
     "French",
@@ -718,42 +718,42 @@
     "Czech",
     "Mongolian"
   ],
-  "LicenseToUse": "other",
-  "Domain": [
+  "licenseToUse": "other",
+  "domain": [
     "Coding"
   ],
-  "URI": "https://huggingface.co/datasets/bigcode/the-stack",
-  "Fine-Tuning": true
+  "uri": "https://huggingface.co/datasets/bigcode/the-stack",
+  "fineTuning": true
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec611"
   },
-  "Name": "GUIDELINES",
-  "Size [GB]": 0.878,
-  "Language": [
+  "name": "GUIDELINES",
+  "size [GB]": 0.878,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": "Common Crawl",
-  "Domain": [
+  "licenseToUse": "Common Crawl",
+  "domain": [
     "Medical"
   ],
-  "URI": "https://huggingface.co/datasets/epfl-llm/guidelines",
-  "Fine-Tuning": true
+  "uri": "https://huggingface.co/datasets/epfl-llm/guidelines",
+  "fineTuning": true
 },
 {
   "_id": {
     "$oid": "66ab856a444e3f9fec2ec612"
   },
-  "Name": "S2ORC",
-  "Size [GB]": 80.5,
-  "Language": [
+  "name": "S2ORC",
+  "size [GB]": 80.5,
+  "languages": [
     "English"
   ],
-  "LicenseToUse": null,
-  "Domain": [
+  "licenseToUse": null,
+  "domain": [
     "Academic"
   ],
-  "URI": "https://aclanthology.org/2020.acl-main.447",
-  "Fine-Tuning": false
+  "uri": "https://aclanthology.org/2020.acl-main.447",
+  "fineTuning": false
 }]

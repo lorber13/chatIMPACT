@@ -1,2227 +1,2383 @@
-[{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5a8"
-  },
-  "Name": "LLaMA",
-  "Version": 1,
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": null,
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 14,
-  "Tokenizer": "BPE model based on sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5a9"
-  },
-  "Name": "LLaMA",
-  "Version": 1,
-  "NumberOfParameters [B]": 13,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": null,
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 23,
-  "Tokenizer": "BPE model based on sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5aa"
-  },
-  "Name": "LLaMA",
-  "Version": 1,
-  "NumberOfParameters [B]": 33,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": null,
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 90,
-  "Tokenizer": "BPE model based on sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ab"
-  },
-  "Name": "LLaMA",
-  "Version": 1,
-  "NumberOfParameters [B]": 65,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": null,
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 173,
-  "Tokenizer": "BPE model based on sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ac"
-  },
-  "Name": "LLaMA",
-  "Version": 2,
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 4096,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 31.22,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ad"
-  },
-  "Name": "LLaMA",
-  "Version": 2,
-  "NumberOfParameters [B]": 13,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 4096,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 62.44,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ae"
-  },
-  "Name": "LLaMA",
-  "Version": 2,
-  "NumberOfParameters [B]": 34,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 4096,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 153.9,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5af"
-  },
-  "Name": "LLaMA",
-  "Version": 2,
-  "NumberOfParameters [B]": 70,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 4096,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 291.42,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5b0"
-  },
-  "Name": "LLaMA",
-  "Version": 3,
-  "NumberOfParameters [B]": 8,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama3 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 8192,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 390,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5b1"
-  },
-  "Name": "LLaMA",
-  "Version": 3,
-  "NumberOfParameters [B]": 70,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama3 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 8192,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 1900,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5b2"
-  },
-  "Name": "LLaMA",
-  "Version": "3-instruct",
-  "NumberOfParameters [B]": 8,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama3 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 8192,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 1900,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5b3"
-  },
-  "Name": "LLaMA",
-  "Version": "3-instruct",
-  "NumberOfParameters [B]": 70,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama3 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 8192,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 1900,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5b4"
-  },
-  "Name": "OPT",
-  "Version": null,
-  "NumberOfParameters [B]": 0.125,
-  "Quantization": null,
-  "Architecture": "OPT",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "opt license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "GPT-2 byte level BPE tokenizer"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5b5"
-  },
-  "Name": "OPT",
-  "Version": null,
-  "NumberOfParameters [B]": 0.35,
-  "Quantization": null,
-  "Architecture": "OPT",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "opt license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "GPT-2 byte level BPE tokenizer"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5b6"
-  },
-  "Name": "OPT",
-  "Version": null,
-  "NumberOfParameters [B]": 1.3,
-  "Quantization": null,
-  "Architecture": "OPT",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "opt license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "GPT-2 byte level BPE tokenizer"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5b7"
-  },
-  "Name": "OPT",
-  "Version": null,
-  "NumberOfParameters [B]": 2.7,
-  "Quantization": null,
-  "Architecture": "OPT",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "opt license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "GPT-2 byte level BPE tokenizer"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5b8"
-  },
-  "Name": "OPT",
-  "Version": null,
-  "NumberOfParameters [B]": 6.7,
-  "Quantization": null,
-  "Architecture": "OPT",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "opt license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "GPT-2 byte level BPE tokenizer"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5b9"
-  },
-  "Name": "OPT",
-  "Version": null,
-  "NumberOfParameters [B]": 13,
-  "Quantization": null,
-  "Architecture": "OPT",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "opt license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "GPT-2 byte level BPE tokenizer"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ba"
-  },
-  "Name": "OPT",
-  "Version": null,
-  "NumberOfParameters [B]": 30,
-  "Quantization": null,
-  "Architecture": "OPT",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "opt license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "GPT-2 byte level BPE tokenizer"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5bb"
-  },
-  "Name": "OPT",
-  "Version": null,
-  "NumberOfParameters [B]": 66,
-  "Quantization": null,
-  "Architecture": "OPT",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "opt license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "GPT-2 byte level BPE tokenizer"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5bc"
-  },
-  "Name": "OPT",
-  "Version": null,
-  "NumberOfParameters [B]": 175,
-  "Quantization": null,
-  "Architecture": "OPT",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "opt license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 75,
-  "Tokenizer": "GPT-2 byte level BPE tokenizer"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5bd"
-  },
-  "Name": "LLaMA",
-  "Version": "2-Chat",
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 4096,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 31.22,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5be"
-  },
-  "Name": "LLaMA",
-  "Version": "2-Chat",
-  "NumberOfParameters [B]": 13,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 4096,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 62.44,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5bf"
-  },
-  "Name": "LLaMA",
-  "Version": "2-Chat",
-  "NumberOfParameters [B]": 70,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "Bulgarian",
-    "Catalan",
-    "Czech",
-    "Danish",
-    "German",
-    "English",
-    "Spanish",
-    "French",
-    "Croatian",
-    "Hungarian",
-    "Italian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Slovenian",
-    "Serbian",
-    "Swedish",
-    "Ukrainian"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 4096,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 291.42,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5c0"
-  },
-  "Name": "Code LLaMA",
-  "Version": null,
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5c1"
-  },
-  "Name": "Code LLaMA",
-  "Version": null,
-  "NumberOfParameters [B]": 13,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5c2"
-  },
-  "Name": "Code LLaMA",
-  "Version": null,
-  "NumberOfParameters [B]": 34,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5c3"
-  },
-  "Name": "Code LLaMA",
-  "Version": null,
-  "NumberOfParameters [B]": 70,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5c4"
-  },
-  "Name": "Code LLaMA",
-  "Version": "Python",
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5c5"
-  },
-  "Name": "Code LLaMA",
-  "Version": "Python",
-  "NumberOfParameters [B]": 13,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5c6"
-  },
-  "Name": "Code LLaMA",
-  "Version": "Python",
-  "NumberOfParameters [B]": 34,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5c7"
-  },
-  "Name": "Code LLaMA",
-  "Version": "Python",
-  "NumberOfParameters [B]": 70,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5c8"
-  },
-  "Name": "Code LLaMA",
-  "Version": "Instruct",
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5c9"
-  },
-  "Name": "Code LLaMA",
-  "Version": "Instruct",
-  "NumberOfParameters [B]": 13,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ca"
-  },
-  "Name": "Code LLaMA",
-  "Version": "Instruct",
-  "NumberOfParameters [B]": 34,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5cb"
-  },
-  "Name": "Code LLaMA",
-  "Version": "Instruct",
-  "NumberOfParameters [B]": 70,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 100000,
-  "Developer": "Meta",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 288.55,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5cc"
-  },
-  "Name": "Galactica",
-  "Version": null,
-  "NumberOfParameters [B]": 0.125,
-  "Quantization": null,
-  "Architecture": "Galactica",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "CC BY-NC 4.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Custom"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5cd"
-  },
-  "Name": "Galactica",
-  "Version": null,
-  "NumberOfParameters [B]": 1.3,
-  "Quantization": null,
-  "Architecture": "Galactica",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "CC BY-NC 4.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Custom"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ce"
-  },
-  "Name": "Galactica",
-  "Version": null,
-  "NumberOfParameters [B]": 6.7,
-  "Quantization": null,
-  "Architecture": "Galactica",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "CC BY-NC 4.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Custom"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5cf"
-  },
-  "Name": "Galactica",
-  "Version": null,
-  "NumberOfParameters [B]": 30,
-  "Quantization": null,
-  "Architecture": "Galactica",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "CC BY-NC 4.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Custom"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5d0"
-  },
-  "Name": "Galactica",
-  "Version": null,
-  "NumberOfParameters [B]": 120,
-  "Quantization": null,
-  "Architecture": "Galactica",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Meta",
-  "LicenseToUse": "CC BY-NC 4.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2048,
-  "Developer": "Meta",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Custom"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5d1"
-  },
-  "Name": "BERT",
-  "Version": null,
-  "NumberOfParameters [B]": 0.34,
-  "Quantization": null,
-  "Architecture": "BERT",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Google",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": "Tensor2Tensor",
-  "ContextLength": 512,
-  "Developer": "Google",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "WordPiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5d2"
-  },
-  "Name": "T5",
-  "Version": null,
-  "NumberOfParameters [B]": 11,
-  "Quantization": null,
-  "Architecture": "T5",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Google",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": "Mesh TensorFlow",
-  "ContextLength": 512,
-  "Developer": "Google",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5d3"
-  },
-  "Name": "XLNet",
-  "Version": null,
-  "NumberOfParameters [B]": 0.34,
-  "Quantization": null,
-  "Architecture": "XLNet",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Google",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": null,
-  "ContextLength": 512,
-  "Developer": "Google",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5d4"
-  },
-  "Name": "GLaM",
-  "Version": null,
-  "NumberOfParameters [B]": 1200,
-  "Quantization": null,
-  "Architecture": "GLaM",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Google",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": "Mesh TensorFlow",
-  "ContextLength": 1024,
-  "Developer": "Google",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 40.2,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5d5"
-  },
-  "Name": "Gopher",
-  "Version": null,
-  "NumberOfParameters [B]": 280,
-  "Quantization": null,
-  "Architecture": "Gopher",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "DeepMind",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": "JAX",
-  "ContextLength": 2048,
-  "Developer": "DeepMind",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 380,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5d6"
-  },
-  "Name": "LaMDA",
-  "Version": null,
-  "NumberOfParameters [B]": 137,
-  "Quantization": null,
-  "Architecture": "LaMDA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Google",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": "Lingvo (TensorFlow)",
-  "ContextLength": 1024,
-  "Developer": "Google",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 25.2,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5d7"
-  },
-  "Name": "Chincilla",
-  "Version": null,
-  "NumberOfParameters [B]": 70,
-  "Quantization": null,
-  "Architecture": "Chincilla",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "DeepMind",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": "JAX",
-  "ContextLength": 8192,
-  "Developer": "DeepMind",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5d8"
-  },
-  "Name": "PaLM",
-  "Version": "1",
-  "NumberOfParameters [B]": 540,
-  "Quantization": null,
-  "Architecture": "PaLM",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Google",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": "JAX",
-  "ContextLength": 2048,
-  "Developer": "Google",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 271.43,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5d9"
-  },
-  "Name": "Minerva",
-  "Version": null,
-  "NumberOfParameters [B]": 540,
-  "Quantization": null,
-  "Architecture": "Minerva",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Google",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": "JAX",
-  "ContextLength": 2048,
-  "Developer": "Google",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5da"
-  },
-  "Name": "PaLM",
-  "Version": "2",
-  "NumberOfParameters [B]": 340,
-  "Quantization": null,
-  "Architecture": "PaLM",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Google",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": "JAX",
-  "ContextLength": 8000,
-  "Developer": "Google",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5db"
-  },
-  "Name": "Gemini",
-  "Version": "1.0 - Nano-1",
-  "NumberOfParameters [B]": 1.8,
-  "Quantization": "4-bit",
-  "Architecture": "Gemini",
-  "Language": [
-    "English",
-    "Japanese",
-    "Korean",
-    "Arabic",
-    "Bengali",
-    "Bulgarian",
-    "Czech",
-    "Chinese (Simplified/Traditional)",
-    "Croatian",
-    "Danish",
-    "Hebrew",
-    "Estonian",
-    "Farsi",
-    "Finnish",
-    "French",
-    "Greek",
-    "Gujarati",
-    "Hindi",
-    "Indonesian",
-    "Italian",
-    "Kannada",
-    "Latvian",
-    "Lithuanian",
-    "Malayalam",
-    "Marathi",
-    "Norwegian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Serbian",
-    "Slovak",
-    "Slovenian",
-    "Spanish",
-    "Swedish",
-    "Swahili",
-    "Tamil",
-    "German",
-    "Telugu",
-    "Thai",
-    "Turkish",
-    "Ukrainian",
-    "Hungarian",
-    "Urdu",
-    "Vietnamese"
-  ],
-  "ModelCreator": "Google DeepMind",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": "JAX",
-  "ContextLength": 32000,
-  "Developer": "Google DeepMind",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5dc"
-  },
-  "Name": "Gemini",
-  "Version": "1.0 - Nano-2",
-  "NumberOfParameters [B]": 3.25,
-  "Quantization": null,
-  "Architecture": "Gemini",
-  "Language": [
-    "English",
-    "Japanese",
-    "Korean",
-    "Arabic",
-    "Bengali",
-    "Bulgarian",
-    "Czech",
-    "Chinese (Simplified/Traditional)",
-    "Croatian",
-    "Danish",
-    "Hebrew",
-    "Estonian",
-    "Farsi",
-    "Finnish",
-    "French",
-    "Greek",
-    "Gujarati",
-    "Hindi",
-    "Indonesian",
-    "Italian",
-    "Kannada",
-    "Latvian",
-    "Lithuanian",
-    "Malayalam",
-    "Marathi",
-    "Norwegian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Serbian",
-    "Slovak",
-    "Slovenian",
-    "Spanish",
-    "Swedish",
-    "Swahili",
-    "Tamil",
-    "German",
-    "Telugu",
-    "Thai",
-    "Turkish",
-    "Ukrainian",
-    "Hungarian",
-    "Urdu",
-    "Vietnamese"
-  ],
-  "ModelCreator": "Google DeepMind",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": "JAX",
-  "ContextLength": 32000,
-  "Developer": "Google DeepMind",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5dd"
-  },
-  "Name": "Gemini",
-  "Version": "1.5",
-  "NumberOfParameters [B]": null,
-  "Quantization": null,
-  "Architecture": "Gemini",
-  "Language": [
-    "English",
-    "Japanese",
-    "Korean",
-    "Arabic",
-    "Bengali",
-    "Bulgarian",
-    "Czech",
-    "Chinese (Simplified/Traditional)",
-    "Croatian",
-    "Danish",
-    "Hebrew",
-    "Estonian",
-    "Farsi",
-    "Finnish",
-    "French",
-    "Greek",
-    "Gujarati",
-    "Hindi",
-    "Indonesian",
-    "Italian",
-    "Kannada",
-    "Latvian",
-    "Lithuanian",
-    "Malayalam",
-    "Marathi",
-    "Norwegian",
-    "Dutch",
-    "Polish",
-    "Portuguese",
-    "Romanian",
-    "Russian",
-    "Serbian",
-    "Slovak",
-    "Slovenian",
-    "Spanish",
-    "Swedish",
-    "Swahili",
-    "Tamil",
-    "German",
-    "Telugu",
-    "Thai",
-    "Turkish",
-    "Ukrainian",
-    "Hungarian",
-    "Urdu",
-    "Vietnamese"
-  ],
-  "ModelCreator": "Google DeepMind",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": "JAX",
-  "ContextLength": 10000000,
-  "Developer": "Google DeepMind",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5de"
-  },
-  "Name": "Gemma",
-  "Version": null,
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "Gemma",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Google DeepMind",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": "JAX",
-  "ContextLength": 8192,
-  "Developer": "Google DeepMind",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": 131,
-  "Tokenizer": "SentencePiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5df"
-  },
-  "Name": "GPT-3",
-  "Version": "3.5",
-  "NumberOfParameters [B]": 175,
-  "Quantization": null,
-  "Architecture": "GPT-3",
-  "Language": [
-    "Multilingual"
-  ],
-  "ModelCreator": "OpenAI",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": null,
-  "ContextLength": 2048,
-  "Developer": "OpenAI",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": "Estimated",
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5e0"
-  },
-  "Name": "ChatGPT",
-  "Version": "3.5+",
-  "NumberOfParameters [B]": 175,
-  "Quantization": null,
-  "Architecture": "ChatGPT",
-  "Language": [
-    "Multilingual"
-  ],
-  "ModelCreator": "OpenAI",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": null,
-  "ContextLength": 4096,
-  "Developer": "OpenAI",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": "Estimated",
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5e1"
-  },
-  "Name": "GPT-2",
-  "Version": "1.5",
-  "NumberOfParameters [B]": 1.5,
-  "Quantization": null,
-  "Architecture": "GPT-2",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "OpenAI",
-  "LicenseToUse": "MIT",
-  "Library-Framework": null,
-  "ContextLength": 1024,
-  "Developer": "OpenAI",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": "Estimated",
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5e2"
-  },
-  "Name": "GPT-4",
-  "Version": "4.0",
-  "NumberOfParameters [B]": 1760,
-  "Quantization": null,
-  "Architecture": "GPT-4",
-  "Language": [
-    "Multilingual"
-  ],
-  "ModelCreator": "OpenAI",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": null,
-  "ContextLength": 8192,
-  "Developer": "OpenAI",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": "Estimated",
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5e3"
-  },
-  "Name": "Mistral ",
-  "Version": "0.1",
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "Mistral ",
-  "Language": [
-    "English",
-    "Code"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 32000,
-  "Developer": "MistralAI",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Byte-fallback BPE - Mistral Tokenizer v1"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5e4"
-  },
-  "Name": "Mistral",
-  "Version": "0.1 - Instruct",
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "Mistral",
-  "Language": [
-    "English",
-    "Code"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 32000,
-  "Developer": "MistralAI",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Byte-fallback BPE - Mistral Tokenizer v1"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5e5"
-  },
-  "Name": "Mistral",
-  "Version": "0.2 - Instruct",
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "Mistral",
-  "Language": [
-    "English",
-    "Code"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 32000,
-  "Developer": "MistralAI",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Byte-fallback BPE - Mistral Tokenizer v1"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5e6"
-  },
-  "Name": "Mixtral 8x7B",
-  "Version": "0.1",
-  "NumberOfParameters [B]": 46.7,
-  "Quantization": null,
-  "Architecture": "Mixtral",
-  "Language": [
-    "English",
-    "Spanish",
-    "Italian",
-    "French",
-    "German",
-    "Code"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 32000,
-  "Developer": "MistralAI",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Byte-fallback BPE - Mistral Tokenizer v1"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5e7"
-  },
-  "Name": "Mixtral 8x7B",
-  "Version": "0.1 - Instruct",
-  "NumberOfParameters [B]": 46.7,
-  "Quantization": null,
-  "Architecture": "Mixtral",
-  "Language": [
-    "English",
-    "Spanish",
-    "Italian",
-    "French",
-    "German",
-    "Code"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 32000,
-  "Developer": "MistralAI",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Byte-fallback BPE - Mistral Tokenizer v1"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5e8"
-  },
-  "Name": "Mixtral 8x22B",
-  "Version": "0.1 ",
-  "NumberOfParameters [B]": 141,
-  "Quantization": null,
-  "Architecture": "Mixtral",
-  "Language": [
-    "English",
-    "Spanish",
-    "Italian",
-    "French",
-    "German",
-    "Code"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 64000,
-  "Developer": "MistralAI",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Byte-fallback BPE - Mistral Tokenizer v3"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5e9"
-  },
-  "Name": "Mixtral 8x22B",
-  "Version": "0.1 - Instruct",
-  "NumberOfParameters [B]": 141,
-  "Quantization": null,
-  "Architecture": "Mixtral",
-  "Language": [
-    "English",
-    "Spanish",
-    "Italian",
-    "French",
-    "German",
-    "Code"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 64000,
-  "Developer": "MistralAI",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Byte-fallback BPE - Mistral Tokenizer v3"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ea"
-  },
-  "Name": "Mixtral Large",
-  "Version": null,
-  "NumberOfParameters [B]": null,
-  "Quantization": null,
-  "Architecture": "Mixtral",
-  "Language": [
-    "English",
-    "Spanish",
-    "Italian",
-    "French",
-    "German",
-    "Code"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": null,
-  "ContextLength": 32000,
-  "Developer": "MistralAI",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Byte-fallback BPE - Mistral Tokenizer v2"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5eb"
-  },
-  "Name": "Mistral Small",
-  "Version": null,
-  "NumberOfParameters [B]": null,
-  "Quantization": null,
-  "Architecture": "Mistral",
-  "Language": [
-    "English",
-    "Spanish",
-    "Italian",
-    "French",
-    "German",
-    "Code"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "Proprietary",
-  "Library-Framework": null,
-  "ContextLength": 32000,
-  "Developer": "MistralAI",
-  "OpenSource": false,
-  "URI": null,
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "Byte-fallback BPE - Mistral Tokenizer v2"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ec"
-  },
-  "Name": "roberta-base-openai-detector",
-  "Version": null,
-  "NumberOfParameters [B]": 0.125,
-  "Quantization": null,
-  "Architecture": "RoBERTa",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "Google",
-  "LicenseToUse": "MIT",
-  "Library-Framework": "[PyTorch, TensorFlow]",
-  "ContextLength": 150,
-  "Developer": "OpenAI-community",
-  "OpenSource": true,
-  "URI": "https://huggingface.co/openai-community/roberta-base-openai-detector",
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "BPE"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ed"
-  },
-  "Name": "Mistral-Finetuned-DialogSumm",
-  "Version": null,
-  "NumberOfParameters [B]": 1.2,
-  "Quantization": null,
-  "Architecture": "Mistral",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "Apache-2.0",
-  "Library-Framework": null,
-  "ContextLength": 32768,
-  "Developer": "Villian7",
-  "OpenSource": true,
-  "URI": "https://huggingface.co/Villian7/Mistral-Finetuned-DialogSumm",
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": null
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ee"
-  },
-  "Name": "RM-Mistral-7B",
-  "Version": null,
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "Mistral",
-  "Language": [
-    "Multilingual"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": null,
-  "Library-Framework": null,
-  "ContextLength": 32768,
-  "Developer": "weqweasdas",
-  "OpenSource": true,
-  "URI": "https://huggingface.co/weqweasdas/RM-Mistral-7B",
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": null
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5ef"
-  },
-  "Name": "SaulLM7B",
-  "Version": null,
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "Mistral",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "MIT",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 3200,
-  "Developer": "Equall.ai",
-  "OpenSource": true,
-  "URI": "nulll",
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": null
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5f0"
-  },
-  "Name": "SaulLM7B",
-  "Version": "Instruct",
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "Mistral",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "MistralAI",
-  "LicenseToUse": "MIT",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 3200,
-  "Developer": "Equall.ai",
-  "OpenSource": true,
-  "URI": null,
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": null
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5f1"
-  },
-  "Name": "StarCoder",
-  "Version": null,
-  "NumberOfParameters [B]": 15,
-  "Quantization": null,
-  "Architecture": "Transformer",
-  "Language": [
-    "Multilingual",
-    "Code"
-  ],
-  "ModelCreator": "BigCode",
-  "LicenseToUse": "OpenRail",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 4096,
-  "Developer": "BigCode",
-  "OpenSource": true,
-  "URI": "https://huggingface.co/bigcode/starcoder2-15b",
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5f2"
-  },
-  "Name": "StarCoder",
-  "Version": null,
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "Transformer",
-  "Language": [
-    "Multilingual",
-    "Code"
-  ],
-  "ModelCreator": "BigCode",
-  "LicenseToUse": "OpenRail",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 4096,
-  "Developer": "BigCode",
-  "OpenSource": true,
-  "URI": "https://huggingface.co/bigcode/starcoder2-7b",
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5f3"
-  },
-  "Name": "StarCoder",
-  "Version": null,
-  "NumberOfParameters [B]": 3,
-  "Quantization": null,
-  "Architecture": "Transformer",
-  "Language": [
-    "Multilingual",
-    "Code"
-  ],
-  "ModelCreator": "BigCode",
-  "LicenseToUse": "OpenRail",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 4096,
-  "Developer": "BigCode",
-  "OpenSource": true,
-  "URI": "https://huggingface.co/bigcode/starcoder2-3b",
-  "Fine-Tuned": false,
-  "CarbonEmission [CO2eq tons]": null,
-  "Tokenizer": "BPE model based in sentencepiece"
-},
-{
-  "_id": {
-    "$oid": "66ab8559444e3f9fec2ec5f4"
-  },
-  "Name": "MEDITRON",
-  "Version": null,
-  "NumberOfParameters [B]": 7,
-  "Quantization": null,
-  "Architecture": "LLaMA",
-  "Language": [
-    "English"
-  ],
-  "ModelCreator": "EPFL",
-  "LicenseToUse": "llama2 community license agreement",
-  "Library-Framework": "PyTorch",
-  "ContextLength": 2000,
-  "Developer": "EPFL",
-  "OpenSource": true,
-  "URI": "https://arxiv.org/pdf/2311.16079",
-  "Fine-Tuned": true,
-  "CarbonEmission [CO2eq tons]": 0.0068,
-  "Tokenizer": "BPE model based in sentencepiece"
-}]
+[
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5a8"
+        },
+        "name": "LLaMA",
+        "version": 1,
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": null,
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 14,
+        "tokenizer": "BPE model based on sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5a9"
+        },
+        "name": "LLaMA",
+        "version": 1,
+        "numberOfParameters [B]": 13,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": null,
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 23,
+        "tokenizer": "BPE model based on sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5aa"
+        },
+        "name": "LLaMA",
+        "version": 1,
+        "numberOfParameters [B]": 33,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": null,
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 90,
+        "tokenizer": "BPE model based on sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ab"
+        },
+        "name": "LLaMA",
+        "version": 1,
+        "numberOfParameters [B]": 65,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": null,
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 173,
+        "tokenizer": "BPE model based on sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ac"
+        },
+        "name": "LLaMA",
+        "version": 2,
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 4096,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 31.22,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ad"
+        },
+        "name": "LLaMA",
+        "version": 2,
+        "numberOfParameters [B]": 13,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 4096,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 62.44,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ae"
+        },
+        "name": "LLaMA",
+        "version": 2,
+        "numberOfParameters [B]": 34,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 4096,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 153.9,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5af"
+        },
+        "name": "LLaMA",
+        "version": 2,
+        "numberOfParameters [B]": 70,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 4096,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 291.42,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5b0"
+        },
+        "name": "LLaMA",
+        "version": 3,
+        "numberOfParameters [B]": 8,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama3 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 8192,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 390,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5b1"
+        },
+        "name": "LLaMA",
+        "version": 3,
+        "numberOfParameters [B]": 70,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama3 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 8192,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 1900,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5b2"
+        },
+        "name": "LLaMA",
+        "version": "3-instruct",
+        "numberOfParameters [B]": 8,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama3 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 8192,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 1900,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5b3"
+        },
+        "name": "LLaMA",
+        "version": "3-instruct",
+        "numberOfParameters [B]": 70,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama3 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 8192,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 1900,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5b4"
+        },
+        "name": "OPT",
+        "version": null,
+        "numberOfParameters [B]": 0.125,
+        "quantization": null,
+        "architecture": "OPT",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "opt license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "GPT-2 byte level BPE tokenizer"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5b5"
+        },
+        "name": "OPT",
+        "version": null,
+        "numberOfParameters [B]": 0.35,
+        "quantization": null,
+        "architecture": "OPT",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "opt license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "GPT-2 byte level BPE tokenizer"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5b6"
+        },
+        "name": "OPT",
+        "version": null,
+        "numberOfParameters [B]": 1.3,
+        "quantization": null,
+        "architecture": "OPT",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "opt license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "GPT-2 byte level BPE tokenizer"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5b7"
+        },
+        "name": "OPT",
+        "version": null,
+        "numberOfParameters [B]": 2.7,
+        "quantization": null,
+        "architecture": "OPT",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "opt license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "GPT-2 byte level BPE tokenizer"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5b8"
+        },
+        "name": "OPT",
+        "version": null,
+        "numberOfParameters [B]": 6.7,
+        "quantization": null,
+        "architecture": "OPT",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "opt license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "GPT-2 byte level BPE tokenizer"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5b9"
+        },
+        "name": "OPT",
+        "version": null,
+        "numberOfParameters [B]": 13,
+        "quantization": null,
+        "architecture": "OPT",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "opt license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "GPT-2 byte level BPE tokenizer"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ba"
+        },
+        "name": "OPT",
+        "version": null,
+        "numberOfParameters [B]": 30,
+        "quantization": null,
+        "architecture": "OPT",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "opt license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "GPT-2 byte level BPE tokenizer"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5bb"
+        },
+        "name": "OPT",
+        "version": null,
+        "numberOfParameters [B]": 66,
+        "quantization": null,
+        "architecture": "OPT",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "opt license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "GPT-2 byte level BPE tokenizer"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5bc"
+        },
+        "name": "OPT",
+        "version": null,
+        "numberOfParameters [B]": 175,
+        "quantization": null,
+        "architecture": "OPT",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "opt license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 75,
+        "tokenizer": "GPT-2 byte level BPE tokenizer"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5bd"
+        },
+        "name": "LLaMA",
+        "version": "2-Chat",
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 4096,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 31.22,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5be"
+        },
+        "name": "LLaMA",
+        "version": "2-Chat",
+        "numberOfParameters [B]": 13,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 4096,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 62.44,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5bf"
+        },
+        "name": "LLaMA",
+        "version": "2-Chat",
+        "numberOfParameters [B]": 70,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Croatian",
+            "Hungarian",
+            "Italian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Slovenian",
+            "Serbian",
+            "Swedish",
+            "Ukrainian"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 4096,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 291.42,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5c0"
+        },
+        "name": "Code LLaMA",
+        "version": null,
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5c1"
+        },
+        "name": "Code LLaMA",
+        "version": null,
+        "numberOfParameters [B]": 13,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5c2"
+        },
+        "name": "Code LLaMA",
+        "version": null,
+        "numberOfParameters [B]": 34,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5c3"
+        },
+        "name": "Code LLaMA",
+        "version": null,
+        "numberOfParameters [B]": 70,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5c4"
+        },
+        "name": "Code LLaMA",
+        "version": "Python",
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5c5"
+        },
+        "name": "Code LLaMA",
+        "version": "Python",
+        "numberOfParameters [B]": 13,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5c6"
+        },
+        "name": "Code LLaMA",
+        "version": "Python",
+        "numberOfParameters [B]": 34,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5c7"
+        },
+        "name": "Code LLaMA",
+        "version": "Python",
+        "numberOfParameters [B]": 70,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5c8"
+        },
+        "name": "Code LLaMA",
+        "version": "Instruct",
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5c9"
+        },
+        "name": "Code LLaMA",
+        "version": "Instruct",
+        "numberOfParameters [B]": 13,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ca"
+        },
+        "name": "Code LLaMA",
+        "version": "Instruct",
+        "numberOfParameters [B]": 34,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5cb"
+        },
+        "name": "Code LLaMA",
+        "version": "Instruct",
+        "numberOfParameters [B]": 70,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 100000,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 288.55,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5cc"
+        },
+        "name": "Galactica",
+        "version": null,
+        "numberOfParameters [B]": 0.125,
+        "quantization": null,
+        "architecture": "Galactica",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "CC BY-NC 4.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Custom"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5cd"
+        },
+        "name": "Galactica",
+        "version": null,
+        "numberOfParameters [B]": 1.3,
+        "quantization": null,
+        "architecture": "Galactica",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "CC BY-NC 4.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Custom"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ce"
+        },
+        "name": "Galactica",
+        "version": null,
+        "numberOfParameters [B]": 6.7,
+        "quantization": null,
+        "architecture": "Galactica",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "CC BY-NC 4.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Custom"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5cf"
+        },
+        "name": "Galactica",
+        "version": null,
+        "numberOfParameters [B]": 30,
+        "quantization": null,
+        "architecture": "Galactica",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "CC BY-NC 4.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Custom"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5d0"
+        },
+        "name": "Galactica",
+        "version": null,
+        "numberOfParameters [B]": 120,
+        "quantization": null,
+        "architecture": "Galactica",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Meta",
+        "licenseToUse": "CC BY-NC 4.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2048,
+        "developers": [
+            "Meta"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Custom"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5d1"
+        },
+        "name": "BERT",
+        "version": null,
+        "numberOfParameters [B]": 0.34,
+        "quantization": null,
+        "architecture": "BERT",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Google",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": "Tensor2Tensor",
+        "contextLength": 512,
+        "developers": [
+            "Google"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "WordPiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5d2"
+        },
+        "name": "T5",
+        "version": null,
+        "numberOfParameters [B]": 11,
+        "quantization": null,
+        "architecture": "T5",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Google",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": "Mesh TensorFlow",
+        "contextLength": 512,
+        "developers": [
+            "Google"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5d3"
+        },
+        "name": "XLNet",
+        "version": null,
+        "numberOfParameters [B]": 0.34,
+        "quantization": null,
+        "architecture": "XLNet",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Google",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": null,
+        "contextLength": 512,
+        "developers": [
+            "Google"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5d4"
+        },
+        "name": "GLaM",
+        "version": null,
+        "numberOfParameters [B]": 1200,
+        "quantization": null,
+        "architecture": "GLaM",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Google",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": "Mesh TensorFlow",
+        "contextLength": 1024,
+        "developers": [
+            "Google"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 40.2,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5d5"
+        },
+        "name": "Gopher",
+        "version": null,
+        "numberOfParameters [B]": 280,
+        "quantization": null,
+        "architecture": "Gopher",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "DeepMind",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": "JAX",
+        "contextLength": 2048,
+        "developers": [
+            "DeepMind"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 380,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5d6"
+        },
+        "name": "LaMDA",
+        "version": null,
+        "numberOfParameters [B]": 137,
+        "quantization": null,
+        "architecture": "LaMDA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Google",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": "Lingvo (TensorFlow)",
+        "contextLength": 1024,
+        "developers": [
+            "Google"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 25.2,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5d7"
+        },
+        "name": "Chincilla",
+        "version": null,
+        "numberOfParameters [B]": 70,
+        "quantization": null,
+        "architecture": "Chincilla",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "DeepMind",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": "JAX",
+        "contextLength": 8192,
+        "developers": [
+            "DeepMind"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5d8"
+        },
+        "name": "PaLM",
+        "version": "1",
+        "numberOfParameters [B]": 540,
+        "quantization": null,
+        "architecture": "PaLM",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Google",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": "JAX",
+        "contextLength": 2048,
+        "developers": [
+            "Google"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 271.43,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5d9"
+        },
+        "name": "Minerva",
+        "version": null,
+        "numberOfParameters [B]": 540,
+        "quantization": null,
+        "architecture": "Minerva",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Google",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": "JAX",
+        "contextLength": 2048,
+        "developers": [
+            "Google"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5da"
+        },
+        "name": "PaLM",
+        "version": "2",
+        "numberOfParameters [B]": 340,
+        "quantization": null,
+        "architecture": "PaLM",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Google",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": "JAX",
+        "contextLength": 8000,
+        "developers": [
+            "Google"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5db"
+        },
+        "name": "Gemini",
+        "version": "1.0 - Nano-1",
+        "numberOfParameters [B]": 1.8,
+        "quantization": "4-bit",
+        "architecture": "Gemini",
+        "languages": [
+            "English",
+            "Japanese",
+            "Korean",
+            "Arabic",
+            "Bengali",
+            "Bulgarian",
+            "Czech",
+            "Chinese (Simplified/Traditional)",
+            "Croatian",
+            "Danish",
+            "Hebrew",
+            "Estonian",
+            "Farsi",
+            "Finnish",
+            "French",
+            "Greek",
+            "Gujarati",
+            "Hindi",
+            "Indonesian",
+            "Italian",
+            "Kannada",
+            "Latvian",
+            "Lithuanian",
+            "Malayalam",
+            "Marathi",
+            "Norwegian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Serbian",
+            "Slovak",
+            "Slovenian",
+            "Spanish",
+            "Swedish",
+            "Swahili",
+            "Tamil",
+            "German",
+            "Telugu",
+            "Thai",
+            "Turkish",
+            "Ukrainian",
+            "Hungarian",
+            "Urdu",
+            "Vietnamese"
+        ],
+        "modelCreator": "Google DeepMind",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": "JAX",
+        "contextLength": 32000,
+        "developers": [
+            "Google DeepMind"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5dc"
+        },
+        "name": "Gemini",
+        "version": "1.0 - Nano-2",
+        "numberOfParameters [B]": 3.25,
+        "quantization": null,
+        "architecture": "Gemini",
+        "languages": [
+            "English",
+            "Japanese",
+            "Korean",
+            "Arabic",
+            "Bengali",
+            "Bulgarian",
+            "Czech",
+            "Chinese (Simplified/Traditional)",
+            "Croatian",
+            "Danish",
+            "Hebrew",
+            "Estonian",
+            "Farsi",
+            "Finnish",
+            "French",
+            "Greek",
+            "Gujarati",
+            "Hindi",
+            "Indonesian",
+            "Italian",
+            "Kannada",
+            "Latvian",
+            "Lithuanian",
+            "Malayalam",
+            "Marathi",
+            "Norwegian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Serbian",
+            "Slovak",
+            "Slovenian",
+            "Spanish",
+            "Swedish",
+            "Swahili",
+            "Tamil",
+            "German",
+            "Telugu",
+            "Thai",
+            "Turkish",
+            "Ukrainian",
+            "Hungarian",
+            "Urdu",
+            "Vietnamese"
+        ],
+        "modelCreator": "Google DeepMind",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": "JAX",
+        "contextLength": 32000,
+        "developers": [
+            "Google DeepMind"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5dd"
+        },
+        "name": "Gemini",
+        "version": "1.5",
+        "numberOfParameters [B]": null,
+        "quantization": null,
+        "architecture": "Gemini",
+        "languages": [
+            "English",
+            "Japanese",
+            "Korean",
+            "Arabic",
+            "Bengali",
+            "Bulgarian",
+            "Czech",
+            "Chinese (Simplified/Traditional)",
+            "Croatian",
+            "Danish",
+            "Hebrew",
+            "Estonian",
+            "Farsi",
+            "Finnish",
+            "French",
+            "Greek",
+            "Gujarati",
+            "Hindi",
+            "Indonesian",
+            "Italian",
+            "Kannada",
+            "Latvian",
+            "Lithuanian",
+            "Malayalam",
+            "Marathi",
+            "Norwegian",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Serbian",
+            "Slovak",
+            "Slovenian",
+            "Spanish",
+            "Swedish",
+            "Swahili",
+            "Tamil",
+            "German",
+            "Telugu",
+            "Thai",
+            "Turkish",
+            "Ukrainian",
+            "Hungarian",
+            "Urdu",
+            "Vietnamese"
+        ],
+        "modelCreator": "Google DeepMind",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": "JAX",
+        "contextLength": 10000000,
+        "developers": [
+            "Google DeepMind"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5de"
+        },
+        "name": "Gemma",
+        "version": null,
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "Gemma",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Google DeepMind",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": "JAX",
+        "contextLength": 8192,
+        "developers": [
+            "Google DeepMind"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": 131,
+        "tokenizer": "SentencePiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5df"
+        },
+        "name": "GPT-3",
+        "version": "3.5",
+        "numberOfParameters [B]": 175,
+        "quantization": null,
+        "architecture": "GPT-3",
+        "languages": [
+            "Multilingual"
+        ],
+        "modelCreator": "OpenAI",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": null,
+        "contextLength": 2048,
+        "developers": [
+            "OpenAI"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": "Estimated",
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5e0"
+        },
+        "name": "ChatGPT",
+        "version": "3.5+",
+        "numberOfParameters [B]": 175,
+        "quantization": null,
+        "architecture": "ChatGPT",
+        "languages": [
+            "Multilingual"
+        ],
+        "modelCreator": "OpenAI",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": null,
+        "contextLength": 4096,
+        "developers": [
+            "OpenAI"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": "Estimated",
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5e1"
+        },
+        "name": "GPT-2",
+        "version": "1.5",
+        "numberOfParameters [B]": 1.5,
+        "quantization": null,
+        "architecture": "GPT-2",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "OpenAI",
+        "licenseToUse": "MIT",
+        "libraryFramework": null,
+        "contextLength": 1024,
+        "developers": [
+            "OpenAI"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": "Estimated",
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5e2"
+        },
+        "name": "GPT-4",
+        "version": "4.0",
+        "numberOfParameters [B]": 1760,
+        "quantization": null,
+        "architecture": "GPT-4",
+        "languages": [
+            "Multilingual"
+        ],
+        "modelCreator": "OpenAI",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": null,
+        "contextLength": 8192,
+        "developers": [
+            "OpenAI"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": "Estimated",
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5e3"
+        },
+        "name": "Mistral ",
+        "version": "0.1",
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "Mistral ",
+        "languages": [
+            "English",
+            "Code"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 32000,
+        "developers": [
+            "MistralAI"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Byte-fallback BPE - Mistral tokenizer v1"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5e4"
+        },
+        "name": "Mistral",
+        "version": "0.1 - Instruct",
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "Mistral",
+        "languages": [
+            "English",
+            "Code"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 32000,
+        "developers": [
+            "MistralAI"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Byte-fallback BPE - Mistral tokenizer v1"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5e5"
+        },
+        "name": "Mistral",
+        "version": "0.2 - Instruct",
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "Mistral",
+        "languages": [
+            "English",
+            "Code"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 32000,
+        "developers": [
+            "MistralAI"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Byte-fallback BPE - Mistral tokenizer v1"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5e6"
+        },
+        "name": "Mixtral 8x7B",
+        "version": "0.1",
+        "numberOfParameters [B]": 46.7,
+        "quantization": null,
+        "architecture": "Mixtral",
+        "languages": [
+            "English",
+            "Spanish",
+            "Italian",
+            "French",
+            "German",
+            "Code"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 32000,
+        "developers": [
+            "MistralAI"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Byte-fallback BPE - Mistral tokenizer v1"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5e7"
+        },
+        "name": "Mixtral 8x7B",
+        "version": "0.1 - Instruct",
+        "numberOfParameters [B]": 46.7,
+        "quantization": null,
+        "architecture": "Mixtral",
+        "languages": [
+            "English",
+            "Spanish",
+            "Italian",
+            "French",
+            "German",
+            "Code"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 32000,
+        "developers": [
+            "MistralAI"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Byte-fallback BPE - Mistral tokenizer v1"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5e8"
+        },
+        "name": "Mixtral 8x22B",
+        "version": "0.1 ",
+        "numberOfParameters [B]": 141,
+        "quantization": null,
+        "architecture": "Mixtral",
+        "languages": [
+            "English",
+            "Spanish",
+            "Italian",
+            "French",
+            "German",
+            "Code"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 64000,
+        "developers": [
+            "MistralAI"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Byte-fallback BPE - Mistral tokenizer v3"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5e9"
+        },
+        "name": "Mixtral 8x22B",
+        "version": "0.1 - Instruct",
+        "numberOfParameters [B]": 141,
+        "quantization": null,
+        "architecture": "Mixtral",
+        "languages": [
+            "English",
+            "Spanish",
+            "Italian",
+            "French",
+            "German",
+            "Code"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": "PyTorch",
+        "contextLength": 64000,
+        "developers": [
+            "MistralAI"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Byte-fallback BPE - Mistral tokenizer v3"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ea"
+        },
+        "name": "Mixtral Large",
+        "version": null,
+        "numberOfParameters [B]": null,
+        "quantization": null,
+        "architecture": "Mixtral",
+        "languages": [
+            "English",
+            "Spanish",
+            "Italian",
+            "French",
+            "German",
+            "Code"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": null,
+        "contextLength": 32000,
+        "developers": [
+            "MistralAI"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Byte-fallback BPE - Mistral tokenizer v2"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5eb"
+        },
+        "name": "Mistral Small",
+        "version": null,
+        "numberOfParameters [B]": null,
+        "quantization": null,
+        "architecture": "Mistral",
+        "languages": [
+            "English",
+            "Spanish",
+            "Italian",
+            "French",
+            "German",
+            "Code"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "Proprietary",
+        "libraryFramework": null,
+        "contextLength": 32000,
+        "developers": [
+            "MistralAI"
+        ],
+        "openSource": false,
+        "uri": null,
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "Byte-fallback BPE - Mistral tokenizer v2"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ec"
+        },
+        "name": "roberta-base-openai-detector",
+        "version": null,
+        "numberOfParameters [B]": 0.125,
+        "quantization": null,
+        "architecture": "RoBERTa",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "Google",
+        "licenseToUse": "MIT",
+        "libraryFramework": "[PyTorch, TensorFlow]",
+        "contextLength": 150,
+        "developers": [
+            "OpenAI-community"
+        ],
+        "openSource": true,
+        "uri": "https://huggingface.co/openai-community/roberta-base-openai-detector",
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "BPE"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ed"
+        },
+        "name": "Mistral-Finetuned-DialogSumm",
+        "version": null,
+        "numberOfParameters [B]": 1.2,
+        "quantization": null,
+        "architecture": "Mistral",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "Apache-2.0",
+        "libraryFramework": null,
+        "contextLength": 32768,
+        "developers": [
+            "Villian7"
+        ],
+        "openSource": true,
+        "uri": "https://huggingface.co/Villian7/Mistral-Finetuned-DialogSumm",
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": null
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ee"
+        },
+        "name": "RM-Mistral-7B",
+        "version": null,
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "Mistral",
+        "languages": [
+            "Multilingual"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": null,
+        "libraryFramework": null,
+        "contextLength": 32768,
+        "developers": [
+            "weqweasdas"
+        ],
+        "openSource": true,
+        "uri": "https://huggingface.co/weqweasdas/RM-Mistral-7B",
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": null
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5ef"
+        },
+        "name": "SaulLM7B",
+        "version": null,
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "Mistral",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "MIT",
+        "libraryFramework": "PyTorch",
+        "contextLength": 3200,
+        "developers": [
+            "Equall.ai"
+        ],
+        "openSource": true,
+        "uri": "nulll",
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": null
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5f0"
+        },
+        "name": "SaulLM7B",
+        "version": "Instruct",
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "Mistral",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "MistralAI",
+        "licenseToUse": "MIT",
+        "libraryFramework": "PyTorch",
+        "contextLength": 3200,
+        "developers": [
+            "Equall.ai"
+        ],
+        "openSource": true,
+        "uri": null,
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": null
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5f1"
+        },
+        "name": "StarCoder",
+        "version": null,
+        "numberOfParameters [B]": 15,
+        "quantization": null,
+        "architecture": "Transformer",
+        "languages": [
+            "Multilingual",
+            "Code"
+        ],
+        "modelCreator": "BigCode",
+        "licenseToUse": "OpenRail",
+        "libraryFramework": "PyTorch",
+        "contextLength": 4096,
+        "developers": [
+            "BigCode"
+        ],
+        "openSource": true,
+        "uri": "https://huggingface.co/bigcode/starcoder2-15b",
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5f2"
+        },
+        "name": "StarCoder",
+        "version": null,
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "Transformer",
+        "languages": [
+            "Multilingual",
+            "Code"
+        ],
+        "modelCreator": "BigCode",
+        "licenseToUse": "OpenRail",
+        "libraryFramework": "PyTorch",
+        "contextLength": 4096,
+        "developers": [
+            "BigCode"
+        ],
+        "openSource": true,
+        "uri": "https://huggingface.co/bigcode/starcoder2-7b",
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5f3"
+        },
+        "name": "StarCoder",
+        "version": null,
+        "numberOfParameters [B]": 3,
+        "quantization": null,
+        "architecture": "Transformer",
+        "languages": [
+            "Multilingual",
+            "Code"
+        ],
+        "modelCreator": "BigCode",
+        "licenseToUse": "OpenRail",
+        "libraryFramework": "PyTorch",
+        "contextLength": 4096,
+        "developers": [
+            "BigCode"
+        ],
+        "openSource": true,
+        "uri": "https://huggingface.co/bigcode/starcoder2-3b",
+        "fineTuned": false,
+        "carbonEmission [CO2eq tons]": null,
+        "tokenizer": "BPE model based in sentencepiece"
+    },
+    {
+        "_id": {
+            "$oid": "66ab8559444e3f9fec2ec5f4"
+        },
+        "name": "MEDITRON",
+        "version": null,
+        "numberOfParameters [B]": 7,
+        "quantization": null,
+        "architecture": "LLaMA",
+        "languages": [
+            "English"
+        ],
+        "modelCreator": "EPFL",
+        "licenseToUse": "llama2 community license agreement",
+        "libraryFramework": "PyTorch",
+        "contextLength": 2000,
+        "developers": [
+            "EPFL"
+        ],
+        "openSource": true,
+        "uri": "https://arxiv.org/pdf/2311.16079",
+        "fineTuned": true,
+        "carbonEmission [CO2eq tons]": 0.0068,
+        "tokenizer": "BPE model based in sentencepiece"
+    }
+]

@@ -1,62 +1,38 @@
 [
     {
-        "Metric": {
-            "$oid": "66aa7abd2ee22bb2ec7590b2"
-        },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab8af2444e3f9fec2ec627"
-            ]
-        }
+        "Metric": {"$oid": "66aa7abd2ee22bb2ec7590b2"},
+        "DownstreamTask": [
+            {"$oid": "66ab8af2444e3f9fec2ec627"}
+        ]
     },
     {
-        "Metric": {
-            "$oid": "66aa7abd2ee22bb2ec7590a2"
-        },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab8af2444e3f9fec2ec627"
-            ]
-        }
+        "Metric": {"$oid": "66aa7abd2ee22bb2ec7590a2"},
+        "DownstreamTask": [
+            {"$oid": "66ab8af2444e3f9fec2ec627"}
+        ]
     },
     {
-        "Metric": {
-            "$oid": "66aa7abd2ee22bb2ec7590a3"
-        },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab8af2444e3f9fec2ec624"
-            ]
-        }
+        "Metric": {"$oid": "66aa7abd2ee22bb2ec7590a3"},
+        "DownstreamTask": [
+            {"$oid": "66ab8af2444e3f9fec2ec624"}
+        ]
     },
     {
-        "Metric": {
-            "$oid": "66aa7abd2ee22bb2ec7590a4"
-        },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab8af2444e3f9fec2ec627"
-            ]
-        }
+        "Metric": {"$oid": "66aa7abd2ee22bb2ec7590a4"},
+        "DownstreamTask": [
+            {"$oid": "66ab8af2444e3f9fec2ec627"}
+        ]
     },
     {
-        "Metric": {
-            "$oid": "66aa7abd2ee22bb2ec7590a5"
-        },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab94a4444e3f9fec2ec62b"
-            ]
-        }
+        "Metric": {"$oid": "66aa7abd2ee22bb2ec7590a5"},
+        "DownstreamTask": [
+            {"$oid": "66ab94a4444e3f9fec2ec62b"}
+        ]
     },
     {
-        "Metric": {
-            "$oid": "66aa7abd2ee22bb2ec7590a6"
-        },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab94a4444e3f9fec2ec62c"
-            ]
-        }
+        "Metric": {"$oid": "66aa7abd2ee22bb2ec7590a6"},
+        "DownstreamTask": [
+            {"$oid": "66ab94a4444e3f9fec2ec62c"}
+        ]
     }
 ]

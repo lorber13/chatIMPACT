@@ -3,52 +3,56 @@
         "Dataset": {
             "$oid": "66ab856a444e3f9fec2ec60e"
         },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab8af2444e3f9fec2ec622",
-                "66ab8af2444e3f9fec2ec624"
-            ]
-        }
+        "DownstreamTask": [
+            {
+                "$oid": "66ab8af2444e3f9fec2ec622"
+            },
+            {
+                "$oid": "66ab8af2444e3f9fec2ec624"
+            }
+        ]
     },
     {
         "Dataset": {
             "$oid": "66ab856a444e3f9fec2ec60f"
         },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab8af2444e3f9fec2ec622",
-                "66ab8af2444e3f9fec2ec624"
-            ]
-        }
+        "DownstreamTask": [
+            {
+                "$oid": "66ab8af2444e3f9fec2ec622"
+            },
+            {
+                "$oid": "66ab8af2444e3f9fec2ec624"
+            }
+        ]
     },
     {
         "Dataset": {
             "$oid": "66ab856a444e3f9fec2ec610"
         },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab8af2444e3f9fec2ec626"
-            ]
-        }
+        "DownstreamTask": [
+            {
+                "$oid": "66ab8af2444e3f9fec2ec626"
+            }
+        ]
     },
     {
         "Dataset": {
             "$oid": "66ab856a444e3f9fec2ec611"
         },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab8af2444e3f9fec2ec622"
-            ]
-        }
+        "DownstreamTask": [
+            {
+                "$oid": "66ab8af2444e3f9fec2ec622"
+            }
+        ]
     },
     {
         "Dataset": {
             "$oid": "66ab856a444e3f9fec2ec612"
         },
-        "DownstreamTask": {
-            "$oid": [
-                "66ab8af2444e3f9fec2ec622"
-            ]
-        }
+        "DownstreamTask": [
+            {
+                "$oid": "66ab8af2444e3f9fec2ec622"
+            }
+        ]
     }
 ]

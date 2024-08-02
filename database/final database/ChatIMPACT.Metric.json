@@ -2,169 +2,169 @@
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590aa"
   },
-  "Name": "PARENT",
-  "Description ": "Evaluates the quality of data-to-text generation by considering precision, recall, and n-gram overlap while also factoring in entity precision and recall.",
-  "Context-free/Context-depedent": "Context-dependent",
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": "Sentence and entity level"
+  "name": "PARENT",
+  "description ": "Evaluates the quality of data-to-text generation by considering precision, recall, and n-gram overlap while also factoring in entity precision and recall.",
+  "context": "Context-dependent",
+  "featureBased/endToEnd": null,
+  "granularity": "Sentence and entity level"
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590a2"
   },
-  "Name": "BLEU",
-  "Description ": "Measures overlap between generated text and reference translations.",
-  "Context-free/Context-depedent": "Context-free",
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": "N-gram level"
+  "name": "BLEU",
+  "description ": "Measures overlap between generated text and reference translations.",
+  "context": "Context-free",
+  "featureBased/endToEnd": null,
+  "granularity": "N-gram level"
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590a3"
   },
-  "Name": "ROUGE",
-  "Description ": "Evaluates text summarization by measuring overlap of n-grams.",
-  "Context-free/Context-depedent": "Context-free",
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": "N-gram level"
+  "name": "ROUGE",
+  "description ": "Evaluates text summarization by measuring overlap of n-grams.",
+  "context": "Context-free",
+  "featureBased/endToEnd": null,
+  "granularity": "N-gram level"
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590ad"
   },
-  "Name": "Human Judgments",
-  "Description ": "Human evaluators assess text quality based on criteria like relevance.",
-  "Context-free/Context-depedent": null,
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": null
+  "name": "Human Judgments",
+  "description ": "Human evaluators assess text quality based on criteria like relevance.",
+  "context": null,
+  "featureBased/endToEnd": null,
+  "granularity": null
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590a4"
   },
-  "Name": "METEOR",
-  "Description ": "Considers synonyms and stemming for translation.",
-  "Context-free/Context-depedent": "Context-free",
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": "N-gram level"
+  "name": "METEOR",
+  "description ": "Considers synonyms and stemming for translation.",
+  "context": "Context-free",
+  "featureBased/endToEnd": null,
+  "granularity": "N-gram level"
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590a8"
   },
-  "Name": "SHAP",
-  "Description ": "Explains model predictions based on feature contributions.",
-  "Context-free/Context-depedent": "Context-free",
-  "Feature-based/End-to-end (only if trained)": "Feature-based",
-  "Granularity (untrained) ": null
+  "name": "SHAP",
+  "description ": "Explains model predictions based on feature contributions.",
+  "context": "Context-free",
+  "featureBased/endToEnd": "Feature-based",
+  "granularity": null
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590b1"
   },
-  "Name": "Winograd Schema Challenge",
-  "Description ": "Tests model's understanding of sentence disambiguation.",
-  "Context-free/Context-depedent": null,
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": null
+  "name": "Winograd Schema Challenge",
+  "description ": "Tests model's understanding of sentence disambiguation.",
+  "context": null,
+  "featureBased/endToEnd": null,
+  "granularity": null
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590ab"
   },
-  "Name": "MQAG",
-  "Description ": "Uses multiple-choice QA and generation to assess information consistency.",
-  "Context-free/Context-depedent": "Context-dependent",
-  "Feature-based/End-to-end (only if trained)": "End-to-end",
-  "Granularity (untrained) ": null
+  "name": "MQAG",
+  "description ": "Uses multiple-choice QA and generation to assess information consistency.",
+  "context": "Context-dependent",
+  "featureBased/endToEnd": "End-to-end",
+  "granularity": null
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590a5"
   },
-  "Name": "Perplexity",
-  "Description ": "Measures how well a probability distribution predicts a sample.",
-  "Context-free/Context-depedent": "Context-free",
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": "Word level"
+  "name": "Perplexity",
+  "description ": "Measures how well a probability distribution predicts a sample.",
+  "context": "Context-free",
+  "featureBased/endToEnd": null,
+  "granularity": "Word level"
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590a6"
   },
-  "Name": "BERTScore",
-  "Description ": "Uses BERT embeddings to compare generated text to reference text.",
-  "Context-free/Context-depedent": "Context-dependent",
-  "Feature-based/End-to-end (only if trained)": "Feature-based",
-  "Granularity (untrained) ": null
+  "name": "BERTScore",
+  "description ": "Uses BERT embeddings to compare generated text to reference text.",
+  "context": "Context-dependent",
+  "featureBased/endToEnd": "Feature-based",
+  "granularity": null
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590ac"
   },
-  "Name": "mFACT",
-  "Description ": "A metric to evaluate the faithfulness of summarisation models in multiple languages by detecting hallucinations",
-  "Context-free/Context-depedent": "Context-dependent",
-  "Feature-based/End-to-end (only if trained)": "End-to-end",
-  "Granularity (untrained) ": null
+  "name": "mFACT",
+  "description ": "A metric to evaluate the faithfulness of summarisation models in multiple languages by detecting hallucinations",
+  "context": "Context-dependent",
+  "featureBased/endToEnd": "End-to-end",
+  "granularity": null
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590af"
   },
-  "Name": "Turing Test",
-  "Description ": "Evaluates if the generated responses are indistinguishable from human ones.",
-  "Context-free/Context-depedent": null,
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": null
+  "name": "Turing Test",
+  "description ": "Evaluates if the generated responses are indistinguishable from human ones.",
+  "context": null,
+  "featureBased/endToEnd": null,
+  "granularity": null
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590a9"
   },
-  "Name": "LIME",
-  "Description ": "Provides local explanations for model predictions.",
-  "Context-free/Context-depedent": "Context-free",
-  "Feature-based/End-to-end (only if trained)": "Feature-based",
-  "Granularity (untrained) ": null
+  "name": "LIME",
+  "description ": "Provides local explanations for model predictions.",
+  "context": "Context-free",
+  "featureBased/endToEnd": "Feature-based",
+  "granularity": null
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590ae"
   },
-  "Name": "Pairwise Comparison",
-  "Description ": "Humans compare outputs from different models to determine superiority.",
-  "Context-free/Context-depedent": null,
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": null
+  "name": "Pairwise Comparison",
+  "description ": "Humans compare outputs from different models to determine superiority.",
+  "context": null,
+  "featureBased/endToEnd": null,
+  "granularity": null
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590a7"
   },
-  "Name": "Groot",
-  "Description ": "Adversarial testing metric that uses tree-based semantic transformation to test the robustness and safety of text-to-image generative models by decomposing prompts into detailed semantic trees.",
-  "Context-free/Context-depedent": "Context-dependent",
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": "High (tree-based decomposition)"
+  "name": "Groot",
+  "description ": "Adversarial testing metric that uses tree-based semantic transformation to test the robustness and safety of text-to-image generative models by decomposing prompts into detailed semantic trees.",
+  "context": "Context-dependent",
+  "featureBased/endToEnd": null,
+  "granularity": "High (tree-based decomposition)"
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590b0"
   },
-  "Name": "User Feedback and Interaction Logs",
-  "Description ": "Collects feedback from end-users to improve models.",
-  "Context-free/Context-depedent": null,
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": null
+  "name": "User Feedback and Interaction Logs",
+  "description ": "Collects feedback from end-users to improve models.",
+  "context": null,
+  "featureBased/endToEnd": null,
+  "granularity": null
 },
 {
   "_id": {
     "$oid": "66aa7abd2ee22bb2ec7590b2"
   },
-  "Name": "chrF",
-  "Description ": "ChrF and ChrF++ are two MT evaluation metrics that use the F-score statistic for character n-gram matches. ChrF++ additionally includes word n-grams, which correlate more strongly with direct assessment. We use the implementation that is already present in sacrebleu.\n\nWhile this metric is included in sacreBLEU, the implementation here is slightly different from sacreBLEU in terms of the required input format. Here, the length of the references and hypotheses lists need to be the same, so you may need to transpose your references compared to sacrebleu’s required input format. See https://github.com/huggingface/datasets/issues/3154#issuecomment-950746534\n\nSee the sacreBLEU README.md for more information.",
-  "Context-free/Context-depedent": null,
-  "Feature-based/End-to-end (only if trained)": null,
-  "Granularity (untrained) ": "character"
+  "name": "chrF",
+  "description ": "ChrF and ChrF++ are two MT evaluation metrics that use the F-score statistic for character n-gram matches. ChrF++ additionally includes word n-grams, which correlate more strongly with direct assessment. We use the implementation that is already present in sacrebleu.\n\nWhile this metric is included in sacreBLEU, the implementation here is slightly different from sacreBLEU in terms of the required input format. Here, the length of the references and hypotheses lists need to be the same, so you may need to transpose your references compared to sacrebleu’s required input format. See https://github.com/huggingface/datasets/issues/3154#issuecomment-950746534\n\nSee the sacreBLEU README.md for more information.",
+  "context": null,
+  "featureBased/endToEnd": null,
+  "granularity": "character"
 }]

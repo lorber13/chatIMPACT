@@ -1,65 +1,71 @@
 [
     {
-        "LargeLanguageModel": {
+        "Models": {
             "$oid": "66ab8559444e3f9fec2ec5ef"
         },
-        "Datasets": {
-            "$oid": [
-                "66ab856a444e3f9fec2ec60e",
-                "66ab856a444e3f9fec2ec60f"
-            ]
-        }
+        "Datasets": [
+            {
+                "$oid": "66ab856a444e3f9fec2ec60e"
+            },
+            {
+                "$oid": "66ab856a444e3f9fec2ec60f"
+            }
+        ]
     },
     {
-        "LargeLanguageModel": {
+        "Models": {
             "$oid": "66ab8559444e3f9fec2ec5f0"
         },
-        "Dataset": {
-            "$oid": [
-                "66ab856a444e3f9fec2ec60e",
-                "66ab856a444e3f9fec2ec60f"
-            ]
-        }
+        "Datasets": [
+            {
+                "$oid": "66ab856a444e3f9fec2ec60e"
+            },
+            {
+                "$oid": "66ab856a444e3f9fec2ec60f"
+            }
+        ]
     },
     {
-        "LargeLanguageModel": {
+        "Models": {
             "$oid": "66ab8559444e3f9fec2ec5f1"
         },
-        "Dataset": {
-            "$oid": [
-                "66ab856a444e3f9fec2ec610"
-            ]
-        }
+        "Datasets": [
+            {
+                "$oid": "66ab856a444e3f9fec2ec610"
+            }
+        ]
     },
     {
-        "LargeLanguageModel": {
+        "Models": {
             "$oid": "66ab8559444e3f9fec2ec5f2"
         },
-        "Dataset": {
-            "$oid": [
-                "66ab856a444e3f9fec2ec610"
-            ]
-        }
+        "Datasets": [
+            {
+                "$oid": "66ab856a444e3f9fec2ec610"
+            }
+        ]
     },
     {
-        "LargeLanguageModel": {
+        "Models": {
             "$oid": "66ab8559444e3f9fec2ec5f3"
         },
-        "Dataset": {
-            "$oid": [
-                "66ab856a444e3f9fec2ec610"
-            ]
-        }
+        "Datasets": [
+            {
+                "$oid": "66ab856a444e3f9fec2ec610"
+            }
+        ]
     },
     {
-        "LargeLanguageModel": {
+        "Models": {
             "$oid": "66ab8559444e3f9fec2ec5f4"
         },
-        "Dataset": {
-            "$oid": [
-                "66ab856a444e3f9fec2ec611",
-                "66ab856a444e3f9fec2ec612"
-            ]
-        }
+        "Datasets": [
+            {
+                "$oid": "66ab856a444e3f9fec2ec611"
+            },
+            {
+                "$oid": "66ab856a444e3f9fec2ec612"
+            }
+        ]
     }
 ]
