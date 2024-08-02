@@ -52,12 +52,24 @@
 
 import sys
 
+from pymongo import MongoClient
+from auth import CONNECTION_STRING
+
 
 class Dao:
     """data access object"""
 
-    def __init__(self, database) -> None:
-        self.database = database
+    def __init__(self, name) -> None:
+        self.database = MongoClient(CONNECTION_STRING)[name]
+
+    def drop(self, collection_name):
+        """drop collection with name"""
+        self.database[collection_name].drop()
+
+    def insert_many(self, collection, documents):
+        """insert documents into collection"""
+        ids = self.database[collection].insert_many(documents)
+        return ids
 
     def query(self, specifications):
         """perform a query"""
