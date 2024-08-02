@@ -831,6 +831,61 @@ class CrossEntity(unittest.TestCase):
             },
         )
 
+    def test_join_mixed(self):
+        """join with some filters and some projections"""
+        models = db["Models"].insert_many(
+            [
+                {
+                    "name": "model1",
+                    "version": "LLaMA",
+                    "numberOfParameters [B]": 3,
+                    "architecture": "LLaMA",
+                },
+                {
+                    "name": "model1",
+                    "version": "LLaMA",
+                    "numberOfParameters [B]": 5,
+                    "architecture": "LLaMA",
+                },
+                {
+                    "name": "model2",
+                    "version": "GPT",
+                    "numberOfParameters [B]": 5,
+                    "architecture": "LLaMA",
+                },
+            ]
+        )
+        metrics = db["Metrics"].insert_many(
+            [
+                {"name": "m1", "description": "desc1"},
+                {"name": "m2", "description": "desc2"},
+            ]
+        )
+        db["Evaluate"].insert_many(
+            [
+                {
+                    "Models": models.inserted_ids[0],
+                    "Metrics": metrics.inserted_ids[0],
+                },
+                {
+                    "Models": models.inserted_ids[0],
+                    "Metrics": metrics.inserted_ids[1],
+                },
+            ]
+        )
+
+        dao = Dao(db)
+        res = dao.query(
+            [
+                {"collection": "Models", "project": ["name"]},
+                {
+                    "collection": "Metrics",
+                    "filters": {"description": "desc"},
+                },
+            ]
+        )
+        self.assertEqual(len(res), 0)
+
 
 if __name__ == "__main__":
     unittest.main()
