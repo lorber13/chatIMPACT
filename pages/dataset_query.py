@@ -4,18 +4,18 @@ from utils import create_query_structure, reworked_query_output
 from dao import Dao
 
 
-COLLECTION = "Models"
+COLLECTION = "Datasets"
 
 dao = Dao("Paper")
 
 st.page_link("gui.py", label="Homepage", icon="🏠")
 
 title_alignment = """
-<h1 style='text-align: center; color: Black;'>Large Language Model</h1>
+<h1 style='text-align: center; color: Black;'>Dataset</h1>
 """
 
 st.html(title_alignment)
-st.image("static/llm.png")
+st.image("static/dataset.png")
 
 st.markdown("---")
 col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8 = st.columns(
@@ -37,11 +37,18 @@ with col_1:
     )
 
 with col_2:
-    min_num_param = st.number_input(
-        "**Minimum number of parameters**", min_value=0, value=0
+    min_size_gb = st.number_input(
+        "**Minimum size [GB]**", min_value=0, value=0
     )
-    max_num_param = st.number_input(
-        "**Maximum number of parameters**", min_value=0, value=None
+    max_size_gb = st.number_input(
+        "**Maximum size [GB]**", min_value=0, value=None
+    )
+
+    min_size_rows = st.number_input(
+        "**Minimum size [rows]**", min_value=0, value=0
+    )
+    max_size_rows = st.number_input(
+        "**Maximum size [rows]**", min_value=0, value=None
     )
 
 with col_3:
@@ -59,12 +66,12 @@ with col_3:
     )
 
 with col_4:
-    open_source = st.toggle("**Open Source**", value=False)
-    fine_tuned = st.toggle("**Fine-Tuned**", value=False)
-    quantization = st.toggle("**Quantization**", value=False)
-    cont_length = st.number_input(
-        "**Minimum context length**",
-        min_value=0,
+    training = st.toggle("**Training Dataset**", value=False)
+    fine_tuning = st.toggle("**Fine-Tuning Dataset**", value=False)
+    evaluation = st.toggle("**Evaluation Dataset**", value=False)
+    domain = st.multiselect(
+        "**Domain**",
+        ["Miscellaneous"],
     )
 
 with col_5:
@@ -95,9 +102,9 @@ with col_6:
         ],
         ["English"],
     )
-    arch = st.multiselect(
-        "**Architecture**",
-        ["LLaMA"],
+    lic = st.multiselect(
+        "**LicenseToUse**",
+        ["Apache-2.0"],
     )
 
 with col_7:
@@ -116,19 +123,22 @@ with col_7:
 
 filters = {
     "$and": [
-        {"numberOfParameters [B]": {"$gte": min_num_param}},
+        {"size [GB]": {"$gte": min_size_gb}},
         {
-            "numberOfParameters [B]": {"$lte": max_num_param if max_num_param else 1e9}
+            "size [GB]": {"$lte": max_size_gb if max_size_gb else 1e9}
         },  # TODO: numero
     ],
-    "openSource": open_source,
-    "fineTuned": fine_tuned,
-    # "quantization": quantization,  # FIXME: fixami
+    "trainingDataset": training,
+    "fineTuning": fine_tuning,
+    "evaluationDataset": evaluation,  
     # "contextLength": {"$gte": cont_length},
 }
 
-if arch:
-    filters["architecture"] = arch[0]
+if domain:
+    filters["domain"] = {"$all": domain}
+
+if lic:
+    filters["licenseToUse"] = {"$all": lic}
 
 if lan:
     filters["languages"] = {"$all": lan}
@@ -137,23 +147,17 @@ project = st.multiselect(
     "**Select the results of the query**",
     [
         "name",
-        "version",
-        "numberOfParameters [B]",
-        "quantization",
-        "architecture",
+        "size [GB]",
+        "size [rows]",
         "languages",
-        "modelCreator",
         "licenseToUse",
-        "libraryFramework",
-        "contextLength",
-        "developers",
-        "openSource",
+        "domain",
         "uri",
-        "fineTuned",
-        "carbonEmission [CO2eq tons]",
-        "tokenizer",
+        "trainingDataset",
+        "fineTuning",
+        "evaluationDataset",
     ],
-    ["name", "version", "numberOfParameters [B]"],
+    ["name", "uri", "domain"],
 )
 
 l, l1, c, r1, r = st.columns(5)

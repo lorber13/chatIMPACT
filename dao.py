@@ -109,7 +109,7 @@ class Dao:
         for specification in specifications:
             if "filters" in specification:
                 for filt in specification["filters"]:
-                    field = f"{specification["collection"]}.{filt}"
+                    field = f"{specification['collection']}.{filt}"
                     value = specification["filters"][filt]
                     match_obj["$match"][field] = value
         return match_obj
@@ -119,7 +119,7 @@ class Dao:
         for specification in specifications:
             if "project" in specification:
                 for project in specification["project"]:
-                    field = f"{specification["collection"]}.{project}"
+                    field = f"{specification['collection']}.{project}"
                     project_obj["$project"][field] = True
         return project_obj
 
@@ -257,7 +257,7 @@ class Dao:
     def __remove_ids(self, specifications):
         unset = {"$unset": ["_id"]}
         for specification in specifications:
-            unset["$unset"].append(f"{specification["collection"]}._id")
+            unset["$unset"].append(f"{specification['collection']}._id")
         return unset
 
     def __single_join_query(self, specifications):
