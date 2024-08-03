@@ -1,7 +1,11 @@
 import streamlit as st
 from utils import create_query_structure
+from dao import Dao
 
-COLLECTION = "LargeLanguageModel"
+
+COLLECTION = "Models"
+
+dao = Dao("Paper")
 
 title_alignment = """
 <h1 style='text-align: center; color: Black;'>Large Language Model</h1>
@@ -77,12 +81,20 @@ with col_5:
 with col_6:
     lan = st.multiselect(
         "**Language**",
-        ["English", "Italian", "Spanish", "French", "Portuguese", "German"],
+        [
+            "English",
+            "Italian",
+            "Spanish",
+            "French",
+            "Portuguese",
+            "German",
+            "Multilingual",
+        ],
         ["English"],
     )
     arch = st.multiselect(
         "**Architecture**",
-        ["Llama"],
+        ["LLaMA"],
     )
 
 with col_7:
@@ -100,16 +112,23 @@ with col_7:
     )
 
 filters = {
-    "numberOfParameters [B]": {"$and": {"$gte": min_num_param, "$lte": max_num_param}},
+    "$and": [
+        {"numberOfParameters [B]": {"$gte": min_num_param}},
+        {
+            "numberOfParameters [B]": {"$lte": max_num_param if max_num_param else 1e9}
+        },  # TODO: numero
+    ],
     "openSource": open_source,
     "fineTuned": fine_tuned,
-    "quantization": quantization,
-    "languages": {"$all": lan},
-    "contextLength": {"$gte": cont_length},
+    # "quantization": quantization,  # FIXME: fixami
+    # "contextLength": {"$gte": cont_length},
 }
 
 if arch:
     filters["architecture"] = arch[0]
+
+if lan:
+    filters["languages"] = {"$all": lan}
 
 project = st.multiselect(
     "**Select the results of the query**",
@@ -140,8 +159,9 @@ with c:
     query = st.button("Get results")
 
 if query:
-    query_input = [
-        create_query_structure(collection=COLLECTION, project=project, filters=filters)
-    ]
+    query_input = create_query_structure(
+        collection=COLLECTION, project=project, filters=filters
+    )
     st.write(query_input)
-
+    result = dao.query([query_input])
+    st.write(result)

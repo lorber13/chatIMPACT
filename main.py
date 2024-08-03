@@ -1,12 +1,17 @@
-import streamlit as st
+"""main entry point"""
 
-from database import db
+import streamlit as st
+from database import get_database
+
+db = get_database("Paper")
 
 models = db["Models"].find()
 
-st.write("""
+st.write(
+    """
 # Database
 ## Models
-""")
+"""
+)
 
 st.json([*models])
