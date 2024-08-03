@@ -902,5 +902,121 @@ class CrossEntity(unittest.TestCase):
         self.assertEqual(len(res), 0)
 
 
+class GetAll(unittest.TestCase):
+    """get the domain of a certain attribute"""
+
+    def setUp(self) -> None:
+        dao.drop("Metrics")
+        dao.drop("Models")
+        dao.drop("Downstream Tasks")
+        dao.drop("Datasets")
+
+    def test_array_attribute(self):
+        """the type of the attribute is an array"""
+        dao.insert_many(
+            "Datasets",
+            [
+                {
+                    "name": "MT-Bench",
+                    "size [GB]": None,
+                    "size [rows]": 80,
+                    "languages": ["English"],
+                    "licenseToUse": "Apache-2.0",
+                    "domain": [
+                        "Mathematics",
+                        "Coding",
+                        "STEM",
+                        "Humanities",
+                        "Social Sciences",
+                        "Miscellaneous",
+                    ],
+                    "uri": "https://arxiv.org/pdf/2306.05685",
+                    "trainingDataset": False,
+                    "fineTuning": False,
+                    "evaluationDataset": True,
+                    "downstreamTask": [],
+                    "largeLanguageModel": ["LLaMA", "Vicuna"],
+                    "evaluationTechnique": [],
+                },
+                {
+                    "name": "C4",
+                    "size [GB]": 7000,
+                    "size [rows]": None,
+                    "languages": ["English"],
+                    "licenseToUse": "Apache-2.0",
+                    "domain": [
+                        "Miscellaneous",
+                        "STEM",
+                        "Medical",
+                        "Juridic",
+                        "Other",
+                        "Hiring",
+                    ],
+                    "uri": "https://arxiv.org/pdf/1910.10683",
+                    "trainingDataset": True,
+                    "fineTuning": False,
+                    "evaluationDataset": False,
+                    "downstreamTask": [],
+                    "largeLanguageModel": [],
+                    "evaluationTechnique": [],
+                },
+            ],
+        )
+        result = dao.get_all("Datasets", "domain")
+        self.assertCountEqual(
+            result,
+            [
+                "Mathematics",
+                "Coding",
+                "STEM",
+                "Humanities",
+                "Social Sciences",
+                "Miscellaneous",
+                "Medical",
+                "Juridic",
+                "Other",
+                "Hiring",
+            ],
+        )
+
+    def test_string_attribute(self):
+        """the type of the attribute is a string"""
+        dao.insert_many(
+            "Metrics",
+            [
+                {
+                    "name": "BLEU",
+                    "description": "Measures overlap between generated text and reference translations.",
+                    "context": "Context-free",
+                    "trained": False,
+                    "featureBased/endToEnd": None,
+                    "granularity": "N-gram level",
+                    "uri": "https://www.aclweb.org/anthology/P02-1040.pdf",
+                    "extra": None,
+                    "type": "metric",
+                },
+                {
+                    "name": "BERTScore",
+                    "description": "Uses BERT embeddings to compare generated text to reference text.",
+                    "context": "Context-dependent",
+                    "trained": True,
+                    "featureBased/endToEnd": "Feature-based",
+                    "granularity": None,
+                    "uri": "https://arxiv.org/abs/1904.09675",
+                    "extra": None,
+                    "type": "metric",
+                },
+            ],
+        )
+        result = dao.get_all("Metrics", "context")
+        self.assertCountEqual(
+            result,
+            [
+                "Context-free",
+                "Context-dependent",
+            ],
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

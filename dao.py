@@ -1,56 +1,7 @@
 """interface used to make requests to the database"""
 
-# query = [
-#     {
-#         "collection": "Models",
-#         "project": [
-#             "name",
-#             "openSource"
-#         ],
-#         "filters": {
-#             "name": "ll", "openSource": True
-#         }
-#     },
-#     {
-#         "collection", "Downstream Tasks",
-#         "project": [
-#             "name",
-#         ],
-#         "filters": {
-#             "name": "RO"
-#         }
-#     }
-# ]
-#
-# result = [
-#     {
-#         "collection1": {
-#             "attribute1": "examplevalue",
-#             "attribute2": 3,
-#         },
-#         "collection2": {
-#             "attribute1": [
-#                 "value1",
-#                 "value2",
-#             ],
-#         },
-#     },
-#     {
-#         "collection1": {
-#             "attribute1": "examplevalue2",
-#             "attribute2": 5,
-#         },
-#         "collection2": {
-#             "attribute1": [
-#                 "value3",
-#                 "value4",
-#             ],
-#         },
-#     }
-# ]
-
-
 import sys
+from typing import Any, List
 
 from pymongo import MongoClient
 from auth import CONNECTION_STRING
@@ -273,5 +224,28 @@ class Dao:
 
         return list(join_database.aggregate(pipeline))
 
+    def get_all(self, collection_name: str, attribute: str) -> List[Any]:
+        """
+        Provides all the possible values of a given attribute of a collection.
+
+        Parameters:
+        collection_name (str): the collection
+        attribute (str): the attribute
+
+        Returns:
+        List[Any]: all the values present in the database for the attribute of that collection
+        """
+        return (
+            self.database[collection_name]
+            .aggregate(
+                [
+                    {"$unwind": {"path": f"${attribute}"}},
+                    {"$group": {"_id": "id", "result": {"$addToSet": f"${attribute}"}}},
+                ]
+            )
+            .next()["result"]
+        )
+
     def __multiple_join_query(self, specifications):
+        # TODO:
         return []
