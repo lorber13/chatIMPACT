@@ -66,12 +66,13 @@ with col_3:
     )
 
 with col_4:
-    training = st.toggle("**Training Dataset**", value=False)
-    fine_tuning = st.toggle("**Fine-Tuning Dataset**", value=False)
-    evaluation = st.toggle("**Evaluation Dataset**", value=False)
+    training = st.toggle("**Training Dataset**", value=None)
+    fine_tuning = st.toggle("**Fine-Tuning Dataset**", value=None)
+    evaluation = st.toggle("**Evaluation Dataset**", value=None)
     domain = st.multiselect(
         "**Domain**",
-        ["Miscellaneous"],
+        dao.get_all("Datasets", "domain"),
+        ["Miscellaneous"]
     )
 
 with col_5:
@@ -91,20 +92,12 @@ with col_5:
 with col_6:
     lan = st.multiselect(
         "**Language**",
-        [
-            "English",
-            "Italian",
-            "Spanish",
-            "French",
-            "Portuguese",
-            "German",
-            "Multilingual",
-        ],
+        dao.get_all("Datasets", "languages"),
         ["English"],
     )
     lic = st.multiselect(
         "**LicenseToUse**",
-        ["Apache-2.0"],
+        dao.get_all("Datasets", "licenseToUse"),
     )
 
 with col_7:
@@ -127,12 +120,18 @@ filters = {
         {
             "size [GB]": {"$lte": max_size_gb if max_size_gb else 1e9}
         },  # TODO: numero
-    ],
-    "trainingDataset": training,
-    "fineTuning": fine_tuning,
-    "evaluationDataset": evaluation,  
+    ], 
     # "contextLength": {"$gte": cont_length},
 }
+
+if training:
+    filters["trainingDataset"] = training
+
+if fine_tuning:
+    filters["fineTuning"] = fine_tuning
+
+if evaluation:
+    filters["evaluationDataset"] = evaluation
 
 if domain:
     filters["domain"] = {"$all": domain}

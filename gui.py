@@ -54,7 +54,7 @@ interactive_image_html = """
 
 <map name="image-map">
     <area target="" alt="Large Language Model" title="Large Language Model" href="http://localhost:8501/llm_query" coords="392,249,553,294" shape="rect">
-    <area target="" alt="Metric" title="Metric" href="link2" coords="76,255,150,288" shape="rect">
+    <area target="" alt="Metric" title="Metric" href="http://localhost:8501/metric_query" coords="76,255,150,288" shape="rect">
     <area target="" alt="Downstream Task" title="Downstream Task" href="link3" coords="409,45,535,87" shape="rect">
     <area target="" alt="Dataset" title="Dataset" href="http://localhost:8501/dataset_query" coords="805,254,876,289" shape="rect">
     <area target="" alt="Assess" title="Assess" href="link5" coords="113,125,138,148,113,172,89,150" shape="poly">

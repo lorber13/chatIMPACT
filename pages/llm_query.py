@@ -84,20 +84,12 @@ with col_5:
 with col_6:
     lan = st.multiselect(
         "**Language**",
-        [
-            "English",
-            "Italian",
-            "Spanish",
-            "French",
-            "Portuguese",
-            "German",
-            "Multilingual",
-        ],
+        dao.get_all("Models", "languages"),
         ["English"],
     )
     arch = st.multiselect(
         "**Architecture**",
-        ["LLaMA"],
+        dao.get_all("Models", "architecture"),
     )
 
 with col_7:

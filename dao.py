@@ -235,7 +235,7 @@ class Dao:
         Returns:
         List[Any]: all the values present in the database for the attribute of that collection
         """
-        return (
+        return set(
             self.database[collection_name]
             .aggregate(
                 [
