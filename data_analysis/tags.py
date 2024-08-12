@@ -28,7 +28,7 @@ tag_library = ['pytorch','tf','jax','transformers','safetensors','tensorboard','
 tag_carbon_emission = ['co2_eq_emissions'] # boolean... TODO: where are the values? -> https://huggingface.co/blog/carbon-emissions-on-the-hub but can't retrieve the models like in the example
 
 TAG_DOWNSTREAM_TASK = ['text-classification','token-classification','table-question-answering','question-answering','zero-shot-classification',
-				   'translation','summarization','feature-extraction','text-generation','text2text-generation','fill-mask','sentence-similarity']
+				   'translation','summarization','feature-extraction','text-generation','fill-mask','sentence-similarity']
 
 # 'dataset:openslr'
 # TAG_DATASET = []
