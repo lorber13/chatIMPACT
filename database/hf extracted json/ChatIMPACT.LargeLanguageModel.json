@@ -5185,7 +5185,7 @@
         ],
         "openSource": true,
         "uri": null,
-        "fineTuned": null,
+        "fineTuned": true,
         "carbonEmission [CO2eq tons]": null,
         "tokenizer": null
     },
@@ -5212,7 +5212,7 @@
         ],
         "openSource": true,
         "uri": null,
-        "fineTuned": null,
+        "fineTuned": true,
         "carbonEmission [CO2eq tons]": null,
         "tokenizer": null
     },
@@ -5238,7 +5238,7 @@
         ],
         "openSource": true,
         "uri": null,
-        "fineTuned": null,
+        "fineTuned": true,
         "carbonEmission [CO2eq tons]": null,
         "tokenizer": null
     },
@@ -5264,7 +5264,7 @@
         ],
         "openSource": true,
         "uri": null,
-        "fineTuned": null,
+        "fineTuned": true,
         "carbonEmission [CO2eq tons]": null,
         "tokenizer": null
     },
@@ -5290,7 +5290,7 @@
         ],
         "openSource": true,
         "uri": null,
-        "fineTuned": null,
+        "fineTuned": true,
         "carbonEmission [CO2eq tons]": null,
         "tokenizer": null
     },
@@ -5316,7 +5316,7 @@
         ],
         "openSource": true,
         "uri": null,
-        "fineTuned": null,
+        "fineTuned": true,
         "carbonEmission [CO2eq tons]": null,
         "tokenizer": null
     },

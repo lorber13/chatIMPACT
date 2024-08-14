@@ -1,0 +1,3100 @@
+[
+    {
+        "LargeLanguageModel": "distilbert-base-cased-distilled-squad",
+        "Metric": [
+            "squad"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-cased",
+        "Metric": [
+            "squad"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-cola",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-cola",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "ar",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "test_model",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "wav2vec2-common_voice-tr-demo",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "wav2vec2-large-xls-r-300m-tr-colab",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "wav2vec2-large-xlsr-53_common_voice_20211210112254",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "wav2vec2-large-xlsr-53_common_voice_20211211085606",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "huiqi_model",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "gpt2-wishes",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "kw2t-wishes",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "gpt2-wishes-2",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "gpt2-wish",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "namo",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "7447",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "manual_vn_electra_small",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "tinybert_4_312_1200",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "wav2vec2-large-xls-r-300m-icelandic-samromur",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_cn_finetuning",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_finetuning_test",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-cola",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "gpt2-HxH",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Dd",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AI",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_finetuning_test",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "test",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "test",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "test",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-cola",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "model_name",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "xxy_gpt2_chinese",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-squad",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "111",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-squad",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "macbert-base-chinese-medical-collation",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "it5-summarization-fanpage",
+        "Metric": [
+            "rouge"
+        ]
+    },
+    {
+        "LargeLanguageModel": "it5-summarization-ilpost",
+        "Metric": [
+            "rouge"
+        ]
+    },
+    {
+        "LargeLanguageModel": "it5-summarization-mlsum",
+        "Metric": [
+            "rouge"
+        ]
+    },
+    {
+        "LargeLanguageModel": "mbart-summarization-fanpage",
+        "Metric": [
+            "rouge"
+        ]
+    },
+    {
+        "LargeLanguageModel": "mbart-summarization-ilpost",
+        "Metric": [
+            "rouge"
+        ]
+    },
+    {
+        "LargeLanguageModel": "mbart-summarization-mlsum",
+        "Metric": [
+            "rouge"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert-base-chinese-finetuned-amazon_zh_20000",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-chinese-amazon_zh_20000",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-multilingual-cased-amazon_zh_20000",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-amazon_zh_20000",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "foo-model",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "keras-dummy-functional-demo",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "keras-dummy-model-mixin-demo",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "keras-dummy-sequential-demo",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bookst5",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Test_Albert",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "my-awesome-model",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "DialoGPT-small-harry",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "HarryPotterBot",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "arabert-base-algerian",
+        "Metric": [
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "arabert-large-algerian",
+        "Metric": [
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "arabert-medium-algerian",
+        "Metric": [
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "arabert-mini-algerian",
+        "Metric": [
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "model1",
+        "Metric": [
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "wav2vec2-large-xls-r-300m-hausa",
+        "Metric": [
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "PIE",
+        "Metric": [
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "BERTBasePyTorch",
+        "Metric": [
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-emotion",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "HTI_mbert",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Adalidarcane",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Tomato_Leaf_Classifier",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "M",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "parsT5-base",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "parsT5",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Alannah",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "A",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Demo-Team-5-SIAD",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-cola",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-sst2",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "fill_mask_model",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "LanguageIdentification",
+        "Metric": [
+            "ER"
+        ]
+    },
+    {
+        "LargeLanguageModel": "gramCorrection",
+        "Metric": [
+            "ER"
+        ]
+    },
+    {
+        "LargeLanguageModel": "langid",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SocialGraph",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "mymodel",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Erys",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "convbert-base-turkish-ner-cased",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "DallEMiniButBetter",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "dall-e-better",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "test",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "BertTEST",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "ChineseFoodBert",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "GptNeo",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "DialoGPT-medium-Gon",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Alen",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Arcane",
+        "Metric": [
+            "Accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "comedy-scripts",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "horror-scripts",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Pegasus-HeaderGeneration",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Pegasus-QuestionGeneration",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Pegasus-Summarization",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "sentence-compression-roberta",
+        "Metric": [
+            "accuracy",
+            "f1",
+            "precision",
+            "recall"
+        ]
+    },
+    {
+        "LargeLanguageModel": "sentence-compression",
+        "Metric": [
+            "accuracy",
+            "f1",
+            "precision",
+            "recall"
+        ]
+    },
+    {
+        "LargeLanguageModel": "albert-base-v2-cola",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "albert-base-v2-mnli",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "albert-base-v2-mrpc",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "albert-base-v2-qnli",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "albert-base-v2-qqp",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "albert-base-v2-rte",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "albert-base-v2-sst2",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "albert-base-v2-stsb",
+        "Metric": [
+            "spearmanr"
+        ]
+    },
+    {
+        "LargeLanguageModel": "albert-base-v2-wnli",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_classification_lm",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "dwight_bert_lm",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "michael_bert_lm",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "testPersianQA",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "xlm-roberta-base-finetuned-marc",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "Keren",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-cola",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "DuggFace",
+        "Metric": [
+            "matthews_correlation"
+        ]
+    },
+    {
+        "LargeLanguageModel": "indian-foods",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "south-indian-foods",
+        "Metric": [
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "mbert-finetuned-ner",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "mbert-finetuned-ner_2",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "mt5-small-finetuned-mlsum-es",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "mt5-small-finetuned-mlsum-fr",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "my_model_nlp",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "my_nlp_test_model",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert-base-greek-punctuation-prediction-finetuned",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-ner",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "model-finetuned-ner",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rubert-base-cased-finetuned-ner",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rubert-base-cased-sentence-finetuned-ner",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rubert-base-cased-sentence-finetuned-ner_tags",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AnneJae",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "DialoGPT-medium-loki",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "qqp-bert",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "ReasonBERT-BERT",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "ReasonBERT-RoBERTa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "ReasonBERT-TAPAS",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "model_name",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "pretrained-model-1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "pretrained-model-2",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_EManuals-BERT",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_EManuals-RoBERTa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_SDR_HF_model_base",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_bert-base-uncased",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_cline",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_consert",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_declutr",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_bert_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_bert_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_hier_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_hier_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_only_classfn_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_only_classfn_twostage_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_bert_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_bert_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_bert_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_bert_triplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_hier_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_hier_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_hier_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_hier_triplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_only_classfn_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_only_classfn_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_only_classfn_twostage_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_only_classfn_twostage_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_twostage_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_twostage_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_twostagetriplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_twostagetriplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_twostage_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_twostagequadruplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_twostagetriplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_rule_based_twostagetriplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "AR_specter",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "EManuals_BERT_copy",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "EManuals_BERT_copy_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "EManuals_BERT_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "EManuals_RoBERTa_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "EManuals_RoBERTa_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SDR_HF_model_base",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_EManuals-BERT",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_EManuals-RoBERTa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_SDR_HF_model_base",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_bert-base-uncased",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_cline",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_consert",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_declutr",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_bert_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_bert_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_hier_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_hier_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_only_classfn_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_only_classfn_twostage_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_bert_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_bert_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_bert_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_bert_triplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_hier_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_hier_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_hier_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_hier_triplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_hier_triplet_epochs_1_shard_1_wikiqa_copy",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_only_classfn_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_only_classfn_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_only_classfn_twostage_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_only_classfn_twostage_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_twostage_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_twostage_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_twostagetriplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_twostagetriplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_roberta_twostagetriplet_hier_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_twostage_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_twostagequadruplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_twostagetriplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_rule_based_twostagetriplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SR_specter",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "SciFive_pubmedqa_question_generation",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "T5_pubmedqa_question_generation",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert-base-uncased_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert-base-uncased_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_hier_diff_equal_wts_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_hier_diff_equal_wts_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_mean_diff_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_mean_diff_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_snips",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert_triplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline-emanuals-s10-AR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline-emanuals-s10-SR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline-emanuals-techqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline-papers-biomed-0.618",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline-papers-roberta-0.585",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline-s10-AR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline-s10-SR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline-techqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline_emanuals",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "cline_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "consert-emanuals-s10-SR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "consert-s10-AR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "consert-s10-SR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "consert-techqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-biomed-roberta-papers",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-emanuals-s10-AR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-emanuals-s10-SR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-emanuals-techqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-model-emanuals",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-model",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-model_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-model_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-roberta-papers",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-s10-AR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-s10-SR",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "declutr-techqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "dummy_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "dummy_2",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "dummy_2_parent",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "hier_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "hier_triplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "roberta-base_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "roberta-base_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_hier_diff_equal_wts_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_hier_diff_equal_wts_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_mean_diff_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_mean_diff_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_quadruplet_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_quadruplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_triplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_triplet_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_triplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_bert_triplet_epochs_1_shard_1_wikiqa_copy",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_quadruplet_0.1_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_quadruplet_0.1_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_quadruplet_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_quadruplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_triplet_0.1_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_triplet_0.1_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_triplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_triplet_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_triplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_hier_triplet_epochs_1_shard_1_wikiqa_copy",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_only_classfn_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_only_classfn_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_only_classfn_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_only_classfn_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_only_classfn_twostage_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_only_classfn_twostage_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_bert_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_bert_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_bert_quadruplet_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_bert_quadruplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_bert_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_bert_triplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_bert_triplet_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_bert_triplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_bert_triplet_epochs_1_shard_1_wikiqa_copy",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_quadruplet_0.1_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_quadruplet_0.1_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_quadruplet_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_quadruplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_triplet_0.1_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_triplet_0.1_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_triplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_triplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_triplet_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_triplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_hier_triplet_epochs_1_shard_1_wikiqa_copy",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_only_classfn_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_only_classfn_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_only_classfn_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_only_classfn_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_only_classfn_twostage_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_only_classfn_twostage_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_only_classfn_twostage_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_only_classfn_twostage_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostage_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostage_quadruplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostage_quadruplet_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostage_quadruplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagequadruplet_hier_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagetriplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagetriplet_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagetriplet_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagetriplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagetriplet_hier_epochs_1_shard_10",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_twostage_quadruplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_twostage_quadruplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_twostagequadruplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_twostagequadruplet_hier_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_twostagetriplet_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_twostagetriplet_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_twostagetriplet_hier_epochs_1_shard_1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "rule_based_twostagetriplet_hier_epochs_1_shard_1_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "specter-bert-model",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "specter-bert-model_copy",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "specter-bert-model_copy_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "specter-bert-model_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "specter-emanuals-model",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "unsup-consert-base",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "unsup-consert-base_copy",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "unsup-consert-base_copy_wikiqa",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "unsup-consert-base_squad2.0",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "unsup-consert-emanuals",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "unsup-consert-papers-bert",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "unsup-consert-papers",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "pretrained-model-1",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "savagebeta",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1",
+            "accuracy"
+        ]
+    },
+    {
+        "LargeLanguageModel": "roberta-base-finetuned-ner-agglo-twitter",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "roberta-base-finetuned-ner-agglo",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "roberta-base-finetuned-ner-gmm-twitter",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "roberta-base-finetuned-ner-gmm",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "roberta-base-finetuned-ner-kmeans-twitter",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "roberta-base-finetuned-ner-kmeans",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "roberta-base-finetuned-ner",
+        "Metric": [
+            "precision",
+            "recall",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "distilbert-base-uncased-finetuned-emotion",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "debug_squad",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "search_model",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "opus-mt-en-ro-finetuned-syn-to-react",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "opus-mt-en-ro-finetuned-synthon-to-reactant",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "bert-multi-PAD-ner",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    },
+    {
+        "LargeLanguageModel": "DialoGPT-medium-RickAndMorty",
+        "Metric": [
+            "accuracy",
+            "f1"
+        ]
+    }
+]

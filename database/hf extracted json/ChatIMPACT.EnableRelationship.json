@@ -1,0 +1,4838 @@
+[
+    {
+        "Dataset": "acronym_identification",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "ade_corpus_v2",
+        "DownstreamTask": [
+            "text-classification",
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "adversarial_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "aeslc",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "afrikaans_ner_corpus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "ag_news",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ai2_arc",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "air_dialogue",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "ajgt_twitter_ar",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "allegro_reviews",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "allocine",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "alt",
+        "DownstreamTask": [
+            "translation",
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "amazon_polarity",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "amazon_reviews_multi",
+        "DownstreamTask": [
+            "summarization",
+            "text-generation",
+            "fill-mask",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "amazon_us_reviews",
+        "DownstreamTask": [
+            "summarization",
+            "text-generation",
+            "fill-mask",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ambig_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "americas_nli",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ami",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "amttl",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "anli",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "app_reviews",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "aqua_rat",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "aquamuse",
+        "DownstreamTask": [
+            "other",
+            "question-answering",
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "ar_cov19",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "ar_res_reviews",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ar_sarcasm",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "arabic_billion_words",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "arabic_pos_dialect",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "arabic_speech_corpus",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "arcd",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "arsentd_lev",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "art",
+        "DownstreamTask": [
+            "multiple-choice",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "arxiv_dataset",
+        "DownstreamTask": [
+            "translation",
+            "summarization",
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "ascent_kb",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "aslg_pc12",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "asnq",
+        "DownstreamTask": [
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "asset",
+        "DownstreamTask": [
+            "text-classification",
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "assin",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "assin2",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "atomic",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "autshumato",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "babi_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "banking77",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "bbaw_egyptian",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "bbc_hindi_nli",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "bc2gm_corpus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "beans",
+        "DownstreamTask": [
+            "image-classification"
+        ]
+    },
+    {
+        "Dataset": "best2009",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "bianet",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "bible_para",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "big_patent",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "billsum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "bing_coronavirus_query_set",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "biosses",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "blbooks",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "other"
+        ]
+    },
+    {
+        "Dataset": "blbooksgenre",
+        "DownstreamTask": [
+            "text-classification",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "blimp",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "blog_authorship_corpus",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "bn_hate_speech",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "bnl_newspapers",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "bookcorpus",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "bookcorpusopen",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "boolq",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "bprec",
+        "DownstreamTask": [
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "break_data",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "brwac",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "bsd_ja_en",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "bswac",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "c3",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "c4",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "cail2018",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "caner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "capes",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "casino",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "catalonia_independence",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "cats_vs_dogs",
+        "DownstreamTask": [
+            "image-classification"
+        ]
+    },
+    {
+        "Dataset": "cawac",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "cbt",
+        "DownstreamTask": [
+            "other",
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "cc100",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "cc_news",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "ccaligned_multilingual",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "cdsc",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "cdt",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "cedr_v1",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "cfq",
+        "DownstreamTask": [
+            "question-answering",
+            "other"
+        ]
+    },
+    {
+        "Dataset": "chr_en",
+        "DownstreamTask": [
+            "fill-mask",
+            "text-generation",
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "cifar10",
+        "DownstreamTask": [
+            "image-classification"
+        ]
+    },
+    {
+        "Dataset": "cifar100",
+        "DownstreamTask": [
+            "image-classification"
+        ]
+    },
+    {
+        "Dataset": "circa",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "civil_comments",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "clickbait_news_bg",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "climate_fever",
+        "DownstreamTask": [
+            "text-classification",
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "clinc_oos",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "clue",
+        "DownstreamTask": [
+            "text-classification",
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "cmrc2018",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "cmu_hinglish_dog",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "cnn_dailymail",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "coached_conv_pref",
+        "DownstreamTask": [
+            "other",
+            "text-generation",
+            "fill-mask",
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "coarse_discourse",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "codah",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "code_search_net",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_cc_clone_detection_big_clone_bench",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_cc_clone_detection_poj104",
+        "DownstreamTask": [
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_cc_cloze_testing_all",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_cc_cloze_testing_maxmin",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_cc_code_completion_line",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_cc_code_completion_token",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_cc_code_refinement",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_cc_code_to_code_trans",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_cc_defect_detection",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_ct_code_to_text",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_tc_nl_code_search_adv",
+        "DownstreamTask": [
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_tc_text_to_code",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "code_x_glue_tt_text_to_text",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "com_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "common_gen",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "common_language",
+        "DownstreamTask": [
+            "audio-classification"
+        ]
+    },
+    {
+        "Dataset": "common_voice",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "commonsense_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "competition_math",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "compguesswhat",
+        "DownstreamTask": [
+            "visual-question-answering"
+        ]
+    },
+    {
+        "Dataset": "conceptnet5",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "conll2002",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "conll2003",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "conllpp",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "consumer-finance-complaints",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "conv_ai",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "conv_ai_2",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "conv_ai_3",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "conv_questions",
+        "DownstreamTask": [
+            "question-answering",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "coqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "cord19",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "cos_e",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "cosmos_qa",
+        "DownstreamTask": [
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "counter",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "covid_qa_castorini",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "covid_qa_deepset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "covid_qa_ucsd",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "covid_tweets_japanese",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "covost2",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "cppe-5",
+        "DownstreamTask": [
+            "object-detection"
+        ]
+    },
+    {
+        "Dataset": "craigslist_bargains",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "crawl_domain",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "crd3",
+        "DownstreamTask": [
+            "summarization",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "crows_pairs",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "cryptonite",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "cs_restaurants",
+        "DownstreamTask": [
+            "text2text-generation",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "cuad-qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "curiosity_dialogs",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "daily_dialog",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "dane",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "danish_political_comments",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "dart",
+        "DownstreamTask": [
+            "tabular-to-text"
+        ]
+    },
+    {
+        "Dataset": "datacommons_factcheck",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "dbpedia_14",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "dbrd",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "definite_pronoun_resolution",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "dengue_filipino",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "dialog_re",
+        "DownstreamTask": [
+            "other",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "diplomacy_detection",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "disaster_response_messages",
+        "DownstreamTask": [
+            "text2text-generation",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "discofuse",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "discovery",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "disfl_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "doc2dial",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "docred",
+        "DownstreamTask": [
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "dream",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "drop",
+        "DownstreamTask": [
+            "question-answering",
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "duorc",
+        "DownstreamTask": [
+            "question-answering",
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "dutch_social",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "dyk",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "e2e_nlg",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "e2e_nlg_cleaned",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "ecb",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "ecthr_cases",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "eduge",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ehealth_kd",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "eitb_parcc",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "electricity_load_diagrams",
+        "DownstreamTask": [
+            "time-series-forecasting"
+        ]
+    },
+    {
+        "Dataset": "eli5",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "eli5_category",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "emea",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "emo",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "emotion",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "emotone_ar",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "empathetic_dialogues",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "enriched_web_nlg",
+        "DownstreamTask": [
+            "tabular-to-text"
+        ]
+    },
+    {
+        "Dataset": "eraser_multi_rc",
+        "DownstreamTask": [
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "eth_py150_open",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "ethos",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "eu_regulatory_ir",
+        "DownstreamTask": [
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "eurlex",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "euronews",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "europa_eac_tm",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "europa_ecdc_tm",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "europarl",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "event2Mind",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "evidence_infer_treatment",
+        "DownstreamTask": [
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "exams",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "factckbr",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "fake_news_english",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "fake_news_filipino",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "farsi_news",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "fashion_mnist",
+        "DownstreamTask": [
+            "image-classification"
+        ]
+    },
+    {
+        "Dataset": "fever",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "few_rel",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "financial_phrasebank",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "finer",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "flores",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "flue",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "food101",
+        "DownstreamTask": [
+            "image-classification"
+        ]
+    },
+    {
+        "Dataset": "fquad",
+        "DownstreamTask": [
+            "question-answering",
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "freebase_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "gap",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "gem",
+        "DownstreamTask": [
+            "fill-mask",
+            "summarization",
+            "table-to-text",
+            "tabular-to-text",
+            "text-generation",
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "generated_reviews_enth",
+        "DownstreamTask": [
+            "translation",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "generics_kb",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "german_legal_entity_recognition",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "germaner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "germeval_14",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "giga_fren",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "gigaword",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "glucose",
+        "DownstreamTask": [
+            "fill-mask",
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "glue",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "gnad10",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "go_emotions",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "gooaq",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "google_wellformed_query",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "grail_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "great_code",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "greek_legal_code",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "guardian_authorship",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "gutenberg_time",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hans",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hard",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "harem",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "has_part",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hate_offensive",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hate_speech18",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hate_speech_filipino",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hate_speech_offensive",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hate_speech_pl",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hate_speech_portuguese",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hatexplain",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hausa_voa_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "hausa_voa_topics",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hda_nli_hindi",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "head_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "health_fact",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hebrew_projectbenyehuda",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "hebrew_sentiment",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hebrew_this_world",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "mmlu",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "hind_encorp",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "hindi_discourse",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hippocorpus",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hkcancor",
+        "DownstreamTask": [
+            "translation",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "hlgd",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hope_edi",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hotpot_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "hover",
+        "DownstreamTask": [
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "hrenwac_para",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "hrwac",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "humicroedit",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hybrid_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "hyperpartisan_news_detection",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "iapp_wiki_qa_squad",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "id_clickbait",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "id_liputan6",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "id_nergrit_corpus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "id_newspapers_2018",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "id_panl_bppt",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "id_puisi",
+        "DownstreamTask": [
+            "text2text-generation",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "igbo_english_machine_translation",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "igbo_monolingual",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "igbo_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "ilist",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "imdb",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "imdb_urdu_reviews",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "imppres",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "indic_glue",
+        "DownstreamTask": [
+            "text-classification",
+            "token-classification",
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "indonli",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "indonlu",
+        "DownstreamTask": [
+            "question-answering",
+            "text-classification",
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "inquisitive_qg",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "interpress_news_category_tr",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "interpress_news_category_tr_lite",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "irc_disentangle",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "isixhosa_ner_corpus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "isizulu_ner_corpus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "iwslt2017",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "jfleg",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "jigsaw_toxicity_pred",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "jigsaw_unintended_bias",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "jnlpba",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "journalists_questions",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "kan_hope",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "kannada_news",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "kd_conv_with_kb",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "kde4",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "kelm",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "kilt_tasks",
+        "DownstreamTask": [
+            "fill-mask",
+            "question-answering",
+            "text-classification",
+            "text-generation",
+            "text-retrieval",
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "kinnews_kirnews",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "klue",
+        "DownstreamTask": [
+            "fill-mask",
+            "question-answering",
+            "text-classification",
+            "text-generation",
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "kor_3i4k",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "kor_hate",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "kor_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "kor_nli",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "kor_nlu",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "kor_qpair",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "kor_sae",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "kor_sarcasm",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "labr",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "lama",
+        "DownstreamTask": [
+            "text-retrieval",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "lambada",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "large_spanish_corpus",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "laroseda",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "lc_quad",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "lener_br",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "lex_glue",
+        "DownstreamTask": [
+            "question-answering",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "liar",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "librispeech_asr",
+        "DownstreamTask": [
+            "automatic-speech-recognition",
+            "audio-classification"
+        ]
+    },
+    {
+        "Dataset": "librispeech_lm",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "limit",
+        "DownstreamTask": [
+            "token-classification",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "linnaeus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "liveqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "lj_speech",
+        "DownstreamTask": [
+            "automatic-speech-recognition",
+            "text-to-speech",
+            "text-to-audio"
+        ]
+    },
+    {
+        "Dataset": "lm1b",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "lst20",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "m_lama",
+        "DownstreamTask": [
+            "question-answering",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "mac_morpho",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "makhzan",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "masakhaner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "math_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "mbpp",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "mc4",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "mc_taco",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "md_gender_bias",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "mdd",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "med_hop",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "medal",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "medical_dialog",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "medical_questions_pairs",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "menyo20k_mt",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "meta_woz",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "metooma",
+        "DownstreamTask": [
+            "text-classification",
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "metrec",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "miam",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "mkb",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "mkqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "mlqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "mlsum",
+        "DownstreamTask": [
+            "summarization",
+            "translation",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "mnist",
+        "DownstreamTask": [
+            "image-classification"
+        ]
+    },
+    {
+        "Dataset": "mocha",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "moroco",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "movie_rationales",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "mrqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "ms_terms",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "msr_genomics_kbcomp",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "msr_sqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "msr_text_compression",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "msr_zhen_translation_parity",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "msra_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "mt_eng_vietnamese",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "muchocine",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "multi_booked",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "multi_eurlex",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "multi_news",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "multi_nli",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "multi_nli_mismatch",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "multi_para_crawl",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "multi_re_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "multi_woz_v22",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "token-classification",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "multi_x_science_sum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "multidoc2dial",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "multilingual_librispeech",
+        "DownstreamTask": [
+            "automatic-speech-recognition",
+            "audio-classification"
+        ]
+    },
+    {
+        "Dataset": "mutual_friends",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "mwsc",
+        "DownstreamTask": [
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "myanmar_news",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "narrativeqa",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "narrativeqa_manual",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "natural_questions",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "ncbi_disease",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "nchlt",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "ncslgr",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "nell",
+        "DownstreamTask": [
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "neural_code_search",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "news_commentary",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "newsgroup",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "newsph",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "newsph_nli",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "newspop",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "newsqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "newsroom",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "nkjp-ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "nli_tr",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "nlu_evaluation_data",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "norec",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "norne",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "norwegian_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "nq_open",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "nsmc",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "numer_sense",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "numeric_fused_head",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "oclar",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "offcombr",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "offenseval2020_tr",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "offenseval_dravidian",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ofis_publik",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "ohsumed",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "omp",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "onestop_english",
+        "DownstreamTask": [
+            "text2text-generation",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "onestop_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "open_subtitles",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "openai_humaneval",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "openbookqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "openslr",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "openwebtext",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "opinosis",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "opus-100",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_books",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_dgt",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_dogc",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_elhuyar",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "euconst",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_finlex",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_fiskmo",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_gnome",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_infopankki",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_memat",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_montenegrinsubs",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_openoffice",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_paracrawl",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_rf",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_tedtalks",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_ubuntu",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_wikipedia",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "opus_xhosanavy",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "orange_sum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "oscar",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "para_crawl",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "para_pat",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "parsinlu_reading_comprehension",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "pass",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "paws-x",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "paws",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "pec",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "peer_read",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "peoples_daily_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "per_sent",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "persian_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "pg19",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "php",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "piaf",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "pib",
+        "DownstreamTask": [
+            "translation",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "piqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "pn_summary",
+        "DownstreamTask": [
+            "summarization",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "poem_sentiment",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "polemo2",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "poleval2019_cyberbullying",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "poleval2019_mt",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "polsum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "polyglot_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "prachathai67k",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "pragmeval",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "proto_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "psc",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "ptb_text_only",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "pubmed",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "PubMedQA",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "py_ast",
+        "DownstreamTask": [
+            "text2text-generation",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "qa4mre",
+        "DownstreamTask": [
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "qa_srl",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "qa_zre",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "qanta",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "qasc",
+        "DownstreamTask": [
+            "question-answering",
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "qasper",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "qed",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "qed_amara",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "quac",
+        "DownstreamTask": [
+            "question-answering",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "quail",
+        "DownstreamTask": [
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "quartz",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "quora",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "quoref",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "race",
+        "DownstreamTask": [
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "re_dial",
+        "DownstreamTask": [
+            "other",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "reasoning_bg",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "recipe_nlg",
+        "DownstreamTask": [
+            "text2text-generation",
+            "text-generation",
+            "fill-mask",
+            "text-retrieval",
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "red_caps",
+        "DownstreamTask": [
+            "image-to-text"
+        ]
+    },
+    {
+        "Dataset": "tldr-17",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "reddit_tifu",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "refresd",
+        "DownstreamTask": [
+            "text-classification",
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "riddle_sense",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "ro_sent",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ro_sts",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ro_sts_parallel",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "roman_urdu",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ronec",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "ropes",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "rotten_tomatoes",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "russian_super_glue",
+        "DownstreamTask": [
+            "text-classification",
+            "question-answering",
+            "zero-shot-classification",
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "samsum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "sanskrit_classic",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "saudinewsnet",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "sberquad",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "scan-tasks",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "scb_mt_enth_2020",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "scene_parse_150",
+        "DownstreamTask": [
+            "image-segmentation"
+        ]
+    },
+    {
+        "Dataset": "schema_guided_dstc8",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "token-classification",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "scicite",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "scielo",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "scientific_papers",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "scifact",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "sciq",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "scitldr",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "search_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "sede",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "selqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "sem_eval_2014_task_1",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "sem_eval_2018_task_1",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "sem_eval_2020_task_11",
+        "DownstreamTask": [
+            "text-classification",
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "sent_comp",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "senti_lex",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "senti_ws",
+        "DownstreamTask": [
+            "token-classification",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "sepedi_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "sesotho_ner_corpus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "setimes",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "setswana_ner_corpus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "sharc",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "sharc_modified",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "sick",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "silicone",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "simple_questions_v2",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "siswati_ner_corpus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "smartdata",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "sms_spam",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "snips_built_in_intents",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "snli",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "snow_simplified_japanese_corpus",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "so_stacksample",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "social_bias_frames",
+        "DownstreamTask": [
+            "text2text-generation",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "sofc_materials_articles",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "token-classification",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "spanish_billion_words",
+        "DownstreamTask": [
+            "other",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "spc",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "species_800",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "speech_commands",
+        "DownstreamTask": [
+            "audio-classification"
+        ]
+    },
+    {
+        "Dataset": "spider",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "squad",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "squad_adversarial",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "squad_es",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "squad_it",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "squad_kor_v1",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "squad_kor_v2",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "squad_v1_pt",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "squad_v2",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "squadshifts",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "srwac",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "sst",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "stereoset",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "story_cloze",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "stsb_mt_sv",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "stsb_multi_mt",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "subjqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "super_glue",
+        "DownstreamTask": [
+            "text-classification",
+            "token-classification",
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "superb",
+        "DownstreamTask": [
+            "automatic-speech-recognition",
+            "audio-classification"
+        ]
+    },
+    {
+        "Dataset": "svhn",
+        "DownstreamTask": [
+            "image-classification",
+            "object-detection"
+        ]
+    },
+    {
+        "Dataset": "swag",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "swahili",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "swahili_news",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "swda",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "swedish_medical_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "swedish_ner_corpus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "swedish_reviews",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "swiss_judgment_prediction",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "tab_fact",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "tamilmixsentiment",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "tanzil",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "tapaco",
+        "DownstreamTask": [
+            "text2text-generation",
+            "translation",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "tashkeela",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "taskmaster1",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "taskmaster2",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "taskmaster3",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "tatoeba",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "ted_hrlr",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "ted_iwlst2013",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "ted_talks_iwslt",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "telugu_books",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "telugu_news",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "tep_en_fa_para",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "text2log",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "thai_toxicity_tweet",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "thainer",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "thaiqa_squad",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "thaisum",
+        "DownstreamTask": [
+            "summarization",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "pile",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "the_pile_books3",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "the_pile_openwebtext2",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "the_pile_stack_exchange",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "tilde_model",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "time_dial",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "times_of_india_news_headlines",
+        "DownstreamTask": [
+            "text2text-generation",
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "timit_asr",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "tlc",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "tmu_gfm_dataset",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "told-br",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "totto",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "trec",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "trivia_qa",
+        "DownstreamTask": [
+            "question-answering",
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "tsac",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ttc4900",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "tunizi",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "tuple_ie",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "turk",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "turkic_xwmt",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "turkish_movie_sentiment",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "turkish_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "turkish_product_reviews",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "turkish_shrinked_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "turku_ner_corpus",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "tweet_eval",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "tweet_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "tweets_ar_en_parallel",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "tweets_hate_speech_detection",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "twi_text_c3",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "twi_wordsim353",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "tydiqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "udhr",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "um005",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "un_ga",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "multiun",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "un_pc",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "universal_dependencies",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "universal_morphologies",
+        "DownstreamTask": [
+            "token-classification",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "urdu_fake_news",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "urdu_sentiment_corpus",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "vctk",
+        "DownstreamTask": [
+            "automatic-speech-recognition",
+            "text-to-speech",
+            "text-to-audio"
+        ]
+    },
+    {
+        "Dataset": "vivos",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "web_nlg",
+        "DownstreamTask": [
+            "tabular-to-text"
+        ]
+    },
+    {
+        "Dataset": "web_questions",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "weibo_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "wi_locness",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "wider_face",
+        "DownstreamTask": [
+            "object-detection"
+        ]
+    },
+    {
+        "Dataset": "wiki_asp",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "wiki_atomic_edits",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "wiki_auto",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "wiki_bio",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "wiki_dpr",
+        "DownstreamTask": [
+            "fill-mask",
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "wiki_hop",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "wiki_lingua",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "wiki_movies",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "wiki_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "wiki_qa_ar",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "wiki_snippets",
+        "DownstreamTask": [
+            "text-generation",
+            "other"
+        ]
+    },
+    {
+        "Dataset": "wiki_source",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "wiki_split",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "wiki_summary",
+        "DownstreamTask": [
+            "text2text-generation",
+            "translation",
+            "question-answering",
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "wikiann",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "wikicorpus",
+        "DownstreamTask": [
+            "fill-mask",
+            "text-classification",
+            "text-generation",
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "wikipedia",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "wikisql",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "wikitext",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "wikitext_tl39",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "wili_2018",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "wino_bias",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "winograd_wsc",
+        "DownstreamTask": [
+            "multiple-choice"
+        ]
+    },
+    {
+        "Dataset": "wisesight1000",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "wisesight_sentiment",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "wmt14",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "wmt15",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "wmt16",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "wmt17",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "wmt18",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "wmt19",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "wmt20_mlqe_task1",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "wmt20_mlqe_task2",
+        "DownstreamTask": [
+            "translation",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "wmt20_mlqe_task3",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "wmt_t2t",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "wnut_17",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "wongnai_reviews",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "woz_dialogue",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask",
+            "token-classification",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "wrbsc",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "x_stance",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "xcopa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "xcsr",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "xed_en_fi",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "xglue",
+        "DownstreamTask": [
+            "question-answering",
+            "summarization",
+            "text-classification",
+            "text2text-generation",
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "xor_tydi_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "xquad",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "xquad_r",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "xsum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "xsum_factuality",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "xtreme",
+        "DownstreamTask": [
+            "multiple-choice",
+            "question-answering",
+            "token-classification",
+            "text-classification",
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "yahoo_answers_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "yahoo_answers_topics",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "yelp_polarity",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "yelp_review_full",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "yoruba_bbc_topics",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "yoruba_gv_ner",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "yoruba_text_c3",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "yoruba_wordsim353",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "youtube_caption_corrections",
+        "DownstreamTask": [
+            "other",
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "zest",
+        "DownstreamTask": [
+            "question-answering",
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "SuperLim",
+        "DownstreamTask": [
+            "question-answering",
+            "text-classification",
+            "other"
+        ]
+    },
+    {
+        "Dataset": "fanpage",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "ilpost",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "mlsum-it",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "english_quotes",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "french_book_reviews",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "BAAD16",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "BAAD6",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "extended_tweet_emojis",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "fungi_diagnostic_chars_comparison_japanese",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "rebel-dataset",
+        "DownstreamTask": [
+            "text-retrieval",
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "wikineural",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "beir-corpus",
+        "DownstreamTask": [
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "beir",
+        "DownstreamTask": [
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "pangloss",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "EThOS-PhD-metadata",
+        "DownstreamTask": [
+            "text-classification",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "ASCEND",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "code_clippy",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "polarity",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "angry-tweets",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "dkhate",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "europarl",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "lcc",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "reddit-da",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "scientific-challenges-and-directions-dataset",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "accented_english",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "chinese_dialect",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "mixed_speech_chinese_english",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "multi_language",
+        "DownstreamTask": [
+            "automatic-speech-recognition"
+        ]
+    },
+    {
+        "Dataset": "biolang",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "sd-nlp",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "mc4_fi_cleaned",
+        "DownstreamTask": [
+            "text-generation",
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "ART",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "OrangeSum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "RotoWire_English-German",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "SIMPITIKI",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "SciDuet",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "cochrane-simplification",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "common_gen",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "conversational_weather",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "dart",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "e2e_nlg",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "indonlg",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "mlb_data_to_text",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "mlsum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "opusparcus",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "sportsett_basketball",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "squad_v2",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "surface_realisation_st_2020",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "totto",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "turku_hockey_data2text",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "turku_paraphrase_corpus",
+        "DownstreamTask": [
+            "other"
+        ]
+    },
+    {
+        "Dataset": "viggo",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "web_nlg",
+        "DownstreamTask": [
+            "table-to-text"
+        ]
+    },
+    {
+        "Dataset": "wiki_auto_asset_turk",
+        "DownstreamTask": [
+            "text2text-generation"
+        ]
+    },
+    {
+        "Dataset": "wiki_cat_sum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "wiki_lingua",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "xlsum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "xsum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "quora_swe",
+        "DownstreamTask": [
+            "text-retrieval",
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "ik-nlp-22_pestyle",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "ik-nlp-22_slp",
+        "DownstreamTask": [
+            "question-answering",
+            "summarization",
+            "text-retrieval"
+        ]
+    },
+    {
+        "Dataset": "ik-nlp-22_transqe",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "hupd",
+        "DownstreamTask": [
+            "fill-mask",
+            "summarization",
+            "text-classification",
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "DebateSum",
+        "DownstreamTask": [
+            "question-answering",
+            "summarization",
+            "text-retrieval",
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "gazeta",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "headline_cause",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    }
+]

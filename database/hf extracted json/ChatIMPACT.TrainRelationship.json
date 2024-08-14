@@ -1,0 +1,1300 @@
+[
+    {
+        "Models": "albert-base-v1",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "albert-base-v2",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "albert-large-v1",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "albert-large-v2",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "albert-xlarge-v1",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "albert-xlarge-v2",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "albert-xxlarge-v1",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "albert-xxlarge-v2",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "bert-base-cased",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "bert-base-multilingual-cased",
+        "Datasets": [
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "bert-base-multilingual-uncased",
+        "Datasets": [
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "bert-large-cased-whole-word-masking-finetuned-squad",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "bert-large-cased-whole-word-masking",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "bert-large-cased",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "bert-large-uncased-whole-word-masking-finetuned-squad",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "bert-large-uncased-whole-word-masking",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "bert-large-uncased",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "camembert-base",
+        "Datasets": [
+            "oscar"
+        ]
+    },
+    {
+        "Models": "distilbert-base-cased-distilled-squad",
+        "Datasets": [
+            "squad"
+        ]
+    },
+    {
+        "Models": "distilbert-base-cased",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "distilbert-base-multilingual-cased",
+        "Datasets": [
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-distilled-squad",
+        "Datasets": [
+            "squad"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-finetuned-sst-2-english",
+        "Datasets": [
+            "sst2",
+            "glue"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "distilgpt2",
+        "Datasets": [
+            "openwebtext"
+        ]
+    },
+    {
+        "Models": "distilroberta-base",
+        "Datasets": [
+            "openwebtext"
+        ]
+    },
+    {
+        "Models": "roberta-base-openai-detector",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "roberta-base",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "roberta-large-mnli",
+        "Datasets": [
+            "multi_nli",
+            "wikipedia",
+            "bookcorpus"
+        ]
+    },
+    {
+        "Models": "roberta-large-openai-detector",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "roberta-large",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "t5-11b",
+        "Datasets": [
+            "c4"
+        ]
+    },
+    {
+        "Models": "t5-3b",
+        "Datasets": [
+            "c4"
+        ]
+    },
+    {
+        "Models": "t5-base",
+        "Datasets": [
+            "c4"
+        ]
+    },
+    {
+        "Models": "t5-large",
+        "Datasets": [
+            "c4"
+        ]
+    },
+    {
+        "Models": "t5-small",
+        "Datasets": [
+            "c4"
+        ]
+    },
+    {
+        "Models": "transfo-xl-wt103",
+        "Datasets": [
+            "wikitext-103"
+        ]
+    },
+    {
+        "Models": "xlnet-base-cased",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "xlnet-large-cased",
+        "Datasets": [
+            "bookcorpus",
+            "wikipedia"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-finetuned-cola",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-finetuned-cola",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-finetuned-cola",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "bert-base-cased-qqp",
+        "Datasets": [
+            "qqp"
+        ]
+    },
+    {
+        "Models": "en_lg",
+        "Datasets": [
+            "EricPeter/autonlp-data-EN-LUG"
+        ]
+    },
+    {
+        "Models": "lg_en",
+        "Datasets": [
+            "EricPeter/autonlp-data-MarianMT_lg_en"
+        ]
+    },
+    {
+        "Models": "it5-summarization-fanpage",
+        "Datasets": [
+            "ARTeLab/fanpage"
+        ]
+    },
+    {
+        "Models": "it5-summarization-ilpost",
+        "Datasets": [
+            "ARTeLab/ilpost"
+        ]
+    },
+    {
+        "Models": "it5-summarization-mlsum",
+        "Datasets": [
+            "ARTeLab/mlsum-it"
+        ]
+    },
+    {
+        "Models": "mbart-summarization-fanpage",
+        "Datasets": [
+            "ARTeLab/fanpage"
+        ]
+    },
+    {
+        "Models": "mbart-summarization-ilpost",
+        "Datasets": [
+            "ARTeLab/ilpost"
+        ]
+    },
+    {
+        "Models": "mbart-summarization-mlsum",
+        "Datasets": [
+            "ARTeLab/mlsum-it"
+        ]
+    },
+    {
+        "Models": "arabert-base-algerian",
+        "Datasets": [
+            "Abdou/dz-sentiment-yt-comments"
+        ]
+    },
+    {
+        "Models": "arabert-large-algerian",
+        "Datasets": [
+            "Abdou/dz-sentiment-yt-comments"
+        ]
+    },
+    {
+        "Models": "arabert-medium-algerian",
+        "Datasets": [
+            "Abdou/dz-sentiment-yt-comments"
+        ]
+    },
+    {
+        "Models": "arabert-mini-algerian",
+        "Datasets": [
+            "Abdou/dz-sentiment-yt-comments"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-finetuned-emotion",
+        "Datasets": [
+            "emotion"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-anli_r3",
+        "Datasets": [
+            "facebook/anli"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-art",
+        "Datasets": [
+            "art"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-boolq",
+        "Datasets": [
+            "google/boolq"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-commonsense_qa",
+        "Datasets": [
+            "tau/commonsense_qa"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-comqa",
+        "Datasets": [
+            "com_qa"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-conll2000",
+        "Datasets": [
+            "conll2000"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-conll2003",
+        "Datasets": [
+            "conll2003"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-conll2003_pos",
+        "Datasets": [
+            "conll2003"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-cosmos_qa",
+        "Datasets": [
+            "cosmos_qa"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-drop",
+        "Datasets": [
+            "ucinlp/drop"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-duorc_p",
+        "Datasets": [
+            "duorc"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-duorc_s",
+        "Datasets": [
+            "duorc"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-emo",
+        "Datasets": [
+            "emo"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-emotion",
+        "Datasets": [
+            "emotion"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-fce_error_detection",
+        "Datasets": [
+            "fce_error_detection"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-hellaswag",
+        "Datasets": [
+            "hellaswag"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-hotpotqa",
+        "Datasets": [
+            "hotpot_qa"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-imdb",
+        "Datasets": [
+            "imdb"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-mnli",
+        "Datasets": [
+            "multi_nli"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-newsqa",
+        "Datasets": [
+            "newsqa"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-quail",
+        "Datasets": [
+            "quail"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-quartz",
+        "Datasets": [
+            "quartz"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-quoref",
+        "Datasets": [
+            "quoref"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-race",
+        "Datasets": [
+            "race"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-rotten_tomatoes",
+        "Datasets": [
+            "rotten_tomatoes"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-scicite",
+        "Datasets": [
+            "scicite"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-scitail",
+        "Datasets": [
+            "scitail"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-sick",
+        "Datasets": [
+            "sick"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-snli",
+        "Datasets": [
+            "snli"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-social_i_qa",
+        "Datasets": [
+            "social_i_qa"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-squad",
+        "Datasets": [
+            "squad"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-squad_v2",
+        "Datasets": [
+            "squad_v2"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-swag",
+        "Datasets": [
+            "swag"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-trec",
+        "Datasets": [
+            "trec"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-ud_deprel",
+        "Datasets": [
+            "universal_dependencies"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-ud_en_ewt",
+        "Datasets": [
+            "universal_dependencies"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-ud_pos",
+        "Datasets": [
+            "universal_dependencies"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-winogrande",
+        "Datasets": [
+            "winogrande"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-wnut_17",
+        "Datasets": [
+            "wnut_17"
+        ]
+    },
+    {
+        "Models": "bert-base-uncased-pf-yelp_polarity",
+        "Datasets": [
+            "yelp_polarity"
+        ]
+    },
+    {
+        "Models": "narrativeqa",
+        "Datasets": [
+            "narrativeqa"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-anli_r3",
+        "Datasets": [
+            "facebook/anli"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-art",
+        "Datasets": [
+            "art"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-boolq",
+        "Datasets": [
+            "google/boolq"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-commonsense_qa",
+        "Datasets": [
+            "tau/commonsense_qa"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-comqa",
+        "Datasets": [
+            "com_qa"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-conll2000",
+        "Datasets": [
+            "conll2000"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-conll2003",
+        "Datasets": [
+            "conll2003"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-conll2003_pos",
+        "Datasets": [
+            "conll2003"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-cosmos_qa",
+        "Datasets": [
+            "cosmos_qa"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-drop",
+        "Datasets": [
+            "ucinlp/drop"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-duorc_p",
+        "Datasets": [
+            "duorc"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-duorc_s",
+        "Datasets": [
+            "duorc"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-emo",
+        "Datasets": [
+            "emo"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-emotion",
+        "Datasets": [
+            "emotion"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-fce_error_detection",
+        "Datasets": [
+            "fce_error_detection"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-hellaswag",
+        "Datasets": [
+            "hellaswag"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-hotpotqa",
+        "Datasets": [
+            "hotpot_qa"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-imdb",
+        "Datasets": [
+            "imdb"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-mnli",
+        "Datasets": [
+            "multi_nli"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-newsqa",
+        "Datasets": [
+            "newsqa"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-quail",
+        "Datasets": [
+            "quail"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-quartz",
+        "Datasets": [
+            "quartz"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-quoref",
+        "Datasets": [
+            "quoref"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-race",
+        "Datasets": [
+            "race"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-rotten_tomatoes",
+        "Datasets": [
+            "rotten_tomatoes"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-scicite",
+        "Datasets": [
+            "scicite"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-scitail",
+        "Datasets": [
+            "scitail"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-sick",
+        "Datasets": [
+            "sick"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-snli",
+        "Datasets": [
+            "snli"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-social_i_qa",
+        "Datasets": [
+            "social_i_qa"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-squad",
+        "Datasets": [
+            "squad"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-squad_v2",
+        "Datasets": [
+            "squad_v2"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-swag",
+        "Datasets": [
+            "swag"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-trec",
+        "Datasets": [
+            "trec"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-ud_deprel",
+        "Datasets": [
+            "universal_dependencies"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-ud_en_ewt",
+        "Datasets": [
+            "universal_dependencies"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-ud_pos",
+        "Datasets": [
+            "universal_dependencies"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-winogrande",
+        "Datasets": [
+            "winogrande"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-wnut_17",
+        "Datasets": [
+            "wnut_17"
+        ]
+    },
+    {
+        "Models": "roberta-base-pf-yelp_polarity",
+        "Datasets": [
+            "yelp_polarity"
+        ]
+    },
+    {
+        "Models": "Priv-Consent",
+        "Datasets": [
+            "Adi2K/autonlp-data-Priv-Consent"
+        ]
+    },
+    {
+        "Models": "wav2vec2-large-xls-r-300m-bashkir-cv7_opt",
+        "Datasets": [
+            "mozilla-foundation/common_voice_7_0"
+        ]
+    },
+    {
+        "Models": "autonlp-triage-35248482",
+        "Datasets": [
+            "Aimendo/autonlp-data-triage"
+        ]
+    },
+    {
+        "Models": "autonlp-Test-530014983",
+        "Datasets": [
+            "Ajay191191/autonlp-data-Test"
+        ]
+    },
+    {
+        "Models": "autonlp-manthan-16122692",
+        "Datasets": [
+            "Ajaykannan6/autonlp-data-manthan"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-finetuned-squad",
+        "Datasets": [
+            "squad_v2"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-finetuned-cola",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-finetuned-sst2",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "Central_kurdish_xlsr",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "Galician_xlsr",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "Hausa_xlsr",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "Kabyle_xlsr",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "Swahili_xlsr",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "xlsr_hungarian_new",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "xlsr_kurmanji_kurdish",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "xlsr_maltese_wav2vec2",
+        "Datasets": [
+            "common_voice"
+        ]
+    },
+    {
+        "Models": "BEiT-FaceMask-Finetuned",
+        "Datasets": [
+            "Face-Mask18K"
+        ]
+    },
+    {
+        "Models": "ConvNeXt-FaceMask-Finetuned",
+        "Datasets": [
+            "Face-Mask18K"
+        ]
+    },
+    {
+        "Models": "DeiT-FaceMask-Finetuned",
+        "Datasets": [
+            "Face-Mask18K"
+        ]
+    },
+    {
+        "Models": "ViT-FaceMask-Finetuned",
+        "Datasets": [
+            "Face-Mask18K"
+        ]
+    },
+    {
+        "Models": "LanguageIdentification",
+        "Datasets": [
+            "VoxLingua107"
+        ]
+    },
+    {
+        "Models": "langid",
+        "Datasets": [
+            "VoxLingua107"
+        ]
+    },
+    {
+        "Models": "bert-srb-ner",
+        "Datasets": [
+            "wikiann"
+        ]
+    },
+    {
+        "Models": "distilbert-srb-ner",
+        "Datasets": [
+            "wikiann"
+        ]
+    },
+    {
+        "Models": "electra-srb-ner",
+        "Datasets": [
+            "wikiann"
+        ]
+    },
+    {
+        "Models": "xlm-roberta-en-ru-emoji",
+        "Datasets": [
+            "tweet_eval"
+        ]
+    },
+    {
+        "Models": "xls-r-300m-fr-0",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "xls-r-300m-fr",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "xls-r-300m-pt",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-cola",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-mnli",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-mrpc",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-qnli",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-qqp",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-rte",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-sst2",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-stsb",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-wnli",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-finetuned-cola",
+        "Datasets": [
+            "glue"
+        ]
+    },
+    {
+        "Models": "qanlu",
+        "Datasets": [
+            "atis"
+        ]
+    },
+    {
+        "Models": "wav2vec2-large-xlsr-53-tamil",
+        "Datasets": [
+            "common_voice"
+        ]
+    },
+    {
+        "Models": "autonlp-Feedback1-479512837",
+        "Datasets": [
+            "Anamika/autonlp-data-Feedback1"
+        ]
+    },
+    {
+        "Models": "autonlp-fa-473312409",
+        "Datasets": [
+            "Anamika/autonlp-data-fa"
+        ]
+    },
+    {
+        "Models": "model-QA-5-epoch-RU",
+        "Datasets": [
+            "sberquad"
+        ]
+    },
+    {
+        "Models": "wav2vec2-xls-r-1B-german",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "wav2vec2-xls-r-1b-arabic",
+        "Datasets": [
+            "common_voice"
+        ]
+    },
+    {
+        "Models": "wav2vec2-xls-r-1b-japanese-hiragana-katakana",
+        "Datasets": [
+            "common_voice"
+        ]
+    },
+    {
+        "Models": "wav2vec2-xls-r-300m-arabic",
+        "Datasets": [
+            "mozilla-foundation/common_voice_7_0"
+        ]
+    },
+    {
+        "Models": "wav2vec2-xls-r-300m-german-de",
+        "Datasets": [
+            "mozilla-foundation/common_voice_7_0"
+        ]
+    },
+    {
+        "Models": "wav2vec2-xls-r-300m-japanese",
+        "Datasets": [
+            "mozilla-foundation/common_voice_8_0"
+        ]
+    },
+    {
+        "Models": "mbert-finetuned-ner",
+        "Datasets": [
+            "wikiann"
+        ]
+    },
+    {
+        "Models": "M-bert-NER",
+        "Datasets": [
+            "hr500k"
+        ]
+    },
+    {
+        "Models": "SRoBERTa-F",
+        "Datasets": [
+            "oscar",
+            "srwac",
+            "leipzig",
+            "cc100",
+            "hrwac"
+        ]
+    },
+    {
+        "Models": "SRoBERTa-L-NER",
+        "Datasets": [
+            "hr500k"
+        ]
+    },
+    {
+        "Models": "SRoBERTa-L",
+        "Datasets": [
+            "oscar",
+            "srwac",
+            "leipzig"
+        ]
+    },
+    {
+        "Models": "SRoBERTa-NER",
+        "Datasets": [
+            "hr500k"
+        ]
+    },
+    {
+        "Models": "SRoBERTa-XL-NER",
+        "Datasets": [
+            "hr500k"
+        ]
+    },
+    {
+        "Models": "SRoBERTa-XL",
+        "Datasets": [
+            "oscar",
+            "srwac",
+            "leipzig",
+            "cc100",
+            "hrwac"
+        ]
+    },
+    {
+        "Models": "SRoBERTa-base-NER",
+        "Datasets": [
+            "hr500k"
+        ]
+    },
+    {
+        "Models": "SRoBERTa-base",
+        "Datasets": [
+            "oscar",
+            "leipzig"
+        ]
+    },
+    {
+        "Models": "SRoBERTa",
+        "Datasets": [
+            "leipzig"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-finetuned-ner",
+        "Datasets": [
+            "conll2003"
+        ]
+    },
+    {
+        "Models": "nirvana",
+        "Datasets": [
+            "Anorak/autonlp-data-Niravana-test2"
+        ]
+    },
+    {
+        "Models": "albert-base-v2-finetuned-ner",
+        "Datasets": [
+            "conll2003"
+        ]
+    },
+    {
+        "Models": "roberta-base-finetuned-ner-kmeans",
+        "Datasets": [
+            "conll2003"
+        ]
+    },
+    {
+        "Models": "wav2vec2-hausa2-demo-colab",
+        "Datasets": [
+            "common_voice"
+        ]
+    },
+    {
+        "Models": "wav2vec2-large-xlsr-hausa2-demo-colab",
+        "Datasets": [
+            "common_voice"
+        ]
+    },
+    {
+        "Models": "distilbert-base-uncased-finetuned-emotion",
+        "Datasets": [
+            "emotion"
+        ]
+    },
+    {
+        "Models": "autonlp-Scientific_Title_Generator-34558227",
+        "Datasets": [
+            "AryanLala/autonlp-data-Scientific_Title_Generator"
+        ]
+    },
+    {
+        "Models": "resnet18-v1",
+        "Datasets": [
+            "ImageNet"
+        ]
+    },
+    {
+        "Models": "resnet34-v1",
+        "Datasets": [
+            "ImageNet"
+        ]
+    },
+    {
+        "Models": "resnet50-v1",
+        "Datasets": [
+            "ImageNet"
+        ]
+    }
+]
