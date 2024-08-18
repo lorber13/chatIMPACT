@@ -1,0 +1,75 @@
+[
+    {
+        "Metric": [
+            "accuracy",
+            "recall",
+            "precision",
+            "f1"
+        ],
+        "DownstreamTask": "text-classification"
+    },
+    {
+        "Metric": [
+            "accuracy",
+            "recall",
+            "precision",
+            "f1"
+        ],
+        "DownstreamTask": "token-classification"
+    },
+    {
+        "Metric": [
+            "Denotation Accuracy"
+        ],
+        "DownstreamTask": "table-question-answering"
+    },
+    {
+        "Metric": [
+            "exact-match",
+            "f1"
+        ],
+        "DownstreamTask": "question-answering"
+    },
+    {
+        "Metric": [],
+        "DownstreamTask": "zero-shot-classification"
+    },
+    {
+        "Metric": [
+            "bleu",
+            "sacrebleu"
+        ],
+        "DownstreamTask": "translation"
+    },
+    {
+        "Metric": [
+            "rouge"
+        ],
+        "DownstreamTask": "summarization"
+    },
+    {
+        "Metric": [],
+        "DownstreamTask": "feature-extraction"
+    },
+    {
+        "Metric": [
+            "Cross Entropy",
+            "Perplexity"
+        ],
+        "DownstreamTask": "text-generation"
+    },
+    {
+        "Metric": [
+            "cross_entropy",
+            "perplexity"
+        ],
+        "DownstreamTask": "fill-mask"
+    },
+    {
+        "Metric": [
+            "Mean Reciprocal Rank",
+            "Cosine Similarity"
+        ],
+        "DownstreamTask": "sentence-similarity"
+    }
+]
