@@ -60,9 +60,7 @@ class Dao:
         for specification in specifications:
             if "filters" in specification:
                 for filt in specification["filters"]:
-                    field = f"{specification["collection"]}.{filt}"
-                    value = specification["filters"][filt]
-                    match_obj["$match"][field] = value
+                    match_obj["$match"][filt] = specification["filters"][filt]
         return match_obj
 
     def __project_obj(self, specifications):
@@ -70,8 +68,7 @@ class Dao:
         for specification in specifications:
             if "project" in specification:
                 for project in specification["project"]:
-                    field = f"{specification["collection"]}.{project}"
-                    project_obj["$project"][field] = True
+                    project_obj["$project"][project] = True
         return project_obj
 
     def __join_database(self, specifications):

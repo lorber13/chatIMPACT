@@ -276,8 +276,8 @@ class CrossEntity(unittest.TestCase):
 
         res = dao.query(
             [
-                {"collection": "Models", "filters": {"name": "model1"}},
-                {"collection": "Metrics", "filters": {"description": "desc2"}},
+                {"collection": "Models", "filters": {"Models.name": "model1"}},
+                {"collection": "Metrics", "filters": {"Metrics.description": "desc2"}},
             ]
         )
         self.assertEqual(len(res), 1)
@@ -353,9 +353,12 @@ class CrossEntity(unittest.TestCase):
             [
                 {
                     "collection": "Models",
-                    "filters": {"name": "model1", "version": "LLaMA"},
+                    "filters": {"Models.name": "model1", "Models.version": "LLaMA"},
                 },
-                {"collection": "Downstream Tasks", "filters": {"description": "desc2"}},
+                {
+                    "collection": "Downstream Tasks",
+                    "filters": {"Downstream Tasks.description": "desc2"},
+                },
             ]
         )
         self.assertEqual(len(res), 1)
@@ -443,9 +446,15 @@ class CrossEntity(unittest.TestCase):
             [
                 {
                     "collection": "Models",
-                    "filters": {"name": "model2", "numberOfParameters [B]": 5},
+                    "filters": {
+                        "Models.name": "model2",
+                        "Models.numberOfParameters [B]": 5,
+                    },
                 },
-                {"collection": "Datasets", "filters": {"description": "desc2"}},
+                {
+                    "collection": "Datasets",
+                    "filters": {"Datasets.description": "desc2"},
+                },
             ]
         )
         self.assertEqual(len(res), 1)
@@ -516,10 +525,15 @@ class CrossEntity(unittest.TestCase):
 
         res = dao.query(
             [
-                {"collection": "Datasets", "filters": {"description": "desc2"}},  # id 1
+                {
+                    "collection": "Datasets",
+                    "filters": {"Datasets.description": "desc2"},
+                },  # id 1
                 {
                     "collection": "Downstream Tasks",
-                    "filters": {"description": "equal description"},  # id 1 and 2
+                    "filters": {
+                        "Downstream Tasks.description": "equal description"
+                    },  # id 1 and 2
                 },
             ]
         )
@@ -596,10 +610,12 @@ class CrossEntity(unittest.TestCase):
 
         res = dao.query(
             [
-                {"collection": "Metrics", "filters": {"name": "m1"}},  # id 0
+                {"collection": "Metrics", "filters": {"Metrics.name": "m1"}},  # id 0
                 {
                     "collection": "Downstream Tasks",
-                    "filters": {"description": "equal description"},  # id 1 and 2
+                    "filters": {
+                        "Downstream Tasks.description": "equal description"
+                    },  # id 1 and 2
                 },
             ]
         )
@@ -615,6 +631,123 @@ class CrossEntity(unittest.TestCase):
                     "name": "ds2",
                     "description": "equal description",
                     "subTask": "st2",
+                },
+            },
+        )
+
+    def test_marco_query(self):
+        """join with a complex filter"""
+        models = dao.insert_many(
+            "Models",
+            [
+                {
+                    "name": "model1",
+                    "version": "LLaMA",
+                    "numberOfParameters [B]": 3,
+                    "architecture": "LLaMA",
+                    "openSource": True,
+                    "fineTuned": False,
+                    "contextLength": 5,
+                },
+                {
+                    "name": "model1",
+                    "version": "LLaMA",
+                    "numberOfParameters [B]": 5,
+                    "architecture": "LLaMA",
+                    "openSource": True,
+                    "fineTuned": True,
+                    "contextLength": 5,
+                },
+                {
+                    "name": "model2",
+                    "version": "GPT",
+                    "numberOfParameters [B]": 5,
+                    "architecture": "LLaMA",
+                    "openSource": False,
+                    "fineTuned": False,
+                    "contextLength": 0,
+                },
+            ],
+        )
+        datasets = dao.insert_many(
+            "Datasets",
+            [
+                {
+                    "name": "d1",
+                    "description": "desc1",
+                    "languages": ["English", "Italian"],
+                    "domain": ["Miscellaneous"],
+                    "uri": "https://www.example_d1.com",
+                },
+                {
+                    "name": "d2",
+                    "description": "desc2",
+                    "languages": ["Python"],
+                    "domain": ["Miscellaneous"],
+                    "uri": "www.lol.com",
+                },
+                {
+                    "name": "d3",
+                    "description": "desc3",
+                    "languages": ["Rust"],
+                    "domain": ["Miscellaneous"],
+                    "uri": "www.rust.org",
+                },
+            ],
+        )
+        dao.insert_many(
+            "Train",
+            [
+                {
+                    "Models": models.inserted_ids[0],
+                    "Datasets": datasets.inserted_ids[0],
+                },
+                {
+                    "Models": models.inserted_ids[1],
+                    "Datasets": datasets.inserted_ids[1],
+                },
+            ],
+        )
+
+        res = dao.query(
+            [
+                {
+                    "collection": "Models",
+                    "project": [
+                        "Models.name",
+                        "Models.version",
+                        "Models.numberOfParameters [B]",
+                    ],
+                    "filters": {
+                        "$and": [
+                            {"Models.numberOfParameters [B]": {"$gte": 0}},
+                            {"Models.numberOfParameters [B]": {"$lte": 1000000000}},
+                        ],
+                        "Models.openSource": True,
+                        "Models.fineTuned": False,
+                        "Models.contextLength": {"$gte": 0},
+                    },
+                },
+                {
+                    "collection": "Datasets",
+                    "project": ["Datasets.name", "Datasets.uri", "Datasets.domain"],
+                    "filters": {},
+                },
+            ]
+        )
+        self.assertEqual(len(res), 1)
+        self.assertDictEqual(
+            res[0],
+            {
+                "Models": {
+                    "name": "model1",
+                    "version": "LLaMA",
+                    "numberOfParameters [B]": 3,
+                },
+                "Datasets": {
+                    "name": "d1",
+                    "domain": ["Miscellaneous"],
+                    "uri": "https://www.example_d1.com",
                 },
             },
         )
@@ -669,13 +802,13 @@ class CrossEntity(unittest.TestCase):
             [
                 {
                     "collection": "Models",
-                    "filters": {"name": "model1"},
-                    "project": ["name"],
+                    "filters": {"Models.name": "model1"},
+                    "project": ["Models.name"],
                 },
                 {
                     "collection": "Metrics",
-                    "filters": {"description": "desc2"},
-                    "project": ["name"],
+                    "filters": {"Metrics.description": "desc2"},
+                    "project": ["Metrics.name"],
                 },
             ]
         )
@@ -820,7 +953,7 @@ class CrossEntity(unittest.TestCase):
 
         res = dao.query(
             [
-                {"collection": "Models", "project": ["name"]},
+                {"collection": "Models", "project": ["Models.name"]},
                 {
                     "collection": "Metrics",
                 },
@@ -892,10 +1025,10 @@ class CrossEntity(unittest.TestCase):
 
         res = dao.query(
             [
-                {"collection": "Models", "project": ["name"]},
+                {"collection": "Models", "project": ["Models.name"]},
                 {
                     "collection": "Metrics",
-                    "filters": {"description": "desc"},
+                    "filters": {"Metrics.description": "desc"},
                 },
             ]
         )
