@@ -37,19 +37,25 @@ with col_1:
     )
 
 with col_2:
-    min_size_gb = st.number_input(
-        "**Minimum size [GB]**", min_value=0, value=0
+    type_filter = st.radio(
+    "***Filter on Dataset size***",
+    ["No filters", "Disk space (GB)", "Row count"],
+    
     )
-    max_size_gb = st.number_input(
-        "**Maximum size [GB]**", min_value=0, value=None
-    )
-
-    min_size_rows = st.number_input(
-        "**Minimum size [rows]**", min_value=0, value=0
-    )
-    max_size_rows = st.number_input(
-        "**Maximum size [rows]**", min_value=0, value=None
-    )
+    if type_filter == "Disk space (GB)":
+        min_size_gb = st.number_input(
+            "**Minimum size [GB]**", min_value=0, value=0
+        )
+        max_size_gb = st.number_input(
+            "**Maximum size [GB]**", min_value=0, value=None
+        )
+    if type_filter == "Row count":
+        min_size_rows = st.number_input(
+            "**Minimum size [rows]**", min_value=0, value=0
+        )
+        max_size_rows = st.number_input(
+            "**Maximum size [rows]**", min_value=0, value=None
+        )
 
 with col_3:
     st.html(
@@ -114,15 +120,25 @@ with col_7:
         """
     )
 
-filters = {
-    "$and": [
+filters = { 
+    # "contextLength": {"$gte": cont_length},
+}
+
+if type_filter == "Disk space (GB)":
+    filters["$and"] = [
         {"size [GB]": {"$gte": min_size_gb}},
         {
             "size [GB]": {"$lte": max_size_gb if max_size_gb else 1e9}
         },  # TODO: numero
-    ], 
-    # "contextLength": {"$gte": cont_length},
-}
+    ]
+
+if type_filter == "Row count":
+    filters["$and"] = [
+        {"size [rows]": {"$gte": min_size_rows}},
+        {
+            "size [rows]": {"$lte": max_size_rows if max_size_rows else 1e9}
+        },  # TODO: numero
+    ]
 
 if training:
     filters["trainingDataset"] = training

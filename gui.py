@@ -59,7 +59,7 @@ interactive_image_html = """
     <area target="" alt="Dataset" title="Dataset" href="http://localhost:8501/dataset_query" coords="805,254,876,289" shape="rect">
     <area target="" alt="Assess" title="Assess" href="link5" coords="113,125,138,148,113,172,89,150" shape="poly">
     <area target="" alt="Evaluate" title="Evaluate" href="link6" coords="276,248,302,272,277,295,252,273" shape="poly">
-    <area target="" alt="Train" title="Train" href="Link7" coords="649,248,672,272,650,297,625,272" shape="poly">
+    <area target="" alt="Train" title="Train" href="http://localhost:8501/train_query" coords="649,248,672,272,650,297,625,272" shape="poly">
     <area target="" alt="Enable" title="Enable" href="Link8" coords="840,125,865,150,841,174,818,149" shape="poly">
     <area target="" alt="Suited For" title="Suited For" href="Link9" coords="473,110,497,136,472,158,449,135" shape="poly">
 </map>
