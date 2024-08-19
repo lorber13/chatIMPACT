@@ -221,6 +221,22 @@ class Dao:
 
         return list(join_database.aggregate(pipeline))
 
+    def get_attributes(self, collection_name: str) -> List[str]:
+        """
+        Provides all the possible attributes of a given collection.
+
+        Parameters:
+        collection_name (str): the collection
+
+        Returns:
+        List[str]: all the attributes present in the collection
+        """
+        elem = self.database[collection_name].find_one()
+        if elem is None:
+            return []
+        del elem["_id"]
+        return list(elem.keys())
+
     def get_all(self, collection_name: str, attribute: str) -> List[Any]:
         """
         Provides all the possible values of a given attribute of a collection.

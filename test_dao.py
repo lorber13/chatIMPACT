@@ -1035,6 +1035,93 @@ class CrossEntity(unittest.TestCase):
         self.assertEqual(len(res), 0)
 
 
+class GetAttributes(unittest.TestCase):
+    """tests for the 'get_attributes' method"""
+
+    def setUp(self) -> None:
+        dao.drop("Metrics")
+        dao.drop("Models")
+        dao.drop("Downstream Tasks")
+        dao.drop("Datasets")
+
+    def test_empty_collection(self):
+        """empty collection"""
+        attributes = dao.get_attributes("Empty Collection")
+        self.assertEqual(len(attributes), 0)
+
+    def test_normal_collection(self):
+        """non-empty collection"""
+        dao.insert_many(
+            "Datasets",
+            [
+                {
+                    "name": "MT-Bench",
+                    "size [GB]": None,
+                    "size [rows]": 80,
+                    "languages": ["English"],
+                    "licenseToUse": "Apache-2.0",
+                    "domain": [
+                        "Mathematics",
+                        "Coding",
+                        "STEM",
+                        "Humanities",
+                        "Social Sciences",
+                        "Miscellaneous",
+                    ],
+                    "uri": "https://arxiv.org/pdf/2306.05685",
+                    "trainingDataset": False,
+                    "fineTuning": False,
+                    "evaluationDataset": True,
+                    "downstreamTask": [],
+                    "largeLanguageModel": ["LLaMA", "Vicuna"],
+                    "evaluationTechnique": [],
+                },
+                {
+                    "name": "C4",
+                    "size [GB]": 7000,
+                    "size [rows]": None,
+                    "languages": ["English"],
+                    "licenseToUse": "Apache-2.0",
+                    "domain": [
+                        "Miscellaneous",
+                        "STEM",
+                        "Medical",
+                        "Juridic",
+                        "Other",
+                        "Hiring",
+                    ],
+                    "uri": "https://arxiv.org/pdf/1910.10683",
+                    "trainingDataset": True,
+                    "fineTuning": False,
+                    "evaluationDataset": False,
+                    "downstreamTask": [],
+                    "largeLanguageModel": [],
+                    "evaluationTechnique": [],
+                },
+            ],
+        )
+        attributes = dao.get_attributes("Datasets")
+        self.assertEqual(len(attributes), 13)
+        self.assertListEqual(
+            attributes,
+            [
+                "name",
+                "size [GB]",
+                "size [rows]",
+                "languages",
+                "licenseToUse",
+                "domain",
+                "uri",
+                "trainingDataset",
+                "fineTuning",
+                "evaluationDataset",
+                "downstreamTask",
+                "largeLanguageModel",
+                "evaluationTechnique",
+            ],
+        )
+
+
 class GetAll(unittest.TestCase):
     """get the domain of a certain attribute"""
 
