@@ -1,7 +1,7 @@
 """interface used to make requests to the database"""
 
 import sys
-from typing import Any, List
+from typing import Any, List, Set
 
 from pymongo import MongoClient
 from auth import CONNECTION_STRING
@@ -237,7 +237,7 @@ class Dao:
         del elem["_id"]
         return list(elem.keys())
 
-    def get_all(self, collection_name: str, attribute: str) -> List[Any]:
+    def get_all(self, collection_name: str, attribute: str) -> Set[Any]:
         """
         Provides all the possible values of a given attribute of a collection.
 
