@@ -205,7 +205,7 @@ class Dao:
     def __remove_ids(self, specifications):
         unset = {"$unset": ["_id"]}
         for specification in specifications:
-            unset["$unset"].append(f"{specification["collection"]}._id")
+            unset["$unset"].append(f"{specification['collection']}._id")
         return unset
 
     def __single_join_query(self, specifications):
@@ -232,7 +232,7 @@ class Dao:
         Returns:
         List[Any]: all the values present in the database for the attribute of that collection
         """
-        return (
+        return set(
             self.database[collection_name]
             .aggregate(
                 [
