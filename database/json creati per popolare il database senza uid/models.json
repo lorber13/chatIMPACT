@@ -1062,7 +1062,7 @@
         "Tokenizer (str)":"BPE model based in sentencepiece"
     },
     {
-        "Name (str)":"Mistral ",
+        "Name (str)":"Mistral",
         "Version (str)":"0.1",
         "NumberOfParameters (float) [B]":7.0,
         "Quantization (str)":null,
