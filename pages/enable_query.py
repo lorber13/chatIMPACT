@@ -3,24 +3,31 @@ import pandas as pd
 from utils import create_query_structure, reworked_query_output
 from dao import Dao
 
-
+PAGE = "Enable"
 DOWNSTREAM_TASKS = "Downstream Tasks"
 DATASETS = "Datasets"
+DB_NAME = "ChatIMPACT"
 
 dao = Dao("ChatIMPACT")
 
 st.page_link("gui.py", label="Homepage", icon="🏠")
 
-title_alignment = """
-<h1 style='text-align: center; color: Black;'>Train</h1>
-"""
+title_alignment = f"<h1 style='text-align: center; color: Black;'>{PAGE}</h1>"
 
 st.html(title_alignment)
 st.image("static/enable.png")
 
 ### SECTION FOR DOWNSTREAM TASKS ###
+st.multiselect(
+    "**Downstream Task**",
+    dao.get_all("Downstream Tasks", "name"),
+    key=f"{PAGE}.name_dt",
+    default=st.session_state[f"{PAGE}.name_dt"] if f"{PAGE}.name_dt" in st.session_state else None
+)
+st.session_state[f"{PAGE}.filters_dt"] = {}
 
-filters_dt = {}
+if st.session_state[f"{PAGE}.name_dt"]:
+    st.session_state[f"{PAGE}.filters_dt"][f"{DOWNSTREAM_TASKS}.name"] = st.session_state[f"{PAGE}.name_dt"][0]
 
 ### SECTION FOR DATASET ###
 
@@ -45,24 +52,27 @@ with col_9:
     )
 
 with col_10:
-    type_filter = st.radio(
-    "***Filter on Dataset size***",
-    ["No filters", "Disk space (GB)", "Row count"],
+    st.radio(
+        "***Filter on Dataset size***",
+        ["No filters", "Disk space (GB)"],
+        key=f"{PAGE}.type_filter"
     )
-    if type_filter == "Disk space (GB)":
-        min_size_gb = st.number_input(
-            "**Minimum size [GB]**", min_value=0, value=0
+    if st.session_state[f"{PAGE}.type_filter"] == "Disk space (GB)":
+        st.number_input(
+            "**Minimum size [GB]**", min_value=0, value=0,
+            key=f"{PAGE}.min_size_gb"
         )
-        max_size_gb = st.number_input(
-            "**Maximum size [GB]**", min_value=0, value=None
+        st.number_input(
+            "**Maximum size [GB]**", min_value=0, value=None,
+            key=f"{PAGE}.max_size_gb"
         )
-    if type_filter == "Row count":
-        min_size_rows = st.number_input(
-            "**Minimum size [rows]**", min_value=0, value=0
-        )
-        max_size_rows = st.number_input(
-            "**Maximum size [rows]**", min_value=0, value=None
-        )
+    #if type_filter == "Row count":
+    #    min_size_rows = st.number_input(
+    #        "**Minimum size [rows]**", min_value=0, value=0
+    #    )
+    #    max_size_rows = st.number_input(
+    #        "**Maximum size [rows]**", min_value=0, value=None
+    #    )
 
 with col_11:
     st.html(
@@ -79,12 +89,14 @@ with col_11:
     )
 
 with col_12:
-    training = st.toggle("**Training Dataset**", value=None)
-    fine_tuning = st.toggle("**Fine-Tuning Dataset**", value=None)
-    evaluation = st.toggle("**Evaluation Dataset**", value=None)
-    domain = st.multiselect(
+    st.toggle("**Fine-Tuning Dataset**", 
+              value=None,
+              key=f"{PAGE}.fine_tuning")
+    st.multiselect(
         "**Domain**",
-        dao.get_all("Datasets", "domain")
+        dao.get_all("Datasets", "domain"),
+        key=f"{PAGE}.domain",
+        default=st.session_state[f"{PAGE}.domain"] if f"{PAGE}.domain" in st.session_state else None
     )
 
 with col_13:
@@ -102,13 +114,17 @@ with col_13:
     )
 
 with col_14:
-    lan_ds = st.multiselect(
+    st.multiselect(
         "**Language**",
         dao.get_all("Datasets", "languages"),
+        key=f"{PAGE}.lan_ds",
+        default=st.session_state[f"{PAGE}.lan_ds"] if f"{PAGE}.lan_ds" in st.session_state else None
     )
-    lic = st.multiselect(
+    st.multiselect(
         "**LicenseToUse**",
         dao.get_all("Datasets", "licenseToUse"),
+        key=f"{PAGE}.lic",
+        default=st.session_state[f"{PAGE}.lic"] if f"{PAGE}.lic" in st.session_state else None
     )
 
 with col_15:
@@ -125,58 +141,61 @@ with col_15:
         """
     )
 
-filters_ds = { 
-    # "contextLength": {"$gte": cont_length},
-}
+st.session_state[f"{PAGE}.filters_ds"] = {}
 
-if type_filter == "Disk space (GB)":
-    filters_ds["$and"] = [
-        {f"{DATASETS}.size [GB]": {"$gte": min_size_gb}},
+if st.session_state[f"{PAGE}.type_filter"] == "Disk space (GB)":
+    st.session_state[f"{PAGE}.filters_ds"]["$and"] = [
+        {f"{DATASETS}.size [GB]": {"$gte": st.session_state[f"{PAGE}.min_size_gb"]}},
         {
-            f"{DATASETS}.size [GB]": {"$lte": max_size_gb if max_size_gb else 1e9}
+            f"{DATASETS}.size [GB]": {"$lte": st.session_state[f"{PAGE}.max_size_gb"] if \
+                                      st.session_state[f"{PAGE}.max_size_gb"] else 1e9}
         },  # TODO: numero
     ]
 
-if type_filter == "Row count":
-    filters_ds["$and"] = [
-        {f"{DATASETS}.size [rows]": {"$gte": min_size_rows}},
-        {
-            f"{DATASETS}.size [rows]": {"$lte": max_size_rows if max_size_rows else 1e9}
-        },  # TODO: numero
-    ]
+#if type_filter == "Row count":
+#    filters_ds["$and"] = [
+#        {f"{DATASETS}.size [rows]": {"$gte": min_size_rows}},
+#        {
+#            f"{DATASETS}.size [rows]": {"$lte": max_size_rows if max_size_rows else 1e9}
+#        },  # TODO: numero
+#    ]
 
-if training:
-    filters_ds[f"{DATASETS}.trainingDataset"] = training
+if st.session_state[f"{PAGE}.fine_tuning"]:
+    st.session_state[f"{PAGE}.filters_ds"][f"{DATASETS}.fineTuning"] = st.session_state[f"{PAGE}.fine_tuning"]
 
-if fine_tuning:
-    filters_ds[f"{DATASETS}.fineTuning"] = fine_tuning
+if st.session_state[f"{PAGE}.domain"]:
+    st.session_state[f"{PAGE}.filters_ds"][f"{DATASETS}.domain"] = {
+        "$all": st.session_state[f"{PAGE}.domain"]
+    }
 
-if evaluation:
-    filters_ds[f"{DATASETS}.evaluationDataset"] = evaluation
+if st.session_state[f"{PAGE}.lic"]:
+    st.session_state[f"{PAGE}.filters_ds"][f"{DATASETS}.licenseToUse"] = {
+        "$all": st.session_state[f"{PAGE}.lic"]
+    }
 
-if domain:
-    filters_ds[f"{DATASETS}.domain"] = {"$all": domain}
-
-if lic:
-    filters_ds[f"{DATASETS}.licenseToUse"] = {"$all": lic}
-
-if lan_ds:
-    filters_ds[f"{DATASETS}.languages"] = {"$all": lan_ds}
+if st.session_state[f"{PAGE}.lan_ds"]:
+    st.session_state[f"{PAGE}.filters_ds"][f"{DATASETS}.languages"] = {
+        "$all": st.session_state[f"{PAGE}.lan_ds"]
+    }
 
 ### FINAL SECTION FOR QUERYING
 att_dt = [f"{DOWNSTREAM_TASKS}." + att for att in dao.get_attributes(DOWNSTREAM_TASKS)]
-project_dt = st.multiselect(
+st.multiselect(
     "**Select the results of the query from Downstream Task**",
-    att_dt,
-    [f"{DOWNSTREAM_TASKS}.name"],
+    dao.get_attributes(DOWNSTREAM_TASKS),
+    ["name"],
+    key=f"{PAGE}.project_dt_multiselect"
 )
+st.session_state[f"{PAGE}.project_dt"] = [f"{DOWNSTREAM_TASKS}." + att for att in st.session_state[f"{PAGE}.project_dt_multiselect"]]
 
-att_ds = [f"{DATASETS}." + att for att in dao.get_attributes(DATASETS)]
-project_ds = st.multiselect(
+st.multiselect(
     "**Select the results of the query from Dataset**",
-    att_ds,
-    [f"{DATASETS}.name", f"{DATASETS}.uri", f"{DATASETS}.domain"],
+    dao.get_attributes(DATASETS),
+    ["name", "uri", "domain"],
+    key=f"{PAGE}.project_ds_multiselect"
 )
+st.session_state[f"{PAGE}.project_ds"] = [f"{DATASETS}." + att for att in st.session_state[f"{PAGE}.project_ds_multiselect"]]
+
 
 l, l1, c, r1, r = st.columns(5)
 
@@ -185,10 +204,14 @@ with c:
 
 if query:
     query_input = [create_query_structure(
-        collection=DOWNSTREAM_TASKS, project=project_dt, filters=filters_dt
+        collection=DOWNSTREAM_TASKS, 
+        project=st.session_state[f"{PAGE}.project_dt"], 
+        filters=st.session_state[f"{PAGE}.filters_dt"]
     ),
     create_query_structure(
-        collection=DATASETS, project=project_ds, filters=filters_ds
+        collection=DATASETS, 
+        project=st.session_state[f"{PAGE}.project_ds"], 
+        filters=st.session_state[f"{PAGE}.filters_ds"]
     )]
     #st.write(query_input)
     result = dao.query(query_input)
