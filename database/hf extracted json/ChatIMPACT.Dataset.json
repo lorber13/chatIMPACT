@@ -1,7 +1,7 @@
 [
     {
         "name": "acronym_identification",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002021484375,
         "languages": [
             "en"
         ],
@@ -12,7 +12,7 @@
     },
     {
         "name": "ade_corpus_v2",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002177734375,
         "languages": [
             "en"
         ],
@@ -23,7 +23,7 @@
     },
     {
         "name": "adversarial_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01318359375,
         "languages": [
             "en"
         ],
@@ -34,7 +34,7 @@
     },
     {
         "name": "aeslc",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.007763671875,
         "languages": [
             "en"
         ],
@@ -45,7 +45,7 @@
     },
     {
         "name": "afrikaans_ner_corpus",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0009012222290039062,
         "languages": [
             "af"
         ],
@@ -56,7 +56,7 @@
     },
     {
         "name": "ag_news",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0193359375,
         "languages": [
             "en"
         ],
@@ -67,7 +67,7 @@
     },
     {
         "name": "ai2_arc",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001181640625,
         "languages": [
             "en"
         ],
@@ -78,7 +78,7 @@
     },
     {
         "name": "air_dialogue",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.1953125,
         "languages": [
             "en"
         ],
@@ -89,7 +89,7 @@
     },
     {
         "name": "ajgt_twitter_ar",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 8.764266967773438e-05,
         "languages": [
             "ar"
         ],
@@ -100,7 +100,7 @@
     },
     {
         "name": "allegro_reviews",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.003828125,
         "languages": [
             "pl"
         ],
@@ -111,7 +111,7 @@
     },
     {
         "name": "allocine",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.07333984375,
         "languages": [
             "fr"
         ],
@@ -122,7 +122,7 @@
     },
     {
         "name": "alt",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.06328125,
         "languages": [
             "bn",
             "en",
@@ -145,7 +145,7 @@
     },
     {
         "name": "amazon_polarity",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.15,
         "languages": [
             "en"
         ],
@@ -156,7 +156,7 @@
     },
     {
         "name": "amazon_reviews_multi",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "de",
             "en",
@@ -172,7 +172,7 @@
     },
     {
         "name": "amazon_us_reviews",
-        "size [GB]": "100M<n<1B",
+        "size [GB]": 31.618447265625,
         "languages": [
             "en"
         ],
@@ -183,7 +183,7 @@
     },
     {
         "name": "ambig_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.03173828125,
         "languages": [
             "en"
         ],
@@ -194,7 +194,7 @@
     },
     {
         "name": "americas_nli",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0015625,
         "languages": [
             "ay",
             "bzd",
@@ -214,7 +214,7 @@
     },
     {
         "name": "ami",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -225,7 +225,7 @@
     },
     {
         "name": "amttl",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0002613067626953125,
         "languages": [
             "zh"
         ],
@@ -236,7 +236,7 @@
     },
     {
         "name": "anli",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.02568359375,
         "languages": [
             "en"
         ],
@@ -247,7 +247,7 @@
     },
     {
         "name": "app_reviews",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.012890625,
         "languages": [
             "en"
         ],
@@ -258,7 +258,7 @@
     },
     {
         "name": "aqua_rat",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.05078125,
         "languages": [
             "en"
         ],
@@ -269,7 +269,7 @@
     },
     {
         "name": "aquamuse",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01005859375,
         "languages": [
             "en"
         ],
@@ -280,7 +280,7 @@
     },
     {
         "name": "ar_cov19",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "ar"
         ],
@@ -291,7 +291,7 @@
     },
     {
         "name": "ar_res_reviews",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001845703125,
         "languages": [
             "ar"
         ],
@@ -302,7 +302,7 @@
     },
     {
         "name": "ar_sarcasm",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00115234375,
         "languages": [
             "ar"
         ],
@@ -313,7 +313,7 @@
     },
     {
         "name": "arabic_billion_words",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ar"
         ],
@@ -324,7 +324,7 @@
     },
     {
         "name": "arabic_pos_dialect",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0003490447998046875,
         "languages": [
             "ar"
         ],
@@ -335,7 +335,7 @@
     },
     {
         "name": "arabic_speech_corpus",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "ar"
         ],
@@ -346,7 +346,7 @@
     },
     {
         "name": "arcd",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0003490447998046875,
         "languages": [
             "ar"
         ],
@@ -357,7 +357,7 @@
     },
     {
         "name": "arsentd_lev",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "apc",
             "ajp"
@@ -369,7 +369,7 @@
     },
     {
         "name": "art",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.008974609375,
         "languages": [
             "en"
         ],
@@ -380,7 +380,7 @@
     },
     {
         "name": "arxiv_dataset",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -391,7 +391,7 @@
     },
     {
         "name": "ascent_kb",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 1.8,
         "languages": [
             "en"
         ],
@@ -402,7 +402,7 @@
     },
     {
         "name": "aslg_pc12",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00740234375,
         "languages": [
             "ase",
             "en"
@@ -414,7 +414,7 @@
     },
     {
         "name": "asnq",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 2.5,
         "languages": [
             "en"
         ],
@@ -425,7 +425,7 @@
     },
     {
         "name": "asset",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00107421875,
         "languages": [
             "en"
         ],
@@ -436,7 +436,7 @@
     },
     {
         "name": "assin",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0026171875,
         "languages": [
             "pt"
         ],
@@ -447,7 +447,7 @@
     },
     {
         "name": "assin2",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0005407333374023438,
         "languages": [
             "pt"
         ],
@@ -458,7 +458,7 @@
     },
     {
         "name": "atomic",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -469,7 +469,7 @@
     },
     {
         "name": "autshumato",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en",
             "tn",
@@ -483,7 +483,7 @@
     },
     {
         "name": "babi_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.123046875,
         "languages": [
             "en"
         ],
@@ -494,7 +494,7 @@
     },
     {
         "name": "banking77",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00037384033203125,
         "languages": [
             "en"
         ],
@@ -505,7 +505,7 @@
     },
     {
         "name": "bbaw_egyptian",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.009521484375,
         "languages": [
             "egy",
             "de",
@@ -518,7 +518,7 @@
     },
     {
         "name": "bbc_hindi_nli",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00029468536376953125,
         "languages": [
             "hi"
         ],
@@ -529,7 +529,7 @@
     },
     {
         "name": "bc2gm_corpus",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002099609375,
         "languages": [
             "en"
         ],
@@ -540,7 +540,7 @@
     },
     {
         "name": "beans",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.17578125,
         "languages": [
             "en"
         ],
@@ -551,7 +551,7 @@
     },
     {
         "name": "best2009",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.02744140625,
         "languages": [
             "th"
         ],
@@ -562,7 +562,7 @@
     },
     {
         "name": "bianet",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00796875,
         "languages": [
             "en",
             "ku",
@@ -575,7 +575,7 @@
     },
     {
         "name": "bible_para",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "acu",
             "af",
@@ -687,7 +687,7 @@
     },
     {
         "name": "big_patent",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -698,7 +698,7 @@
     },
     {
         "name": "billsum",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.111328125,
         "languages": [
             "en"
         ],
@@ -709,7 +709,7 @@
     },
     {
         "name": "bing_coronavirus_query_set",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.006611328125,
         "languages": [
             "en"
         ],
@@ -720,7 +720,7 @@
     },
     {
         "name": "biomrc",
-        "size [GB]": null,
+        "size [GB]": 1.29,
         "languages": [
             "en"
         ],
@@ -731,7 +731,7 @@
     },
     {
         "name": "biosses",
-        "size [GB]": "n<1K",
+        "size [GB]": 2.2029876708984376e-05,
         "languages": [
             "en"
         ],
@@ -742,7 +742,7 @@
     },
     {
         "name": "blbooks",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "de",
             "en",
@@ -758,7 +758,7 @@
     },
     {
         "name": "blbooksgenre",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.05888671875,
         "languages": [
             "de",
             "en",
@@ -772,7 +772,7 @@
     },
     {
         "name": "blended_skill_talk",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.01064453125,
         "languages": [
             "en"
         ],
@@ -783,7 +783,7 @@
     },
     {
         "name": "blimp",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00380859375,
         "languages": [
             "en"
         ],
@@ -794,7 +794,7 @@
     },
     {
         "name": "blog_authorship_corpus",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.305615234375,
         "languages": [
             "en"
         ],
@@ -805,7 +805,7 @@
     },
     {
         "name": "bn_hate_speech",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0003719329833984375,
         "languages": [
             "bn"
         ],
@@ -816,7 +816,7 @@
     },
     {
         "name": "bnl_newspapers",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 1.03,
         "languages": [
             "ar",
             "da",
@@ -834,7 +834,7 @@
     },
     {
         "name": "bookcorpus",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 1.18,
         "languages": [
             "en"
         ],
@@ -845,7 +845,7 @@
     },
     {
         "name": "bookcorpusopen",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 2.4,
         "languages": [
             "en"
         ],
@@ -856,7 +856,7 @@
     },
     {
         "name": "boolq",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00482421875,
         "languages": [
             "en"
         ],
@@ -867,7 +867,7 @@
     },
     {
         "name": "bprec",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "pl"
         ],
@@ -878,7 +878,7 @@
     },
     {
         "name": "break_data",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.03154296875,
         "languages": [
             "en"
         ],
@@ -889,7 +889,7 @@
     },
     {
         "name": "brwac",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "pt"
         ],
@@ -900,7 +900,7 @@
     },
     {
         "name": "bsd_ja_en",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001796875,
         "languages": [
             "en",
             "ja"
@@ -912,7 +912,7 @@
     },
     {
         "name": "bswac",
-        "size [GB]": "100M<n<1B",
+        "size [GB]": null,
         "languages": [
             "bs"
         ],
@@ -923,7 +923,7 @@
     },
     {
         "name": "c3",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00513671875,
         "languages": [
             "zh"
         ],
@@ -934,7 +934,7 @@
     },
     {
         "name": "c4",
-        "size [GB]": "100M<n<1B",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -945,7 +945,7 @@
     },
     {
         "name": "cail2018",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.17,
         "languages": [
             "zh"
         ],
@@ -956,7 +956,7 @@
     },
     {
         "name": "caner",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.00142578125,
         "languages": [
             "ar"
         ],
@@ -967,7 +967,7 @@
     },
     {
         "name": "capes",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.2783203125,
         "languages": [
             "en",
             "pt"
@@ -979,7 +979,7 @@
     },
     {
         "name": "casino",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001220703125,
         "languages": [
             "en"
         ],
@@ -990,7 +990,7 @@
     },
     {
         "name": "catalonia_independence",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0033203125,
         "languages": [
             "ca",
             "es"
@@ -1002,7 +1002,7 @@
     },
     {
         "name": "cats_vs_dogs",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.705078125,
         "languages": [
             "en"
         ],
@@ -1013,7 +1013,7 @@
     },
     {
         "name": "cawac",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 2.84,
         "languages": [
             "ca"
         ],
@@ -1024,7 +1024,7 @@
     },
     {
         "name": "cbt",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.1474609375,
         "languages": [
             "en"
         ],
@@ -1035,7 +1035,7 @@
     },
     {
         "name": "cc100",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "af",
             "am",
@@ -1154,7 +1154,7 @@
     },
     {
         "name": "cc_news",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 1.12,
         "languages": [
             "en"
         ],
@@ -1165,7 +1165,7 @@
     },
     {
         "name": "ccaligned_multilingual",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "af",
             "ak",
@@ -1301,7 +1301,7 @@
     },
     {
         "name": "cdsc",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001455078125,
         "languages": [
             "pl"
         ],
@@ -1312,7 +1312,7 @@
     },
     {
         "name": "cdt",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0006189346313476562,
         "languages": [
             "pl"
         ],
@@ -1323,7 +1323,7 @@
     },
     {
         "name": "cedr_v1",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0034375,
         "languages": [
             "ru"
         ],
@@ -1334,7 +1334,7 @@
     },
     {
         "name": "cfq",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0712890625,
         "languages": [
             "en"
         ],
@@ -1345,7 +1345,7 @@
     },
     {
         "name": "chr_en",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.02099609375,
         "languages": [
             "chr",
             "en"
@@ -1357,7 +1357,7 @@
     },
     {
         "name": "cifar10",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.140625,
         "languages": [
             "en"
         ],
@@ -1368,7 +1368,7 @@
     },
     {
         "name": "cifar100",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.138671875,
         "languages": [
             "en"
         ],
@@ -1379,7 +1379,7 @@
     },
     {
         "name": "circa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0022265625,
         "languages": [
             "en"
         ],
@@ -1390,7 +1390,7 @@
     },
     {
         "name": "civil_comments",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.412109375,
         "languages": [
             "en"
         ],
@@ -1401,7 +1401,7 @@
     },
     {
         "name": "clickbait_news_bg",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0115234375,
         "languages": [
             "bg"
         ],
@@ -1412,7 +1412,7 @@
     },
     {
         "name": "climate_fever",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0008287429809570312,
         "languages": [
             "en"
         ],
@@ -1423,7 +1423,7 @@
     },
     {
         "name": "clinc_oos",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001318359375,
         "languages": [
             "en"
         ],
@@ -1434,7 +1434,7 @@
     },
     {
         "name": "clue",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.291015625,
         "languages": [
             "zh"
         ],
@@ -1445,7 +1445,7 @@
     },
     {
         "name": "cmrc2018",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00478515625,
         "languages": [
             "zh"
         ],
@@ -1456,7 +1456,7 @@
     },
     {
         "name": "cmu_hinglish_dog",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001015625,
         "languages": [
             "en",
             "hi"
@@ -1468,7 +1468,7 @@
     },
     {
         "name": "cnn_dailymail",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 2.51,
         "languages": [
             "en"
         ],
@@ -1479,7 +1479,7 @@
     },
     {
         "name": "coached_conv_pref",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -1490,7 +1490,7 @@
     },
     {
         "name": "coarse_discourse",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.00416015625,
         "languages": [
             "en"
         ],
@@ -1501,7 +1501,7 @@
     },
     {
         "name": "codah",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002197265625,
         "languages": [
             "en"
         ],
@@ -1512,7 +1512,7 @@
     },
     {
         "name": "code_search_net",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "code"
         ],
@@ -1523,7 +1523,7 @@
     },
     {
         "name": "code_x_glue_cc_clone_detection_big_clone_bench",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.28,
         "languages": [
             "code"
         ],
@@ -1534,7 +1534,7 @@
     },
     {
         "name": "code_x_glue_cc_clone_detection_poj104",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01298828125,
         "languages": [
             "code"
         ],
@@ -1545,7 +1545,7 @@
     },
     {
         "name": "code_x_glue_cc_cloze_testing_all",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0578125,
         "languages": [
             "code"
         ],
@@ -1556,7 +1556,7 @@
     },
     {
         "name": "code_x_glue_cc_cloze_testing_maxmin",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001591796875,
         "languages": [
             "code"
         ],
@@ -1567,7 +1567,7 @@
     },
     {
         "name": "code_x_glue_cc_code_completion_line",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.009609375,
         "languages": [
             "code"
         ],
@@ -1578,7 +1578,7 @@
     },
     {
         "name": "code_x_glue_cc_code_completion_token",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.2353515625,
         "languages": [
             "code"
         ],
@@ -1589,7 +1589,7 @@
     },
     {
         "name": "code_x_glue_cc_code_refinement",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0203125,
         "languages": [
             "code"
         ],
@@ -1600,7 +1600,7 @@
     },
     {
         "name": "code_x_glue_cc_code_to_code_trans",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00201171875,
         "languages": [
             "code"
         ],
@@ -1611,7 +1611,7 @@
     },
     {
         "name": "code_x_glue_cc_defect_detection",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.02177734375,
         "languages": [
             "code"
         ],
@@ -1622,7 +1622,7 @@
     },
     {
         "name": "code_x_glue_ct_code_to_text",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.8876953125,
         "languages": [
             "code",
             "en"
@@ -1634,7 +1634,7 @@
     },
     {
         "name": "code_x_glue_tc_nl_code_search_adv",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.30859375,
         "languages": [
             "code",
             "en"
@@ -1646,7 +1646,7 @@
     },
     {
         "name": "code_x_glue_tc_text_to_code",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.03349609375,
         "languages": [
             "code",
             "en"
@@ -1658,7 +1658,7 @@
     },
     {
         "name": "code_x_glue_tt_text_to_text",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.01533203125,
         "languages": [
             "da",
             "en",
@@ -1673,7 +1673,7 @@
     },
     {
         "name": "com_qa",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0004520416259765625,
         "languages": [
             "en"
         ],
@@ -1684,7 +1684,7 @@
     },
     {
         "name": "common_gen",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.003349609375,
         "languages": [
             "en"
         ],
@@ -1695,7 +1695,7 @@
     },
     {
         "name": "common_language",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ar",
             "br",
@@ -1748,7 +1748,7 @@
     },
     {
         "name": "common_voice",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ab",
             "ar",
@@ -1815,7 +1815,7 @@
     },
     {
         "name": "commonsense_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0015234375,
         "languages": [
             "en"
         ],
@@ -1826,7 +1826,7 @@
     },
     {
         "name": "competition_math",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -1837,7 +1837,7 @@
     },
     {
         "name": "compguesswhat",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.109375,
         "languages": [
             "en"
         ],
@@ -1848,7 +1848,7 @@
     },
     {
         "name": "conceptnet5",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 1.48,
         "languages": [
             "de",
             "en",
@@ -1868,7 +1868,7 @@
     },
     {
         "name": "conll2000",
-        "size [GB]": null,
+        "size [GB]": 0.0033984375,
         "languages": [
             "en"
         ],
@@ -1879,7 +1879,7 @@
     },
     {
         "name": "conll2002",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "es",
             "nl"
@@ -1891,7 +1891,7 @@
     },
     {
         "name": "conll2003",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.004736328125,
         "languages": [
             "en"
         ],
@@ -1902,7 +1902,7 @@
     },
     {
         "name": "conllpp",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -1913,7 +1913,7 @@
     },
     {
         "name": "consumer-finance-complaints",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -1924,7 +1924,7 @@
     },
     {
         "name": "conv_ai",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -1935,7 +1935,7 @@
     },
     {
         "name": "conv_ai_2",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -1946,7 +1946,7 @@
     },
     {
         "name": "conv_ai_3",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -1957,7 +1957,7 @@
     },
     {
         "name": "conv_questions",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -1968,7 +1968,7 @@
     },
     {
         "name": "coqa",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0119140625,
         "languages": [
             "en"
         ],
@@ -1979,7 +1979,7 @@
     },
     {
         "name": "cord19",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -1990,7 +1990,7 @@
     },
     {
         "name": "cornell_movie_dialog",
-        "size [GB]": null,
+        "size [GB]": 0.0096875,
         "languages": [
             "en"
         ],
@@ -2001,7 +2001,7 @@
     },
     {
         "name": "cos_e",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00345703125,
         "languages": [
             "en"
         ],
@@ -2012,7 +2012,7 @@
     },
     {
         "name": "cosmos_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.023828125,
         "languages": [
             "en"
         ],
@@ -2023,7 +2023,7 @@
     },
     {
         "name": "counter",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "ur"
         ],
@@ -2034,7 +2034,7 @@
     },
     {
         "name": "covid_qa_castorini",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2045,7 +2045,7 @@
     },
     {
         "name": "covid_qa_deepset",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.002216796875,
         "languages": [
             "en"
         ],
@@ -2056,7 +2056,7 @@
     },
     {
         "name": "covid_qa_ucsd",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en",
             "zh"
@@ -2068,7 +2068,7 @@
     },
     {
         "name": "covid_tweets_japanese",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0007886886596679688,
         "languages": [
             "ja"
         ],
@@ -2079,7 +2079,7 @@
     },
     {
         "name": "covost2",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ar",
             "ca",
@@ -2110,7 +2110,7 @@
     },
     {
         "name": "cppe-5",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.2353515625,
         "languages": [
             "en"
         ],
@@ -2121,7 +2121,7 @@
     },
     {
         "name": "craigslist_bargains",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2132,7 +2132,7 @@
     },
     {
         "name": "crawl_domain",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2143,7 +2143,7 @@
     },
     {
         "name": "crd3",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2154,7 +2154,7 @@
     },
     {
         "name": "crime_and_punish",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0007495880126953125,
         "languages": [
             "en"
         ],
@@ -2165,7 +2165,7 @@
     },
     {
         "name": "crows_pairs",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2176,7 +2176,7 @@
     },
     {
         "name": "cryptonite",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2187,7 +2187,7 @@
     },
     {
         "name": "cs_restaurants",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00026988983154296875,
         "languages": [
             "cs"
         ],
@@ -2198,7 +2198,7 @@
     },
     {
         "name": "cuad-qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2209,7 +2209,7 @@
     },
     {
         "name": "curiosity_dialogs",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2220,7 +2220,7 @@
     },
     {
         "name": "daily_dialog",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.004375,
         "languages": [
             "en"
         ],
@@ -2231,7 +2231,7 @@
     },
     {
         "name": "dane",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "da"
         ],
@@ -2242,7 +2242,7 @@
     },
     {
         "name": "danish_political_comments",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0004892349243164062,
         "languages": [
             "da"
         ],
@@ -2253,7 +2253,7 @@
     },
     {
         "name": "dart",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2264,7 +2264,7 @@
     },
     {
         "name": "datacommons_factcheck",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2275,7 +2275,7 @@
     },
     {
         "name": "dbpedia_14",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.1162109375,
         "languages": [
             "en"
         ],
@@ -2286,7 +2286,7 @@
     },
     {
         "name": "dbrd",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.11328125,
         "languages": [
             "nl"
         ],
@@ -2297,7 +2297,7 @@
     },
     {
         "name": "deal_or_no_dialog",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2308,7 +2308,7 @@
     },
     {
         "name": "definite_pronoun_resolution",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00010204315185546875,
         "languages": [
             "en"
         ],
@@ -2319,7 +2319,7 @@
     },
     {
         "name": "dengue_filipino",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "tl"
         ],
@@ -2330,7 +2330,7 @@
     },
     {
         "name": "dialog_re",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2341,7 +2341,7 @@
     },
     {
         "name": "diplomacy_detection",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.001259765625,
         "languages": [
             "en"
         ],
@@ -2352,7 +2352,7 @@
     },
     {
         "name": "disaster_response_messages",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0035546875,
         "languages": [
             "en",
             "es",
@@ -2367,7 +2367,7 @@
     },
     {
         "name": "discofuse",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 13.4,
         "languages": [
             "en"
         ],
@@ -2378,7 +2378,7 @@
     },
     {
         "name": "discovery",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.529296875,
         "languages": [
             "en"
         ],
@@ -2389,7 +2389,7 @@
     },
     {
         "name": "disfl_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.004150390625,
         "languages": [
             "en"
         ],
@@ -2400,7 +2400,7 @@
     },
     {
         "name": "doc2dial",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2411,7 +2411,7 @@
     },
     {
         "name": "docred",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0205078125,
         "languages": [
             "en"
         ],
@@ -2422,7 +2422,7 @@
     },
     {
         "name": "doqa",
-        "size [GB]": null,
+        "size [GB]": 0.012294921875,
         "languages": [
             "en"
         ],
@@ -2433,7 +2433,7 @@
     },
     {
         "name": "dream",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2444,7 +2444,7 @@
     },
     {
         "name": "drop",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01123046875,
         "languages": [
             "en"
         ],
@@ -2455,7 +2455,7 @@
     },
     {
         "name": "duorc",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.05732421875,
         "languages": [
             "en"
         ],
@@ -2466,7 +2466,7 @@
     },
     {
         "name": "dutch_social",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en",
             "nl"
@@ -2478,7 +2478,7 @@
     },
     {
         "name": "dyk",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001103515625,
         "languages": [
             "pl"
         ],
@@ -2489,7 +2489,7 @@
     },
     {
         "name": "e2e_nlg",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2500,7 +2500,7 @@
     },
     {
         "name": "e2e_nlg_cleaned",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2511,7 +2511,7 @@
     },
     {
         "name": "ecb",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "cs",
             "da",
@@ -2540,7 +2540,7 @@
     },
     {
         "name": "ecthr_cases",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2551,7 +2551,7 @@
     },
     {
         "name": "eduge",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "mn"
         ],
@@ -2562,7 +2562,7 @@
     },
     {
         "name": "ehealth_kd",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0003337860107421875,
         "languages": [
             "es"
         ],
@@ -2573,7 +2573,7 @@
     },
     {
         "name": "eitb_parcc",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.09462890625,
         "languages": [
             "es",
             "eu"
@@ -2585,7 +2585,7 @@
     },
     {
         "name": "electricity_load_diagrams",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [],
         "licenseToUse": "unknown",
         "domain": [],
@@ -2594,7 +2594,7 @@
     },
     {
         "name": "eli5",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2605,7 +2605,7 @@
     },
     {
         "name": "eli5_category",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2616,7 +2616,7 @@
     },
     {
         "name": "emea",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "bg",
             "cs",
@@ -2648,7 +2648,7 @@
     },
     {
         "name": "emo",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.003291015625,
         "languages": [
             "en"
         ],
@@ -2659,7 +2659,7 @@
     },
     {
         "name": "emotion",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0275390625,
         "languages": [
             "en"
         ],
@@ -2670,7 +2670,7 @@
     },
     {
         "name": "emotone_ar",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0008220672607421875,
         "languages": [
             "ar"
         ],
@@ -2681,7 +2681,7 @@
     },
     {
         "name": "empathetic_dialogues",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.02736328125,
         "languages": [
             "en"
         ],
@@ -2692,7 +2692,7 @@
     },
     {
         "name": "enriched_web_nlg",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "de",
             "en"
@@ -2704,7 +2704,7 @@
     },
     {
         "name": "eraser_multi_rc",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001630859375,
         "languages": [
             "en"
         ],
@@ -2715,7 +2715,7 @@
     },
     {
         "name": "esnli",
-        "size [GB]": null,
+        "size [GB]": 0.199716796875,
         "languages": [
             "en"
         ],
@@ -2726,7 +2726,7 @@
     },
     {
         "name": "eth_py150_open",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2737,7 +2737,7 @@
     },
     {
         "name": "ethos",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2748,7 +2748,7 @@
     },
     {
         "name": "eu_regulatory_ir",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.25390625,
         "languages": [
             "en"
         ],
@@ -2759,7 +2759,7 @@
     },
     {
         "name": "eurlex",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2770,7 +2770,7 @@
     },
     {
         "name": "euronews",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.00208984375,
         "languages": [
             "de",
             "fr",
@@ -2783,7 +2783,7 @@
     },
     {
         "name": "europa_eac_tm",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0009174346923828125,
         "languages": [
             "bg",
             "cs",
@@ -2819,7 +2819,7 @@
     },
     {
         "name": "europa_ecdc_tm",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001005859375,
         "languages": [
             "bg",
             "cs",
@@ -2854,7 +2854,7 @@
     },
     {
         "name": "europarl",
-        "size [GB]": "100M<n<1B",
+        "size [GB]": 35.6,
         "languages": [
             "bg",
             "cs",
@@ -2885,7 +2885,7 @@
     },
     {
         "name": "event2Mind",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00126953125,
         "languages": [
             "en"
         ],
@@ -2896,7 +2896,7 @@
     },
     {
         "name": "evidence_infer_treatment",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2907,7 +2907,7 @@
     },
     {
         "name": "exams",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.2822265625,
         "languages": [
             "ar",
             "bg",
@@ -2933,7 +2933,7 @@
     },
     {
         "name": "factckbr",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "pt"
         ],
@@ -2944,7 +2944,7 @@
     },
     {
         "name": "fake_news_english",
-        "size [GB]": "n<1K",
+        "size [GB]": 4.1103363037109376e-05,
         "languages": [
             "en"
         ],
@@ -2955,7 +2955,7 @@
     },
     {
         "name": "fake_news_filipino",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "tl"
         ],
@@ -2966,7 +2966,7 @@
     },
     {
         "name": "farsi_news",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0006761550903320312,
         "languages": [
             "fa"
         ],
@@ -2977,7 +2977,7 @@
     },
     {
         "name": "fashion_mnist",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.03525390625,
         "languages": [
             "en"
         ],
@@ -2988,7 +2988,7 @@
     },
     {
         "name": "fever",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -2999,7 +2999,7 @@
     },
     {
         "name": "few_rel",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3010,7 +3010,7 @@
     },
     {
         "name": "financial_phrasebank",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3023,7 +3023,7 @@
     },
     {
         "name": "finer",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "fi"
         ],
@@ -3034,7 +3034,7 @@
     },
     {
         "name": "flores",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0030078125,
         "languages": [
             "en",
             "ne",
@@ -3047,7 +3047,7 @@
     },
     {
         "name": "flue",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "fr"
         ],
@@ -3058,7 +3058,7 @@
     },
     {
         "name": "food101",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 5.06,
         "languages": [
             "en"
         ],
@@ -3069,7 +3069,7 @@
     },
     {
         "name": "fquad",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.003212890625,
         "languages": [
             "fr"
         ],
@@ -3080,7 +3080,7 @@
     },
     {
         "name": "freebase_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3091,7 +3091,7 @@
     },
     {
         "name": "gap",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00234375,
         "languages": [
             "en"
         ],
@@ -3102,7 +3102,7 @@
     },
     {
         "name": "gem",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 2.19,
         "languages": [
             "cs",
             "de",
@@ -3119,7 +3119,7 @@
     },
     {
         "name": "generated_reviews_enth",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en",
             "th"
@@ -3131,7 +3131,7 @@
     },
     {
         "name": "generics_kb",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 2.52,
         "languages": [
             "en"
         ],
@@ -3142,7 +3142,7 @@
     },
     {
         "name": "german_legal_entity_recognition",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "de"
         ],
@@ -3153,7 +3153,7 @@
     },
     {
         "name": "germaner",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "de"
         ],
@@ -3164,7 +3164,7 @@
     },
     {
         "name": "germeval_14",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.010048828125,
         "languages": [
             "de"
         ],
@@ -3175,7 +3175,7 @@
     },
     {
         "name": "giga_fren",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "en",
             "fr"
@@ -3187,7 +3187,7 @@
     },
     {
         "name": "gigaword",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.564853515625,
         "languages": [
             "en"
         ],
@@ -3198,7 +3198,7 @@
     },
     {
         "name": "glucose",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0765625,
         "languages": [
             "en"
         ],
@@ -3209,7 +3209,7 @@
     },
     {
         "name": "glue",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.158203125,
         "languages": [
             "en"
         ],
@@ -3220,7 +3220,7 @@
     },
     {
         "name": "gnad10",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.016796875,
         "languages": [
             "de"
         ],
@@ -3231,7 +3231,7 @@
     },
     {
         "name": "go_emotions",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.02763671875,
         "languages": [
             "en"
         ],
@@ -3242,7 +3242,7 @@
     },
     {
         "name": "gooaq",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3253,7 +3253,7 @@
     },
     {
         "name": "google_wellformed_query",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3264,7 +3264,7 @@
     },
     {
         "name": "grail_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3275,7 +3275,7 @@
     },
     {
         "name": "great_code",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3286,7 +3286,7 @@
     },
     {
         "name": "greek_legal_code",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.427734375,
         "languages": [
             "el"
         ],
@@ -3297,7 +3297,7 @@
     },
     {
         "name": "guardian_authorship",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.048447265625,
         "languages": [
             "en"
         ],
@@ -3308,7 +3308,7 @@
     },
     {
         "name": "gutenberg_time",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.05986328125,
         "languages": [
             "en"
         ],
@@ -3319,7 +3319,7 @@
     },
     {
         "name": "hans",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.03021484375,
         "languages": [
             "en"
         ],
@@ -3330,7 +3330,7 @@
     },
     {
         "name": "hansards",
-        "size [GB]": null,
+        "size [GB]": 0.080888671875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -3339,7 +3339,7 @@
     },
     {
         "name": "hard",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.01328125,
         "languages": [
             "ar"
         ],
@@ -3350,7 +3350,7 @@
     },
     {
         "name": "harem",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "pt"
         ],
@@ -3361,7 +3361,7 @@
     },
     {
         "name": "has_part",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002021484375,
         "languages": [
             "en"
         ],
@@ -3372,7 +3372,7 @@
     },
     {
         "name": "hate_offensive",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3383,7 +3383,7 @@
     },
     {
         "name": "hate_speech18",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3394,7 +3394,7 @@
     },
     {
         "name": "hate_speech_filipino",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "tl"
         ],
@@ -3405,7 +3405,7 @@
     },
     {
         "name": "hate_speech_offensive",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001591796875,
         "languages": [
             "en"
         ],
@@ -3416,7 +3416,7 @@
     },
     {
         "name": "hate_speech_pl",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00212890625,
         "languages": [
             "pl"
         ],
@@ -3427,7 +3427,7 @@
     },
     {
         "name": "hate_speech_portuguese",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "pt"
         ],
@@ -3438,7 +3438,7 @@
     },
     {
         "name": "hatexplain",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3449,7 +3449,7 @@
     },
     {
         "name": "hausa_voa_ner",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "ha"
         ],
@@ -3460,7 +3460,7 @@
     },
     {
         "name": "hausa_voa_topics",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00011920928955078125,
         "languages": [
             "ha"
         ],
@@ -3471,7 +3471,7 @@
     },
     {
         "name": "hda_nli_hindi",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "hi"
         ],
@@ -3482,7 +3482,7 @@
     },
     {
         "name": "head_qa",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en",
             "es"
@@ -3494,7 +3494,7 @@
     },
     {
         "name": "health_fact",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3505,7 +3505,7 @@
     },
     {
         "name": "hebrew_projectbenyehuda",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "he"
         ],
@@ -3516,7 +3516,7 @@
     },
     {
         "name": "hebrew_sentiment",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "he"
         ],
@@ -3527,7 +3527,7 @@
     },
     {
         "name": "hebrew_this_world",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "he"
         ],
@@ -3538,7 +3538,7 @@
     },
     {
         "name": "hellaswag",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.06982421875,
         "languages": [
             "en"
         ],
@@ -3549,7 +3549,7 @@
     },
     {
         "name": "mmlu",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.1015625,
         "languages": [
             "en"
         ],
@@ -3560,7 +3560,7 @@
     },
     {
         "name": "hind_encorp",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en",
             "hi"
@@ -3572,7 +3572,7 @@
     },
     {
         "name": "hindi_discourse",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "hi"
         ],
@@ -3583,7 +3583,7 @@
     },
     {
         "name": "hippocorpus",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3594,7 +3594,7 @@
     },
     {
         "name": "hkcancor",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "yue"
         ],
@@ -3605,7 +3605,7 @@
     },
     {
         "name": "hlgd",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3616,7 +3616,7 @@
     },
     {
         "name": "hope_edi",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en",
             "ml",
@@ -3629,7 +3629,7 @@
     },
     {
         "name": "hotpot_qa",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 1.27,
         "languages": [
             "en"
         ],
@@ -3640,7 +3640,7 @@
     },
     {
         "name": "hover",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3651,7 +3651,7 @@
     },
     {
         "name": "hrenwac_para",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01884765625,
         "languages": [
             "en",
             "hr"
@@ -3663,7 +3663,7 @@
     },
     {
         "name": "hrwac",
-        "size [GB]": "1B<n<10B",
+        "size [GB]": null,
         "languages": [
             "hr"
         ],
@@ -3674,7 +3674,7 @@
     },
     {
         "name": "humicroedit",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3685,7 +3685,7 @@
     },
     {
         "name": "hybrid_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3696,7 +3696,7 @@
     },
     {
         "name": "hyperpartisan_news_detection",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.0,
         "languages": [
             "en"
         ],
@@ -3707,7 +3707,7 @@
     },
     {
         "name": "iapp_wiki_qa_squad",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "th"
         ],
@@ -3718,7 +3718,7 @@
     },
     {
         "name": "id_clickbait",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "id"
         ],
@@ -3729,7 +3729,7 @@
     },
     {
         "name": "id_liputan6",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "id"
         ],
@@ -3740,7 +3740,7 @@
     },
     {
         "name": "id_nergrit_corpus",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "id"
         ],
@@ -3751,7 +3751,7 @@
     },
     {
         "name": "id_newspapers_2018",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.6328125,
         "languages": [
             "id"
         ],
@@ -3762,7 +3762,7 @@
     },
     {
         "name": "id_panl_bppt",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en",
             "id"
@@ -3774,7 +3774,7 @@
     },
     {
         "name": "id_puisi",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "id"
         ],
@@ -3785,7 +3785,7 @@
     },
     {
         "name": "igbo_english_machine_translation",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en",
             "ig"
@@ -3797,7 +3797,7 @@
     },
     {
         "name": "igbo_monolingual",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "ig"
         ],
@@ -3808,7 +3808,7 @@
     },
     {
         "name": "igbo_ner",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ig"
         ],
@@ -3819,7 +3819,7 @@
     },
     {
         "name": "ilist",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00849609375,
         "languages": [
             "awa",
             "bho",
@@ -3834,7 +3834,7 @@
     },
     {
         "name": "imdb",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0814453125,
         "languages": [
             "en"
         ],
@@ -3845,7 +3845,7 @@
     },
     {
         "name": "imdb_urdu_reviews",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0548828125,
         "languages": [
             "ur"
         ],
@@ -3856,7 +3856,7 @@
     },
     {
         "name": "imppres",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00048351287841796875,
         "languages": [
             "en"
         ],
@@ -3867,7 +3867,7 @@
     },
     {
         "name": "indic_glue",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.591796875,
         "languages": [
             "as",
             "bn",
@@ -3889,7 +3889,7 @@
     },
     {
         "name": "indonli",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "id"
         ],
@@ -3900,7 +3900,7 @@
     },
     {
         "name": "indonlu",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "id"
         ],
@@ -3911,7 +3911,7 @@
     },
     {
         "name": "inquisitive_qg",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -3922,7 +3922,7 @@
     },
     {
         "name": "interpress_news_category_tr",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "tr"
         ],
@@ -3933,7 +3933,7 @@
     },
     {
         "name": "interpress_news_category_tr_lite",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "tr"
         ],
@@ -3944,7 +3944,7 @@
     },
     {
         "name": "irc_disentangle",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.03310546875,
         "languages": [
             "en"
         ],
@@ -3955,7 +3955,7 @@
     },
     {
         "name": "isixhosa_ner_corpus",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "xh"
         ],
@@ -3966,7 +3966,7 @@
     },
     {
         "name": "isizulu_ner_corpus",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "zu"
         ],
@@ -3977,7 +3977,7 @@
     },
     {
         "name": "iwslt2017",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 4.24,
         "languages": [
             "ar",
             "de",
@@ -3997,7 +3997,7 @@
     },
     {
         "name": "jeopardy",
-        "size [GB]": null,
+        "size [GB]": 0.012421875,
         "languages": [
             "en"
         ],
@@ -4008,7 +4008,7 @@
     },
     {
         "name": "jfleg",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00027561187744140625,
         "languages": [
             "en"
         ],
@@ -4019,7 +4019,7 @@
     },
     {
         "name": "jigsaw_toxicity_pred",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4030,7 +4030,7 @@
     },
     {
         "name": "jigsaw_unintended_bias",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4041,7 +4041,7 @@
     },
     {
         "name": "jnlpba",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4052,7 +4052,7 @@
     },
     {
         "name": "journalists_questions",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.000186920166015625,
         "languages": [
             "ar"
         ],
@@ -4063,7 +4063,7 @@
     },
     {
         "name": "kan_hope",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en",
             "kn"
@@ -4075,7 +4075,7 @@
     },
     {
         "name": "kannada_news",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "kn"
         ],
@@ -4086,7 +4086,7 @@
     },
     {
         "name": "kd_conv_with_kb",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "zh"
         ],
@@ -4097,7 +4097,7 @@
     },
     {
         "name": "kde4",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "af",
             "ar",
@@ -4194,7 +4194,7 @@
     },
     {
         "name": "kelm",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4205,7 +4205,7 @@
     },
     {
         "name": "kilt_tasks",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.05,
         "languages": [
             "en"
         ],
@@ -4216,7 +4216,7 @@
     },
     {
         "name": "kilt_wikipedia",
-        "size [GB]": null,
+        "size [GB]": 37.32,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -4225,7 +4225,7 @@
     },
     {
         "name": "kinnews_kirnews",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "rn",
             "rw"
@@ -4237,7 +4237,7 @@
     },
     {
         "name": "klue",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.06083984375,
         "languages": [
             "ko"
         ],
@@ -4248,7 +4248,7 @@
     },
     {
         "name": "kor_3i4k",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001923828125,
         "languages": [
             "ko"
         ],
@@ -4259,7 +4259,7 @@
     },
     {
         "name": "kor_hate",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "ko"
         ],
@@ -4270,7 +4270,7 @@
     },
     {
         "name": "kor_ner",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "ko"
         ],
@@ -4281,7 +4281,7 @@
     },
     {
         "name": "kor_nli",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.12337890625,
         "languages": [
             "ko"
         ],
@@ -4292,7 +4292,7 @@
     },
     {
         "name": "kor_nlu",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ko"
         ],
@@ -4303,7 +4303,7 @@
     },
     {
         "name": "kor_qpair",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "ko"
         ],
@@ -4314,7 +4314,7 @@
     },
     {
         "name": "kor_sae",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ko"
         ],
@@ -4325,7 +4325,7 @@
     },
     {
         "name": "kor_sarcasm",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0006856918334960938,
         "languages": [
             "ko"
         ],
@@ -4336,7 +4336,7 @@
     },
     {
         "name": "labr",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.004638671875,
         "languages": [
             "ar"
         ],
@@ -4347,7 +4347,7 @@
     },
     {
         "name": "lama",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4358,7 +4358,7 @@
     },
     {
         "name": "lambada",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4369,7 +4369,7 @@
     },
     {
         "name": "large_spanish_corpus",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "es"
         ],
@@ -4380,7 +4380,7 @@
     },
     {
         "name": "laroseda",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ro"
         ],
@@ -4391,7 +4391,7 @@
     },
     {
         "name": "lc_quad",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.003779296875,
         "languages": [
             "en"
         ],
@@ -4402,7 +4402,7 @@
     },
     {
         "name": "lener_br",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "pt"
         ],
@@ -4415,7 +4415,7 @@
     },
     {
         "name": "lex_glue",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.55078125,
         "languages": [
             "en"
         ],
@@ -4426,7 +4426,7 @@
     },
     {
         "name": "liar",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4437,7 +4437,7 @@
     },
     {
         "name": "librispeech_asr",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4448,7 +4448,7 @@
     },
     {
         "name": "librispeech_lm",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 1.51,
         "languages": [
             "en"
         ],
@@ -4459,7 +4459,7 @@
     },
     {
         "name": "limit",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4470,7 +4470,7 @@
     },
     {
         "name": "lince",
-        "size [GB]": null,
+        "size [GB]": 0.008876953125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -4479,7 +4479,7 @@
     },
     {
         "name": "linnaeus",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4490,7 +4490,7 @@
     },
     {
         "name": "liveqa",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "zh"
         ],
@@ -4501,7 +4501,7 @@
     },
     {
         "name": "lj_speech",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4512,7 +4512,7 @@
     },
     {
         "name": "lm1b",
-        "size [GB]": null,
+        "size [GB]": 1.79,
         "languages": [
             "en"
         ],
@@ -4523,7 +4523,7 @@
     },
     {
         "name": "lst20",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "th"
         ],
@@ -4534,7 +4534,7 @@
     },
     {
         "name": "m_lama",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "af",
             "ar",
@@ -4597,7 +4597,7 @@
     },
     {
         "name": "mac_morpho",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "pt"
         ],
@@ -4608,7 +4608,7 @@
     },
     {
         "name": "makhzan",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "ur"
         ],
@@ -4619,7 +4619,7 @@
     },
     {
         "name": "masakhaner",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "am",
             "ha",
@@ -4639,7 +4639,7 @@
     },
     {
         "name": "math_dataset",
-        "size [GB]": null,
+        "size [GB]": 130.65,
         "languages": [
             "en"
         ],
@@ -4650,7 +4650,7 @@
     },
     {
         "name": "math_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00712890625,
         "languages": [
             "en"
         ],
@@ -4670,7 +4670,7 @@
     },
     {
         "name": "mbpp",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00033473968505859375,
         "languages": [
             "en"
         ],
@@ -4681,7 +4681,7 @@
     },
     {
         "name": "mc4",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "af",
             "am",
@@ -4794,7 +4794,7 @@
     },
     {
         "name": "mc_taco",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4805,7 +4805,7 @@
     },
     {
         "name": "md_gender_bias",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4816,7 +4816,7 @@
     },
     {
         "name": "mdd",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4827,7 +4827,7 @@
     },
     {
         "name": "med_hop",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4838,7 +4838,7 @@
     },
     {
         "name": "medal",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4849,7 +4849,7 @@
     },
     {
         "name": "medical_dialog",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en",
             "zh"
@@ -4861,7 +4861,7 @@
     },
     {
         "name": "medical_questions_pairs",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0002994537353515625,
         "languages": [
             "en"
         ],
@@ -4872,7 +4872,7 @@
     },
     {
         "name": "menyo20k_mt",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en",
             "yo"
@@ -4884,7 +4884,7 @@
     },
     {
         "name": "meta_woz",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4895,7 +4895,7 @@
     },
     {
         "name": "metooma",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -4906,7 +4906,7 @@
     },
     {
         "name": "metrec",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00388671875,
         "languages": [
             "ar"
         ],
@@ -4917,7 +4917,7 @@
     },
     {
         "name": "miam",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "de",
             "en",
@@ -4932,7 +4932,7 @@
     },
     {
         "name": "mkb",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "bn",
             "en",
@@ -4953,7 +4953,7 @@
     },
     {
         "name": "mkqa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ar",
             "da",
@@ -4987,7 +4987,7 @@
     },
     {
         "name": "mlqa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 4.15,
         "languages": [
             "en",
             "de",
@@ -5004,7 +5004,7 @@
     },
     {
         "name": "mlsum",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 1.83,
         "languages": [
             "de",
             "es",
@@ -5019,7 +5019,7 @@
     },
     {
         "name": "mnist",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0177734375,
         "languages": [
             "en"
         ],
@@ -5030,7 +5030,7 @@
     },
     {
         "name": "mocha",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5041,7 +5041,7 @@
     },
     {
         "name": "moroco",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ro"
         ],
@@ -5052,7 +5052,7 @@
     },
     {
         "name": "movie_rationales",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00380859375,
         "languages": [
             "en"
         ],
@@ -5063,7 +5063,7 @@
     },
     {
         "name": "mrqa",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 1.68,
         "languages": [
             "en"
         ],
@@ -5074,7 +5074,7 @@
     },
     {
         "name": "ms_marco",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 2.32,
         "languages": [
             "en"
         ],
@@ -5085,7 +5085,7 @@
     },
     {
         "name": "ms_terms",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "af",
             "am",
@@ -5198,7 +5198,7 @@
     },
     {
         "name": "msr_genomics_kbcomp",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5209,7 +5209,7 @@
     },
     {
         "name": "msr_sqa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5220,7 +5220,7 @@
     },
     {
         "name": "msr_text_compression",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5231,7 +5231,7 @@
     },
     {
         "name": "msr_zhen_translation_parity",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5242,7 +5242,7 @@
     },
     {
         "name": "msra_ner",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "zh"
         ],
@@ -5253,7 +5253,7 @@
     },
     {
         "name": "mt_eng_vietnamese",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en",
             "vi"
@@ -5265,7 +5265,7 @@
     },
     {
         "name": "muchocine",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "es"
         ],
@@ -5276,7 +5276,7 @@
     },
     {
         "name": "multi_booked",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "ca",
             "eu"
@@ -5288,7 +5288,7 @@
     },
     {
         "name": "multi_eurlex",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "bg",
             "cs",
@@ -5321,7 +5321,7 @@
     },
     {
         "name": "multi_news",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.2509375,
         "languages": [
             "en"
         ],
@@ -5332,7 +5332,7 @@
     },
     {
         "name": "multi_nli",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.21875,
         "languages": [
             "en"
         ],
@@ -5343,7 +5343,7 @@
     },
     {
         "name": "multi_nli_mismatch",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.221533203125,
         "languages": [
             "en"
         ],
@@ -5354,7 +5354,7 @@
     },
     {
         "name": "multi_para_crawl",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "bg",
             "ca",
@@ -5404,7 +5404,7 @@
     },
     {
         "name": "multi_re_qa",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5415,7 +5415,7 @@
     },
     {
         "name": "multi_woz_v22",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5426,7 +5426,7 @@
     },
     {
         "name": "multi_x_science_sum",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5437,7 +5437,7 @@
     },
     {
         "name": "multidoc2dial",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5448,7 +5448,7 @@
     },
     {
         "name": "multilingual_librispeech",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "de",
             "es",
@@ -5465,7 +5465,7 @@
     },
     {
         "name": "mutual_friends",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5476,7 +5476,7 @@
     },
     {
         "name": "mwsc",
-        "size [GB]": "n<1K",
+        "size [GB]": 1.8310546875e-05,
         "languages": [
             "en"
         ],
@@ -5487,7 +5487,7 @@
     },
     {
         "name": "myanmar_news",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001162109375,
         "languages": [
             "my"
         ],
@@ -5498,7 +5498,7 @@
     },
     {
         "name": "narrativeqa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5509,7 +5509,7 @@
     },
     {
         "name": "narrativeqa_manual",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5520,7 +5520,7 @@
     },
     {
         "name": "natural_questions",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 45.07,
         "languages": [
             "en"
         ],
@@ -5531,7 +5531,7 @@
     },
     {
         "name": "ncbi_disease",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5542,7 +5542,7 @@
     },
     {
         "name": "nchlt",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "af",
             "nr",
@@ -5561,7 +5561,7 @@
     },
     {
         "name": "ncslgr",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "ase",
             "en"
@@ -5573,7 +5573,7 @@
     },
     {
         "name": "nell",
-        "size [GB]": "100M<n<1B",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5584,7 +5584,7 @@
     },
     {
         "name": "neural_code_search",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5595,7 +5595,7 @@
     },
     {
         "name": "news_commentary",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.2,
         "languages": [
             "ar",
             "cs",
@@ -5617,7 +5617,7 @@
     },
     {
         "name": "newsgroup",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.907490234375,
         "languages": [
             "en"
         ],
@@ -5628,7 +5628,7 @@
     },
     {
         "name": "newsph",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "fil",
             "tl"
@@ -5640,7 +5640,7 @@
     },
     {
         "name": "newsph_nli",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "tl"
         ],
@@ -5651,7 +5651,7 @@
     },
     {
         "name": "newspop",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5662,7 +5662,7 @@
     },
     {
         "name": "newsqa",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5684,7 +5684,7 @@
     },
     {
         "name": "nkjp-ner",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001416015625,
         "languages": [
             "pl"
         ],
@@ -5695,7 +5695,7 @@
     },
     {
         "name": "nli_tr",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.113134765625,
         "languages": [
             "tr"
         ],
@@ -5706,7 +5706,7 @@
     },
     {
         "name": "nlu_evaluation_data",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5717,7 +5717,7 @@
     },
     {
         "name": "norec",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "nb",
             "nn",
@@ -5730,7 +5730,7 @@
     },
     {
         "name": "norne",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "no"
         ],
@@ -5741,7 +5741,7 @@
     },
     {
         "name": "norwegian_ner",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "no"
         ],
@@ -5752,7 +5752,7 @@
     },
     {
         "name": "nq_open",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0045703125,
         "languages": [
             "en"
         ],
@@ -5763,7 +5763,7 @@
     },
     {
         "name": "nsmc",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ko"
         ],
@@ -5774,7 +5774,7 @@
     },
     {
         "name": "numer_sense",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5785,7 +5785,7 @@
     },
     {
         "name": "numeric_fused_head",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5796,7 +5796,7 @@
     },
     {
         "name": "oclar",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.000171661376953125,
         "languages": [
             "ar"
         ],
@@ -5807,7 +5807,7 @@
     },
     {
         "name": "offcombr",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "pt"
         ],
@@ -5818,7 +5818,7 @@
     },
     {
         "name": "offenseval2020_tr",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "tr"
         ],
@@ -5829,7 +5829,7 @@
     },
     {
         "name": "offenseval_dravidian",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00416015625,
         "languages": [
             "en",
             "kn",
@@ -5843,7 +5843,7 @@
     },
     {
         "name": "ofis_publik",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "br",
             "fr"
@@ -5855,7 +5855,7 @@
     },
     {
         "name": "ohsumed",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.2080078125,
         "languages": [
             "en"
         ],
@@ -5866,7 +5866,7 @@
     },
     {
         "name": "ollie",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -5877,7 +5877,7 @@
     },
     {
         "name": "omp",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "de"
         ],
@@ -5888,7 +5888,7 @@
     },
     {
         "name": "onestop_english",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.0013671875,
         "languages": [
             "en"
         ],
@@ -5899,7 +5899,7 @@
     },
     {
         "name": "onestop_qa",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00020885467529296875,
         "languages": [
             "en"
         ],
@@ -5910,7 +5910,7 @@
     },
     {
         "name": "open_subtitles",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "af",
             "ar",
@@ -5978,7 +5978,7 @@
     },
     {
         "name": "openai_humaneval",
-        "size [GB]": "n<1K",
+        "size [GB]": 8.001327514648438e-05,
         "languages": [
             "en"
         ],
@@ -5989,7 +5989,7 @@
     },
     {
         "name": "openbookqa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001357421875,
         "languages": [
             "en"
         ],
@@ -6000,7 +6000,7 @@
     },
     {
         "name": "openslr",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "af",
             "bn",
@@ -6034,7 +6034,7 @@
     },
     {
         "name": "openwebtext",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 13.51,
         "languages": [
             "en"
         ],
@@ -6045,7 +6045,7 @@
     },
     {
         "name": "opinosis",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.000732421875,
         "languages": [
             "en"
         ],
@@ -6056,7 +6056,7 @@
     },
     {
         "name": "opus-100",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 4.77,
         "languages": [
             "af",
             "am",
@@ -6166,7 +6166,7 @@
     },
     {
         "name": "opus_books",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.205078125,
         "languages": [
             "ca",
             "de",
@@ -6192,7 +6192,7 @@
     },
     {
         "name": "opus_dgt",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.7265625,
         "languages": [
             "bg",
             "cs",
@@ -6227,7 +6227,7 @@
     },
     {
         "name": "opus_dogc",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.5859375,
         "languages": [
             "ca",
             "es"
@@ -6239,7 +6239,7 @@
     },
     {
         "name": "opus_elhuyar",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.07255859375,
         "languages": [
             "es",
             "eu"
@@ -6251,7 +6251,7 @@
     },
     {
         "name": "euconst",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.1884765625,
         "languages": [
             "cs",
             "da",
@@ -6282,7 +6282,7 @@
     },
     {
         "name": "opus_finlex",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.2626953125,
         "languages": [
             "fi",
             "sv"
@@ -6294,7 +6294,7 @@
     },
     {
         "name": "opus_fiskmo",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.2314453125,
         "languages": [
             "fi",
             "sv"
@@ -6306,7 +6306,7 @@
     },
     {
         "name": "opus_gnome",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00193359375,
         "languages": [
             "af",
             "am",
@@ -6453,7 +6453,7 @@
     },
     {
         "name": "opus_infopankki",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.1494140625,
         "languages": [
             "ar",
             "en",
@@ -6475,7 +6475,7 @@
     },
     {
         "name": "opus_memat",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.01376953125,
         "languages": [
             "en",
             "xh"
@@ -6487,7 +6487,7 @@
     },
     {
         "name": "opus_montenegrinsubs",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00330078125,
         "languages": [
             "cnr",
             "en"
@@ -6499,7 +6499,7 @@
     },
     {
         "name": "opus_openoffice",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.084375,
         "languages": [
             "de",
             "en",
@@ -6517,7 +6517,7 @@
     },
     {
         "name": "opus_paracrawl",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 5.36,
         "languages": [
             "bg",
             "ca",
@@ -6568,7 +6568,7 @@
     },
     {
         "name": "opus_rf",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00016117095947265625,
         "languages": [
             "de",
             "en",
@@ -6583,7 +6583,7 @@
     },
     {
         "name": "opus_tedtalks",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.009697265625,
         "languages": [
             "en",
             "hr"
@@ -6595,7 +6595,7 @@
     },
     {
         "name": "opus_ubuntu",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001572265625,
         "languages": [
             "ace",
             "af",
@@ -6811,7 +6811,7 @@
     },
     {
         "name": "opus_wikipedia",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.314453125,
         "languages": [
             "ar",
             "bg",
@@ -6841,7 +6841,7 @@
     },
     {
         "name": "opus_xhosanavy",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.005419921875,
         "languages": [
             "en",
             "xh"
@@ -6853,7 +6853,7 @@
     },
     {
         "name": "orange_sum",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "fr"
         ],
@@ -6864,7 +6864,7 @@
     },
     {
         "name": "oscar",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "af",
             "als",
@@ -7040,7 +7040,7 @@
     },
     {
         "name": "para_crawl",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 10.36,
         "languages": [
             "bg",
             "cs",
@@ -7074,7 +7074,7 @@
     },
     {
         "name": "para_pat",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "cs",
             "de",
@@ -7099,7 +7099,7 @@
     },
     {
         "name": "parsinlu_reading_comprehension",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0007410049438476562,
         "languages": [
             "fa"
         ],
@@ -7110,7 +7110,7 @@
     },
     {
         "name": "pass",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7121,7 +7121,7 @@
     },
     {
         "name": "paws-x",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0662109375,
         "languages": [
             "de",
             "en",
@@ -7138,7 +7138,7 @@
     },
     {
         "name": "paws",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.1259765625,
         "languages": [
             "en"
         ],
@@ -7149,7 +7149,7 @@
     },
     {
         "name": "pec",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7160,7 +7160,7 @@
     },
     {
         "name": "peer_read",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7171,7 +7171,7 @@
     },
     {
         "name": "peoples_daily_ner",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "zh"
         ],
@@ -7182,7 +7182,7 @@
     },
     {
         "name": "per_sent",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.01376953125,
         "languages": [
             "en"
         ],
@@ -7193,7 +7193,7 @@
     },
     {
         "name": "persian_ner",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "fa"
         ],
@@ -7204,7 +7204,7 @@
     },
     {
         "name": "pg19",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 11.74,
         "languages": [
             "en"
         ],
@@ -7215,7 +7215,7 @@
     },
     {
         "name": "php",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "cs",
             "de",
@@ -7247,7 +7247,7 @@
     },
     {
         "name": "piaf",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0006198883056640625,
         "languages": [
             "fr"
         ],
@@ -7258,7 +7258,7 @@
     },
     {
         "name": "pib",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "bn",
             "en",
@@ -7279,7 +7279,7 @@
     },
     {
         "name": "piqa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7290,7 +7290,7 @@
     },
     {
         "name": "pn_summary",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "fa"
         ],
@@ -7301,7 +7301,7 @@
     },
     {
         "name": "poem_sentiment",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 4.596710205078125e-05,
         "languages": [
             "en"
         ],
@@ -7312,7 +7312,7 @@
     },
     {
         "name": "polemo2",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "pl"
         ],
@@ -7323,7 +7323,7 @@
     },
     {
         "name": "poleval2019_cyberbullying",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "pl"
         ],
@@ -7334,7 +7334,7 @@
     },
     {
         "name": "poleval2019_mt",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en",
             "pl",
@@ -7347,7 +7347,7 @@
     },
     {
         "name": "polsum",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "pl"
         ],
@@ -7358,7 +7358,7 @@
     },
     {
         "name": "polyglot_ner",
-        "size [GB]": null,
+        "size [GB]": 45.39,
         "languages": [
             "ar",
             "bg",
@@ -7408,7 +7408,7 @@
     },
     {
         "name": "prachathai67k",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7419,7 +7419,7 @@
     },
     {
         "name": "pragmeval",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7430,7 +7430,7 @@
     },
     {
         "name": "proto_qa",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001953125,
         "languages": [
             "en"
         ],
@@ -7441,7 +7441,7 @@
     },
     {
         "name": "psc",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.002607421875,
         "languages": [
             "pl"
         ],
@@ -7452,7 +7452,7 @@
     },
     {
         "name": "ptb_text_only",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7463,7 +7463,7 @@
     },
     {
         "name": "pubmed",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7474,7 +7474,7 @@
     },
     {
         "name": "PubMedQA",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.29296875,
         "languages": [
             "en"
         ],
@@ -7485,7 +7485,7 @@
     },
     {
         "name": "py_ast",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "code"
         ],
@@ -7496,7 +7496,7 @@
     },
     {
         "name": "qa4mre",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.002763671875,
         "languages": [
             "ar",
             "bg",
@@ -7513,7 +7513,7 @@
     },
     {
         "name": "qa_srl",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7524,7 +7524,7 @@
     },
     {
         "name": "qa_zre",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.26,
         "languages": [
             "en"
         ],
@@ -7535,7 +7535,7 @@
     },
     {
         "name": "qangaroo",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.517578125,
         "languages": [
             "en"
         ],
@@ -7546,7 +7546,7 @@
     },
     {
         "name": "qanta",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.6650390625,
         "languages": [
             "en"
         ],
@@ -7557,7 +7557,7 @@
     },
     {
         "name": "qasc",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.002294921875,
         "languages": [
             "en"
         ],
@@ -7568,7 +7568,7 @@
     },
     {
         "name": "qasper",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.01435546875,
         "languages": [
             "en"
         ],
@@ -7579,7 +7579,7 @@
     },
     {
         "name": "qed",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7590,7 +7590,7 @@
     },
     {
         "name": "qed_amara",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "aa",
             "ab",
@@ -7820,7 +7820,7 @@
     },
     {
         "name": "quac",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7831,7 +7831,7 @@
     },
     {
         "name": "quail",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002236328125,
         "languages": [
             "en"
         ],
@@ -7842,7 +7842,7 @@
     },
     {
         "name": "quarel",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00046539306640625,
         "languages": [
             "en"
         ],
@@ -7853,7 +7853,7 @@
     },
     {
         "name": "quartz",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0005426406860351562,
         "languages": [
             "en"
         ],
@@ -7864,7 +7864,7 @@
     },
     {
         "name": "quora",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.056806640625,
         "languages": [
             "en"
         ],
@@ -7875,7 +7875,7 @@
     },
     {
         "name": "quoref",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0049609375,
         "languages": [
             "en"
         ],
@@ -7886,7 +7886,7 @@
     },
     {
         "name": "race",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0810546875,
         "languages": [
             "en"
         ],
@@ -7897,7 +7897,7 @@
     },
     {
         "name": "re_dial",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.007275390625,
         "languages": [
             "en"
         ],
@@ -7908,7 +7908,7 @@
     },
     {
         "name": "reasoning_bg",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "bg"
         ],
@@ -7919,7 +7919,7 @@
     },
     {
         "name": "recipe_nlg",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7939,7 +7939,7 @@
     },
     {
         "name": "red_caps",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -7950,7 +7950,7 @@
     },
     {
         "name": "tldr-17",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 3.14,
         "languages": [
             "en"
         ],
@@ -7961,7 +7961,7 @@
     },
     {
         "name": "reddit_tifu",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 1.34,
         "languages": [
             "en"
         ],
@@ -7972,7 +7972,7 @@
     },
     {
         "name": "refresd",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en",
             "fr"
@@ -7984,7 +7984,7 @@
     },
     {
         "name": "reuters21578",
-        "size [GB]": null,
+        "size [GB]": 0.023876953125,
         "languages": [
             "en"
         ],
@@ -7995,7 +7995,7 @@
     },
     {
         "name": "riddle_sense",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8006,7 +8006,7 @@
     },
     {
         "name": "ro_sent",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ro"
         ],
@@ -8017,7 +8017,7 @@
     },
     {
         "name": "ro_sts",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "ro"
         ],
@@ -8028,7 +8028,7 @@
     },
     {
         "name": "ro_sts_parallel",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en",
             "ro"
@@ -8040,7 +8040,7 @@
     },
     {
         "name": "roman_urdu",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00103515625,
         "languages": [
             "ur"
         ],
@@ -8051,7 +8051,7 @@
     },
     {
         "name": "ronec",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00287109375,
         "languages": [
             "ro"
         ],
@@ -8062,7 +8062,7 @@
     },
     {
         "name": "ropes",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001337890625,
         "languages": [
             "en"
         ],
@@ -8073,7 +8073,7 @@
     },
     {
         "name": "rotten_tomatoes",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0008401870727539062,
         "languages": [
             "en"
         ],
@@ -8084,7 +8084,7 @@
     },
     {
         "name": "russian_super_glue",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ru"
         ],
@@ -8095,7 +8095,7 @@
     },
     {
         "name": "samsum",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8106,7 +8106,7 @@
     },
     {
         "name": "sanskrit_classic",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "sa"
         ],
@@ -8117,7 +8117,7 @@
     },
     {
         "name": "saudinewsnet",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.028330078125,
         "languages": [
             "ar"
         ],
@@ -8128,7 +8128,7 @@
     },
     {
         "name": "sberquad",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0193359375,
         "languages": [
             "ru"
         ],
@@ -8139,7 +8139,7 @@
     },
     {
         "name": "scan-tasks",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.21892578125,
         "languages": [
             "en"
         ],
@@ -8150,7 +8150,7 @@
     },
     {
         "name": "scb_mt_enth_2020",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en",
             "th"
@@ -8162,7 +8162,7 @@
     },
     {
         "name": "scene_parse_150",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8173,7 +8173,7 @@
     },
     {
         "name": "schema_guided_dstc8",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8184,7 +8184,7 @@
     },
     {
         "name": "scicite",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.022646484375,
         "languages": [
             "en"
         ],
@@ -8195,7 +8195,7 @@
     },
     {
         "name": "scielo",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.669921875,
         "languages": [
             "en",
             "es",
@@ -8208,7 +8208,7 @@
     },
     {
         "name": "scientific_papers",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 9.01,
         "languages": [
             "en"
         ],
@@ -8219,7 +8219,7 @@
     },
     {
         "name": "scifact",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.006083984375,
         "languages": [
             "en"
         ],
@@ -8230,7 +8230,7 @@
     },
     {
         "name": "sciq",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.004560546875,
         "languages": [
             "en"
         ],
@@ -8241,7 +8241,7 @@
     },
     {
         "name": "scitail",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.01318359375,
         "languages": [
             "en"
         ],
@@ -8252,7 +8252,7 @@
     },
     {
         "name": "scitldr",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.138671875,
         "languages": [
             "en"
         ],
@@ -8263,7 +8263,7 @@
     },
     {
         "name": "search_qa",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 6.46,
         "languages": [
             "en"
         ],
@@ -8274,7 +8274,7 @@
     },
     {
         "name": "sede",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8285,7 +8285,7 @@
     },
     {
         "name": "selqa",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.06669921875,
         "languages": [
             "en"
         ],
@@ -8296,7 +8296,7 @@
     },
     {
         "name": "sem_eval_2010_task_8",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00086212158203125,
         "languages": [
             "en"
         ],
@@ -8307,7 +8307,7 @@
     },
     {
         "name": "sem_eval_2014_task_1",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8318,7 +8318,7 @@
     },
     {
         "name": "sem_eval_2018_task_1",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "ar",
             "en",
@@ -8331,7 +8331,7 @@
     },
     {
         "name": "sem_eval_2020_task_11",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8342,7 +8342,7 @@
     },
     {
         "name": "sent_comp",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8353,7 +8353,7 @@
     },
     {
         "name": "senti_lex",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "af",
             "an",
@@ -8446,7 +8446,7 @@
     },
     {
         "name": "senti_ws",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 7.8582763671875e-05,
         "languages": [
             "de"
         ],
@@ -8457,7 +8457,7 @@
     },
     {
         "name": "sentiment140",
-        "size [GB]": null,
+        "size [GB]": 0.079453125,
         "languages": [
             "en"
         ],
@@ -8468,7 +8468,7 @@
     },
     {
         "name": "sepedi_ner",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.000682830810546875,
         "languages": [
             "nso"
         ],
@@ -8479,7 +8479,7 @@
     },
     {
         "name": "sesotho_ner_corpus",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "st"
         ],
@@ -8490,7 +8490,7 @@
     },
     {
         "name": "setimes",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.84,
         "languages": [
             "bg",
             "bs",
@@ -8510,7 +8510,7 @@
     },
     {
         "name": "setswana_ner_corpus",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "tn"
         ],
@@ -8521,7 +8521,7 @@
     },
     {
         "name": "sharc",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8532,7 +8532,7 @@
     },
     {
         "name": "sharc_modified",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8543,7 +8543,7 @@
     },
     {
         "name": "sick",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8554,7 +8554,7 @@
     },
     {
         "name": "silicone",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8565,7 +8565,7 @@
     },
     {
         "name": "simple_questions_v2",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8576,7 +8576,7 @@
     },
     {
         "name": "siswati_ner_corpus",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ss"
         ],
@@ -8587,7 +8587,7 @@
     },
     {
         "name": "smartdata",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "de"
         ],
@@ -8598,7 +8598,7 @@
     },
     {
         "name": "sms_spam",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00034236907958984375,
         "languages": [
             "en"
         ],
@@ -8609,7 +8609,7 @@
     },
     {
         "name": "snips_built_in_intents",
-        "size [GB]": "n<1K",
+        "size [GB]": 1.068115234375e-05,
         "languages": [
             "en"
         ],
@@ -8620,7 +8620,7 @@
     },
     {
         "name": "snli",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.019921875,
         "languages": [
             "en"
         ],
@@ -8631,7 +8631,7 @@
     },
     {
         "name": "snow_simplified_japanese_corpus",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en",
             "ja"
@@ -8643,7 +8643,7 @@
     },
     {
         "name": "so_stacksample",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8654,7 +8654,7 @@
     },
     {
         "name": "social_bias_frames",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.006171875,
         "languages": [
             "en"
         ],
@@ -8665,7 +8665,7 @@
     },
     {
         "name": "social_i_qa",
-        "size [GB]": null,
+        "size [GB]": 0.0021484375,
         "languages": [
             "en"
         ],
@@ -8676,7 +8676,7 @@
     },
     {
         "name": "sofc_materials_articles",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8687,7 +8687,7 @@
     },
     {
         "name": "sogou_news",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.6181640625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -8696,7 +8696,7 @@
     },
     {
         "name": "spanish_billion_words",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "es"
         ],
@@ -8707,7 +8707,7 @@
     },
     {
         "name": "spc",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "af",
             "el",
@@ -8721,7 +8721,7 @@
     },
     {
         "name": "species_800",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8732,7 +8732,7 @@
     },
     {
         "name": "speech_commands",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8743,7 +8743,7 @@
     },
     {
         "name": "spider",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0009126663208007812,
         "languages": [
             "en"
         ],
@@ -8754,7 +8754,7 @@
     },
     {
         "name": "squad",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01591796875,
         "languages": [
             "en"
         ],
@@ -8765,7 +8765,7 @@
     },
     {
         "name": "squad_adversarial",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8776,7 +8776,7 @@
     },
     {
         "name": "squad_es",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.038369140625,
         "languages": [
             "es"
         ],
@@ -8787,7 +8787,7 @@
     },
     {
         "name": "squad_it",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0134765625,
         "languages": [
             "it"
         ],
@@ -8798,7 +8798,7 @@
     },
     {
         "name": "squad_kor_v1",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01240234375,
         "languages": [
             "ko"
         ],
@@ -8809,7 +8809,7 @@
     },
     {
         "name": "squad_kor_v2",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ko"
         ],
@@ -8820,7 +8820,7 @@
     },
     {
         "name": "squad_v1_pt",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0169921875,
         "languages": [
             "pt"
         ],
@@ -8831,7 +8831,7 @@
     },
     {
         "name": "squad_v2",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.01728515625,
         "languages": [
             "en"
         ],
@@ -8842,7 +8842,7 @@
     },
     {
         "name": "squadshifts",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.06447265625,
         "languages": [
             "en"
         ],
@@ -8853,7 +8853,7 @@
     },
     {
         "name": "srwac",
-        "size [GB]": "100M<n<1B",
+        "size [GB]": null,
         "languages": [
             "sr"
         ],
@@ -8864,7 +8864,7 @@
     },
     {
         "name": "sst",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8875,7 +8875,7 @@
     },
     {
         "name": "stereoset",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001259765625,
         "languages": [
             "en"
         ],
@@ -8886,7 +8886,7 @@
     },
     {
         "name": "story_cloze",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.002080078125,
         "languages": [
             "en"
         ],
@@ -8897,7 +8897,7 @@
     },
     {
         "name": "stsb_mt_sv",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "sv"
         ],
@@ -8908,7 +8908,7 @@
     },
     {
         "name": "stsb_multi_mt",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.008017578125,
         "languages": [
             "de",
             "en",
@@ -8937,7 +8937,7 @@
     },
     {
         "name": "subjqa",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -8948,7 +8948,7 @@
     },
     {
         "name": "super_glue",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0569921875,
         "languages": [
             "en"
         ],
@@ -8970,7 +8970,7 @@
     },
     {
         "name": "svhn",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 3.74,
         "languages": [
             "en"
         ],
@@ -8981,7 +8981,7 @@
     },
     {
         "name": "swag",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.04384765625,
         "languages": [
             "en"
         ],
@@ -8992,7 +8992,7 @@
     },
     {
         "name": "swahili",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "sw"
         ],
@@ -9003,7 +9003,7 @@
     },
     {
         "name": "swahili_news",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.03720703125,
         "languages": [
             "sw"
         ],
@@ -9014,7 +9014,7 @@
     },
     {
         "name": "swda",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9025,7 +9025,7 @@
     },
     {
         "name": "swedish_medical_ner",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.05361328125,
         "languages": [
             "sv"
         ],
@@ -9036,7 +9036,7 @@
     },
     {
         "name": "swedish_ner_corpus",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "sv"
         ],
@@ -9047,7 +9047,7 @@
     },
     {
         "name": "swedish_reviews",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.019140625,
         "languages": [
             "sv"
         ],
@@ -9058,7 +9058,7 @@
     },
     {
         "name": "swiss_judgment_prediction",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "de",
             "fr",
@@ -9072,7 +9072,7 @@
     },
     {
         "name": "tab_fact",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9083,7 +9083,7 @@
     },
     {
         "name": "tamilmixsentiment",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0006761550903320312,
         "languages": [
             "en",
             "ta"
@@ -9095,7 +9095,7 @@
     },
     {
         "name": "tanzil",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "am",
             "ar",
@@ -9147,7 +9147,7 @@
     },
     {
         "name": "tapaco",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.1279296875,
         "languages": [
             "af",
             "ar",
@@ -9230,7 +9230,7 @@
     },
     {
         "name": "tashkeela",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "ar"
         ],
@@ -9241,7 +9241,7 @@
     },
     {
         "name": "taskmaster1",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9252,7 +9252,7 @@
     },
     {
         "name": "taskmaster2",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9263,7 +9263,7 @@
     },
     {
         "name": "taskmaster3",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9274,7 +9274,7 @@
     },
     {
         "name": "tatoeba",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ab",
             "acm",
@@ -9642,7 +9642,7 @@
     },
     {
         "name": "ted_hrlr",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.83,
         "languages": [
             "az",
             "be",
@@ -9663,7 +9663,7 @@
     },
     {
         "name": "ted_iwlst2013",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ar",
             "de",
@@ -9688,7 +9688,7 @@
     },
     {
         "name": "ted_multi",
-        "size [GB]": null,
+        "size [GB]": 0.343974609375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -9697,7 +9697,7 @@
     },
     {
         "name": "ted_talks_iwslt",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "af",
             "am",
@@ -9811,7 +9811,7 @@
     },
     {
         "name": "telugu_books",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "te"
         ],
@@ -9822,7 +9822,7 @@
     },
     {
         "name": "telugu_news",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "te"
         ],
@@ -9833,7 +9833,7 @@
     },
     {
         "name": "tep_en_fa_para",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en",
             "fa"
@@ -9845,7 +9845,7 @@
     },
     {
         "name": "text2log",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9856,7 +9856,7 @@
     },
     {
         "name": "thai_toxicity_tweet",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "th"
         ],
@@ -9867,7 +9867,7 @@
     },
     {
         "name": "thainer",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "th"
         ],
@@ -9878,7 +9878,7 @@
     },
     {
         "name": "thaiqa_squad",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "th"
         ],
@@ -9889,7 +9889,7 @@
     },
     {
         "name": "thaisum",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "th"
         ],
@@ -9900,7 +9900,7 @@
     },
     {
         "name": "pile",
-        "size [GB]": "100B<n<1T",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9911,7 +9911,7 @@
     },
     {
         "name": "the_pile_books3",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9922,7 +9922,7 @@
     },
     {
         "name": "the_pile_openwebtext2",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9933,7 +9933,7 @@
     },
     {
         "name": "the_pile_stack_exchange",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9944,7 +9944,7 @@
     },
     {
         "name": "tilde_model",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "bg",
             "cs",
@@ -9984,7 +9984,7 @@
     },
     {
         "name": "time_dial",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -9995,7 +9995,7 @@
     },
     {
         "name": "times_of_india_news_headlines",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -10006,7 +10006,7 @@
     },
     {
         "name": "timit_asr",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -10017,7 +10017,7 @@
     },
     {
         "name": "tiny_shakespeare",
-        "size [GB]": null,
+        "size [GB]": 0.001083984375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -10026,7 +10026,7 @@
     },
     {
         "name": "tlc",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "th"
         ],
@@ -10037,7 +10037,7 @@
     },
     {
         "name": "tmu_gfm_dataset",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -10048,7 +10048,7 @@
     },
     {
         "name": "told-br",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "pt"
         ],
@@ -10059,7 +10059,7 @@
     },
     {
         "name": "totto",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -10070,7 +10070,7 @@
     },
     {
         "name": "trec",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0003515625,
         "languages": [
             "en"
         ],
@@ -10081,7 +10081,7 @@
     },
     {
         "name": "trivia_qa",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 9.26,
         "languages": [
             "en"
         ],
@@ -10092,7 +10092,7 @@
     },
     {
         "name": "tsac",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "aeb"
         ],
@@ -10103,7 +10103,7 @@
     },
     {
         "name": "ttc4900",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.005380859375,
         "languages": [
             "tr"
         ],
@@ -10114,7 +10114,7 @@
     },
     {
         "name": "tunizi",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "aeb"
         ],
@@ -10125,7 +10125,7 @@
     },
     {
         "name": "tuple_ie",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -10136,7 +10136,7 @@
     },
     {
         "name": "turk",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0008535385131835938,
         "languages": [
             "en"
         ],
@@ -10147,7 +10147,7 @@
     },
     {
         "name": "turkic_xwmt",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "az",
             "ba",
@@ -10167,7 +10167,7 @@
     },
     {
         "name": "turkish_movie_sentiment",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "tr"
         ],
@@ -10178,7 +10178,7 @@
     },
     {
         "name": "turkish_ner",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "tr"
         ],
@@ -10189,7 +10189,7 @@
     },
     {
         "name": "turkish_product_reviews",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.023828125,
         "languages": [
             "tr"
         ],
@@ -10200,7 +10200,7 @@
     },
     {
         "name": "turkish_shrinked_ner",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "tr"
         ],
@@ -10211,7 +10211,7 @@
     },
     {
         "name": "turku_ner_corpus",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "fi"
         ],
@@ -10222,7 +10222,7 @@
     },
     {
         "name": "tweet_eval",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0138671875,
         "languages": [
             "en"
         ],
@@ -10233,7 +10233,7 @@
     },
     {
         "name": "tweet_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002373046875,
         "languages": [
             "en"
         ],
@@ -10244,7 +10244,7 @@
     },
     {
         "name": "tweets_ar_en_parallel",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ar",
             "en"
@@ -10256,7 +10256,7 @@
     },
     {
         "name": "tweets_hate_speech_detection",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00310546875,
         "languages": [
             "en"
         ],
@@ -10267,7 +10267,7 @@
     },
     {
         "name": "twi_text_c3",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "tw"
         ],
@@ -10278,7 +10278,7 @@
     },
     {
         "name": "twi_wordsim353",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "en",
             "tw"
@@ -10290,7 +10290,7 @@
     },
     {
         "name": "tydiqa",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 2.94,
         "languages": [
             "ar",
             "bn",
@@ -10311,7 +10311,7 @@
     },
     {
         "name": "ubuntu_dialogs_corpus",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -10322,7 +10322,7 @@
     },
     {
         "name": "udhr",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "aa",
             "ab",
@@ -10746,7 +10746,7 @@
     },
     {
         "name": "um005",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00548828125,
         "languages": [
             "en",
             "ur"
@@ -10758,7 +10758,7 @@
     },
     {
         "name": "un_ga",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.322265625,
         "languages": [
             "ar",
             "en",
@@ -10774,7 +10774,7 @@
     },
     {
         "name": "multiun",
-        "size [GB]": "100M<n<1B",
+        "size [GB]": 31.8,
         "languages": [
             "ar",
             "de",
@@ -10791,7 +10791,7 @@
     },
     {
         "name": "un_pc",
-        "size [GB]": "100M<n<1B",
+        "size [GB]": 59.1,
         "languages": [
             "ar",
             "en",
@@ -10807,7 +10807,7 @@
     },
     {
         "name": "universal_dependencies",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "af",
             "aii",
@@ -10919,7 +10919,7 @@
     },
     {
         "name": "universal_morphologies",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ady",
             "ang",
@@ -11039,7 +11039,7 @@
     },
     {
         "name": "urdu_fake_news",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.001162109375,
         "languages": [
             "ur"
         ],
@@ -11050,7 +11050,7 @@
     },
     {
         "name": "urdu_sentiment_corpus",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "ur"
         ],
@@ -11061,7 +11061,7 @@
     },
     {
         "name": "vctk",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -11072,7 +11072,7 @@
     },
     {
         "name": "vivos",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "vi"
         ],
@@ -11083,7 +11083,7 @@
     },
     {
         "name": "web_nlg",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en",
             "ru"
@@ -11095,7 +11095,7 @@
     },
     {
         "name": "web_of_science",
-        "size [GB]": null,
+        "size [GB]": 0.176435546875,
         "languages": [
             "en"
         ],
@@ -11106,7 +11106,7 @@
     },
     {
         "name": "web_questions",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0003833770751953125,
         "languages": [
             "en"
         ],
@@ -11117,7 +11117,7 @@
     },
     {
         "name": "weibo_ner",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "zh"
         ],
@@ -11128,7 +11128,7 @@
     },
     {
         "name": "wi_locness",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -11139,7 +11139,7 @@
     },
     {
         "name": "wider_face",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -11150,7 +11150,7 @@
     },
     {
         "name": "wiki40b",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 37.6,
         "languages": [
             "en"
         ],
@@ -11161,7 +11161,7 @@
     },
     {
         "name": "wiki_asp",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -11172,7 +11172,7 @@
     },
     {
         "name": "wiki_atomic_edits",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "de",
             "en",
@@ -11190,7 +11190,7 @@
     },
     {
         "name": "wiki_auto",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -11201,7 +11201,7 @@
     },
     {
         "name": "wiki_bio",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -11212,7 +11212,7 @@
     },
     {
         "name": "wiki_dpr",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -11223,7 +11223,7 @@
     },
     {
         "name": "wiki_hop",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -11234,7 +11234,7 @@
     },
     {
         "name": "wiki_lingua",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 1.2,
         "languages": [
             "ar",
             "cs",
@@ -11262,7 +11262,7 @@
     },
     {
         "name": "wiki_movies",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -11273,7 +11273,7 @@
     },
     {
         "name": "wiki_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00279296875,
         "languages": [
             "en"
         ],
@@ -11284,7 +11284,7 @@
     },
     {
         "name": "wiki_qa_ar",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ar"
         ],
@@ -11295,7 +11295,7 @@
     },
     {
         "name": "wiki_snippets",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 20.2,
         "languages": [
             "en"
         ],
@@ -11306,7 +11306,7 @@
     },
     {
         "name": "wiki_source",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en",
             "sv"
@@ -11318,7 +11318,7 @@
     },
     {
         "name": "wiki_split",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0979296875,
         "languages": [
             "en"
         ],
@@ -11329,7 +11329,7 @@
     },
     {
         "name": "wiki_summary",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "fa"
         ],
@@ -11340,7 +11340,7 @@
     },
     {
         "name": "wikiann",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.1396484375,
         "languages": [
             "ace",
             "af",
@@ -11523,7 +11523,7 @@
     },
     {
         "name": "wikicorpus",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ca",
             "en",
@@ -11545,7 +11545,7 @@
     },
     {
         "name": "wikipedia",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "aa",
             "ab",
@@ -11849,7 +11849,7 @@
     },
     {
         "name": "wikisql",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.025546875,
         "languages": [
             "en"
         ],
@@ -11860,7 +11860,7 @@
     },
     {
         "name": "wikitext",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.62890625,
         "languages": [
             "en"
         ],
@@ -11871,7 +11871,7 @@
     },
     {
         "name": "wikitext_tl39",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "fil",
             "tl"
@@ -11883,7 +11883,7 @@
     },
     {
         "name": "wili_2018",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.08955078125,
         "languages": [
             "ace",
             "af",
@@ -12125,7 +12125,7 @@
     },
     {
         "name": "wino_bias",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.000244140625,
         "languages": [
             "en"
         ],
@@ -12136,7 +12136,7 @@
     },
     {
         "name": "winograd_wsc",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -12147,7 +12147,7 @@
     },
     {
         "name": "winogrande",
-        "size [GB]": null,
+        "size [GB]": 0.019892578125,
         "languages": [
             "en"
         ],
@@ -12158,7 +12158,7 @@
     },
     {
         "name": "wiqa",
-        "size [GB]": null,
+        "size [GB]": 0.0051171875,
         "languages": [
             "en"
         ],
@@ -12169,7 +12169,7 @@
     },
     {
         "name": "wisesight1000",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "th"
         ],
@@ -12180,7 +12180,7 @@
     },
     {
         "name": "wisesight_sentiment",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.003125,
         "languages": [
             "th"
         ],
@@ -12191,7 +12191,7 @@
     },
     {
         "name": "wmt14",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 8.99,
         "languages": [
             "cs",
             "de",
@@ -12207,7 +12207,7 @@
     },
     {
         "name": "wmt15",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 9.35,
         "languages": [
             "cs",
             "de",
@@ -12223,7 +12223,7 @@
     },
     {
         "name": "wmt16",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.73,
         "languages": [
             "cs",
             "de",
@@ -12240,7 +12240,7 @@
     },
     {
         "name": "wmt17",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 10.3,
         "languages": [
             "cs",
             "de",
@@ -12258,7 +12258,7 @@
     },
     {
         "name": "wmt18",
-        "size [GB]": "100M<n<1B",
+        "size [GB]": 15.7,
         "languages": [
             "cs",
             "de",
@@ -12277,7 +12277,7 @@
     },
     {
         "name": "wmt19",
-        "size [GB]": "100M<n<1B",
+        "size [GB]": 16.8,
         "languages": [
             "cs",
             "de",
@@ -12297,7 +12297,7 @@
     },
     {
         "name": "wmt20_mlqe_task1",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01962890625,
         "languages": [
             "de",
             "en",
@@ -12315,7 +12315,7 @@
     },
     {
         "name": "wmt20_mlqe_task2",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.004609375,
         "languages": [
             "de",
             "en",
@@ -12328,7 +12328,7 @@
     },
     {
         "name": "wmt20_mlqe_task3",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00455078125,
         "languages": [
             "en",
             "fr"
@@ -12340,7 +12340,7 @@
     },
     {
         "name": "wmt_t2t",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.8154296875,
         "languages": [
             "de",
             "en"
@@ -12352,7 +12352,7 @@
     },
     {
         "name": "wnut_17",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00078125,
         "languages": [
             "en"
         ],
@@ -12363,7 +12363,7 @@
     },
     {
         "name": "wongnai_reviews",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0294921875,
         "languages": [
             "th"
         ],
@@ -12374,7 +12374,7 @@
     },
     {
         "name": "woz_dialogue",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "de",
             "en",
@@ -12387,7 +12387,7 @@
     },
     {
         "name": "wrbsc",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "pl"
         ],
@@ -12398,7 +12398,7 @@
     },
     {
         "name": "x_stance",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.006259765625,
         "languages": [
             "de",
             "en",
@@ -12412,7 +12412,7 @@
     },
     {
         "name": "xcopa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00115234375,
         "languages": [
             "et",
             "ht",
@@ -12433,7 +12433,7 @@
     },
     {
         "name": "xcsr",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00787109375,
         "languages": [
             "ar",
             "de",
@@ -12459,7 +12459,7 @@
     },
     {
         "name": "xed_en_fi",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en",
             "fi"
@@ -12471,7 +12471,7 @@
     },
     {
         "name": "xglue",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "ar",
             "bg",
@@ -12500,7 +12500,7 @@
     },
     {
         "name": "xnli",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.85,
         "languages": [
             "ar",
             "bg",
@@ -12525,7 +12525,7 @@
     },
     {
         "name": "xor_tydi_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ar",
             "bn",
@@ -12542,7 +12542,7 @@
     },
     {
         "name": "xquad",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00310546875,
         "languages": [
             "ar",
             "de",
@@ -12564,7 +12564,7 @@
     },
     {
         "name": "xquad_r",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002861328125,
         "languages": [
             "ar",
             "de",
@@ -12585,7 +12585,7 @@
     },
     {
         "name": "xsum",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.2509765625,
         "languages": [
             "en"
         ],
@@ -12596,7 +12596,7 @@
     },
     {
         "name": "xsum_factuality",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -12607,7 +12607,7 @@
     },
     {
         "name": "xtreme",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.3544921875,
         "languages": [
             "af",
             "ar",
@@ -12657,7 +12657,7 @@
     },
     {
         "name": "yahoo_answers_qa",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -12668,7 +12668,7 @@
     },
     {
         "name": "yahoo_answers_topics",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.5205078125,
         "languages": [
             "en"
         ],
@@ -12679,7 +12679,7 @@
     },
     {
         "name": "yelp_polarity",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.267578125,
         "languages": [
             "en"
         ],
@@ -12690,7 +12690,7 @@
     },
     {
         "name": "yelp_review_full",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.3154296875,
         "languages": [
             "en"
         ],
@@ -12701,7 +12701,7 @@
     },
     {
         "name": "yoruba_bbc_topics",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "yo"
         ],
@@ -12712,7 +12712,7 @@
     },
     {
         "name": "yoruba_gv_ner",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "yo"
         ],
@@ -12723,7 +12723,7 @@
     },
     {
         "name": "yoruba_text_c3",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "yo"
         ],
@@ -12734,7 +12734,7 @@
     },
     {
         "name": "yoruba_wordsim353",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [
             "en",
             "yo"
@@ -12746,7 +12746,7 @@
     },
     {
         "name": "youtube_caption_corrections",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.04794921875,
         "languages": [
             "en"
         ],
@@ -12757,7 +12757,7 @@
     },
     {
         "name": "zest",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -12768,7 +12768,7 @@
     },
     {
         "name": "codexglue",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.1015625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -12777,7 +12777,7 @@
     },
     {
         "name": "pytorrent-standalone",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0779296875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -12795,7 +12795,7 @@
     },
     {
         "name": "day2_data",
-        "size [GB]": "n<1K",
+        "size [GB]": 1.7452239990234376e-05,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -12804,7 +12804,7 @@
     },
     {
         "name": "day4data",
-        "size [GB]": "n<1K",
+        "size [GB]": 8.04901123046875e-05,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -12813,7 +12813,7 @@
     },
     {
         "name": "demo_data",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.00018215179443359375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -12822,7 +12822,7 @@
     },
     {
         "name": "SuperLim",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0044140625,
         "languages": [
             "sv"
         ],
@@ -12842,7 +12842,7 @@
     },
     {
         "name": "korean-hate-speech",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -12851,7 +12851,7 @@
     },
     {
         "name": "YFCC14M_subset_webdataset",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -12860,7 +12860,7 @@
     },
     {
         "name": "fanpage",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.1826171875,
         "languages": [
             "it"
         ],
@@ -12871,7 +12871,7 @@
     },
     {
         "name": "ilpost",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.05380859375,
         "languages": [
             "it"
         ],
@@ -12882,7 +12882,7 @@
     },
     {
         "name": "mlsum-it",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.04794921875,
         "languages": [
             "it"
         ],
@@ -12893,7 +12893,7 @@
     },
     {
         "name": "amazon_zh",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.04853515625,
         "languages": [],
         "licenseToUse": "apache-2.0",
         "domain": [],
@@ -12902,7 +12902,7 @@
     },
     {
         "name": "amazon_zh_simple",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.004482421875,
         "languages": [],
         "licenseToUse": "apache-2.0",
         "domain": [],
@@ -12920,7 +12920,7 @@
     },
     {
         "name": "code_net_dataset",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0240234375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -12929,7 +12929,7 @@
     },
     {
         "name": "code_net_dev_dataset",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0306640625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -12938,7 +12938,7 @@
     },
     {
         "name": "code_net_test_final_dataset",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.03046875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -12947,7 +12947,7 @@
     },
     {
         "name": "english_quotes",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0006170272827148438,
         "languages": [
             "en"
         ],
@@ -12958,7 +12958,7 @@
     },
     {
         "name": "french_book_reviews",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.004111328125,
         "languages": [
             "fr"
         ],
@@ -13005,7 +13005,7 @@
     },
     {
         "name": "BAAD16",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.2021484375,
         "languages": [
             "bn"
         ],
@@ -13016,7 +13016,7 @@
     },
     {
         "name": "BAAD6",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0373046875,
         "languages": [
             "bn"
         ],
@@ -13063,7 +13063,7 @@
     },
     {
         "name": "extended_tweet_emojis",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0029296875,
         "languages": [
             "en"
         ],
@@ -13074,7 +13074,7 @@
     },
     {
         "name": "comedy-scripts",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.001240234375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13083,7 +13083,7 @@
     },
     {
         "name": "horror-scripts",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.001240234375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13092,7 +13092,7 @@
     },
     {
         "name": "all-deletion-compressions",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.04716796875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13101,7 +13101,7 @@
     },
     {
         "name": "wikipedia-deletion-compressions",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0009765625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13110,7 +13110,7 @@
     },
     {
         "name": "zapolskii-amazon",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.007802734375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13128,7 +13128,7 @@
     },
     {
         "name": "nst-da-16khz",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01396484375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13137,7 +13137,7 @@
     },
     {
         "name": "de_corpora_parliament_processed",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0345703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13146,7 +13146,7 @@
     },
     {
         "name": "real-fake-news-workshop",
-        "size [GB]": "n<1K",
+        "size [GB]": 7.13348388671875e-05,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13164,7 +13164,7 @@
     },
     {
         "name": "task",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.003984375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13191,7 +13191,7 @@
     },
     {
         "name": "hausa_common_voice",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00030040740966796875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13209,7 +13209,7 @@
     },
     {
         "name": "fungi_diagnostic_chars_comparison_japanese",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0693359375,
         "languages": [
             "ja"
         ],
@@ -13220,7 +13220,7 @@
     },
     {
         "name": "fungi_indexed_mycological_papers_japanese",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.024609375,
         "languages": [
             "ja"
         ],
@@ -13231,7 +13231,7 @@
     },
     {
         "name": "fungi_trait_circus_database",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.3505859375,
         "languages": [
             "en",
             "ja"
@@ -13252,7 +13252,7 @@
     },
     {
         "name": "rebel-dataset",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.49,
         "languages": [
             "en"
         ],
@@ -13263,7 +13263,7 @@
     },
     {
         "name": "wikineural",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.07919921875,
         "languages": [
             "de",
             "en",
@@ -13291,7 +13291,7 @@
     },
     {
         "name": "parla_text_corpus",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0248046875,
         "languages": [
             "ca"
         ],
@@ -13324,7 +13324,7 @@
     },
     {
         "name": "pangloss",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 5.0,
         "languages": [
             "jya",
             "nru"
@@ -13354,7 +13354,7 @@
     },
     {
         "name": "pacman",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0028515625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13363,7 +13363,7 @@
     },
     {
         "name": "pacman_descriptions",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002802734375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13392,7 +13392,7 @@
     },
     {
         "name": "arwiki",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "ar"
         ],
@@ -13403,7 +13403,7 @@
     },
     {
         "name": "ASCEND",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 1.22,
         "languages": [
             "en",
             "zh"
@@ -13559,7 +13559,7 @@
     },
     {
         "name": "MS_COCO_2017_URL_TEXT",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.01787109375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13568,7 +13568,7 @@
     },
     {
         "name": "dataset",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.01650390625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13586,7 +13586,7 @@
     },
     {
         "name": "code-clippy-tfrecords",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13606,7 +13606,7 @@
     },
     {
         "name": "code_clippy_github",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "code"
         ],
@@ -13617,7 +13617,7 @@
     },
     {
         "name": "haha",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002158203125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13635,7 +13635,7 @@
     },
     {
         "name": "rap_lyrics_english",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.0431640625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13653,7 +13653,7 @@
     },
     {
         "name": "pos_tagger",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.001689453125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13671,7 +13671,7 @@
     },
     {
         "name": "polarity",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -13682,7 +13682,7 @@
     },
     {
         "name": "angry-tweets",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00037097930908203125,
         "languages": [
             "da"
         ],
@@ -13693,7 +13693,7 @@
     },
     {
         "name": "dkhate",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "da"
         ],
@@ -13704,7 +13704,7 @@
     },
     {
         "name": "europarl",
-        "size [GB]": "n<1K",
+        "size [GB]": 8.783340454101562e-05,
         "languages": [
             "da"
         ],
@@ -13715,7 +13715,7 @@
     },
     {
         "name": "lcc",
-        "size [GB]": "n<1K",
+        "size [GB]": 4.6539306640625e-05,
         "languages": [
             "da"
         ],
@@ -13726,7 +13726,7 @@
     },
     {
         "name": "reddit-da-asr-preprocessed",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.30078125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13735,7 +13735,7 @@
     },
     {
         "name": "reddit-da",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.3291015625,
         "languages": [
             "da"
         ],
@@ -13746,7 +13746,7 @@
     },
     {
         "name": "github-issues",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0302734375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13755,7 +13755,7 @@
     },
     {
         "name": "COP26_Energy_Transition_Tweets",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.006298828125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13764,7 +13764,7 @@
     },
     {
         "name": "scientific-challenges-and-directions-dataset",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00084686279296875,
         "languages": [
             "en"
         ],
@@ -13775,7 +13775,7 @@
     },
     {
         "name": "dante-corpus",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0005292892456054688,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13793,7 +13793,7 @@
     },
     {
         "name": "accented_english",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.0004978179931640625,
         "languages": [
             "en"
         ],
@@ -13804,7 +13804,7 @@
     },
     {
         "name": "accented_mandarin",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.00032329559326171875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13813,7 +13813,7 @@
     },
     {
         "name": "chinese_dialect",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.00018787384033203125,
         "languages": [
             "zh"
         ],
@@ -13824,7 +13824,7 @@
     },
     {
         "name": "mandarin_chinese",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.00018310546875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13833,7 +13833,7 @@
     },
     {
         "name": "mixed_speech_chinese_english",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.00011348724365234375,
         "languages": [
             "zh",
             "en"
@@ -13845,7 +13845,7 @@
     },
     {
         "name": "multi_language",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.000423431396484375,
         "languages": [
             "en",
             "de",
@@ -13862,7 +13862,7 @@
     },
     {
         "name": "multi_language_conversation",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.075390625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13871,7 +13871,7 @@
     },
     {
         "name": "conll2003_de_noMISC",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.004228515625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13880,7 +13880,7 @@
     },
     {
         "name": "conll2003_noMISC",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.004658203125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13907,7 +13907,7 @@
     },
     {
         "name": "ALTDataset",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.04267578125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13916,7 +13916,7 @@
     },
     {
         "name": "ALTDataset_en-to-fil-vi-id-ms-ja-khm",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0232421875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13925,7 +13925,7 @@
     },
     {
         "name": "Human_Activity_Recognition",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.007353515625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13943,7 +13943,7 @@
     },
     {
         "name": "klue-mrc-bm25",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.5068359375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13952,7 +13952,7 @@
     },
     {
         "name": "modern_music_re",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00130859375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13961,7 +13961,7 @@
     },
     {
         "name": "github-embeddings-doy",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.03388671875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13979,7 +13979,7 @@
     },
     {
         "name": "as_opus100_processed",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.004462890625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13988,7 +13988,7 @@
     },
     {
         "name": "bg_opus100_processed",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.03525390625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -13997,7 +13997,7 @@
     },
     {
         "name": "br_opus100_processed",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.002763671875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14006,7 +14006,7 @@
     },
     {
         "name": "hi_opus100_processed",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0365234375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14015,7 +14015,7 @@
     },
     {
         "name": "kk_opus100_processed",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.002314453125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14024,7 +14024,7 @@
     },
     {
         "name": "mr_opus100_processed",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0008544921875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14033,7 +14033,7 @@
     },
     {
         "name": "or_opus100_processed",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00044727325439453125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14042,7 +14042,7 @@
     },
     {
         "name": "sl_opus100_processed",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.03046875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14051,7 +14051,7 @@
     },
     {
         "name": "sr_opus100_processed",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.02685546875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14071,7 +14071,7 @@
     },
     {
         "name": "sd-nlp",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -14129,7 +14129,7 @@
     },
     {
         "name": "wiki-entity-similarity",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 1.61,
         "languages": [
             "en"
         ],
@@ -14167,7 +14167,7 @@
     },
     {
         "name": "cosuju",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.1513671875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14185,7 +14185,7 @@
     },
     {
         "name": "quoteli3",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -14196,7 +14196,7 @@
     },
     {
         "name": "mc4_fi_cleaned",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": null,
         "languages": [
             "fi"
         ],
@@ -14207,7 +14207,7 @@
     },
     {
         "name": "HumAID",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.004580078125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14252,7 +14252,7 @@
     },
     {
         "name": "dream-coder",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00060272216796875,
         "languages": [
             "en"
         ],
@@ -14272,7 +14272,7 @@
     },
     {
         "name": "python-state-changes",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.21,
         "languages": [
             "code"
         ],
@@ -14301,7 +14301,7 @@
     },
     {
         "name": "ART",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.03076171875,
         "languages": [
             "en"
         ],
@@ -14348,7 +14348,7 @@
     },
     {
         "name": "RiSAWOZ",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.208984375,
         "languages": [
             "zh"
         ],
@@ -14359,7 +14359,7 @@
     },
     {
         "name": "RotoWire_English-German",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.01455078125,
         "languages": [
             "en",
             "de"
@@ -14382,7 +14382,7 @@
     },
     {
         "name": "SciDuet",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.021484375,
         "languages": [
             "en"
         ],
@@ -14393,7 +14393,7 @@
     },
     {
         "name": "Taskmaster",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.4453125,
         "languages": [
             "en"
         ],
@@ -14404,7 +14404,7 @@
     },
     {
         "name": "cochrane-simplification",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0166015625,
         "languages": [
             "en"
         ],
@@ -14415,7 +14415,7 @@
     },
     {
         "name": "common_gen",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.001884765625,
         "languages": [
             "en"
         ],
@@ -14426,7 +14426,7 @@
     },
     {
         "name": "conversational_weather",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.004853515625,
         "languages": [
             "en"
         ],
@@ -14437,7 +14437,7 @@
     },
     {
         "name": "cs_restaurants",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001494140625,
         "languages": [
             "cs"
         ],
@@ -14448,7 +14448,7 @@
     },
     {
         "name": "dart",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.02919921875,
         "languages": [
             "en"
         ],
@@ -14470,7 +14470,7 @@
     },
     {
         "name": "e2e_nlg",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01279296875,
         "languages": [
             "en"
         ],
@@ -14490,7 +14490,7 @@
     },
     {
         "name": "mlb_data_to_text",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.1982421875,
         "languages": [
             "en"
         ],
@@ -14501,7 +14501,7 @@
     },
     {
         "name": "mlsum",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.8671875,
         "languages": [
             "de",
             "es"
@@ -14538,7 +14538,7 @@
     },
     {
         "name": "schema_guided_dialog",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0173828125,
         "languages": [
             "en"
         ],
@@ -14549,7 +14549,7 @@
     },
     {
         "name": "sportsett_basketball",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.1005859375,
         "languages": [
             "en"
         ],
@@ -14560,7 +14560,7 @@
     },
     {
         "name": "squad_v2",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.1552734375,
         "languages": [
             "en"
         ],
@@ -14571,7 +14571,7 @@
     },
     {
         "name": "surface_realisation_st_2020",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.8212890625,
         "languages": [
             "ar",
             "zh",
@@ -14592,7 +14592,7 @@
     },
     {
         "name": "totto",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.185546875,
         "languages": [
             "en"
         ],
@@ -14634,7 +14634,7 @@
     },
     {
         "name": "viggo",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.00224609375,
         "languages": [
             "en"
         ],
@@ -14645,7 +14645,7 @@
     },
     {
         "name": "web_nlg",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0205078125,
         "languages": [
             "en"
         ],
@@ -14656,7 +14656,7 @@
     },
     {
         "name": "wiki_auto_asset_turk",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0916015625,
         "languages": [
             "en"
         ],
@@ -14667,7 +14667,7 @@
     },
     {
         "name": "wiki_cat_sum",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": null,
         "languages": [
             "en"
         ],
@@ -14678,7 +14678,7 @@
     },
     {
         "name": "wiki_lingua",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 645.0,
         "languages": [
             "ar",
             "cs",
@@ -14706,7 +14706,7 @@
     },
     {
         "name": "xlsum",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 1.39,
         "languages": [
             "und"
         ],
@@ -14728,7 +14728,7 @@
     },
     {
         "name": "GEM__bart_base_schema_guided_dialog__1645547915",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.000942230224609375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14737,7 +14737,7 @@
     },
     {
         "name": "Leo__bart-large__1645784880",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.000606536865234375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14746,7 +14746,7 @@
     },
     {
         "name": "Leo__mbart-large-cc25__1645802644",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.0031640625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14755,7 +14755,7 @@
     },
     {
         "name": "lewtun__hugging-face-test-t5-base.outputs.json-36bf2a59__1645558682",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14764,7 +14764,7 @@
     },
     {
         "name": "lewtun__hugging-face-test-t5-base.outputs.json-36bf2a59__1645559101",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14773,7 +14773,7 @@
     },
     {
         "name": "lewtun__hugging-face-test-t5-base.outputs.json-36bf2a59__1645800191",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14782,7 +14782,7 @@
     },
     {
         "name": "lewtun__hugging-face-test-t5-base.outputs.json-36bf2a59__1646049378",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14791,7 +14791,7 @@
     },
     {
         "name": "lewtun__hugging-face-test-t5-base.outputs.json-36bf2a59__1646049424",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14800,7 +14800,7 @@
     },
     {
         "name": "lewtun__hugging-face-test-t5-base.outputs.json-36bf2a59__1646049601",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14809,7 +14809,7 @@
     },
     {
         "name": "lewtun__hugging-face-test-t5-base.outputs.json-36bf2a59__1646049876",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14818,7 +14818,7 @@
     },
     {
         "name": "lewtun__hugging-face-test-t5-base.outputs.json-36bf2a59__1646050898",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14827,7 +14827,7 @@
     },
     {
         "name": "lewtun__hugging-face-test-t5-base.outputs.json-36bf2a59__1646051364",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14836,7 +14836,7 @@
     },
     {
         "name": "lewtun__hugging-face-test-t5-base.outputs.json-36bf2a59__1646052073",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14845,7 +14845,7 @@
     },
     {
         "name": "lewtun__this-is-a-test__1646052811",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14854,7 +14854,7 @@
     },
     {
         "name": "lewtun__this-is-a-test__1646230987",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.004970703125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14863,7 +14863,7 @@
     },
     {
         "name": "ratishsp",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.00279296875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14881,7 +14881,7 @@
     },
     {
         "name": "shlomit_speech",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.04765625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14890,7 +14890,7 @@
     },
     {
         "name": "quora_swe",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.01962890625,
         "languages": [
             "sv"
         ],
@@ -14910,7 +14910,7 @@
     },
     {
         "name": "new_one",
-        "size [GB]": "n<1K",
+        "size [GB]": 6.246566772460938e-05,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14928,7 +14928,7 @@
     },
     {
         "name": "fake_news",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.06328125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -14981,7 +14981,7 @@
     },
     {
         "name": "wikipedia-bert-128",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 8.44,
         "languages": [
             "en"
         ],
@@ -14992,7 +14992,7 @@
     },
     {
         "name": "wikipedia-bert-512",
-        "size [GB]": "10M<n<100M",
+        "size [GB]": 8.88,
         "languages": [
             "en"
         ],
@@ -15003,7 +15003,7 @@
     },
     {
         "name": "ik-nlp-22_pestyle",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": null,
         "languages": [
             "en",
             "it"
@@ -15015,7 +15015,7 @@
     },
     {
         "name": "ik-nlp-22_slp",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.0007581710815429688,
         "languages": [
             "en"
         ],
@@ -15026,7 +15026,7 @@
     },
     {
         "name": "ik-nlp-22_transqe",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0521484375,
         "languages": [
             "en",
             "nl"
@@ -15038,7 +15038,7 @@
     },
     {
         "name": "ik-nlp-22_winemag",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.0228515625,
         "languages": [],
         "licenseToUse": "cc-by-sa-4.0",
         "domain": [],
@@ -15047,7 +15047,7 @@
     },
     {
         "name": "ParaSCI",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.08046875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15056,7 +15056,7 @@
     },
     {
         "name": "msrp",
-        "size [GB]": "1K<n<10K",
+        "size [GB]": 0.001435546875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15065,7 +15065,7 @@
     },
     {
         "name": "quora",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0533203125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15103,7 +15103,7 @@
     },
     {
         "name": "sv_corpora_parliament_processed",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.1552734375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15112,7 +15112,7 @@
     },
     {
         "name": "ur_corpora_pib",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00673828125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15155,7 +15155,7 @@
     },
     {
         "name": "DebateSum",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 1.25,
         "languages": [
             "en"
         ],
@@ -15269,7 +15269,7 @@
     },
     {
         "name": "KerasAPIReference.txt",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00054931640625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15278,7 +15278,7 @@
     },
     {
         "name": "KerasBERTv1-Data",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.003544921875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15287,7 +15287,7 @@
     },
     {
         "name": "KerasCodeExamples.txt",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00265625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15305,7 +15305,7 @@
     },
     {
         "name": "autonlp-data-mami-semeval-20-21",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.00107421875,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15323,7 +15323,7 @@
     },
     {
         "name": "MBTI",
-        "size [GB]": "n<1K",
+        "size [GB]": 1.56402587890625e-06,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15341,7 +15341,7 @@
     },
     {
         "name": "gazeta",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": null,
         "languages": [
             "ru"
         ],
@@ -15352,7 +15352,7 @@
     },
     {
         "name": "headline_cause",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.01376953125,
         "languages": [
             "ru",
             "en"
@@ -15364,7 +15364,7 @@
     },
     {
         "name": "WEC-Eng",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.3583984375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15373,7 +15373,7 @@
     },
     {
         "name": "Senti",
-        "size [GB]": "10K<n<100K",
+        "size [GB]": 0.003330078125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15382,7 +15382,7 @@
     },
     {
         "name": "dutch_corpora_parliament_processed",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 0.1767578125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15400,7 +15400,7 @@
     },
     {
         "name": "war-ceb-wikipedia",
-        "size [GB]": "1M<n<10M",
+        "size [GB]": 2.77,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15409,7 +15409,7 @@
     },
     {
         "name": "TED2020_kor",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.03818359375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15418,7 +15418,7 @@
     },
     {
         "name": "TED2020_vi",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.040625,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15427,7 +15427,7 @@
     },
     {
         "name": "TED2020vi_kor",
-        "size [GB]": "n<1K",
+        "size [GB]": 0.142578125,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15436,7 +15436,7 @@
     },
     {
         "name": "demo",
-        "size [GB]": "n<1K",
+        "size [GB]": null,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
@@ -15463,7 +15463,7 @@
     },
     {
         "name": "vi-ko-TED-txt",
-        "size [GB]": "100K<n<1M",
+        "size [GB]": 0.0787109375,
         "languages": [],
         "licenseToUse": null,
         "domain": [],
