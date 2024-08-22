@@ -20,7 +20,7 @@ st.image("static/train.svg")
 ### SECTION FOR LARGE LANGUAGE MODEL ###
 
 st.markdown("---")
-st.html("<h2 style='text-align: center;'>Large Language Model filters</h2>")
+st.html("<h3 style='text-align: center;'>Large Language Model filters</h3>")
 col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8 = st.columns(
     [0.2, 5.9, 0.2, 5.9, 0.2, 5.9, 0.2, 5.9]
 )
@@ -274,7 +274,7 @@ if st.session_state[f"{PAGE}.type_filter"] == "Disk space (GB)":
 #        },  # TODO: numero
 #    ]
 
-if st.session_state[f"{PAGE}.fine_tuning"]:
+if st.session_state[f"{PAGE}.fine_tuning"] is not None:
     st.session_state[f"{PAGE}.filters_ds"][f"{DATASETS}.fineTuning"] = st.session_state[f"{PAGE}.fine_tuning"]
 
 if st.session_state[f"{PAGE}.domain"]:

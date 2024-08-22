@@ -17,6 +17,7 @@ st.html(title_alignment)
 st.image("static/dataset.svg")
 
 st.markdown("---")
+st.html("<h3 style='text-align: center;'>Dataset filters</h3>")
 col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16 = st.columns(
     [0.2, 5.9, 0.2, 5.9, 0.2, 5.9, 0.2, 5.9]
 )
@@ -144,7 +145,7 @@ if st.session_state[f"{PAGE}.type_filter"] == "Disk space (GB)":
 #        },  # TODO: numero
 #    ]
 
-if st.session_state[f"{PAGE}.fine_tuning"]:
+if st.session_state[f"{PAGE}.fine_tuning"] is not None:
     st.session_state[f"{PAGE}.filters_ds"][f"fineTuning"] = st.session_state[f"{PAGE}.fine_tuning"]
 
 if st.session_state[f"{PAGE}.domain"]:
