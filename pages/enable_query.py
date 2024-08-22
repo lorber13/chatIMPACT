@@ -15,9 +15,11 @@ st.page_link("gui.py", label="Homepage", icon="🏠")
 title_alignment = f"<h1 style='text-align: center; color: Black;'>{PAGE}</h1>"
 
 st.html(title_alignment)
-st.image("static/enable.png")
+st.image("static/enable.svg")
 
 ### SECTION FOR DOWNSTREAM TASKS ###
+st.markdown("---")
+st.html(f"<h3 style='text-align: center;'>{DOWNSTREAM_TASKS} filters</h3>")
 st.multiselect(
     "**Downstream Task**",
     dao.get_all("Downstream Tasks", "name"),
@@ -179,7 +181,7 @@ if st.session_state[f"{PAGE}.lan_ds"]:
     }
 
 ### FINAL SECTION FOR QUERYING
-att_dt = [f"{DOWNSTREAM_TASKS}." + att for att in dao.get_attributes(DOWNSTREAM_TASKS)]
+st.markdown("---")
 st.multiselect(
     "**Select the results of the query from Downstream Task**",
     dao.get_attributes(DOWNSTREAM_TASKS),

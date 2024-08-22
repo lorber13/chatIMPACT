@@ -61,7 +61,7 @@ interactive_image_html = """
     <area target="" alt="Evaluate" title="Evaluate" href="link6" coords="276,248,302,272,277,295,252,273" shape="poly">
     <area target="" alt="Train" title="Train" href="http://localhost:8501/train_query" coords="649,248,672,272,650,297,625,272" shape="poly">
     <area target="" alt="Enable" title="Enable" href="http://localhost:8501/enable_query" coords="840,125,865,150,841,174,818,149" shape="poly">
-    <area target="" alt="Suited For" title="Suited For" href="Link9" coords="473,110,497,136,472,158,449,135" shape="poly">
+    <area target="" alt="Suited For" title="Suited For" href="http://localhost:8501/suited_for_query" coords="473,110,497,136,472,158,449,135" shape="poly">
 </map>
 """
 

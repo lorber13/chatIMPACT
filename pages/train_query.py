@@ -40,14 +40,20 @@ with col_1:
     )
 
 with col_2:
-    st.number_input(
-        "**Minimum number of parameters**", min_value=0, value=0,
-        key=f"{PAGE}.min_num_param"
+    st.radio(
+        "***Filter on Number of Parameters***",
+        ["No filters", "Number of Parameters (B)"],
+        key=f"{PAGE}.num_param_filter"
     )
-    st.number_input(
-        "**Maximum number of parameters**", min_value=0, value=None,
-        key=f"{PAGE}.max_num_param"
-    )
+    if st.session_state[f"{PAGE}.num_param_filter"] == "Number of Parameters (B)":
+        st.number_input(
+            "**Minimum number of parameters**", min_value=0, value=0,
+            key=f"{PAGE}.min_num_param"
+        )
+        st.number_input(
+            "**Maximum number of parameters**", min_value=0, value=None,
+            key=f"{PAGE}.max_num_param"
+        )
 
 with col_3:
     st.html(
@@ -116,18 +122,20 @@ with col_7:
     )
 
 st.session_state[f"{PAGE}.filters_llm"] = {
-    "$and": [
-        {f"{MODELS}.numberOfParameters [B]": {"$gte": st.session_state[f"{PAGE}.min_num_param"]}},
-        {
-            f"{MODELS}.numberOfParameters [B]": {"$lte": 
-                st.session_state[f"{PAGE}.max_num_param"] if st.session_state[f"{PAGE}.max_num_param"] else 1e9}
-        },  # TODO: numero
-    ],
     f"{MODELS}.openSource": st.session_state[f"{PAGE}.open_source"],
     f"{MODELS}.fineTuned": st.session_state[f"{PAGE}.fine_tuned"],
     # "quantization": quantization,  # FIXME: fixami
     f"{MODELS}.contextLength": {"$gte": st.session_state[f"{PAGE}.cont_length"]},
 }
+
+if st.session_state[f"{PAGE}.num_param_filter"] == "Number of Parameters (B)":
+    st.session_state[f"{PAGE}.filters_llm"]["$and"] = [
+        {f"{MODELS}.numberOfParameters [B]": {"$gte": st.session_state[f"{PAGE}.min_num_param"]}},
+        {
+            f"{MODELS}.numberOfParameters [B]": {"$lte": 
+                st.session_state[f"{PAGE}.max_num_param"] if st.session_state[f"{PAGE}.max_num_param"] else 1e9}
+        },  # TODO: numero
+    ]
 
 if st.session_state[f"{PAGE}.arch"]:
     st.session_state[f"{PAGE}.filters_llm"][f"{MODELS}.architecture"] = st.session_state[f"{PAGE}.arch"]
@@ -285,8 +293,9 @@ if st.session_state[f"{PAGE}.lan_ds"]:
     }
 
 ### FINAL SECTION FOR QUERYING
+st.markdown("---")
 st.multiselect(
-    "**Select the results of the query from LLM**",
+    "**Select the results of the query for LLM**",
     dao.get_attributes(MODELS),
     ["name", "version", "numberOfParameters [B]"],
     key=f"{PAGE}.project_llm_multiselect"
@@ -294,7 +303,7 @@ st.multiselect(
 st.session_state[f"{PAGE}.project_llm"] = [f"{MODELS}." + att for att in st.session_state[f"{PAGE}.project_llm_multiselect"]]
 
 st.multiselect(
-    "**Select the results of the query from Dataset**",
+    "**Select the results of the query for Dataset**",
     dao.get_attributes(DATASETS),
     ["name", "uri", "domain"],
     key=f"{PAGE}.project_ds_multiselect"

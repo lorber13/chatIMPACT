@@ -17,6 +17,7 @@ st.html(title_alignment)
 st.image("static/metrics.svg")
 
 st.markdown("---")
+st.html("<h3 style='text-align: center;'>Metric filters</h3>")
 col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8 = st.columns(
     [0.2, 5.9, 0.2, 5.9, 0.2, 5.9, 0.2, 5.9]
 )

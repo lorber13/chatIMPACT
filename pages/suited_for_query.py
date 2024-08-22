@@ -3,18 +3,32 @@ import pandas as pd
 from utils import create_query_structure, reworked_query_output
 from dao import Dao
 
-PAGE = "Large Language Model"
+PAGE = "Suited For"
+DOWNSTREAM_TASKS = "Downstream Tasks"
 MODELS = "Models"
 DB_NAME = "ChatIMPACT"
 
-dao = Dao(DB_NAME)
+dao = Dao("ChatIMPACT")
 
 st.page_link("gui.py", label="Homepage", icon="🏠")
 
 title_alignment = f"<h1 style='text-align: center; color: Black;'>{PAGE}</h1>"
 
 st.html(title_alignment)
-st.image("static/llm.svg")
+st.image("static/suited_for.svg")
+
+### SECTION FOR DOWNSTREAM TASKS ###
+st.html(f"<h3 style='text-align: center;'>{DOWNSTREAM_TASKS} filters</h3>")
+st.multiselect(
+    "**Downstream Task**",
+    dao.get_all("Downstream Tasks", "name"),
+    key=f"{PAGE}.name_dt",
+    default=st.session_state[f"{PAGE}.name_dt"] if f"{PAGE}.name_dt" in st.session_state else None
+)
+st.session_state[f"{PAGE}.filters_dt"] = {}
+
+if st.session_state[f"{PAGE}.name_dt"]:
+    st.session_state[f"{PAGE}.filters_dt"][f"{DOWNSTREAM_TASKS}.name"] = st.session_state[f"{PAGE}.name_dt"][0]
 
 ### SECTION FOR LARGE LANGUAGE MODEL ###
 
@@ -121,35 +135,45 @@ with col_7:
     )
 
 st.session_state[f"{PAGE}.filters_llm"] = {
-    f"openSource": st.session_state[f"{PAGE}.open_source"],
-    f"fineTuned": st.session_state[f"{PAGE}.fine_tuned"],
+    f"{MODELS}.openSource": st.session_state[f"{PAGE}.open_source"],
+    f"{MODELS}.fineTuned": st.session_state[f"{PAGE}.fine_tuned"],
     # "quantization": quantization,  # FIXME: fixami
-    f"contextLength": {"$gte": st.session_state[f"{PAGE}.cont_length"]},
+    f"{MODELS}.contextLength": {"$gte": st.session_state[f"{PAGE}.cont_length"]},
 }
 
 if st.session_state[f"{PAGE}.num_param_filter"] == "Number of Parameters (B)":
     st.session_state[f"{PAGE}.filters_llm"]["$and"] = [
-        {"numberOfParameters [B]": {"$gte": st.session_state[f"{PAGE}.min_num_param"]}},
+        {f"{MODELS}.numberOfParameters [B]": {"$gte": st.session_state[f"{PAGE}.min_num_param"]}},
         {
-            "numberOfParameters [B]": {"$lte": 
+            f"{MODELS}.numberOfParameters [B]": {"$lte": 
                 st.session_state[f"{PAGE}.max_num_param"] if st.session_state[f"{PAGE}.max_num_param"] else 1e9}
         },  # TODO: numero
     ]
 
 if st.session_state[f"{PAGE}.arch"]:
-    st.session_state[f"{PAGE}.filters_llm"][f"architecture"] = st.session_state[f"{PAGE}.arch"][0]
+    st.session_state[f"{PAGE}.filters_llm"][f"{MODELS}.architecture"] = st.session_state[f"{PAGE}.arch"]
 
 if st.session_state[f"{PAGE}.lan_llm"]:
-    st.session_state[f"{PAGE}.filters_llm"][f"languages"] = {"$all": st.session_state[f"{PAGE}.lan_llm"]}
+    st.session_state[f"{PAGE}.filters_llm"][f"{MODELS}.languages"] = {"$all": st.session_state[f"{PAGE}.lan_llm"]}
 
+### FINAL SECTION FOR QUERYING
+st.markdown("---")
+st.multiselect(
+    "**Select the results of the query for Downstream Task**",
+    dao.get_attributes(DOWNSTREAM_TASKS),
+    ["name"],
+    key=f"{PAGE}.project_dt_multiselect"
+)
+st.session_state[f"{PAGE}.project_dt"] = [f"{DOWNSTREAM_TASKS}." + att for att in st.session_state[f"{PAGE}.project_dt_multiselect"]]
 
 st.multiselect(
-    "**Select the results of the query**",
+    "**Select the results of the query for LLM**",
     dao.get_attributes(MODELS),
     ["name", "version", "numberOfParameters [B]"],
     key=f"{PAGE}.project_llm_multiselect"
 )
-st.session_state[f"{PAGE}.project_llm"] = st.session_state[f"{PAGE}.project_llm_multiselect"]
+st.session_state[f"{PAGE}.project_llm"] = [f"{MODELS}." + att for att in st.session_state[f"{PAGE}.project_llm_multiselect"]]
+
 
 l, l1, c, r1, r = st.columns(5)
 
@@ -158,8 +182,13 @@ with c:
 
 if query:
     query_input = [create_query_structure(
+        collection=DOWNSTREAM_TASKS, 
+        project=st.session_state[f"{PAGE}.project_dt"], 
+        filters=st.session_state[f"{PAGE}.filters_dt"]
+    ),
+    create_query_structure(
         collection=MODELS, 
-        project=st.session_state[f"{PAGE}.project_llm"],
+        project=st.session_state[f"{PAGE}.project_llm"], 
         filters=st.session_state[f"{PAGE}.filters_llm"]
     )]
     #st.write(query_input)
