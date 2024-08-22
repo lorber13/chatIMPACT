@@ -3,27 +3,27 @@ import pandas as pd
 from utils import create_query_structure, reworked_query_output
 from dao import Dao
 
-
+PAGE = "Downstream Task"
 COLLECTION = "Downstream Tasks"
+DB_NAME = "ChatIMPACT"
 
-dao = Dao("ChatIMPACT")
+dao = Dao(DB_NAME)
 
 st.page_link("gui.py", label="Homepage", icon="🏠")
 
-title_alignment = """
-<h1 style='text-align: center; color: Black;'>Downstream Task</h1>
-"""
+title_alignment = f"<h1 style='text-align: center; color: Black;'>{PAGE}</h1>"
 
 st.html(title_alignment)
-st.image("static/downstream_task.png")
+st.image("static/downstream_task.svg")
 
 st.markdown("---")
 
-filters = {}
-project = st.multiselect(
-    "**Select the results of the query**",
-    dao.get_attributes("Downstream Tasks"),
+st.session_state[f"{PAGE}.filters"] = {}
+st.multiselect(
+    "**Select the results of the query from Downstream Task**",
+    dao.get_attributes(COLLECTION),
     ["name"],
+    key=f"{PAGE}.project_dt_multiselect"
 )
 
 l, l1, c, r1, r = st.columns(5)
@@ -33,7 +33,9 @@ with c:
 
 if query:
     query_input = [create_query_structure(
-        collection=COLLECTION, project=project, filters=filters
+        collection=COLLECTION, 
+        project=st.session_state[f"{PAGE}.project_dt_multiselect"],
+        filters=st.session_state[f"{PAGE}.filters"]
     )]
     #st.write(query_input)
     result = dao.query(query_input)

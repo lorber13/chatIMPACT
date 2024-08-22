@@ -285,7 +285,7 @@ if st.session_state[f"{PAGE}.lan_ds"]:
     }
 
 ### FINAL SECTION FOR QUERYING
-project_llm = st.multiselect(
+st.multiselect(
     "**Select the results of the query from LLM**",
     dao.get_attributes(MODELS),
     ["name", "version", "numberOfParameters [B]"],
