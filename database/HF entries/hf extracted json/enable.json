@@ -1,0 +1,3211 @@
+[
+    {
+        "Dataset": "AdvertiseGen",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Alt4Blind",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-256-24-gpt-4o-2024-05-13-413991",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-256-24-gpt-4o-2024-05-13-952023",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-32000-384-gpt-4o-2024-05-13-3663751",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-140539",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-221689",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-2499",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-268697",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-465198",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-548936",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-580978",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-607244",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-698531",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-69882",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-733782",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-822545",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ArguAna-512-192-gpt-4o-2024-05-13-890333",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-base-en-1362024-n19c-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-1362024-gcw6-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-15062024-atex-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-2062024-u43q-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-v1_5-05062024-m8dn-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-v1_5-05062024-vbal-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-v1_5-08082024-cs2v-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-v1_5-1362024-2wos-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-v1_5-14062024-fimj-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-v1_5-14062024-xdwa-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-v1_5-1562024-to89-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-v1_5-5242024-5uvy-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-large-en-v1_5-672024-v51y-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-m3-1362024-m82b-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-m3-2024__6__12_-1217-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-m3-26062024-gdon-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-m3-27052024-w9t8-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-m3-6122024-ibs3-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-m3-6142024-0ndt-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-m3-6232024-4vtf-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-m3-782024-wl54-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-m3-8142024-iw0e-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-02082024-vrdv-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-04062024-hsmq-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-05062024-x987-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-18062024-56t5-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-23052024-upq5-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-27052024-4e8w-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-2852024-6p16-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-30052024-rc2l-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-3_6_2024-32r4-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-5252024-jzfp-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-5272024-2fs4-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-5272024-ou25-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-5282024-hkt5-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-612024-vf79-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-632024-34lw-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "BAAI_bge-small-en-v1_5-7152024-w1z0-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "Benchmark-Testing",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "BilCat-news-classification",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "Bitext-customer-support-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-events-ticketing-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-hospitality-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-insurance-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-media-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-mortgage-loans-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-restaurants-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-retail-banking-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-retail-ecommerce-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-telco-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-travel-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Bitext-wealth-management-llm-chatbot-training-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "Buzz-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Buzz-slice-1-10-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Buzz-slice-10-10-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Buzz-slice-2-10-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Buzz-slice-3-10-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Buzz-slice-4-10-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Buzz-slice-5-10-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Buzz-slice-6-10-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Buzz-slice-7-10-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Buzz-slice-8-10-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Buzz-slice-9-10-V1.2",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "CMedQAv2-3",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "CMedQAv2-reranking-improved",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "CQADupstackRetrieval-256-24-gpt-4o-2024-05-13-261378",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "Claire-Dialogue-French-0.1",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "ClimateFEVER-256-24-gpt-4o-2024-05-13-572217",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ClimateFEVER-256-24-gpt-4o-2024-05-13-918964",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "Colossal-Instruction-Translation-EN-ES",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "CriticBench",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "DBPedia-256-24-gpt-4o-2024-05-13-190101",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "Dataset",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "Deepfake-1180v-1f",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "DoCLayNet-large-wt-image",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "DocLayNet-base",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "DocLayNet-large",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "DocLayNet-small",
+        "DownstreamTask": [
+            "token-classification"
+        ]
+    },
+    {
+        "Dataset": "EPOQUE",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "ESPOSITO",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "English-to-Hinglish",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "FEVER-256-24-gpt-4o-2024-05-13-961879",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FEVER-256-24-gpt-4o-2024-05-13-989429",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FactualConsistencyScoresTextSummarization",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "FairytaleQA-translated-french",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "FairytaleQA-translated-italian",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "FairytaleQA-translated-ptBR",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "FairytaleQA-translated-ptPT",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "FairytaleQA-translated-romanian",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "FairytaleQA-translated-spanish",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "FalAI",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "FiQA2018-256-24-gpt-4o-2024-05-13-235808",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FiQA2018-256-24-gpt-4o-2024-05-13-46082",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FiQA2018-256-24-gpt-4o-2024-05-13-497939",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FiQA2018-256-24-gpt-4o-2024-05-13-774308",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FiQA2018-256-24-gpt-4o-2024-05-13-780826",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FiQA2018-256-24-gpt-4o-2024-05-13-825318",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FiQA2018-256-24-gpt-4o-2024-05-13-898550",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FiQA2018-32000-384-gpt-4o-2024-05-13-4321481",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FiQA2018-512-192-gpt-4o-2024-05-13-439294",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "FiQA2018-512-192-gpt-4o-2024-05-13-985263",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "Financial_News_Translation_Spanish_Finetune",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "GLINER-multi-task-synthetic-data",
+        "DownstreamTask": [
+            "question-answering",
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "GeNTE",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "HotpotQA-256-24-gpt-4o-2024-05-13-773587",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "IL-TUR",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "MSMARCO-256-24-gpt-4o-2024-05-13-374380",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "MSMARCO-256-24-gpt-4o-2024-05-13-466074",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "Math-QA",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "MetaLlama_Text_Generation_Prompts",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "MultiCCAligned-TW-Corpus",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-0-0-gpt-4o-2024-05-13-152861",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-0-0-gpt-4o-2024-05-13-257061",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-0-0-gpt-4o-2024-05-13-353382",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-0-0-gpt-4o-2024-05-13-470790",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-0-0-gpt-4o-2024-05-13-624125",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-0-0-gpt-4o-2024-05-13-982705",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-256-24-gpt-4o-2024-05-13-141246",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-256-24-gpt-4o-2024-05-13-14719",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-256-24-gpt-4o-2024-05-13-203779",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-256-24-gpt-4o-2024-05-13-396610",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-256-24-gpt-4o-2024-05-13-456029",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-256-24-gpt-4o-2024-05-13-546049",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-32000-384-gpt-4o-2024-05-13-94264207",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-512-192-gpt-4o-2024-05-13-43315",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-512-192-gpt-4o-2024-05-13-73934",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-8-8-gpt-4o-2024-05-13-322852",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-8-8-gpt-4o-2024-05-13-449863",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-8-8-gpt-4o-2024-05-13-610535",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-8-8-gpt-4o-2024-05-13-847943",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-8-8-gpt-4o-2024-05-13-855191",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NFCorpus-8-8-gpt-4o-2024-05-13-978964",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "NL_restaurant_reviews",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "NQ-256-24-gpt-4o-2024-05-13-803084",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "Nepali-Roman-Transliteration",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "NoticIA",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "NoticIA-it",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "NoticIA_Human_Validation",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "OASum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "OpenSubtitles-TW-Corpus",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "PaSaz",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "PathPal",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "Pol-Spider",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "QuoraRetrieval-256-24-gpt-4o-2024-05-13-635320",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "QuoraRetrieval-256-24-gpt-4o-2024-05-13-80208",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "QuoraRetrieval-512-192-gpt-4o-2024-05-13-768442",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "QuoraRetrieval-512-192-gpt-4o-2024-05-13-777321",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "Quran",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "RCL-Customer-Support-Training",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "RLSTACK",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "SCIDOCS-256-24-gpt-4o-2024-05-13-10630",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SCIDOCS-256-24-gpt-4o-2024-05-13-157892",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SCIDOCS-256-24-gpt-4o-2024-05-13-417900",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SCIDOCS-256-24-gpt-4o-2024-05-13-421451",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SCIDOCS-256-24-gpt-4o-2024-05-13-598568",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SCIDOCS-256-24-gpt-4o-2024-05-13-862053",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SCIDOCS-32000-384-gpt-4o-2024-05-13-78042877",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SCIDOCS-512-192-gpt-4o-2024-05-13-115380",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SCIDOCS-512-192-gpt-4o-2024-05-13-650620",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SQuALITY-v1.3",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "SciFact-256-24-gpt-4o-2024-05-13-204265",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SciFact-256-24-gpt-4o-2024-05-13-3778",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SciFact-256-24-gpt-4o-2024-05-13-478897",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SciFact-256-24-gpt-4o-2024-05-13-499715",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SciFact-256-24-gpt-4o-2024-05-13-526066",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SciFact-256-24-gpt-4o-2024-05-13-994884",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SciFact-32000-384-gpt-4o-2024-05-13-83349675",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SciFact-512-192-gpt-4o-2024-05-13-14571",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "SciFact-512-192-gpt-4o-2024-05-13-866232",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "Select-Stack",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "Synthetic-JP-EN-Translation-Dataset-Magpie-Nemotron-4-20k",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "TED2020-TW-Corpus",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "TRECCOVID-256-24-gpt-4o-2024-05-13-46681",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "TRECCOVID-256-24-gpt-4o-2024-05-13-475598",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "TRECCOVID-256-24-gpt-4o-2024-05-13-690454",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "TRECCOVID-256-24-gpt-4o-2024-05-13-953989",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "TRECCOVID-512-192-gpt-4o-2024-05-13-347397",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "TRECCOVID-512-192-gpt-4o-2024-05-13-653452",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "TableBench",
+        "DownstreamTask": [
+            "table-question-answering"
+        ]
+    },
+    {
+        "Dataset": "TextSummarisation",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "Touche2020-256-24-gpt-4o-2024-05-13-27907",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "ac_iquad",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "afriqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "afriqa-gold-passages",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "aiera-ect-sum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "airoboros-summarization",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "alpaca-sinhala",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "alpaca-zulu",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "anime-understanding-dataset",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "arguana-c-128-24-gpt-4o-2024-05-13-68212",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "arguana-c-256-24-gpt-4o-2024-05-13-321013",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "arguana-c-256-24-gpt-4o-2024-05-13-37376",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "arguana-c-256-24-gpt-4o-2024-05-13-51550",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "arguana-c-256-24-gpt-4o-2024-05-13-623812",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "arguana-c-256-24-gpt-4o-2024-05-13-799305",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "arguana-c-256-24-gpt-4o-2024-05-13-994439",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "arguana-c-64-24-gpt-4o-2024-05-136538",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "arguana-c-64-24-gpt-4o-2024-05-136897",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "askubuntu",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "askubuntu-c",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "askubuntu-c-128-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "askubuntu-c-256-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "askubuntu-c-64-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "askubuntu-c-64-24-gpt-4o-2024-05-13-61285",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "askubuntu-c-64-24-gpt-4o-2024-05-131171",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "askubuntu-c-64-24-gpt-4o-2024-05-135760",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "askubuntu-l",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "background-summaries",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "belebele",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "bitcoin_tweets_sentiment_kaggle",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "causalqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "chatgpt_malaysian_open_qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "cmedqav2",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "cmedqav2-c",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "cmedqav2-c-128-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "cmedqav2-c-256-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "cmedqav2-c-64-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "cmedqav2-c-64-24-gpt-4o-2024-05-13-35883",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "cmedqav2-c-64-24-gpt-4o-2024-05-13-50353",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "cmedqav2-c-64-24-gpt-4o-2024-05-131129",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "coding",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "curation-corpus",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "curation-corpus-ru",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "databench",
+        "DownstreamTask": [
+            "table-question-answering"
+        ]
+    },
+    {
+        "Dataset": "databricks-dolly-15k-es",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "deepa2",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "deepspeed-from-new-new-docker",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "dev_mode-wtq",
+        "DownstreamTask": [
+            "table-question-answering"
+        ]
+    },
+    {
+        "Dataset": "dutch-legal-c",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "dutch-legal-c-128-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "dutch-legal-c-1280-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "dutch-legal-c-256-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "dutch-legal-c-64-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "facqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "fin-eng-dataset",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "finewebedu-sft",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "flo",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "flores200zh-en",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "hibo-function-calling-v1",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "iapp_squad",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "idk_mrc",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "indommlu",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "indoqa",
+        "DownstreamTask": [
+            "question-answering",
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "indosum",
+        "DownstreamTask": [
+            "summarization",
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "inglish",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "instruct-snippet-mlsum-v2",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "jat-dataset",
+        "DownstreamTask": [
+            "question-answering",
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-code-06052024-irct-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-code-06052024-k5bq-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-code-06052024-mhal-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-code-11_05_2024-hbxc-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-code-5222024-i8af-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-code-562024-j4ar-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-code-562024-xbuk-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-06052024-ruwi-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-06052024-yl1z-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-10052024-lns6-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-13052024-35bv-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-13052024-ch9n-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-14052024-5b5o-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-14052024-9xxb-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-14052024-afuz-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-15052024-stsl-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-17052024-dumr-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-17052024-uhub-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-1752024-13s3-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-1752024-zdtc-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-19052024-oiu8-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-2024512-wvj9-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-2024513-kkxa-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-202457-oc31-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-21052024-5qm5-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-21052024-5smg-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-21052024-6vz1-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-22052024-vuno-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-23052024-6kfw-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-23052024-hbdj-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5102024-h7o7-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5102024-kvgq-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5122024-3toh-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5152024-tsbl-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5162024-o9um-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5192024-henp-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5192024-qeye-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5192024-seuc-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5192024-xqq9-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5202024-55bm-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5202024-6tkj-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5202024-rxyq-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-5222024-hkde-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-562024-j9xx-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-572024-xg53-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jina-embeddings-v2-base-en-652024-vsmg-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-code-7232024-77ap-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-code-askubuntu",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-code-jinaai_jina-embeddings-v2-base-cod",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-code-stackoverflow",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-de-15_8_2024-h1i4-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-05062024-16gq-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-05062024-445b-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-05062024-igr1-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-05062024-zvoa-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-05072024-aj6g-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-08062024-z8ik-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-08082024-dfhx-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-08082024-msqc-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-11072024-bh6v-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-15072024-5xy1-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-20062024-djhb-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-20062024-t2n9-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-2024615-ioyu-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-202469-tgjk-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-24_06_2024-lrip-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-31_7_2024-kubz-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6112024-fmxr-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6122024-bhm2-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6132024-bez1-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6132024-wvrg-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6142024-huet-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6162024-xxse-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6192024-56os-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6212024-p8j6-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6232024-zldx-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6262024-wtkc-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-6272024-qn9b-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-7232024-szl5-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-7302024-f9zi-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-792024-tyen-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-862024-gra4-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-872024-od97-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-872024-sz3k-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-882024-3hmu-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-892024-idqb-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-jinaai_jina-embeddings-v2-base-en-sc",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-scidocs",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-en-scientific-papers-from-arxiv",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-es-22062024-taeu-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-es-2572024-mb4o-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-es-472024-aqk1-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-es-6122024-fv1x-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-es-6262024-yjwm-webapp",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-zh-CMedQAv2",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-zh-CMedQAv2-2",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-zh-CMedQAv2-3",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "jinaai_jina-embeddings-v2-base-zh-jinaai_jina-embeddings-v2-base-zh-CM",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "kbd-ru",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "kbd_lat-ru",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "khmer-speech-large-english-google-translations",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "korean_english_parallel_wiki_augmented_v1",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "korean_parallel_sentences_v1.1",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "liputan6",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "lr_sum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "lumos_complex_qa_ground_iterative",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "lumos_complex_qa_ground_onetime",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "lumos_complex_qa_plan_iterative",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "lumos_complex_qa_plan_onetime",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "lumos_unified_ground_iterative",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "lumos_unified_plan_iterative",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "m3exam",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "m3ls",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "mabl",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "marian-finetuned-kde4-en-to-fr",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "medical",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "medical-specialities",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "medical_instruction",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "medical_pretrain",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "medical_reward",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "medieval_latin",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "mkqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "mlqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "multimodal-python-copilot-training-overview",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "natural_questions_clean",
+        "DownstreamTask": [
+            "question-answering",
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "nllb-200-1.3B-rust",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "nllb-200-distilled-600M-rust",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "norwegian-nli-triplets-c",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "okapi_m_arc",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "okapi_m_mmlu",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "open-australian-legal-qa",
+        "DownstreamTask": [
+            "question-answering",
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "openai-summarize-tldr",
+        "DownstreamTask": [
+            "text-classification",
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "openai-tldr-filtered",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "openai-tldr-filtered-queries",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "openai-tldr-summarisation-preferences",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "orange",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "parlamento-pt",
+        "DownstreamTask": [
+            "fill-mask"
+        ]
+    },
+    {
+        "Dataset": "phi2_rejection_sampling",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "punjabi-asr",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "python-audio-copilot-training-using-class-knowledge-graphs",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-audio-copilot-training-using-class-knowledge-graphs-2024-01-27",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-audio-copilot-training-using-function-knowledge-graphs",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-audio-copilot-training-using-import-knowledge-graphs",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-audio-copilot-training-using-inheritance-knowledge-graphs",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-image-copilot-training-using-class-knowledge-graphs",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-image-copilot-training-using-class-knowledge-graphs-2024-01-27",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-image-copilot-training-using-function-knowledge-graphs",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-image-copilot-training-using-import-knowledge-graphs",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-image-copilot-training-using-inheritance-knowledge-graphs",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-text-copilot-training-instruct",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-text-copilot-training-instruct-ai-research",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-text-copilot-training-instruct-ai-research-2024-01-27",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-text-copilot-training-instruct-ai-research-2024-02-03",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-text-copilot-training-instruct-ai-research-2024-02-10",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-text-copilot-training-instruct-ai-research-2024-02-11",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "python-text-training-instruct-ai",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "qasina",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "rag-mini-bioasq",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "recognasumm",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "ru-AAQG-QA-QG",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "ru_sentiment_dataset",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "scidocs",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "scidocs-c",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "scidocs-c-128-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "scidocs-c-256-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "scidocs-c-64-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "scidocs-c-64-24-gpt-4o-2024-05-13-46337",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "scidocs-c-64-24-gpt-4o-2024-05-133652",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "scidocs-c-64-24-gpt-4o-2024-05-135334",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "science-journal-for-kids-data",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "scientific_papers_from_arxiv",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "sea_wiki",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "seaeval",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "seahorse",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "sentence_union_generation",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "sentiment_analysis_preprocessed_dataset",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "shibing624-medical-pretrain",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "shippinglaw",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "spanish-chinese",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "squad_id",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "squad_id_muis_2020",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "stackoverflow",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "stackoverflow-c",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "stackoverflow-c-128-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "stackoverflow-c-256-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "stackoverflow-c-64-24",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "stackoverflow-c-64-24-gpt-4o-2024-05-13",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "stackoverflow-c-64-24-gpt-4o-2024-05-137765",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "summarization_gl",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "tape",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "tatoeba-tr-en",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "test",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "question-answering",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "test-run",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "text_coordinates_regions",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "text_coordinates_seasons",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "thai_sum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "thaigov",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "tmad_malay_corpus",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "toxic-el",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "turkish_spam_email",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "tydiqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "tydiqa_id",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "ugalang_0",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "uit_vicov19qa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "uit_viwikiqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "unarXive-en2ru",
+        "DownstreamTask": [
+            "translation"
+        ]
+    },
+    {
+        "Dataset": "unstacked",
+        "DownstreamTask": [
+            "text-generation"
+        ]
+    },
+    {
+        "Dataset": "usb",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "very_specific_technical_questions_about_Ubuntu",
+        "DownstreamTask": [
+            "sentence-similarity",
+            "feature-extraction"
+        ]
+    },
+    {
+        "Dataset": "victorian_authorship",
+        "DownstreamTask": [
+            "text-classification"
+        ]
+    },
+    {
+        "Dataset": "vigetext",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "vihealthqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "vimqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "vlogqa",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "vsolscsum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "whoops",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "wikilingua",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "wikitablequestions",
+        "DownstreamTask": [
+            "table-question-answering"
+        ]
+    },
+    {
+        "Dataset": "wikitablequestions-wtq",
+        "DownstreamTask": [
+            "table-question-answering"
+        ]
+    },
+    {
+        "Dataset": "xglue",
+        "DownstreamTask": [
+            "question-answering",
+            "question-answering"
+        ]
+    },
+    {
+        "Dataset": "xl_sum",
+        "DownstreamTask": [
+            "summarization"
+        ]
+    },
+    {
+        "Dataset": "xquad",
+        "DownstreamTask": [
+            "question-answering"
+        ]
+    }
+]
