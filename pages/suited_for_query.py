@@ -15,6 +15,7 @@ st.page_link("gui.py", label="Homepage", icon="🏠")
 title_alignment = f"<h1 style='text-align: center; color: Black;'>{PAGE}</h1>"
 
 st.html(title_alignment)
+left_co, cent_co,last_co = st.columns(3)
 st.image("static/suited_for.svg")
 
 ### SECTION FOR DOWNSTREAM TASKS ###
