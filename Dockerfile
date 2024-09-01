@@ -1,13 +1,18 @@
 FROM python:3.11-slim
 
-RUN apt-get update && apt-get install -y \
-    curl
-COPY . /home/ChatIMPACT_GUI/
-RUN pip3 install -r /home/ChatIMPACT_GUI/requirements.txt
-WORKDIR /home/ChatIMPACT_GUI
+COPY ./gui.py /chatIMPACT/gui.py
+COPY ./dao.py /chatIMPACT/dao.py
+COPY ./utils.py /chatIMPACT/utils.py
+COPY ./auth.py /chatIMPACT/auth.py
+COPY ./pages /chatIMPACT/pages
+COPY ./static /chatIMPACT/static
+COPY ./.streamlit /chatIMPACT/.streamlit
+COPY ./requirements.txt /chatIMPACT/requirements.txt
 
-COPY . /home/ChatIMPACT_GUI/
+WORKDIR /chatIMPACT
+
+RUN pip3 install -r /chatIMPACT/requirements.txt
+
 EXPOSE 80
-HEALTHCHECK CMD curl --fail http://localhost:80/_stcore/health
 
-ENTRYPOINT ["streamlit", "run", "gui.py", "--server.port=80"]
+CMD ["streamlit", "run", "gui.py", "--server.port=80"]
