@@ -18,6 +18,16 @@ st.html(title_alignment)
 left_co, cent_co,last_co = st.columns(3)
 st.image("static/suited_for.svg")
 
+st.markdown("---")
+query_3_suited_for = """
+**Example Query 3**: *“Find open-source Large Language Models that are specialized in Code Generation with at least 4k context length.”*  
+Select the “Code Generation” DownstreamTask from the dropdown suggestions.  
+Then switch on the OpenSource and the Fine-Tuned toggles for LargeLanguageModel and set the minimum context length to 4000.  
+Click on the **Get results** button to run the query. 
+"""
+st.markdown(query_3_suited_for)
+st.markdown("---")
+
 ### SECTION FOR DOWNSTREAM TASKS ###
 st.html(f"<h3 style='text-align: center;'>{DOWNSTREAM_TASKS} filters</h3>")
 st.multiselect(

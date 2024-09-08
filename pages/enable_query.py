@@ -17,6 +17,15 @@ title_alignment = f"<h1 style='text-align: center; color: Black;'>{PAGE}</h1>"
 st.html(title_alignment)
 st.image("static/enable.svg")
 
+st.markdown("---")
+query_4_enable = """
+**Example Query 4**: *“Find the datasets that can be used to train a model for text summarization and belong to the legal domain. Moreover, the datasets should contain documents written in English, Italian, Spanish, German and French.”*  
+Select the “Summarization” DownstreamTask from the dropdown suggestions.  
+Then in the Dataset section, select the “Legal” domain from the dropdown suggestions and the languages English, Italian, Spanish, German and French from the relevant section.  
+Click on the **Get results** button to compute the result of the query. 
+"""
+st.markdown(query_4_enable)
+
 ### SECTION FOR DOWNSTREAM TASKS ###
 st.markdown("---")
 st.html(f"<h3 style='text-align: center;'>{DOWNSTREAM_TASKS} filters</h3>")

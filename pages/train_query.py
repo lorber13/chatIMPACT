@@ -18,8 +18,16 @@ st.html(title_alignment)
 st.image("static/train.svg")
 
 ### SECTION FOR LARGE LANGUAGE MODEL ###
-
 st.markdown("---")
+query_1_LLM = """
+**Example Query 1**: *“Find the open source models with less than 8 billion parameters, fine-tuned on the medical domain.”*  
+Impose these filters on the Large Language Model Section: minimum NumberOfParameters set to 0, maximum set to 8, switch on both the Fine-Tuned toggle and the Open Source toggle.  
+Then switch on the Fine-Tuning toggle for Dataset and select the Medical Domain on the Domain drop down suggestions in the Dataset section.  
+Finally click on the **Get results** button to run the query.
+"""
+st.markdown(query_1_LLM)
+st.markdown("---")
+
 st.html("<h3 style='text-align: center;'>Large Language Model filters</h3>")
 col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8 = st.columns(
     [0.2, 5.9, 0.2, 5.9, 0.2, 5.9, 0.2, 5.9]

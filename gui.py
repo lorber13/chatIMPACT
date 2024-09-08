@@ -50,7 +50,7 @@ import streamlit as st
 # ]
 
 interactive_image_html = """
-<img src="./app/static/db_model.jpeg" alt="DB Model" usemap="#image-map">
+<img src="./app/static/ER_simplified_final_zoomed.png" alt="DB Model" usemap="#image-map" width="950" height="392">
 
 <map name="image-map">
     <area target="" alt="Large Language Model" title="Large Language Model" href="llm_query" coords="392,249,553,294" shape="rect">
@@ -72,3 +72,40 @@ title_alignment = """
 st.html(title_alignment)
 st.html(interactive_image_html)
 
+st.markdown("---")
+
+st.markdown("### A quick guide")
+intro = """
+To test this Proof of Concept, it is useful to refer to some example queries.  
+The following queries will help the user understand how to navigate the interface and
+why the tool is able to answer meaningful questions.  
+"""
+st.markdown(intro)
+
+query_1_desc = """
+**Query 1:** *“Find the open source models with less than 8 billion parameters, fine-tuned on the medical domain.”*  
+The query considers the Train relationship between the **LargeLanguageModel** and **Dataset** entities.  
+Click on the **Train** relationship to proceed.
+"""
+st.markdown(query_1_desc)
+
+query_2_desc =  """
+**Query 2**: *“Find an untrained metric with character-based granularity suitable for machine translation.”*  
+This query considers the **Assess** relationship between the **Metric** and **DownstreamTask** entities.  
+Click on the **Assess** relationship to proceed.
+"""
+st.markdown(query_2_desc)
+
+query_3_desc = """
+**Query 3**: *“Find open-source Large Language Models that are specialized in Code Generation with at least 4k context length.”*  
+The query takes into account the **SuitedFor** relationship between the **LargeLanguageModel** and **DownstreamTask** entities.  
+Click on the **SuitedFor** relationship.
+"""
+st.markdown(query_3_desc)
+
+query_4_desc = """
+**Query 4**: *“Find the datasets that can be used to train a model for text summarization and belong to the legal domain. Moreover, the datasets should contain documents written in English, Italian, Spanish, German and French."*  
+The query takes into account the **Enable** relationship between the **Dataset** and **DownstreamTask** entities.  
+Click on the **Enable** relationship.
+"""
+st.markdown(query_4_desc)

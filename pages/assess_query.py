@@ -18,6 +18,15 @@ title_alignment = """
 st.html(title_alignment)
 st.image("static/assess.svg")
 
+st.markdown("---")
+query_2_assess = """
+**Example Query 2**: *“Find an untrained metric with character-based granularity suitable for machine translation.”*  
+Switch off the Trained toggle for Metric and select “character” Granularity from the dropdown suggestions.  
+Set the Name of the DownstreamTask to “Machine Translation” from the dropdown suggestion.  
+Finally, click on the **Get results** button to run the query.
+"""
+st.markdown(query_2_assess)
+
 ### SECTION FOR METRICS ###
 
 st.markdown("---")
