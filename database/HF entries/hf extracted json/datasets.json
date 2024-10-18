@@ -8,7 +8,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-652024-vsmg-webapp",
@@ -19,7 +23,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-code-562024-xbuk-webapp",
@@ -30,7 +38,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-code-562024-j4ar-webapp",
@@ -41,7 +53,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-code-06052024-k5bq-webapp",
@@ -52,7 +68,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-code-06052024-irct-webapp",
@@ -63,7 +83,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-06052024-ruwi-webapp",
@@ -74,7 +98,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-code-06052024-mhal-webapp",
@@ -85,7 +113,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-562024-j9xx-webapp",
@@ -96,7 +128,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-572024-xg53-webapp",
@@ -107,7 +143,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-202457-oc31-webapp",
@@ -118,7 +158,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "test",
@@ -129,7 +173,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "coding",
@@ -140,7 +188,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "scientific_papers_from_arxiv",
@@ -151,7 +203,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "very_specific_technical_questions_about_Ubuntu",
@@ -162,7 +218,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "CMedQAv2-reranking-improved",
@@ -173,7 +233,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-10052024-lns6-webapp",
@@ -184,7 +248,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-scientific-papers-from-arxiv",
@@ -195,7 +263,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-code-askubuntu",
@@ -206,7 +278,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-code-stackoverflow",
@@ -217,7 +293,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-scidocs",
@@ -228,7 +308,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-zh-CMedQAv2",
@@ -239,7 +323,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5102024-kvgq-webapp",
@@ -250,7 +338,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-zh-CMedQAv2-2",
@@ -261,7 +353,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-code-11_05_2024-hbxc-webapp",
@@ -272,7 +368,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5102024-h7o7-webapp",
@@ -283,7 +383,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "CMedQAv2-3",
@@ -294,7 +398,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-2024512-wvj9-webapp",
@@ -305,7 +413,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5122024-3toh-webapp",
@@ -316,7 +428,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-2024513-kkxa-webapp",
@@ -327,7 +443,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-13052024-35bv-webapp",
@@ -338,7 +458,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-jinaai_jina-embeddings-v2-base-en-sc",
@@ -349,7 +473,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-code-jinaai_jina-embeddings-v2-base-cod",
@@ -360,7 +488,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-zh-jinaai_jina-embeddings-v2-base-zh-CM",
@@ -371,7 +503,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-zh-CMedQAv2-3",
@@ -382,7 +518,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "scidocs",
@@ -393,7 +533,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "askubuntu",
@@ -404,7 +548,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "stackoverflow",
@@ -415,7 +563,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "cmedqav2",
@@ -426,7 +578,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-13052024-ch9n-webapp",
@@ -437,7 +593,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "askubuntu-c",
@@ -448,7 +608,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "askubuntu-l",
@@ -459,7 +623,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "stackoverflow-c",
@@ -470,7 +638,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "scidocs-c",
@@ -481,7 +653,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "cmedqav2-c",
@@ -492,7 +668,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "norwegian-nli-triplets-c",
@@ -503,7 +683,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-14052024-5b5o-webapp",
@@ -514,7 +698,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-14052024-9xxb-webapp",
@@ -525,7 +713,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-14052024-afuz-webapp",
@@ -536,7 +728,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "dutch-legal-c",
@@ -547,7 +743,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "dutch-legal-c-64-24",
@@ -558,7 +758,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "dutch-legal-c-1280-24",
@@ -569,7 +773,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "askubuntu-c-256-24",
@@ -580,7 +788,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "askubuntu-c-128-24",
@@ -591,7 +803,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "stackoverflow-c-128-24",
@@ -602,7 +818,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "stackoverflow-c-256-24",
@@ -613,7 +833,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "scidocs-c-128-24",
@@ -624,7 +848,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "scidocs-c-256-24",
@@ -635,7 +863,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "cmedqav2-c-128-24",
@@ -646,7 +878,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "dutch-legal-c-128-24",
@@ -657,7 +893,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "dutch-legal-c-256-24",
@@ -668,7 +908,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "cmedqav2-c-256-24",
@@ -679,7 +923,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "stackoverflow-c-64-24",
@@ -690,7 +938,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "askubuntu-c-64-24",
@@ -701,7 +953,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "scidocs-c-64-24",
@@ -712,7 +968,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "cmedqav2-c-64-24",
@@ -723,7 +983,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-15052024-stsl-webapp",
@@ -734,7 +998,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5152024-tsbl-webapp",
@@ -745,7 +1013,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5162024-o9um-webapp",
@@ -756,7 +1028,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "test-run",
@@ -767,7 +1043,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "stackoverflow-c-64-24-gpt-4o-2024-05-13",
@@ -778,7 +1058,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "askubuntu-c-64-24-gpt-4o-2024-05-135760",
@@ -789,7 +1073,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "stackoverflow-c-64-24-gpt-4o-2024-05-137765",
@@ -800,7 +1088,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "scidocs-c-64-24-gpt-4o-2024-05-133652",
@@ -811,7 +1103,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "scidocs-c-64-24-gpt-4o-2024-05-13-46337",
@@ -822,7 +1118,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "askubuntu-c-64-24-gpt-4o-2024-05-131171",
@@ -833,7 +1133,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "scidocs-c-64-24-gpt-4o-2024-05-135334",
@@ -844,7 +1148,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "askubuntu-c-64-24-gpt-4o-2024-05-13-61285",
@@ -855,7 +1163,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "cmedqav2-c-64-24-gpt-4o-2024-05-13-35883",
@@ -866,7 +1178,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "cmedqav2-c-64-24-gpt-4o-2024-05-131129",
@@ -877,7 +1193,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "cmedqav2-c-64-24-gpt-4o-2024-05-13-50353",
@@ -888,7 +1208,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-1752024-13s3-webapp",
@@ -899,7 +1223,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-1752024-zdtc-webapp",
@@ -910,7 +1238,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-17052024-uhub-webapp",
@@ -921,7 +1253,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-17052024-dumr-webapp",
@@ -932,7 +1268,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "arguana-c-64-24-gpt-4o-2024-05-136897",
@@ -943,7 +1283,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "arguana-c-64-24-gpt-4o-2024-05-136538",
@@ -954,7 +1298,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "arguana-c-128-24-gpt-4o-2024-05-13-68212",
@@ -965,7 +1313,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "arguana-c-256-24-gpt-4o-2024-05-13-51550",
@@ -976,7 +1328,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-19052024-oiu8-webapp",
@@ -987,7 +1343,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5192024-henp-webapp",
@@ -998,7 +1358,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5192024-xqq9-webapp",
@@ -1009,7 +1373,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5192024-qeye-webapp",
@@ -1020,7 +1388,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5192024-seuc-webapp",
@@ -1031,7 +1403,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5202024-55bm-webapp",
@@ -1042,7 +1418,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "arguana-c-256-24-gpt-4o-2024-05-13-37376",
@@ -1053,7 +1433,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "arguana-c-256-24-gpt-4o-2024-05-13-321013",
@@ -1064,7 +1448,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "arguana-c-256-24-gpt-4o-2024-05-13-623812",
@@ -1075,7 +1463,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "arguana-c-256-24-gpt-4o-2024-05-13-799305",
@@ -1086,7 +1478,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5202024-6tkj-webapp",
@@ -1097,7 +1493,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "arguana-c-256-24-gpt-4o-2024-05-13-994439",
@@ -1108,7 +1508,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5202024-rxyq-webapp",
@@ -1119,7 +1523,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-21052024-5qm5-webapp",
@@ -1130,7 +1538,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-21052024-6vz1-webapp",
@@ -1141,7 +1553,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-21052024-5smg-webapp",
@@ -1152,7 +1568,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-22052024-vuno-webapp",
@@ -1163,7 +1583,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "flo",
@@ -1174,7 +1598,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-code-5222024-i8af-webapp",
@@ -1185,7 +1613,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-5222024-hkde-webapp",
@@ -1196,7 +1628,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-256-24-gpt-4o-2024-05-13-14719",
@@ -1207,7 +1643,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FiQA2018-256-24-gpt-4o-2024-05-13-825318",
@@ -1218,7 +1658,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SCIDOCS-256-24-gpt-4o-2024-05-13-10630",
@@ -1229,7 +1673,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SciFact-256-24-gpt-4o-2024-05-13-526066",
@@ -1240,7 +1688,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FiQA2018-256-24-gpt-4o-2024-05-13-46082",
@@ -1251,7 +1703,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "TRECCOVID-256-24-gpt-4o-2024-05-13-46681",
@@ -1262,7 +1718,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "TRECCOVID-256-24-gpt-4o-2024-05-13-690454",
@@ -1273,7 +1733,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-256-24-gpt-4o-2024-05-13-203779",
@@ -1284,7 +1748,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FiQA2018-256-24-gpt-4o-2024-05-13-497939",
@@ -1295,7 +1763,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SciFact-256-24-gpt-4o-2024-05-13-994884",
@@ -1306,7 +1778,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SCIDOCS-256-24-gpt-4o-2024-05-13-417900",
@@ -1317,7 +1793,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-23052024-hbdj-webapp",
@@ -1328,7 +1808,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jina-embeddings-v2-base-en-23052024-6kfw-webapp",
@@ -1339,7 +1823,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-23052024-upq5-webapp",
@@ -1350,7 +1838,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-0-0-gpt-4o-2024-05-13-257061",
@@ -1361,7 +1853,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-0-0-gpt-4o-2024-05-13-353382",
@@ -1372,7 +1868,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-0-0-gpt-4o-2024-05-13-982705",
@@ -1383,7 +1883,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-8-8-gpt-4o-2024-05-13-855191",
@@ -1394,7 +1898,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-8-8-gpt-4o-2024-05-13-847943",
@@ -1405,7 +1913,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-8-8-gpt-4o-2024-05-13-978964",
@@ -1416,7 +1928,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-0-0-gpt-4o-2024-05-13-624125",
@@ -1427,7 +1943,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-8-8-gpt-4o-2024-05-13-449863",
@@ -1438,7 +1958,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-0-0-gpt-4o-2024-05-13-152861",
@@ -1449,7 +1973,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-8-8-gpt-4o-2024-05-13-322852",
@@ -1460,7 +1988,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-0-0-gpt-4o-2024-05-13-470790",
@@ -1471,7 +2003,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-8-8-gpt-4o-2024-05-13-610535",
@@ -1482,7 +2018,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-256-24-gpt-4o-2024-05-13-396610",
@@ -1493,7 +2033,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SciFact-256-24-gpt-4o-2024-05-13-3778",
@@ -1504,7 +2048,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FiQA2018-256-24-gpt-4o-2024-05-13-235808",
@@ -1515,7 +2063,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SCIDOCS-256-24-gpt-4o-2024-05-13-421451",
@@ -1526,7 +2078,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FiQA2018-256-24-gpt-4o-2024-05-13-774308",
@@ -1537,7 +2093,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-256-24-gpt-4o-2024-05-13-456029",
@@ -1548,7 +2108,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SciFact-256-24-gpt-4o-2024-05-13-204265",
@@ -1559,7 +2123,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SCIDOCS-256-24-gpt-4o-2024-05-13-862053",
@@ -1570,7 +2138,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-256-24-gpt-4o-2024-05-13-546049",
@@ -1581,7 +2153,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FiQA2018-256-24-gpt-4o-2024-05-13-898550",
@@ -1592,7 +2168,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SCIDOCS-256-24-gpt-4o-2024-05-13-598568",
@@ -1603,7 +2183,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SciFact-256-24-gpt-4o-2024-05-13-499715",
@@ -1614,7 +2198,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-v1_5-5242024-5uvy-webapp",
@@ -1625,7 +2213,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SciFact-256-24-gpt-4o-2024-05-13-478897",
@@ -1636,7 +2228,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-256-24-gpt-4o-2024-05-13-141246",
@@ -1647,7 +2243,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "CQADupstackRetrieval-256-24-gpt-4o-2024-05-13-261378",
@@ -1658,7 +2258,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FiQA2018-256-24-gpt-4o-2024-05-13-780826",
@@ -1669,7 +2273,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ClimateFEVER-256-24-gpt-4o-2024-05-13-918964",
@@ -1680,7 +2288,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SCIDOCS-256-24-gpt-4o-2024-05-13-157892",
@@ -1691,7 +2303,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "DBPedia-256-24-gpt-4o-2024-05-13-190101",
@@ -1702,7 +2318,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-256-24-gpt-4o-2024-05-13-952023",
@@ -1713,7 +2333,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FEVER-256-24-gpt-4o-2024-05-13-989429",
@@ -1724,7 +2348,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "Touche2020-256-24-gpt-4o-2024-05-13-27907",
@@ -1735,7 +2363,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "TRECCOVID-256-24-gpt-4o-2024-05-13-475598",
@@ -1746,7 +2378,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "HotpotQA-256-24-gpt-4o-2024-05-13-773587",
@@ -1757,7 +2393,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "QuoraRetrieval-256-24-gpt-4o-2024-05-13-635320",
@@ -1768,7 +2408,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "MSMARCO-256-24-gpt-4o-2024-05-13-374380",
@@ -1779,7 +2423,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-5252024-jzfp-webapp",
@@ -1790,7 +2438,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ClimateFEVER-256-24-gpt-4o-2024-05-13-572217",
@@ -1801,7 +2453,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FEVER-256-24-gpt-4o-2024-05-13-961879",
@@ -1812,7 +2468,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NQ-256-24-gpt-4o-2024-05-13-803084",
@@ -1823,7 +2483,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "MSMARCO-256-24-gpt-4o-2024-05-13-466074",
@@ -1834,7 +2498,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "TRECCOVID-256-24-gpt-4o-2024-05-13-953989",
@@ -1845,7 +2513,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-256-24-gpt-4o-2024-05-13-413991",
@@ -1856,7 +2528,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "QuoraRetrieval-256-24-gpt-4o-2024-05-13-80208",
@@ -1867,7 +2543,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-5272024-2fs4-webapp",
@@ -1878,7 +2558,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-27052024-4e8w-webapp",
@@ -1889,7 +2573,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-m3-27052024-w9t8-webapp",
@@ -1900,7 +2588,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-890333",
@@ -1911,7 +2603,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-140539",
@@ -1923,7 +2619,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-2499",
@@ -1935,7 +2635,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-733782",
@@ -1946,7 +2650,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-465198",
@@ -1957,7 +2665,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-221689",
@@ -1968,7 +2680,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-548936",
@@ -1979,7 +2695,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-698531",
@@ -1990,7 +2710,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-5272024-ou25-webapp",
@@ -2001,7 +2725,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-69882",
@@ -2012,7 +2740,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-822545",
@@ -2023,7 +2755,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-268697",
@@ -2034,7 +2770,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FiQA2018-512-192-gpt-4o-2024-05-13-985263",
@@ -2045,7 +2785,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "QuoraRetrieval-512-192-gpt-4o-2024-05-13-768442",
@@ -2056,7 +2800,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-580978",
@@ -2067,7 +2815,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "TRECCOVID-512-192-gpt-4o-2024-05-13-653452",
@@ -2078,7 +2830,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-512-192-gpt-4o-2024-05-13-43315",
@@ -2089,7 +2845,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SCIDOCS-512-192-gpt-4o-2024-05-13-115380",
@@ -2100,7 +2860,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SciFact-512-192-gpt-4o-2024-05-13-866232",
@@ -2111,7 +2875,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-512-192-gpt-4o-2024-05-13-607244",
@@ -2122,7 +2890,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FiQA2018-512-192-gpt-4o-2024-05-13-439294",
@@ -2133,7 +2905,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "TRECCOVID-512-192-gpt-4o-2024-05-13-347397",
@@ -2144,7 +2920,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SCIDOCS-512-192-gpt-4o-2024-05-13-650620",
@@ -2155,7 +2935,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "QuoraRetrieval-512-192-gpt-4o-2024-05-13-777321",
@@ -2166,7 +2950,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-512-192-gpt-4o-2024-05-13-73934",
@@ -2177,7 +2965,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SciFact-512-192-gpt-4o-2024-05-13-14571",
@@ -2188,7 +2980,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-5282024-hkt5-webapp",
@@ -2199,7 +2995,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-2852024-6p16-webapp",
@@ -2210,7 +3010,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "FiQA2018-32000-384-gpt-4o-2024-05-13-4321481",
@@ -2221,7 +3025,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SciFact-32000-384-gpt-4o-2024-05-13-83349675",
@@ -2232,7 +3040,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "ArguAna-32000-384-gpt-4o-2024-05-13-3663751",
@@ -2243,7 +3055,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "NFCorpus-32000-384-gpt-4o-2024-05-13-94264207",
@@ -2254,7 +3070,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "SCIDOCS-32000-384-gpt-4o-2024-05-13-78042877",
@@ -2265,7 +3085,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-30052024-rc2l-webapp",
@@ -2276,7 +3100,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-612024-vf79-webapp",
@@ -2287,7 +3115,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-3_6_2024-32r4-webapp",
@@ -2298,7 +3130,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-632024-34lw-webapp",
@@ -2309,7 +3145,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-04062024-hsmq-webapp",
@@ -2320,7 +3160,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-05062024-16gq-webapp",
@@ -2331,7 +3175,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-05062024-445b-webapp",
@@ -2342,7 +3190,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-05062024-igr1-webapp",
@@ -2353,7 +3205,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-v1_5-05062024-m8dn-webapp",
@@ -2364,7 +3220,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-05062024-zvoa-webapp",
@@ -2375,7 +3235,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-05062024-x987-webapp",
@@ -2386,7 +3250,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-v1_5-05062024-vbal-webapp",
@@ -2398,7 +3266,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "deepspeed-from-new-new-docker",
@@ -2410,7 +3282,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-v1_5-672024-v51y-webapp",
@@ -2421,7 +3297,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-08062024-z8ik-webapp",
@@ -2432,7 +3312,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-202469-tgjk-webapp",
@@ -2443,7 +3327,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6112024-fmxr-webapp",
@@ -2454,7 +3342,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-m3-6122024-ibs3-webapp",
@@ -2465,7 +3357,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-m3-2024__6__12_-1217-webapp",
@@ -2476,7 +3372,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-es-6122024-fv1x-webapp",
@@ -2487,7 +3387,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6122024-bhm2-webapp",
@@ -2498,7 +3402,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-v1_5-1362024-2wos-webapp",
@@ -2509,7 +3417,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6132024-wvrg-webapp",
@@ -2520,7 +3432,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6132024-bez1-webapp",
@@ -2531,7 +3447,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-1362024-gcw6-webapp",
@@ -2542,7 +3462,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-base-en-1362024-n19c-webapp",
@@ -2553,7 +3477,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-m3-1362024-m82b-webapp",
@@ -2564,7 +3492,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6142024-huet-webapp",
@@ -2575,7 +3507,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-m3-6142024-0ndt-webapp",
@@ -2586,7 +3522,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-v1_5-14062024-fimj-webapp",
@@ -2597,7 +3537,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-v1_5-14062024-xdwa-webapp",
@@ -2608,7 +3552,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-15062024-atex-webapp",
@@ -2619,7 +3567,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-2024615-ioyu-webapp",
@@ -2630,7 +3582,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-v1_5-1562024-to89-webapp",
@@ -2641,7 +3597,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6162024-xxse-webapp",
@@ -2652,7 +3612,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-18062024-56t5-webapp",
@@ -2663,7 +3627,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6192024-56os-webapp",
@@ -2674,7 +3642,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-20062024-djhb-webapp",
@@ -2685,7 +3657,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-20062024-t2n9-webapp",
@@ -2696,7 +3672,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-2062024-u43q-webapp",
@@ -2707,7 +3687,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6212024-p8j6-webapp",
@@ -2718,7 +3702,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-es-22062024-taeu-webapp",
@@ -2729,7 +3717,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6232024-zldx-webapp",
@@ -2740,7 +3732,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-m3-6232024-4vtf-webapp",
@@ -2751,7 +3747,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-24_06_2024-lrip-webapp",
@@ -2762,7 +3762,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-m3-26062024-gdon-webapp",
@@ -2773,7 +3777,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-es-6262024-yjwm-webapp",
@@ -2784,7 +3792,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6262024-wtkc-webapp",
@@ -2795,7 +3807,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-6272024-qn9b-webapp",
@@ -2806,7 +3822,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-es-472024-aqk1-webapp",
@@ -2817,7 +3837,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-05072024-aj6g-webapp",
@@ -2828,7 +3852,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-m3-782024-wl54-webapp",
@@ -2839,7 +3867,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-792024-tyen-webapp",
@@ -2850,7 +3882,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-11072024-bh6v-webapp",
@@ -2861,7 +3897,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-15072024-5xy1-webapp",
@@ -2872,7 +3912,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-7152024-w1z0-webapp",
@@ -2883,7 +3927,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-code-7232024-77ap-webapp",
@@ -2894,7 +3942,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-7232024-szl5-webapp",
@@ -2905,7 +3957,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-es-2572024-mb4o-webapp",
@@ -2916,7 +3972,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-7302024-f9zi-webapp",
@@ -2927,7 +3987,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-31_7_2024-kubz-webapp",
@@ -2938,7 +4002,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-small-en-v1_5-02082024-vrdv-webapp",
@@ -2949,7 +4017,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-862024-gra4-webapp",
@@ -2960,7 +4032,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-08082024-msqc-webapp",
@@ -2971,7 +4047,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-872024-sz3k-webapp",
@@ -2982,7 +4062,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-872024-od97-webapp",
@@ -2993,7 +4077,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-08082024-dfhx-webapp",
@@ -3004,7 +4092,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-large-en-v1_5-08082024-cs2v-webapp",
@@ -3015,7 +4107,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-882024-3hmu-webapp",
@@ -3026,7 +4122,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-en-892024-idqb-webapp",
@@ -3037,7 +4137,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "BAAI_bge-m3-8142024-iw0e-webapp",
@@ -3048,7 +4152,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "jinaai_jina-embeddings-v2-base-de-15_8_2024-h1i4-webapp",
@@ -3059,624 +4167,816 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
     },
     {
-        "name": "deepa2",
+        "name": "jinaai_jina-embeddings-v2-base-code-922024-zgwo-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-922024-puz9-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-de-922024-pwti-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-02092024-o8xx-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-02092024-ww8e-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-02092024-kk9q-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-02092024-jqg1-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-dxer-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-97u6-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-f2kc-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-9evb-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-2ayt-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-eh35-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-k007-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-12h5-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-oix8-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-u59b-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-jdbf-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-03092024-wh9d-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-de-932024-59f9-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "jinaai_jina-embeddings-v2-base-en-942024-7mc4-webapp",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "AdvertiseGen",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "zh"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
+    },
+    {
+        "name": "medical",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
+    },
+    {
+        "name": "natural_questions_clean",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "mit",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-generation",
+            "text2text-generation"
+        ]
+    },
+    {
+        "name": "shibing624-medical-pretrain",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "zh",
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
+    },
+    {
+        "name": "jat-dataset",
+        "size [rows]": "100M<n<1B",
+        "languages": [],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": "2402.09844",
+        "fineTuning": null,
+        "tasks": [
+            "reinforcement-learning",
+            "text-generation",
+            "question-answering"
+        ]
+    },
+    {
+        "name": "medical_instruction",
         "size [rows]": "1M<n<10M",
+        "languages": [
+            "zh",
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
+    },
+    {
+        "name": "medical_pretrain",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "zh",
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
+    },
+    {
+        "name": "medical_reward",
+        "size [rows]": "1K<n<10K",
+        "languages": [
+            "zh",
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
+    },
+    {
+        "name": "open-australian-legal-qa",
+        "size [rows]": "1K<n<10K",
         "languages": [
             "en"
         ],
         "licenseToUse": "other",
-        "domain": [],
-        "uri": "2110.01509",
-        "fineTuning": null
+        "domain": [
+            "legal"
+        ],
+        "uri": "10.57967/hf/1479",
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-generation",
+            "text2text-generation"
+        ]
     },
     {
-        "name": "TextSummarisation",
+        "name": "Claire-Dialogue-French-0.1",
         "size [rows]": "10K<n<100K",
         "languages": [
-            "unk"
+            "fr"
         ],
-        "licenseToUse": null,
+        "licenseToUse": "cc-by-nc-sa-4.0",
         "domain": [],
-        "uri": null,
-        "fineTuning": null
+        "uri": "2311.16840",
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "text2text-generation"
+        ]
     },
     {
-        "name": "OASum",
-        "size [rows]": "100K<n<1M",
+        "name": "databricks-dolly-15k-es",
+        "size [rows]": "10K<n<100K",
         "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-sa-3.0",
-        "domain": [],
-        "uri": "2212.09233",
-        "fineTuning": null
-    },
-    {
-        "name": "SQuALITY-v1.3",
-        "size [rows]": "n<1K",
-        "languages": [
-            "en"
+            "es"
         ],
         "licenseToUse": "apache-2.0",
         "domain": [],
-        "uri": "2205.11465",
-        "fineTuning": null
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
     },
     {
-        "name": "instruct-snippet-mlsum-v2",
-        "size [rows]": "1K<n<10K",
+        "name": "hibo-function-calling-v1",
+        "size [rows]": "100K<n<1M",
         "languages": [
-            "de"
+            "en"
         ],
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
     },
     {
-        "name": "sentence_union_generation",
-        "size [rows]": "1K<n<10K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-nc-4.0",
-        "domain": [],
-        "uri": "2305.15605",
-        "fineTuning": null
-    },
-    {
-        "name": "curation-corpus",
-        "size [rows]": "10K<n<100K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "curation-corpus-ru",
-        "size [rows]": "10K<n<100K",
-        "languages": [
-            "ru"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "airoboros-summarization",
-        "size [rows]": "1K<n<10K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "bsd-3-clause",
-        "domain": [],
-        "uri": "2105.08209",
-        "fineTuning": null
-    },
-    {
-        "name": "liputan6",
-        "size [rows]": null,
-        "languages": [
-            "ind"
-        ],
-        "licenseToUse": null,
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "xl_sum",
-        "size [rows]": null,
-        "languages": [
-            "ind",
-            "mya",
-            "tha",
-            "vie",
-            "eng"
-        ],
-        "licenseToUse": "cc-by-nc-sa-4.0",
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "indosum",
-        "size [rows]": null,
-        "languages": [
-            "ind"
-        ],
-        "licenseToUse": null,
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "usb",
-        "size [rows]": "1K<n<10K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "apache-2.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "background-summaries",
-        "size [rows]": "1K<n<10K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-nc-4.0",
-        "domain": [],
-        "uri": "2310.16197",
-        "fineTuning": null
-    },
-    {
-        "name": "recognasumm",
+        "name": "RLSTACK",
         "size [rows]": "100K<n<1M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Select-Stack",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "unstacked",
+        "size [rows]": "1B<n<10B",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-slice-1-10-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-slice-10-10-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-slice-2-10-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-slice-3-10-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-slice-4-10-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-slice-5-10-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-slice-6-10-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-slice-7-10-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-slice-8-10-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "Buzz-slice-9-10-V1.2",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "code"
+        ],
+        "uri": "2403.08763",
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "MetaLlama_Text_Generation_Prompts",
+        "size [rows]": "1M<n<10M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [
+            "art"
+        ],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification",
+            "token-classification",
+            "text-generation"
+        ]
+    },
+    {
+        "name": "orange",
+        "size [rows]": "n<1K",
+        "languages": [],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "parlamento-pt",
+        "size [rows]": "1M<n<10M",
         "languages": [
             "pt"
         ],
-        "licenseToUse": "mit",
+        "licenseToUse": "other",
         "domain": [],
-        "uri": null,
-        "fineTuning": null
+        "uri": "2305.06721",
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "fill-mask"
+        ]
     },
     {
-        "name": "indosum",
-        "size [rows]": null,
-        "languages": [
-            "ind"
-        ],
-        "licenseToUse": null,
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "NoticIA",
-        "size [rows]": "n<1K",
-        "languages": [
-            "es"
-        ],
-        "licenseToUse": "apache-2.0",
-        "domain": [],
-        "uri": "2404.07611",
-        "fineTuning": null
-    },
-    {
-        "name": "NoticIA_Human_Validation",
-        "size [rows]": "n<1K",
-        "languages": [
-            "es"
-        ],
-        "licenseToUse": "cc-by-nc-sa-4.0",
-        "domain": [],
-        "uri": "2404.07611",
-        "fineTuning": null
-    },
-    {
-        "name": "NoticIA-it",
-        "size [rows]": "n<1K",
-        "languages": [
-            "es"
-        ],
-        "licenseToUse": null,
-        "domain": [],
-        "uri": "2404.07611",
-        "fineTuning": null
-    },
-    {
-        "name": "FactualConsistencyScoresTextSummarization",
+        "name": "wikitablequestions",
         "size [rows]": "10K<n<100K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "mit",
-        "domain": [],
-        "uri": "2111.09525",
-        "fineTuning": null
-    },
-    {
-        "name": "openai-summarize-tldr",
-        "size [rows]": "100K<n<1M",
         "languages": [
             "en"
         ],
         "licenseToUse": "cc-by-4.0",
         "domain": [],
-        "uri": "2009.01325",
-        "fineTuning": null
+        "uri": "1508.00305",
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
-        "name": "summarization_gl",
-        "size [rows]": "10K<n<100K",
+        "name": "wikitablequestions-wtq",
+        "size [rows]": "n<1K",
         "languages": [
-            "gl"
+            "en"
         ],
         "licenseToUse": "cc-by-4.0",
         "domain": [],
-        "uri": null,
-        "fineTuning": null
+        "uri": "1508.00305",
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
-        "name": "Benchmark-Testing",
-        "size [rows]": "100K<n<1M",
+        "name": "dev_mode-wtq",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": "1508.00305",
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
+    },
+    {
+        "name": "databench",
+        "size [rows]": "10K<n<100K",
         "languages": [
             "en",
-            "hi",
-            "bn",
-            "gu",
-            "ml",
-            "mr",
-            "or",
-            "pa",
-            "ta",
-            "te"
+            "es"
         ],
         "licenseToUse": "mit",
-        "domain": [
-            "legal"
-        ],
+        "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "table-question-answering",
+            "question-answering"
+        ]
     },
     {
-        "name": "IL-TUR",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "en",
-            "hi",
-            "bn",
-            "gu",
-            "ml",
-            "mr",
-            "or",
-            "pa",
-            "ta",
-            "te"
-        ],
-        "licenseToUse": "cc-by-nc-sa-4.0",
-        "domain": [
-            "legal"
-        ],
-        "uri": "2310.09765",
-        "fineTuning": null
-    },
-    {
-        "name": "thai_sum",
-        "size [rows]": null,
-        "languages": [
-            "tha"
-        ],
-        "licenseToUse": "mit",
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "vsolscsum",
-        "size [rows]": null,
-        "languages": [
-            "vie"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "thaigov",
-        "size [rows]": null,
-        "languages": [
-            "tha"
-        ],
-        "licenseToUse": "pddl",
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "m3ls",
-        "size [rows]": null,
-        "languages": [
-            "ind"
-        ],
-        "licenseToUse": "mit",
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "wikilingua",
-        "size [rows]": null,
-        "languages": [
-            "ind"
-        ],
-        "licenseToUse": null,
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "seahorse",
-        "size [rows]": null,
-        "languages": [
-            "vie"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "sea_wiki",
-        "size [rows]": null,
-        "languages": [
-            "ace",
-            "ban",
-            "bcl",
-            "bjn",
-            "bug",
-            "cbk",
-            "gor",
-            "ilo",
-            "ind",
-            "jav",
-            "khm",
-            "lao",
-            "mad",
-            "min",
-            "mnw",
-            "mya",
-            "nia",
-            "pag",
-            "pam",
-            "shn",
-            "sun",
-            "tet",
-            "tgl",
-            "tha",
-            "vie",
-            "war"
-        ],
-        "licenseToUse": "cc-by-sa-4.0",
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "lr_sum",
-        "size [rows]": null,
-        "languages": [
-            "ind",
-            "khm",
-            "lao",
-            "mya",
-            "tha",
-            "vie"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [],
-        "uri": "2406.10118",
-        "fineTuning": null
-    },
-    {
-        "name": "science-journal-for-kids-data",
-        "size [rows]": "n<1K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": null,
-        "domain": [
-            "biology"
-        ],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "GLINER-multi-task-synthetic-data",
-        "size [rows]": "10K<n<100K",
+        "name": "TableBench",
+        "size [rows]": "1K<n<10K",
         "languages": [
             "en"
         ],
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "aiera-ect-sum",
-        "size [rows]": "n<1K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "mit",
-        "domain": [
-            "finance"
-        ],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "Alt4Blind",
-        "size [rows]": "1K<n<10K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-nc-sa-4.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "ru_sentiment_dataset",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "ru"
-        ],
-        "licenseToUse": null,
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "NL_restaurant_reviews",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "nl"
-        ],
-        "licenseToUse": null,
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "openai-tldr-summarisation-preferences",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "mit",
-        "domain": [],
-        "uri": "2310.06452",
-        "fineTuning": null
-    },
-    {
-        "name": "openai-tldr-filtered",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [],
-        "uri": "2310.06452",
-        "fineTuning": null
-    },
-    {
-        "name": "openai-tldr-filtered-queries",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [],
-        "uri": "2310.06452",
-        "fineTuning": null
-    },
-    {
-        "name": "toxic-el",
-        "size [rows]": "10K<n<100K",
-        "languages": [
-            "el"
-        ],
-        "licenseToUse": "gpl-3.0",
-        "domain": [],
-        "uri": "10.57967/hf/0744",
-        "fineTuning": null
-    },
-    {
-        "name": "sentiment_analysis_preprocessed_dataset",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "mit",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "victorian_authorship",
-        "size [rows]": "10K<n<100K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "medieval_latin",
-        "size [rows]": null,
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": null,
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "bitcoin_tweets_sentiment_kaggle",
-        "size [rows]": "10K<n<100K",
-        "languages": [],
-        "licenseToUse": null,
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "BilCat-news-classification",
-        "size [rows]": "1K<n<10K",
-        "languages": [
-            "tr"
-        ],
-        "licenseToUse": "cc",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "turkish_spam_email",
-        "size [rows]": "1K<n<10K",
-        "languages": [
-            "tr"
-        ],
-        "licenseToUse": "unknown",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "PathPal",
-        "size [rows]": "1K<n<10K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "mit",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "Deepfake-1180v-1f",
-        "size [rows]": "1K<n<10K",
-        "languages": [],
-        "licenseToUse": "mit",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "RCL-Customer-Support-Training",
-        "size [rows]": "10K<n<100K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cdla-sharing-1.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "xglue",
@@ -3705,7 +5005,14 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": "2004.01401",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "summarization",
+            "text-classification",
+            "text2text-generation",
+            "token-classification"
+        ]
     },
     {
         "name": "indoqa",
@@ -3716,7 +5023,10 @@
         "licenseToUse": "cc-by-nd-4.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "tape",
@@ -3727,7 +5037,12 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2210.12813",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-classification",
+            "question-answering",
+            "multiple-choice"
+        ]
     },
     {
         "name": "causalqa",
@@ -3738,7 +5053,10 @@
         "licenseToUse": null,
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "whoops",
@@ -3749,7 +5067,8 @@
         "licenseToUse": null,
         "domain": [],
         "uri": "2303.07274",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": []
     },
     {
         "name": "afriqa",
@@ -3769,7 +5088,10 @@
         "licenseToUse": "cc-by-sa-4.0",
         "domain": [],
         "uri": "2305.06897",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "afriqa-gold-passages",
@@ -3789,18 +5111,10 @@
         "licenseToUse": "cc-by-sa-4.0",
         "domain": [],
         "uri": "2305.06897",
-        "fineTuning": null
-    },
-    {
-        "name": "natural_questions_clean",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "mit",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "Bitext-customer-support-llm-chatbot-training-dataset",
@@ -3811,16 +5125,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "jat-dataset",
-        "size [rows]": "100M<n<1B",
-        "languages": [],
-        "licenseToUse": "apache-2.0",
-        "domain": [],
-        "uri": "2402.09844",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "idk_mrc",
@@ -3831,7 +5140,10 @@
         "licenseToUse": null,
         "domain": [],
         "uri": "2210.13778",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "tydiqa_id",
@@ -3842,7 +5154,8 @@
         "licenseToUse": null,
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": []
     },
     {
         "name": "facqa",
@@ -3853,7 +5166,10 @@
         "licenseToUse": null,
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "squad_id",
@@ -3864,7 +5180,10 @@
         "licenseToUse": null,
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "lumos_complex_qa_ground_onetime",
@@ -3875,7 +5194,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2311.05657",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "lumos_complex_qa_ground_iterative",
@@ -3886,7 +5209,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2311.05657",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "lumos_complex_qa_plan_iterative",
@@ -3897,7 +5224,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2311.05657",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "lumos_complex_qa_plan_onetime",
@@ -3908,7 +5239,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2311.05657",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "lumos_unified_plan_iterative",
@@ -3919,7 +5254,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2311.05657",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "lumos_unified_ground_iterative",
@@ -3930,7 +5269,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2311.05657",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "rag-mini-bioasq",
@@ -3941,20 +5284,11 @@
         "licenseToUse": "cc-by-2.5",
         "domain": [],
         "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "open-australian-legal-qa",
-        "size [rows]": "1K<n<10K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "other",
-        "domain": [
-            "legal"
-        ],
-        "uri": "10.57967/hf/1479",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "sentence-similarity"
+        ]
     },
     {
         "name": "Math-QA",
@@ -3965,7 +5299,10 @@
         "licenseToUse": "cc-by-nc-4.0",
         "domain": [],
         "uri": "2303.17760",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
     },
     {
         "name": "phi2_rejection_sampling",
@@ -3976,7 +5313,10 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "python-image-copilot-training-using-class-knowledge-graphs",
@@ -3985,7 +5325,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-to-image",
+            "image-to-image",
+            "question-answering"
+        ]
     },
     {
         "name": "python-image-copilot-training-using-function-knowledge-graphs",
@@ -3994,7 +5339,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-to-image",
+            "image-to-image",
+            "question-answering"
+        ]
     },
     {
         "name": "python-image-copilot-training-using-inheritance-knowledge-graphs",
@@ -4003,7 +5353,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-to-image",
+            "image-to-image",
+            "question-answering"
+        ]
     },
     {
         "name": "python-audio-copilot-training-using-class-knowledge-graphs",
@@ -4012,7 +5367,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-to-audio",
+            "audio-to-audio",
+            "question-answering"
+        ]
     },
     {
         "name": "python-image-copilot-training-using-import-knowledge-graphs",
@@ -4021,7 +5381,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-to-image",
+            "image-to-image",
+            "question-answering"
+        ]
     },
     {
         "name": "python-text-copilot-training-instruct",
@@ -4030,7 +5395,11 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "python-audio-copilot-training-using-function-knowledge-graphs",
@@ -4039,7 +5408,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-to-audio",
+            "audio-to-audio",
+            "question-answering"
+        ]
     },
     {
         "name": "python-audio-copilot-training-using-inheritance-knowledge-graphs",
@@ -4048,7 +5422,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-to-audio",
+            "audio-to-audio",
+            "question-answering"
+        ]
     },
     {
         "name": "python-audio-copilot-training-using-import-knowledge-graphs",
@@ -4057,7 +5436,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-to-audio",
+            "audio-to-audio",
+            "question-answering"
+        ]
     },
     {
         "name": "multimodal-python-copilot-training-overview",
@@ -4066,7 +5450,16 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "text-to-audio",
+            "text-to-speech",
+            "text-to-image",
+            "audio-to-audio",
+            "image-to-image",
+            "question-answering"
+        ]
     },
     {
         "name": "squad_id_muis_2020",
@@ -4077,7 +5470,10 @@
         "licenseToUse": "unknown",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "python-text-copilot-training-instruct-ai-research",
@@ -4086,7 +5482,11 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "python-text-copilot-training-instruct-ai-research-2024-01-27",
@@ -4095,7 +5495,11 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "python-audio-copilot-training-using-class-knowledge-graphs-2024-01-27",
@@ -4104,7 +5508,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-to-audio",
+            "audio-to-audio",
+            "question-answering"
+        ]
     },
     {
         "name": "python-image-copilot-training-using-class-knowledge-graphs-2024-01-27",
@@ -4113,7 +5522,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-to-image",
+            "image-to-image",
+            "question-answering"
+        ]
     },
     {
         "name": "python-text-copilot-training-instruct-ai-research-2024-02-03",
@@ -4122,7 +5536,11 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "ru-AAQG-QA-QG",
@@ -4133,7 +5551,11 @@
         "licenseToUse": null,
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text2text-generation"
+        ]
     },
     {
         "name": "python-text-copilot-training-instruct-ai-research-2024-02-10",
@@ -4142,7 +5564,11 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "python-text-copilot-training-instruct-ai-research-2024-02-11",
@@ -4151,7 +5577,11 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "anime-understanding-dataset",
@@ -4162,7 +5592,10 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "CriticBench",
@@ -4173,7 +5606,12 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": "2402.14809",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-classification",
+            "text-generation"
+        ]
     },
     {
         "name": "FalAI",
@@ -4184,7 +5622,11 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "audio-classification",
+            "automatic-speech-recognition"
+        ]
     },
     {
         "name": "shippinglaw",
@@ -4197,7 +5639,11 @@
             "legal"
         ],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-classification"
+        ]
     },
     {
         "name": "python-text-training-instruct-ai",
@@ -4206,7 +5652,11 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "question-answering"
+        ]
     },
     {
         "name": "Bitext-retail-banking-llm-chatbot-training-dataset",
@@ -4217,7 +5667,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "FairytaleQA-translated-ptPT",
@@ -4228,7 +5682,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2406.04233",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-generation"
+        ]
     },
     {
         "name": "FairytaleQA-translated-ptBR",
@@ -4239,7 +5697,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2406.04233",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-generation"
+        ]
     },
     {
         "name": "FairytaleQA-translated-french",
@@ -4250,7 +5712,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2406.04233",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-generation"
+        ]
     },
     {
         "name": "FairytaleQA-translated-spanish",
@@ -4261,7 +5727,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2406.04233",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-generation"
+        ]
     },
     {
         "name": "FairytaleQA-translated-romanian",
@@ -4272,7 +5742,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2406.04233",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-generation"
+        ]
     },
     {
         "name": "FairytaleQA-translated-italian",
@@ -4283,7 +5757,11 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2406.04233",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-generation"
+        ]
     },
     {
         "name": "uit_vicov19qa",
@@ -4294,7 +5772,10 @@
         "licenseToUse": "unknown",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "belebele",
@@ -4319,7 +5800,10 @@
         "licenseToUse": "cc-by-nc-sa-4.0",
         "domain": [],
         "uri": "2308.16884",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "indoqa",
@@ -4330,7 +5814,10 @@
         "licenseToUse": "cc-by-nd-4.0",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "chatgpt_malaysian_open_qa",
@@ -4341,7 +5828,10 @@
         "licenseToUse": "cc-by-nc-2.0",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "uit_viwikiqa",
@@ -4352,7 +5842,10 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": "2105.09043",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "vihealthqa",
@@ -4363,7 +5856,10 @@
         "licenseToUse": "unknown",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "seaeval",
@@ -4377,7 +5873,10 @@
         "licenseToUse": "cc-by-nc-4.0",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "xquad",
@@ -4389,7 +5888,10 @@
         "licenseToUse": "cc-by-sa-4.0",
         "domain": [],
         "uri": "1910.11856",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "okapi_m_mmlu",
@@ -4401,7 +5903,10 @@
         "licenseToUse": "cc-by-nc-4.0",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "tydiqa",
@@ -4413,7 +5918,10 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "vimqa",
@@ -4424,7 +5932,10 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "mabl",
@@ -4437,7 +5948,10 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "iapp_squad",
@@ -4448,7 +5962,10 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "mkqa",
@@ -4462,7 +5979,10 @@
         "licenseToUse": "cc-by-sa-3.0",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "qasina",
@@ -4473,7 +5993,10 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": "2310.08102",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "okapi_m_arc",
@@ -4485,7 +6008,10 @@
         "licenseToUse": "cc-by-nc-4.0",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "mlqa",
@@ -4496,7 +6022,10 @@
         "licenseToUse": "cc-by-sa-3.0",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "vlogqa",
@@ -4507,7 +6036,10 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "tmad_malay_corpus",
@@ -4518,7 +6050,10 @@
         "licenseToUse": "unknown",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "vigetext",
@@ -4529,7 +6064,10 @@
         "licenseToUse": "unknown",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "m3exam",
@@ -4542,7 +6080,11 @@
         "licenseToUse": "cc-by-nc-sa-4.0",
         "domain": [],
         "uri": "2306.05179",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "visual-question-answering"
+        ]
     },
     {
         "name": "indommlu",
@@ -4561,7 +6103,10 @@
         "licenseToUse": "cc-by-nc-sa-4.0",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "ac_iquad",
@@ -4572,7 +6117,10 @@
         "licenseToUse": "cc-by-4.0",
         "domain": [],
         "uri": "2406.10118",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "medical-specialities",
@@ -4585,7 +6133,24 @@
             "medical"
         ],
         "uri": "2405.01886",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
+    },
+    {
+        "name": "GLINER-multi-task-synthetic-data",
+        "size [rows]": "10K<n<100K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "token-classification"
+        ]
     },
     {
         "name": "test",
@@ -4599,7 +6164,10 @@
             "medical"
         ],
         "uri": "2405.01886",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering"
+        ]
     },
     {
         "name": "Bitext-mortgage-loans-llm-chatbot-training-dataset",
@@ -4610,7 +6178,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "Bitext-wealth-management-llm-chatbot-training-dataset",
@@ -4621,7 +6193,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "Bitext-retail-ecommerce-llm-chatbot-training-dataset",
@@ -4632,7 +6208,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "Bitext-travel-llm-chatbot-training-dataset",
@@ -4643,7 +6223,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "Bitext-hospitality-llm-chatbot-training-dataset",
@@ -4654,7 +6238,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "Bitext-events-ticketing-llm-chatbot-training-dataset",
@@ -4665,7 +6253,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "Bitext-insurance-llm-chatbot-training-dataset",
@@ -4676,7 +6268,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "Bitext-media-llm-chatbot-training-dataset",
@@ -4687,7 +6283,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "Bitext-restaurants-llm-chatbot-training-dataset",
@@ -4698,7 +6298,11 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
     },
     {
         "name": "Bitext-telco-llm-chatbot-training-dataset",
@@ -4709,7 +6313,50 @@
         "licenseToUse": "cdla-sharing-1.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "table-question-answering"
+        ]
+    },
+    {
+        "name": "finewebedu-sft",
+        "size [rows]": "10K<n<100K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "odc-by",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "text-generation"
+        ]
+    },
+    {
+        "name": "univ_exams_finnish",
+        "size [rows]": "1K<n<10K",
+        "languages": [
+            "fi"
+        ],
+        "licenseToUse": "cc-by-sa-4.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "turkish_llm_finetune_set_4_topics",
+        "size [rows]": "10K<n<100K",
+        "languages": [
+            "tr"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": []
     },
     {
         "name": "DocLayNet-large",
@@ -4723,7 +6370,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": "2206.01062",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "object-detection",
+            "image-segmentation",
+            "token-classification"
+        ]
     },
     {
         "name": "DocLayNet-small",
@@ -4737,7 +6389,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": "2206.01062",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "object-detection",
+            "image-segmentation",
+            "token-classification"
+        ]
     },
     {
         "name": "DocLayNet-base",
@@ -4751,7 +6408,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": "2206.01062",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "object-detection",
+            "image-segmentation",
+            "token-classification"
+        ]
     },
     {
         "name": "DoCLayNet-large-wt-image",
@@ -4765,314 +6427,12 @@
         "licenseToUse": "other",
         "domain": [],
         "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "AdvertiseGen",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "zh"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "medical",
-        "size [rows]": "n<1K",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "apache-2.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "shibing624-medical-pretrain",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "zh",
-            "en"
-        ],
-        "licenseToUse": "apache-2.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "medical_instruction",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "zh",
-            "en"
-        ],
-        "licenseToUse": "apache-2.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "medical_pretrain",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "zh",
-            "en"
-        ],
-        "licenseToUse": "apache-2.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "medical_reward",
-        "size [rows]": "1K<n<10K",
-        "languages": [
-            "zh",
-            "en"
-        ],
-        "licenseToUse": "apache-2.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "Claire-Dialogue-French-0.1",
-        "size [rows]": "10K<n<100K",
-        "languages": [
-            "fr"
-        ],
-        "licenseToUse": "cc-by-nc-sa-4.0",
-        "domain": [],
-        "uri": "2311.16840",
-        "fineTuning": null
-    },
-    {
-        "name": "databricks-dolly-15k-es",
-        "size [rows]": "10K<n<100K",
-        "languages": [
-            "es"
-        ],
-        "licenseToUse": "apache-2.0",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "hibo-function-calling-v1",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "mit",
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "RLSTACK",
-        "size [rows]": "100K<n<1M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Select-Stack",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "mit",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "unstacked",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-slice-1-10-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-slice-10-10-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-slice-2-10-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-slice-3-10-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-slice-4-10-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-slice-5-10-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-slice-6-10-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-slice-7-10-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-slice-8-10-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "Buzz-slice-9-10-V1.2",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "code"
-        ],
-        "uri": "2403.08763",
-        "fineTuning": null
-    },
-    {
-        "name": "MetaLlama_Text_Generation_Prompts",
-        "size [rows]": "1M<n<10M",
-        "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [
-            "art"
-        ],
-        "uri": null,
-        "fineTuning": null
-    },
-    {
-        "name": "orange",
-        "size [rows]": "n<1K",
-        "languages": [],
-        "licenseToUse": null,
-        "domain": [],
-        "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "object-detection",
+            "image-segmentation",
+            "token-classification"
+        ]
     },
     {
         "name": "kbd-ru",
@@ -5084,7 +6444,11 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation",
+            "text2text-generation"
+        ]
     },
     {
         "name": "kbd_lat-ru",
@@ -5096,7 +6460,11 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation",
+            "text2text-generation"
+        ]
     },
     {
         "name": "inglish",
@@ -5108,7 +6476,10 @@
         "licenseToUse": "cc-by-4.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "nllb-200-distilled-600M-rust",
@@ -5314,7 +6685,10 @@
         "licenseToUse": "cc-by-nc-4.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "nllb-200-1.3B-rust",
@@ -5520,7 +6894,8 @@
         "licenseToUse": "cc-by-nc-4.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": []
     },
     {
         "name": "spanish-chinese",
@@ -5532,7 +6907,10 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "ugalang_0",
@@ -5543,7 +6921,8 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": []
     },
     {
         "name": "marian-finetuned-kde4-en-to-fr",
@@ -5552,7 +6931,8 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": []
     },
     {
         "name": "punjabi-asr",
@@ -5563,7 +6943,10 @@
         "licenseToUse": null,
         "domain": [],
         "uri": "2208.12666",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "automatic-speech-recognition"
+        ]
     },
     {
         "name": "fin-eng-dataset",
@@ -5575,7 +6958,10 @@
         "licenseToUse": null,
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "text_coordinates_seasons",
@@ -5591,7 +6977,12 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "token-classification",
+            "text-classification"
+        ]
     },
     {
         "name": "text_coordinates_regions",
@@ -5627,7 +7018,12 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "feature-extraction",
+            "token-classification",
+            "text-classification"
+        ]
     },
     {
         "name": "English-to-Hinglish",
@@ -5638,7 +7034,8 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": []
     },
     {
         "name": "unarXive-en2ru",
@@ -5650,7 +7047,10 @@
         "licenseToUse": "cc-by-sa-4.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "tatoeba-tr-en",
@@ -5662,7 +7062,10 @@
         "licenseToUse": "cc-by-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "Financial_News_Translation_Spanish_Finetune",
@@ -5671,7 +7074,10 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "Dataset",
@@ -5682,7 +7088,10 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "Nepali-Roman-Transliteration",
@@ -5694,7 +7103,10 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "TED2020-TW-Corpus",
@@ -5711,7 +7123,10 @@
         "licenseToUse": "unknown",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "OpenSubtitles-TW-Corpus",
@@ -5728,7 +7143,10 @@
         "licenseToUse": "unknown",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "MultiCCAligned-TW-Corpus",
@@ -5746,7 +7164,10 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "alpaca-sinhala",
@@ -5757,7 +7178,11 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "question-answering",
+            "translation"
+        ]
     },
     {
         "name": "EPOQUE",
@@ -5769,7 +7194,10 @@
         "licenseToUse": "cc-by-nc-sa-4.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "ESPOSITO",
@@ -5781,7 +7209,10 @@
         "licenseToUse": "cc-by-nc-sa-4.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "PaSaz",
@@ -5793,7 +7224,10 @@
         "licenseToUse": "cc-by-sa-4.0",
         "domain": [],
         "uri": "2405.09250",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text2text-generation"
+        ]
     },
     {
         "name": "khmer-speech-large-english-google-translations",
@@ -5802,7 +7236,8 @@
         "licenseToUse": null,
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": []
     },
     {
         "name": "GeNTE",
@@ -5814,7 +7249,11 @@
         "licenseToUse": "cc-by-4.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation",
+            "text-generation"
+        ]
     },
     {
         "name": "Colossal-Instruction-Translation-EN-ES",
@@ -5826,7 +7265,10 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "korean_parallel_sentences_v1.1",
@@ -5838,7 +7280,11 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation",
+            "text2text-generation"
+        ]
     },
     {
         "name": "Pol-Spider",
@@ -5849,7 +7295,10 @@
         "licenseToUse": null,
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "flores200zh-en",
@@ -5861,7 +7310,23 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "aihub-flores-koen-integrated-prime-base-300k",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "en",
+            "ko"
+        ],
+        "licenseToUse": "cc-by-sa-4.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
         "name": "alpaca-zulu",
@@ -5873,7 +7338,8 @@
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": []
     },
     {
         "name": "Synthetic-JP-EN-Translation-Dataset-Magpie-Nemotron-4-20k",
@@ -5884,7 +7350,10 @@
         "licenseToUse": "apache-2.0",
         "domain": [],
         "uri": "2406.08464",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
     },
     {
         "name": "korean_english_parallel_wiki_augmented_v1",
@@ -5896,7 +7365,11 @@
         "licenseToUse": "cc-by-sa-3.0",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation",
+            "text2text-generation"
+        ]
     },
     {
         "name": "Quran",
@@ -5917,73 +7390,790 @@
         "licenseToUse": "cc",
         "domain": [],
         "uri": "10.57967/hf/2847",
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "translation"
+        ]
     },
     {
-        "name": "parlamento-pt",
+        "name": "deepa2",
         "size [rows]": "1M<n<10M",
         "languages": [
-            "pt"
+            "en"
         ],
         "licenseToUse": "other",
         "domain": [],
-        "uri": "2305.06721",
-        "fineTuning": null
+        "uri": "2110.01509",
+        "fineTuning": null,
+        "tasks": [
+            "text-retrieval",
+            "text-generation"
+        ]
     },
     {
-        "name": "wikitablequestions",
+        "name": "TextSummarisation",
         "size [rows]": "10K<n<100K",
+        "languages": [
+            "unk"
+        ],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "OASum",
+        "size [rows]": "100K<n<1M",
         "languages": [
             "en"
         ],
-        "licenseToUse": "cc-by-4.0",
+        "licenseToUse": "cc-by-sa-3.0",
         "domain": [],
-        "uri": "1508.00305",
-        "fineTuning": null
+        "uri": "2212.09233",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
     },
     {
-        "name": "wikitablequestions-wtq",
+        "name": "SQuALITY-v1.3",
         "size [rows]": "n<1K",
         "languages": [
             "en"
         ],
-        "licenseToUse": "cc-by-4.0",
+        "licenseToUse": "apache-2.0",
         "domain": [],
-        "uri": "1508.00305",
-        "fineTuning": null
+        "uri": "2205.11465",
+        "fineTuning": null,
+        "tasks": [
+            "summarization",
+            "text2text-generation"
+        ]
     },
     {
-        "name": "dev_mode-wtq",
-        "size [rows]": "n<1K",
+        "name": "instruct-snippet-mlsum-v2",
+        "size [rows]": "1K<n<10K",
         "languages": [
-            "en"
-        ],
-        "licenseToUse": "cc-by-4.0",
-        "domain": [],
-        "uri": "1508.00305",
-        "fineTuning": null
-    },
-    {
-        "name": "databench",
-        "size [rows]": "10K<n<100K",
-        "languages": [
-            "en",
-            "es"
+            "de"
         ],
         "licenseToUse": "mit",
         "domain": [],
         "uri": null,
-        "fineTuning": null
+        "fineTuning": null,
+        "tasks": [
+            "summarization",
+            "text2text-generation"
+        ]
     },
     {
-        "name": "TableBench",
+        "name": "sentence_union_generation",
+        "size [rows]": "1K<n<10K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-nc-4.0",
+        "domain": [],
+        "uri": "2305.15605",
+        "fineTuning": null,
+        "tasks": [
+            "text2text-generation",
+            "text-generation"
+        ]
+    },
+    {
+        "name": "curation-corpus",
+        "size [rows]": "10K<n<100K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "curation-corpus-ru",
+        "size [rows]": "10K<n<100K",
+        "languages": [
+            "ru"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "airoboros-summarization",
+        "size [rows]": "1K<n<10K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "bsd-3-clause",
+        "domain": [],
+        "uri": "2105.08209",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "liputan6",
+        "size [rows]": null,
+        "languages": [
+            "ind"
+        ],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "xl_sum",
+        "size [rows]": null,
+        "languages": [
+            "ind",
+            "mya",
+            "tha",
+            "vie",
+            "eng"
+        ],
+        "licenseToUse": "cc-by-nc-sa-4.0",
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "indosum",
+        "size [rows]": null,
+        "languages": [
+            "ind"
+        ],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "usb",
         "size [rows]": "1K<n<10K",
         "languages": [
             "en"
         ],
         "licenseToUse": "apache-2.0",
         "domain": [],
-        "uri": "2408.09174",
-        "fineTuning": null
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "background-summaries",
+        "size [rows]": "1K<n<10K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-nc-4.0",
+        "domain": [],
+        "uri": "2310.16197",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "recognasumm",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "pt"
+        ],
+        "licenseToUse": "mit",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "indosum",
+        "size [rows]": null,
+        "languages": [
+            "ind"
+        ],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "NoticIA",
+        "size [rows]": "n<1K",
+        "languages": [
+            "es"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": "2404.07611",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "NoticIA_Human_Validation",
+        "size [rows]": "n<1K",
+        "languages": [
+            "es"
+        ],
+        "licenseToUse": "cc-by-nc-sa-4.0",
+        "domain": [],
+        "uri": "2404.07611",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "NoticIA-it",
+        "size [rows]": "n<1K",
+        "languages": [
+            "es"
+        ],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": "2404.07611",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "FactualConsistencyScoresTextSummarization",
+        "size [rows]": "10K<n<100K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "mit",
+        "domain": [],
+        "uri": "2111.09525",
+        "fineTuning": null,
+        "tasks": [
+            "summarization",
+            "text-classification"
+        ]
+    },
+    {
+        "name": "openai-summarize-tldr",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": "2009.01325",
+        "fineTuning": null,
+        "tasks": [
+            "text-generation",
+            "summarization"
+        ]
+    },
+    {
+        "name": "summarization_gl",
+        "size [rows]": "10K<n<100K",
+        "languages": [
+            "gl"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "summarization",
+            "text-generation"
+        ]
+    },
+    {
+        "name": "Benchmark-Testing",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "en",
+            "hi",
+            "bn",
+            "gu",
+            "ml",
+            "mr",
+            "or",
+            "pa",
+            "ta",
+            "te"
+        ],
+        "licenseToUse": "mit",
+        "domain": [
+            "legal"
+        ],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification",
+            "summarization",
+            "translation",
+            "token-classification",
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "IL-TUR",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "en",
+            "hi",
+            "bn",
+            "gu",
+            "ml",
+            "mr",
+            "or",
+            "pa",
+            "ta",
+            "te"
+        ],
+        "licenseToUse": "cc-by-nc-sa-4.0",
+        "domain": [
+            "legal"
+        ],
+        "uri": "2310.09765",
+        "fineTuning": null,
+        "tasks": [
+            "text-classification",
+            "summarization",
+            "translation",
+            "token-classification",
+            "feature-extraction",
+            "sentence-similarity"
+        ]
+    },
+    {
+        "name": "thai_sum",
+        "size [rows]": null,
+        "languages": [
+            "tha"
+        ],
+        "licenseToUse": "mit",
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "vsolscsum",
+        "size [rows]": null,
+        "languages": [
+            "vie"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "thaigov",
+        "size [rows]": null,
+        "languages": [
+            "tha"
+        ],
+        "licenseToUse": "pddl",
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "m3ls",
+        "size [rows]": null,
+        "languages": [
+            "ind"
+        ],
+        "licenseToUse": "mit",
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "wikilingua",
+        "size [rows]": null,
+        "languages": [
+            "ind"
+        ],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "seahorse",
+        "size [rows]": null,
+        "languages": [
+            "vie"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "sea_wiki",
+        "size [rows]": null,
+        "languages": [
+            "ace",
+            "ban",
+            "bcl",
+            "bjn",
+            "bug",
+            "cbk",
+            "gor",
+            "ilo",
+            "ind",
+            "jav",
+            "khm",
+            "lao",
+            "mad",
+            "min",
+            "mnw",
+            "mya",
+            "nia",
+            "pag",
+            "pam",
+            "shn",
+            "sun",
+            "tet",
+            "tgl",
+            "tha",
+            "vie",
+            "war"
+        ],
+        "licenseToUse": "cc-by-sa-4.0",
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "lr_sum",
+        "size [rows]": null,
+        "languages": [
+            "ind",
+            "khm",
+            "lao",
+            "mya",
+            "tha",
+            "vie"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": "2406.10118",
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "science-journal-for-kids-data",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": null,
+        "domain": [
+            "biology"
+        ],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "summarization",
+            "text2text-generation"
+        ]
+    },
+    {
+        "name": "aiera-ect-sum",
+        "size [rows]": "n<1K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "mit",
+        "domain": [
+            "finance"
+        ],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "summarization"
+        ]
+    },
+    {
+        "name": "Alt4Blind",
+        "size [rows]": "1K<n<10K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-nc-sa-4.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification",
+            "text-retrieval",
+            "image-to-text",
+            "summarization"
+        ]
+    },
+    {
+        "name": "ru_sentiment_dataset",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "ru"
+        ],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "NL_restaurant_reviews",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "nl"
+        ],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "openai-tldr-summarisation-preferences",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "mit",
+        "domain": [],
+        "uri": "2310.06452",
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
+    },
+    {
+        "name": "openai-tldr-filtered",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": "2310.06452",
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
+    },
+    {
+        "name": "openai-tldr-filtered-queries",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc-by-4.0",
+        "domain": [],
+        "uri": "2310.06452",
+        "fineTuning": null,
+        "tasks": [
+            "text-generation"
+        ]
+    },
+    {
+        "name": "toxic-el",
+        "size [rows]": "10K<n<100K",
+        "languages": [
+            "el"
+        ],
+        "licenseToUse": "gpl-3.0",
+        "domain": [],
+        "uri": "10.57967/hf/0744",
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
+    },
+    {
+        "name": "sentiment_analysis_preprocessed_dataset",
+        "size [rows]": "100K<n<1M",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "mit",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
+    },
+    {
+        "name": "victorian_authorship",
+        "size [rows]": "10K<n<100K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cc",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
+    },
+    {
+        "name": "medieval_latin",
+        "size [rows]": null,
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
+    },
+    {
+        "name": "bitcoin_tweets_sentiment_kaggle",
+        "size [rows]": "10K<n<100K",
+        "languages": [],
+        "licenseToUse": null,
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
+    },
+    {
+        "name": "BilCat-news-classification",
+        "size [rows]": "1K<n<10K",
+        "languages": [
+            "tr"
+        ],
+        "licenseToUse": "cc",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
+    },
+    {
+        "name": "turkish_spam_email",
+        "size [rows]": "1K<n<10K",
+        "languages": [
+            "tr"
+        ],
+        "licenseToUse": "unknown",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
+    },
+    {
+        "name": "PathPal",
+        "size [rows]": "1K<n<10K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "mit",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
+    },
+    {
+        "name": "Deepfake-1180v-1f",
+        "size [rows]": "1K<n<10K",
+        "languages": [],
+        "licenseToUse": "mit",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": []
+    },
+    {
+        "name": "RCL-Customer-Support-Training",
+        "size [rows]": "10K<n<100K",
+        "languages": [
+            "en"
+        ],
+        "licenseToUse": "cdla-sharing-1.0",
+        "domain": [],
+        "uri": null,
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
+    },
+    {
+        "name": "CTA-synthetic-dataset",
+        "size [rows]": "n<1K",
+        "languages": [
+            "de"
+        ],
+        "licenseToUse": "apache-2.0",
+        "domain": [],
+        "uri": "2409.02690",
+        "fineTuning": null,
+        "tasks": [
+            "text-classification"
+        ]
     }
 ]
