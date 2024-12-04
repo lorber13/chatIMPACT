@@ -175,6 +175,11 @@ if __name__ == "__main__":
 
     file_path = os.path.join(result_path, 'models_duplicates_no_modelCreator.json')
 
+    with open("HF entries/hf extracted json/models_duplicates_no_modelCreator.json", 'r') as file:
+        existent_data = json.load(file)
+    existent_models_df = pd.DataFrame(existent_data)
+    existent_ids = existent_models_df['id'].values
+
     # Total: 697,162 models
     count = 0
     start_time = time.time()
@@ -182,13 +187,12 @@ if __name__ == "__main__":
         print(f'Processing {task} models...')
         models = api.list_models(filter=task, full=True, cardData=True)
         for model in models:
-            model_attributes = extract_model_attributes(model)
-            add_to_json_file(model_attributes, file_path)
+            if model.id not in existent_ids:
+                model_attributes = extract_model_attributes(model)
+                add_to_json_file(model_attributes, file_path)
             count += 1
             if count % 1000 == 0:
                 print(f'{count} models processed, {time.time() - start_time} seconds elapsed')
-            if count == 200000:
-                break
     
     for task in TAG_DOWNSTREAM_TASK:
         print(f'Processing {task} models...')

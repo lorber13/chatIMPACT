@@ -25,7 +25,7 @@ tag_library = {'pytorch','tf','jax','transformers','safetensors','tensorboard','
 			   'spanmarker','paddlenlp','habana','pyannote.audio','pythae','unity-sentis'}
 
 TAG_DOWNSTREAM_TASK = {'text-classification','token-classification','table-question-answering','question-answering','zero-shot-classification',
-				   'translation','summarization','feature-extraction','text-generation','fill-mask','sentence-similarity'}
+				   'translation','summarization','feature-extraction','text-generation','fill-mask','sentence-similarity', 'table-to-text', 'multiple-choice', 'text-retrieval'}
 
 # 'dataset:openslr'
 # TAG_DATASET = {}
