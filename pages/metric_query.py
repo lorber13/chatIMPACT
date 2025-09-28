@@ -14,72 +14,26 @@ st.page_link("gui.py", label="Homepage", icon="🏠")
 title_alignment = title_alignment = f"<h1 style='text-align: center; color: Black;'>{PAGE}</h1>"
 
 st.html(title_alignment)
-left_co, cent_co,last_co = st.columns(3)
-with cent_co:
-    st.image("static/metrics.svg")
+st.image("static/metrics.png", use_column_width=True)
 
 st.markdown("---")
 st.html("<h3 style='text-align: center;'>Metric filters</h3>")
-col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8 = st.columns(
-    [0.2, 5.9, 0.2, 5.9, 0.2, 5.9, 0.2, 5.9]
-)
+col_1, col_2 = st.columns([1, 1])
 
 with col_1:
-    st.html(
-        """
-        <div class="divider-vertical-line"></div>
-        <style>
-            .divider-vertical-line {
-                border-left: 2px solid rgba(49, 51, 63, 0.2);
-                height: 320px;
-                margin: auto;
-            }
-        </style>
-        """
-    )
-
-with col_2:
-    st.multiselect(
-        "**Context**",
-        dao.get_all(COLLECTION, "context"),
-        key=f"{PAGE}.context",
-        default=st.session_state[f"{PAGE}.context"] if f"{PAGE}.context" in st.session_state else None
-    )
-
-with col_3:
-    st.html(
-        """
-        <div class="divider-vertical-line"></div>
-        <style>
-            .divider-vertical-line {
-                border-left: 2px solid rgba(49, 51, 63, 0.2);
-                height: 320px;
-                margin: auto;
-            }
-        </style>
-        """
-    )
-
-with col_4:
+    st.toggle("**Context Free**",
+              value=False,
+              key=f"{PAGE}.contextFree")
+    
     st.toggle("**Trained**",
               value=False,
               key=f"{PAGE}.trained")
+    
+    st.toggle("**Feature Based**",
+              value=False,
+              key=f"{PAGE}.featureBased")
 
-with col_5:
-    st.html(
-        """
-        <div class="divider-vertical-line"></div>
-        <style>
-            .divider-vertical-line {
-                border-left: 2px solid rgba(49, 51, 63, 0.2);
-                height: 320px;
-                margin: auto;
-            }
-        </style>
-        """
-    )
-
-with col_6:
+with col_2:
     if st.session_state[f"{PAGE}.trained"]:
         st.multiselect(
             "**Feature Based - End to End**",
@@ -95,28 +49,11 @@ with col_6:
             default=st.session_state[f"{PAGE}.gran"] if f"{PAGE}.gran" in st.session_state else None
         )
 
-with col_7:
-    st.html(
-        """
-        <div class="divider-vertical-line"></div>
-        <style>
-            .divider-vertical-line {
-                border-left: 2px solid rgba(49, 51, 63, 0.2);
-                height: 320px;
-                margin: auto;
-            }
-        </style>
-        """
-    )
-
 st.session_state[f"{PAGE}.filters"] = {
-    "trained": st.session_state[f"{PAGE}.trained"]
+    "trained": st.session_state[f"{PAGE}.trained"],
+    "contextFree": st.session_state[f"{PAGE}.contextFree"],
+    "featureBased": st.session_state[f"{PAGE}.featureBased"]
 }
-
-if st.session_state[f"{PAGE}.context"]:
-    st.session_state[f"{PAGE}.filters"]["context"] = {
-        "$all": st.session_state[f"{PAGE}.context"]
-    }
 
 if not st.session_state[f"{PAGE}.trained"]:
     if st.session_state[f"{PAGE}.gran"]:
@@ -132,7 +69,7 @@ if st.session_state[f"{PAGE}.trained"]:
 st.multiselect(
     "**Select the results of the query**",
     dao.get_attributes(COLLECTION),
-    ["name", "description "],
+    ["name", "description"],
     key=f"{PAGE}.project_multiselect"
 )
 st.session_state[f"{PAGE}.project"] = st.session_state[f"{PAGE}.project_multiselect"]

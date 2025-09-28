@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "metric:Tabby",
+    "name": "Tabby",
+    "description": "Code generation benchmark score",
+    "contextFree": true,
+    "trained": false,
+    "featureBased": false,
+    "granularity": ["document_level"]
+  }
+]

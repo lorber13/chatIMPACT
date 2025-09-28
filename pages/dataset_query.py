@@ -14,9 +14,7 @@ st.page_link("gui.py", label="Homepage", icon="🏠")
 title_alignment = f"<h1 style='text-align: center; color: Black;'>{PAGE}</h1>"
 
 st.html(title_alignment)
-left_co, cent_co,last_co = st.columns(3)
-with cent_co:
-    st.image("static/dataset.svg")
+st.image("static/dataset.png", use_column_width=True)
 
 st.markdown("---")
 st.html("<h3 style='text-align: center;'>Dataset filters</h3>")
@@ -41,25 +39,18 @@ with col_9:
 with col_10:
     st.radio(
         "***Filter on Dataset size***",
-        ["No filters", "Disk space (GB)"],
+        ["No filters", "Row count"],
         key=f"{PAGE}.type_filter"
     )
-    if st.session_state[f"{PAGE}.type_filter"] == "Disk space (GB)":
+    if st.session_state[f"{PAGE}.type_filter"] == "Row count":
         st.number_input(
-            "**Minimum size [GB]**", min_value=0, value=0,
-            key=f"{PAGE}.min_size_gb"
+            "**Minimum size [rows]**", min_value=0, value=0,
+            key=f"{PAGE}.min_size_rows"
         )
         st.number_input(
-            "**Maximum size [GB]**", min_value=0, value=None,
-            key=f"{PAGE}.max_size_gb"
+            "**Maximum size [rows]**", min_value=0, value=None,
+            key=f"{PAGE}.max_size_rows"
         )
-    #if type_filter == "Row count":
-    #    min_size_rows = st.number_input(
-    #        "**Minimum size [rows]**", min_value=0, value=0
-    #    )
-    #    max_size_rows = st.number_input(
-    #        "**Maximum size [rows]**", min_value=0, value=None
-    #    )
 
 with col_11:
     st.html(
@@ -129,23 +120,34 @@ with col_15:
     )
 
 st.session_state[f"{PAGE}.filters_ds"] = {}
+st.session_state[f"{PAGE}.size_filter_active"] = False
 
-if st.session_state[f"{PAGE}.type_filter"] == "Disk space (GB)":
-    st.session_state[f"{PAGE}.filters_ds"]["$and"] = [
-        {f"size [GB]": {"$gte": st.session_state[f"{PAGE}.min_size_gb"]}},
-        {
-            f"size [GB]": {"$lte": st.session_state[f"{PAGE}.max_size_gb"] if \
-                                      st.session_state[f"{PAGE}.max_size_gb"] else 1e9}
-        },  # TODO: numero
-    ]
-
-#if type_filter == "Row count":
-#    filters_ds["$and"] = [
-#        {f"{DATASETS}.size [rows]": {"$gte": min_size_rows}},
-#        {
-#            f"{DATASETS}.size [rows]": {"$lte": max_size_rows if max_size_rows else 1e9}
-#        },  # TODO: numero
-#    ]
+if st.session_state[f"{PAGE}.type_filter"] == "Row count":
+    # Convert string sizes to numeric values for comparison
+    def convert_size_to_numeric(size_str):
+        """Convert size strings like '194k', '2M' to numeric values"""
+        if not size_str or size_str == "n/a":
+            return 0
+        size_str = size_str.lower()
+        if size_str.endswith('k'):
+            return float(size_str[:-1]) * 1000
+        elif size_str.endswith('m'):
+            return float(size_str[:-1]) * 1000000
+        else:
+            try:
+                return float(size_str)
+            except:
+                return 0
+    
+    # Create a filter that works with string-based sizes
+    min_rows = st.session_state[f"{PAGE}.min_size_rows"]
+    max_rows = st.session_state[f"{PAGE}.max_size_rows"] if st.session_state[f"{PAGE}.max_size_rows"] else 1e9
+    
+    # We'll need to handle this filtering in the application layer since MongoDB
+    # can't directly compare these string formats numerically
+    st.session_state[f"{PAGE}.size_filter_active"] = True
+    st.session_state[f"{PAGE}.min_rows"] = min_rows
+    st.session_state[f"{PAGE}.max_rows"] = max_rows
 
 if st.session_state[f"{PAGE}.fine_tuning"] is not None:
     st.session_state[f"{PAGE}.filters_ds"][f"fineTuning"] = st.session_state[f"{PAGE}.fine_tuning"]
@@ -178,12 +180,56 @@ with c:
     query = st.button("Get results")
 
 if query:
+    # Ensure 'size' is included in projection if size filtering is active
+    project_fields = st.session_state[f"{PAGE}.project_ds_multiselect"].copy()
+    if st.session_state.get(f"{PAGE}.size_filter_active", False) and "size" not in project_fields:
+        project_fields.append("size")
+    
     query_input = [create_query_structure(
         collection=COLLECTION, 
-        project=st.session_state[f"{PAGE}.project_ds_multiselect"], 
+        project=project_fields, 
         filters=st.session_state[f"{PAGE}.filters_ds"]
     )]
     #st.write(query_input)
     result = dao.query(query_input)
+    
+    # Apply size filtering if active
+    if st.session_state.get(f"{PAGE}.size_filter_active", False):
+        def convert_size_to_numeric(size_str):
+            """Convert size strings like '194k', '2M' to numeric values"""
+            if not size_str or size_str == "n/a":
+                return 0
+            size_str = str(size_str).lower()
+            if size_str.endswith('k'):
+                return float(size_str[:-1]) * 1000
+            elif size_str.endswith('m'):
+                return float(size_str[:-1]) * 1000000
+            else:
+                try:
+                    return float(size_str)
+                except:
+                    return 0
+        
+        min_rows = st.session_state[f"{PAGE}.min_rows"]
+        max_rows = st.session_state[f"{PAGE}.max_rows"]
+        
+        # Filter results based on numeric size comparison
+        filtered_result = []
+        
+        for item in result:
+            # Access size from the correct nested structure
+            size_value = None
+            if 'Datasets' in item and 'size' in item['Datasets']:
+                size_value = item['Datasets']['size']
+            
+            if size_value is not None:
+                numeric_size = convert_size_to_numeric(size_value)
+                if min_rows <= numeric_size <= max_rows:
+                    filtered_result.append(item)
+            elif min_rows == 0:  # Include items without size if min is 0
+                filtered_result.append(item)
+        
+        result = filtered_result
+    
     df = pd.DataFrame(reworked_query_output(result))
     st.dataframe(df)

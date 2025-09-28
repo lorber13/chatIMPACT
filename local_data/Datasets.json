@@ -1,0 +1,20 @@
+[
+  { "_id":"dataset:MedMCQA", "name":"MedMCQA", "uri":"https://example.org/MedMCQA", "license_to_use":"research", "domain":["Medical"], "size":"194k", "languages":["English","Italian"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"MCQ"} },
+  { "_id":"dataset:PubMedQA", "name":"PubMedQA", "uri":"https://example.org/PubMedQA", "license_to_use":"research", "domain":["Medical"], "size":"273k", "languages":["English"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"QA"} },
+  { "_id":"dataset:MMLU-Clinical", "name":"MMLU-Clinical", "uri":"https://example.org/MMLU-Clinical", "license_to_use":"research", "domain":["Medical"], "size":"n/a", "languages":["English"], "fineTuning":false, "annotation":{"type":"supervised","who":"experts","method":"exam"} },
+
+  { "_id":"dataset:FinQA", "name":"FinQA", "uri":"https://example.org/FinQA", "license_to_use":"research", "domain":["Finance"], "size":"10k", "languages":["English"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"QA"} },
+  { "_id":"dataset:ContractNLI", "name":"ContractNLI", "uri":"https://example.org/ContractNLI", "license_to_use":"research", "domain":["Finance"], "size":"9k", "languages":["English"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"NLI"} },
+  { "_id":"dataset:DocBank-Financial", "name":"DocBank-Financial", "uri":"https://example.org/DocBank-Financial", "license_to_use":"cc-by-4.0", "domain":["Finance"], "size":"50k", "languages":["English"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"layout-ner"} },
+
+  { "_id":"dataset:Helsinki-NLP/europarl", "name":"Europarl", "uri":"https://example.org/europarl", "license_to_use":"other", "domain":["Law"], "size":"2M", "languages":["English","Italian","Spanish","German","French"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"parallel"} },
+  { "_id":"dataset:joelniklaus/eurlex_resources", "name":"EurLex Resources", "uri":"https://example.org/eurlex_resources", "license_to_use":"other", "domain":["Law"], "size":"n/a", "languages":["English","Italian","Spanish","German","French"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"legal"} },
+  { "_id":"dataset:joelniklaus/legal-mt", "name":"Legal MT", "uri":"https://example.org/legal-mt", "license_to_use":"other", "domain":["Law"], "size":"n/a", "languages":["English","Italian","Spanish","German","French"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"parallel"} },
+
+  { "_id":"dataset:GSM8K", "name":"GSM8K", "uri":"https://example.org/GSM8K", "license_to_use":"cc-by-4.0", "domain":["Mathematics"], "size":"8.5k", "languages":["English"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"math"} },
+  { "_id":"dataset:PubChemQA", "name":"PubChemQA", "uri":"https://example.org/PubChemQA", "license_to_use":"cc-by-4.0", "domain":["Chemistry"], "size":"n/a", "languages":["English"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"qa"} },
+  { "_id":"dataset:SciQ-Physics", "name":"SciQ Physics", "uri":"https://example.org/SciQ-Physics", "license_to_use":"cc-by-4.0", "domain":["Physics"], "size":"13k", "languages":["English"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"qa"} },
+
+  { "_id":"dataset:HumanEval", "name":"HumanEval", "uri":"https://example.org/HumanEval", "license_to_use":"open", "domain":["Software Development"], "size":"164", "languages":["English"], "fineTuning":false, "annotation":{"type":"supervised","who":"experts","method":"unit-tests"} },
+  { "_id":"dataset:MBPP", "name":"MBPP", "uri":"https://example.org/MBPP", "license_to_use":"open", "domain":["Software Development"], "size":"974", "languages":["English"], "fineTuning":true, "annotation":{"type":"supervised","who":"experts","method":"code"} }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "task:medical-nlp",
+    "name": "Medical NLP",
+    "description": "Biomedical QA and clinical reasoning",
+    "subTasks": ["Clinical QA","Diagnosis Support"]
+  },
+  {
+    "_id": "task:financial-document-analysis",
+    "name": "Financial Document Analysis",
+    "description": "IE and classification over financial filings",
+    "subTasks": ["Document Classification","Information Extraction"]
+  },
+  {
+    "_id": "task:text-summarization",
+    "name": "Text Summarization",
+    "description": "Generic abstractive/extractive summarization",
+    "subTasks": ["Legal Summarization"]
+  },
+  {
+    "_id": "task:code-generation",
+    "name": "Code Generation",
+    "description": "Generate code from instructions or tests",
+    "subTasks": ["Instruction Following","Function Synthesis"]
+  }
+]

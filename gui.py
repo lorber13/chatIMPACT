@@ -50,29 +50,39 @@ import streamlit as st
 # ]
 
 interactive_image_html = """
-<img src="./app/static/ER_simplified_final_zoomed.png" alt="DB Model" usemap="#image-map" width="950" height="392">
+<img src="./app/static/ER_simplified_final_zoomed.png" alt="DB Model" usemap="#image-map" width="700" height="289">
 
-<map name="image-map">
-    <area target="" alt="Large Language Model" title="Large Language Model" href="llm_query" coords="392,249,553,294" shape="rect">
-    <area target="" alt="Metric" title="Metric" href="metric_query" coords="76,255,150,288" shape="rect">
-    <area target="" alt="Downstream Task" title="Downstream Task" href="downstream_task_query" coords="409,45,535,87" shape="rect">
-    <area target="" alt="Dataset" title="Dataset" href="dataset_query" coords="805,254,876,289" shape="rect">
-    <area target="" alt="Assess" title="Assess" href="assess_query" coords="113,125,138,148,113,172,89,150" shape="poly">
-    <!-- <area target="" alt="Evaluate" title="Evaluate" href="link6" coords="276,248,302,272,277,295,252,273" shape="poly"> -->
-    <area target="" alt="Train" title="Train" href="train_query" coords="649,248,672,272,650,297,625,272" shape="poly">
-    <area target="" alt="Enable" title="Enable" href="enable_query" coords="840,125,865,150,841,174,818,149" shape="poly">
-    <area target="" alt="Suited For" title="Suited For" href="suited_for_query" coords="473,110,497,136,472,158,449,135" shape="poly">
+<map name="image-map">                       
+    <area target="" alt="Large Language Model" title="Model" href="llm_query" coords="280,15,420,95" shape="rect">
+    <area target="" alt="Metric" title="Metric" href="metric_query" coords="0,210,150,290" shape="rect">
+    <area target="" alt="Downstream Task" title="Task" href="downstream_task_query" coords="270,210,415,290" shape="rect">
+    <area target="" alt="Dataset" title="Dataset" href="dataset_query" coords="550,210,700,290" shape="rect">
+    <area target="" alt="Assess" title="Assesses" href="assess_query" coords="170,240,260,280" shape="rect">
+    <area target="" alt="Evaluate" title="Evaluates" href="link6" coords="160,115,260,180" shape="rect">
+    <area target="" alt="Train" title="Trained on" href="train_query" coords="420,120,500,200" shape="rect">
+    <area target="" alt="Test" title="Tested on" href="test_query" coords="490,110,590,190" shape="rect">
+    <area target="" alt="Enable" title="Enabled by" href="enable_query" coords="425,240,540,280" shape="rect">
+    <area target="" alt="Suited For" title="Suited For" href="suited_for_query" coords="300,110,370,200" shape="rect">
 </map>
+"""
+# SINISTRA, SU , DESTRA, GIU
+
+image_1 = """
+<img src="./app/static/1.png" alt="query_1" usemap="#image-map" width="1000" height="200">
 """
 
 title_alignment = """
-<h1 style='text-align: center; color: Black;'>Chat IMPACT Knowledge Graph</h1>
+<h1 style='text-align: center; color: Blue;'>A conceptual map for exploring the landscape of Large Language Models</h1>
 """
 
 st.html(title_alignment)
 st.html(interactive_image_html)
 
 st.markdown("---")
+
+# Insert clickable image that redirects to different pages, ones for each entity
+
+st.markdown(image_1, unsafe_allow_html=True)
 
 st.markdown("### A quick guide")
 intro = """
