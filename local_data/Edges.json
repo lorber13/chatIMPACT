@@ -75,6 +75,6 @@
 
   {"_id":"edge:tr:bloom-europarl","relation_type":"tested_on","from":"model:bigscience/bloom","to":"dataset:Helsinki-NLP/europarl"},
   {"_id":"edge:tr:gpt3-europarl","relation_type":"tested_on","from":"model:openai/gpt-3","to":"dataset:Helsinki-NLP/europarl"},
-  {"_id":"edge:tr:llama3-70b-europarl","relation_type":"tested_on","from":"model:meta-llama/Meta-Llama-3-70B","to":"dataset:Helsinki-NLP/europarl"},
+  {"_id":"edge:tr:llama3-70b-europarl","relation_type":"tested_on","from":"model:meta-llama/Meta-Llama-3-70B","to":"dataset:Helsinki-NLP/europarl"}
 
 ]
