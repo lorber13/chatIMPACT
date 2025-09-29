@@ -4,67 +4,29 @@ from utils import create_query_structure, reworked_query_output
 from dao import Dao
 
 # This Streamlit page provides a combined view over Large Language Models (LLMs)
-# and Downstream Tasks. Users can apply filters to both models and tasks and then
-# correlate them through their "suited_for" relationships. The underlying database
+# and Datasets. Users can apply filters to both models and datasets and then
+# correlate them through their training relationships. The underlying database
 # contains an ``Edges`` collection where entries with ``relation_type`` set to
-# ``suited_for`` link a model (via the ``from`` field) to a task (via the
-# ``to`` field).
+# ``trained_on`` link a model (via the ``from`` field) to a dataset (via the
+# ``to`` field).  The interface below retrieves and displays only those
+# model–dataset pairs that satisfy the selected filters on both sides and
+# appear in the ``trained_on`` edges.
 
-PAGE = "Suited For"
-DOWNSTREAM_TASKS = "Downstream Tasks"
+PAGE = "Test"
 MODELS = "Models"
+DATASETS = "Datasets"
 DB_NAME = "ChatIMPACT"
 
 # Initialise data access object
 dao = Dao(DB_NAME)
 
+# Page navigation and title
 st.page_link("gui.py", label="Homepage", icon="🏠")
-
 title_alignment = f"<h1 style='text-align: center; color: Black;'>{PAGE}</h1>"
-
 st.html(title_alignment)
-left_co, cent_co,last_co = st.columns(3)
-# st.image("static/suited_for.svg")
-
-# st.markdown("---")
-# query_3_suited_for = """
-# **Example Query 3**: *“Find open-source Large Language Models that are specialized in Code Generation with at least 4k context length.”*  
-# Select the “Code Generation” DownstreamTask from the dropdown suggestions.  
-# Then switch on the OpenSource and the Fine-Tuned toggles for LargeLanguageModel and set the minimum context length to 4000.  
-# Click on the **Get results** button to run the query. 
-# """
-# st.markdown(query_3_suited_for)
-# st.markdown("---")
-
-# -----------------------------------------------------------------------------
-# SECTION FOR DOWNSTREAM TASK FILTERS
-# -----------------------------------------------------------------------------
-st.markdown("---")
-st.html(f"<h3 style='text-align: center;'>{DOWNSTREAM_TASKS} filters</h3>")
-
-col_dt1, col_dt2 = st.columns(2)
-with col_dt1:
-    st.multiselect(
-        "**Downstream Task**",
-        dao.get_all("Downstream Tasks", "name"),
-        key=f"{PAGE}.name_dt",
-        default=st.session_state[f"{PAGE}.name_dt"] if f"{PAGE}.name_dt" in st.session_state else None,
-        help="Select specific downstream tasks to find models suited for them. Leave empty to show all task-model relationships."
-    )
-
-with col_dt2:
-    # Show available task names for reference
-    all_task_names = dao.get_all("Downstream Tasks", "name")
-    st.info(f"Available tasks: {', '.join(all_task_names)}")
-
-# Initialize downstream task filters
-st.session_state[f"{PAGE}.filters_dt"] = {}
-
-# Add task name filter if selected
-if st.session_state[f"{PAGE}.name_dt"]:
-    st.session_state[f"{PAGE}.filters_dt"]["name"] = {
-        "$in": st.session_state[f"{PAGE}.name_dt"]
-    }
+# If you have a train SVG or image, uncomment the next line and place it in
+# the ``static`` directory.
+# st.image("static/train.svg")
 
 # -----------------------------------------------------------------------------
 # SECTION FOR LARGE LANGUAGE MODEL FILTERS
@@ -237,10 +199,154 @@ if st.session_state[f"{PAGE}.license"]:
     }
 
 # -----------------------------------------------------------------------------
+# SECTION FOR DATASET FILTERS
+# -----------------------------------------------------------------------------
+st.markdown("---")
+st.html("<h3 style='text-align: center;'>Dataset filters</h3>")
+col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16 = st.columns(
+    [0.2, 5.9, 0.2, 5.9, 0.2, 5.9, 0.2, 5.9]
+)
+
+with col_9:
+    st.html(
+        """
+                <div class="divider-vertical-line"></div>
+                <style>
+                    .divider-vertical-line {
+                        border-left: 2px solid rgba(49, 51, 63, 0.2);
+                        height: 320px;
+                        margin: auto;
+                    }
+                </style>
+            """
+    )
+
+with col_10:
+    st.radio(
+        "***Filter on Dataset size***",
+        ["No filters", "Row count"],
+        key=f"{PAGE}.type_filter",
+    )
+    if st.session_state[f"{PAGE}.type_filter"] == "Row count":
+        st.number_input(
+            "**Minimum size [rows]**", min_value=0, value=0, key=f"{PAGE}.min_size_rows"
+        )
+        st.number_input(
+            "**Maximum size [rows]**", min_value=0, value=1000000000,
+            key=f"{PAGE}.max_size_rows",
+        )
+
+with col_11:
+    st.html(
+        """
+                <div class="divider-vertical-line"></div>
+                <style>
+                    .divider-vertical-line {
+                        border-left: 2px solid rgba(49, 51, 63, 0.2);
+                        height: 320px;
+                        margin: auto;
+                    }
+                </style>
+            """
+    )
+
+with col_12:
+    # radio button to indicate whether a dataset is used for fine-tuning
+    st.radio("**Fine-Tuning Dataset**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.fine_tuning")
+    # domain selection
+    st.multiselect(
+        "**Domain**",
+        dao.get_all("Datasets", "domain"),
+        key=f"{PAGE}.domain",
+        default=st.session_state[f"{PAGE}.domain"] if f"{PAGE}.domain" in st.session_state else None,
+    )
+
+with col_13:
+    st.html(
+        """
+            <div class="divider-vertical-line"></div>
+            <style>
+                .divider-vertical-line {
+                    border-left: 2px solid rgba(49, 51, 63, 0.2);
+                    height: 320px;
+                    margin: auto;
+                }
+            </style>
+        """
+    )
+
+with col_14:
+    # language and license filters for datasets
+    st.multiselect(
+        "**Language**",
+        dao.get_all("Datasets", "languages"),
+        key=f"{PAGE}.lan_ds",
+        default=st.session_state[f"{PAGE}.lan_ds"] if f"{PAGE}.lan_ds" in st.session_state else None,
+    )
+    st.multiselect(
+        "**LicenseToUse**",
+        dao.get_all("Datasets", "licenseToUse"),
+        key=f"{PAGE}.lic",
+        default=st.session_state[f"{PAGE}.lic"] if f"{PAGE}.lic" in st.session_state else None,
+    )
+
+with col_15:
+    st.html(
+        """
+            <div class="divider-vertical-line"></div>
+            <style>
+                .divider-vertical-line {
+                    border-left: 2px solid rgba(49, 51, 63, 0.2);
+                    height: 320px;
+                    margin: auto;
+                }
+            </style>
+        """
+    )
+
+# Initialise dataset filters
+st.session_state[f"{PAGE}.filters_ds"] = {}
+st.session_state[f"{PAGE}.size_filter_active"] = False
+
+# Handle dataset size filter on string values (e.g. '194k', '2M')
+if st.session_state[f"{PAGE}.type_filter"] == "Row count":
+    min_rows = st.session_state[f"{PAGE}.min_size_rows"]
+    max_rows = (
+        st.session_state[f"{PAGE}.max_size_rows"]
+        if st.session_state[f"{PAGE}.max_size_rows"]
+        else 1e9
+    )
+    st.session_state[f"{PAGE}.size_filter_active"] = True
+    st.session_state[f"{PAGE}.min_rows"] = min_rows
+    st.session_state[f"{PAGE}.max_rows"] = max_rows
+
+# Fine-tuning flag
+if st.session_state[f"{PAGE}.fine_tuning"] != "No filter":
+    st.session_state[f"{PAGE}.filters_ds"]["fineTuning"] = st.session_state[f"{PAGE}.fine_tuning"] == "True"
+
+# Domain filter
+if st.session_state[f"{PAGE}.domain"]:
+    st.session_state[f"{PAGE}.filters_ds"]["domain"] = {
+        "$all": st.session_state[f"{PAGE}.domain"]
+    }
+
+# License filter
+if st.session_state[f"{PAGE}.lic"]:
+    st.session_state[f"{PAGE}.filters_ds"]["licenseToUse"] = {
+        "$all": st.session_state[f"{PAGE}.lic"]
+    }
+
+# Language filter
+if st.session_state[f"{PAGE}.lan_ds"]:
+    st.session_state[f"{PAGE}.filters_ds"]["languages"] = {
+        "$all": st.session_state[f"{PAGE}.lan_ds"]
+    }
+
+# -----------------------------------------------------------------------------
 # FINAL SECTION FOR QUERYING AND DISPLAY
 # -----------------------------------------------------------------------------
 st.markdown("---")
-# Choose which fields to display from models and tasks
+# Choose which fields to display from models and datasets
 st.multiselect(
     "**Select the results of the query for LLM**",
     dao.get_attributes(MODELS),
@@ -249,11 +355,26 @@ st.multiselect(
 )
 
 st.multiselect(
-    "**Select the results of the query for Downstream Task**",
-    dao.get_attributes(DOWNSTREAM_TASKS),
-    ["name", "description"],
-    key=f"{PAGE}.project_dt_multiselect",
+    "**Select the results of the query for Dataset**",
+    dao.get_attributes(DATASETS),
+    ["name", "uri", "domain"],
+    key=f"{PAGE}.project_ds_multiselect",
 )
+
+with st.expander("**📊 Ranking Options**", expanded=False):
+    st.radio(
+        "**Rank by**",
+        ["No ranking", "Model Parameters", "Model Carbon Emissions", "Dataset Size"],
+        index=0,
+        key=f"{PAGE}.rank_by"
+    )
+    if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+        st.radio(
+            "**Sort order**",
+            ["Ascending (Low to High)", "Descending (High to Low)"],
+            index=1,
+            key=f"{PAGE}.sort_order"
+        )
 
 # Button to trigger the query
 l, l1, c, r1, r = st.columns(5)
@@ -284,16 +405,26 @@ if query:
         llm_project_fields.append("carbon_emissions_tco2e")
 
     # Add ranking fields to project if ranking is active
-    if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters" and "numberOfParameters" not in llm_project_fields:
+    if st.session_state[f"{PAGE}.rank_by"] == "Model Parameters" and "numberOfParameters" not in llm_project_fields:
         llm_project_fields.append("numberOfParameters")
-    elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions" and "carbon_emissions_tco2e" not in llm_project_fields:
+    elif st.session_state[f"{PAGE}.rank_by"] == "Model Carbon Emissions" and "carbon_emissions_tco2e" not in llm_project_fields:
         llm_project_fields.append("carbon_emissions_tco2e")
 
-    task_project_fields = st.session_state[f"{PAGE}.project_dt_multiselect"].copy()
+    dataset_project_fields = st.session_state[f"{PAGE}.project_ds_multiselect"].copy()
     
     # Always include _id for joining with edges
-    if "_id" not in task_project_fields:
-        task_project_fields.append("_id")
+    if "_id" not in dataset_project_fields:
+        dataset_project_fields.append("_id")
+        
+    if (
+        st.session_state.get(f"{PAGE}.size_filter_active", False)
+        and "size" not in dataset_project_fields
+    ):
+        dataset_project_fields.append("size")
+
+    # Add ranking fields to project if ranking is active
+    if st.session_state[f"{PAGE}.rank_by"] == "Dataset Size" and "size" not in dataset_project_fields:
+        dataset_project_fields.append("size")
 
     # -------------------------------------------------------------------------
     # Query models collection with selected projection and filters
@@ -359,91 +490,70 @@ if query:
         models_result = filtered_models
 
     # -------------------------------------------------------------------------
-    # Retrieve all suited_for edges from the Edges collection first
-    # These records describe which model is suited for which task.
+    # Query datasets collection with selected projection and filters
+    datasets_query = create_query_structure(
+        collection=DATASETS,
+        project=dataset_project_fields,
+        filters=st.session_state[f"{PAGE}.filters_ds"],
+    )
+    datasets_result = dao.query([datasets_query])
+
+    # Manual post‑processing for dataset size (string to numeric)
+    if st.session_state.get(f"{PAGE}.size_filter_active", False):
+        def convert_size_to_numeric(size_str: str) -> float:
+            """Convert size strings like '194k' or '2M' to numeric rows."""
+            if not size_str or size_str == "n/a":
+                return 0.0
+            size_str = str(size_str).lower()
+            try:
+                if size_str.endswith("k"):
+                    return float(size_str[:-1]) * 1_000
+                if size_str.endswith("m"):
+                    return float(size_str[:-1]) * 1_000_000
+                return float(size_str)
+            except Exception:
+                return 0.0
+
+        min_rows = st.session_state[f"{PAGE}.min_rows"]
+        max_rows = st.session_state[f"{PAGE}.max_rows"]
+        filtered_datasets = []
+        for item in datasets_result:
+            size_value = None
+            if "Datasets" in item and "size" in item["Datasets"]:
+                size_value = item["Datasets"]["size"]
+            if size_value is not None:
+                numeric_size = convert_size_to_numeric(size_value)
+                if min_rows <= numeric_size <= max_rows:
+                    filtered_datasets.append(item)
+            elif min_rows == 0:
+                filtered_datasets.append(item)
+        datasets_result = filtered_datasets
+
+    # -------------------------------------------------------------------------
+    # Retrieve all trained_on and fine_tuned_on edges from the Edges collection. 
+    # These records describe which model was trained/fine-tuned on which dataset.
     
     edges_query = create_query_structure(
         collection="Edges",
         project=["from", "to", "relation_type"],
-        filters={"relation_type": "suited_for"},
+        filters={"$or": [
+            {"relation_type": "tested_on"}]},
     )
     edges_result = dao.query([edges_query])
 
     # -------------------------------------------------------------------------
-    # If task names are selected, filter edges to only those targeting selected tasks
-    # We need to map task display names to task IDs first
-    filtered_edges = edges_result
-    if st.session_state[f"{PAGE}.name_dt"]:
-        # Get all tasks to map names to IDs
-        all_tasks_query = create_query_structure(
-            collection=DOWNSTREAM_TASKS,
-            project=["_id", "name"],
-            filters={},
-        )
-        all_tasks_result = dao.query([all_tasks_query])
-        
-        # Create mapping from display name to task ID
-        name_to_id = {}
-        for task in all_tasks_result:
-            if "Downstream Tasks" in task:
-                task_data = task["Downstream Tasks"]
-                name_to_id[task_data.get("name", "")] = task_data.get("_id", "")
-        
-        # Get task IDs for selected names
-        selected_task_ids = []
-        for selected_name in st.session_state[f"{PAGE}.name_dt"]:
-            if selected_name in name_to_id:
-                selected_task_ids.append(name_to_id[selected_name])
-        
-        # Filter edges to only those targeting selected tasks
-        filtered_edges = []
-        for edge in edges_result:
-            if "Edges" in edge:
-                edge_data = edge["Edges"]
-                target_task = edge_data.get("to", "")
-                if target_task in selected_task_ids:
-                    filtered_edges.append(edge)
-
-    # -------------------------------------------------------------------------
-    # Get all unique task IDs from the filtered edges
-    task_ids_needed = set()
-    for edge in filtered_edges:
-        if "Edges" in edge:
-            task_ids_needed.add(edge["Edges"].get("to", ""))
-    
-    # Query tasks collection for only the tasks we need
-    # Get all tasks first, then filter manually since $in might not work with _id
-    if task_ids_needed:
-        all_tasks_query = create_query_structure(
-            collection=DOWNSTREAM_TASKS,
-            project=task_project_fields,
-            filters={},
-        )
-        all_tasks_result = dao.query([all_tasks_query])
-        
-        # Filter manually to only the tasks we need
-        tasks_result = []
-        for task in all_tasks_result:
-            if "Downstream Tasks" in task:
-                task_id = task["Downstream Tasks"].get("_id", "")
-                if task_id in task_ids_needed:
-                    tasks_result.append(task)
-    else:
-        tasks_result = []
-
-    # -------------------------------------------------------------------------
-    # Combine models and tasks according to the edges. Only those pairs
+    # Combine models and datasets according to the edges. Only those pairs
     # passing their respective filters will be displayed. We strip the
-    # ``model:`` and ``task:`` prefixes when comparing IDs because the
-    # underlying entries in the Models and Downstream Tasks collections do not include
+    # ``model:`` and ``dataset:`` prefixes when comparing IDs because the
+    # underlying entries in the Models and Datasets collections do not include
     # these prefixes in their ``_id`` fields.
     joined_results = []
-    for edge in filtered_edges:
+    for edge in edges_result:
         if "Edges" not in edge:
             continue
         edge_data = edge["Edges"]
         model_id = edge_data.get("from", "").replace("model:", "")
-        task_id = edge_data.get("to", "").replace("task:", "")
+        dataset_id = edge_data.get("to", "").replace("dataset:", "")
         
         # find matching model
         matching_model = None
@@ -454,19 +564,19 @@ if query:
                     matching_model = model
                     break
 
-        # find matching task
-        matching_task = None
-        for task in tasks_result:
-            if "Downstream Tasks" in task:
-                current_id = task["Downstream Tasks"].get("_id", "").replace("task:", "")
-                if current_id == task_id:
-                    matching_task = task
+        # find matching dataset
+        matching_dataset = None
+        for dataset in datasets_result:
+            if "Datasets" in dataset:
+                current_id = dataset["Datasets"].get("_id", "").replace("dataset:", "")
+                if current_id == dataset_id:
+                    matching_dataset = dataset
                     break
 
         # if both sides match, combine
-        if matching_model and matching_task:
-            # merge dictionaries – keys from matching_task will overwrite duplicates
-            joined_result = {**matching_model, **matching_task}
+        if matching_model and matching_dataset:
+            # merge dictionaries – keys from matching_dataset will overwrite duplicates
+            joined_result = {**matching_model, **matching_dataset}
             joined_results.append(joined_result)
 
     # -------------------------------------------------------------------------
@@ -496,13 +606,36 @@ if query:
                     except ValueError:
                         return None
             
+            def convert_size_to_numeric(size_str):
+                """Convert size strings like '273k', '2M' to numeric values"""
+                if not size_str or size_str == "n/a":
+                    return None
+                size_str = str(size_str).upper()
+                if size_str.endswith('K'):
+                    try:
+                        return float(size_str[:-1]) * 1000
+                    except ValueError:
+                        return None
+                elif size_str.endswith('M'):
+                    try:
+                        return float(size_str[:-1]) * 1000000
+                    except ValueError:
+                        return None
+                else:
+                    try:
+                        return float(size_str)
+                    except ValueError:
+                        return None
+            
             def has_valid_ranking_value(item):
                 """Check if item has a valid (non-null) value for the selected ranking field"""
-                if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters":
+                if st.session_state[f"{PAGE}.rank_by"] == "Model Parameters":
+                    # Access the field from the Models section
                     if "Models" in item and "numberOfParameters" in item["Models"]:
-                        return convert_params_to_numeric(item["Models"]["numberOfParameters"]) is not None
+                        param_value = item["Models"]["numberOfParameters"]
+                        return convert_params_to_numeric(param_value) is not None
                     return False
-                elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions":
+                elif st.session_state[f"{PAGE}.rank_by"] == "Model Carbon Emissions":
                     if "Models" in item and "carbon_emissions_tco2e" in item["Models"]:
                         try:
                             value = item["Models"]["carbon_emissions_tco2e"]
@@ -510,19 +643,31 @@ if query:
                         except (ValueError, TypeError):
                             return False
                     return False
+                elif st.session_state[f"{PAGE}.rank_by"] == "Dataset Size":
+                    # Access the field from the Datasets section
+                    if "Datasets" in item and "size" in item["Datasets"]:
+                        size_value = item["Datasets"]["size"]
+                        return convert_size_to_numeric(size_value) is not None
+                    return False
                 return True
             
             def get_sort_key(item):
-                if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters":
+                if st.session_state[f"{PAGE}.rank_by"] == "Model Parameters":
                     if "Models" in item and "numberOfParameters" in item["Models"]:
-                        return convert_params_to_numeric(item["Models"]["numberOfParameters"]) or 0
+                        param_value = item["Models"]["numberOfParameters"]
+                        return convert_params_to_numeric(param_value) or 0
                     return 0
-                elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions":
+                elif st.session_state[f"{PAGE}.rank_by"] == "Model Carbon Emissions":
                     if "Models" in item and "carbon_emissions_tco2e" in item["Models"]:
                         try:
                             return float(item["Models"]["carbon_emissions_tco2e"])
                         except (ValueError, TypeError):
                             return 0
+                    return 0
+                elif st.session_state[f"{PAGE}.rank_by"] == "Dataset Size":
+                    if "Datasets" in item and "size" in item["Datasets"]:
+                        size_value = item["Datasets"]["size"]
+                        return convert_size_to_numeric(size_value) or 0
                     return 0
                 return 0
             
@@ -533,38 +678,9 @@ if query:
             reverse_order = st.session_state[f"{PAGE}.sort_order"] == "Descending (High to Low)"
             joined_results = sorted(joined_results, key=get_sort_key, reverse=reverse_order)
         
-        st.success(f"Found {len(joined_results)} model-task relationships matching your filters.")
         df = pd.DataFrame(reworked_query_output(joined_results))
         st.dataframe(df)
-        
-        # Show summary of what was found
-        model_names = set()
-        task_names = set()
-        for result in joined_results:
-            if "Models" in result:
-                model_names.add(result["Models"].get("name", "Unknown"))
-            if "Downstream Tasks" in result:
-                task_names.add(result["Downstream Tasks"].get("name", "Unknown"))
-        
-        st.info(f"Models: {', '.join(sorted(model_names))}")
-        st.info(f"Tasks: {', '.join(sorted(task_names))}")
     else:
-        st.warning("No 'suited for' relationships found matching the specified filters.")
-        st.info("Try adjusting your filters or selecting different downstream tasks. "
-               "Available relationships exist for: Medical NLP, Financial Document Analysis, "
-               "Code Generation, and Text Summarization.")
-
-    with st.expander("**📊 Ranking Options**", expanded=False):
-        st.radio(
-            "**Rank by**",
-            ["No ranking", "Number of Parameters", "Carbon Emissions"],
-            index=0,
-            key=f"{PAGE}.rank_by"
+        st.write(
+            "No testing relationships found matching the specified filters."
         )
-        if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
-            st.radio(
-                "**Sort order**",
-                ["Ascending (Low to High)", "Descending (High to Low)"],
-                index=1,
-                key=f"{PAGE}.sort_order"
-            )

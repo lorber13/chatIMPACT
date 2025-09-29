@@ -67,9 +67,10 @@ with col_11:
     )
 
 with col_12:
-    st.toggle("**Fine-Tuning Dataset**", 
-              value=None,
-              key=f"{PAGE}.fine_tuning")
+    st.radio("**Fine-Tuning Dataset**", 
+             ["No filter", "True", "False"], 
+             index=0,
+             key=f"{PAGE}.fine_tuning")
     st.multiselect(
         "**Domain**",
         dao.get_all("Datasets", "domain"),
@@ -149,8 +150,8 @@ if st.session_state[f"{PAGE}.type_filter"] == "Row count":
     st.session_state[f"{PAGE}.min_rows"] = min_rows
     st.session_state[f"{PAGE}.max_rows"] = max_rows
 
-if st.session_state[f"{PAGE}.fine_tuning"] is not None:
-    st.session_state[f"{PAGE}.filters_ds"][f"fineTuning"] = st.session_state[f"{PAGE}.fine_tuning"]
+if st.session_state[f"{PAGE}.fine_tuning"] != "No filter":
+    st.session_state[f"{PAGE}.filters_ds"][f"fineTuning"] = st.session_state[f"{PAGE}.fine_tuning"] == "True"
 
 if st.session_state[f"{PAGE}.domain"]:
     st.session_state[f"{PAGE}.filters_ds"][f"domain"] = {
@@ -183,6 +184,10 @@ if query:
     # Ensure 'size' is included in projection if size filtering is active
     project_fields = st.session_state[f"{PAGE}.project_ds_multiselect"].copy()
     if st.session_state.get(f"{PAGE}.size_filter_active", False) and "size" not in project_fields:
+        project_fields.append("size")
+    
+    # Add ranking fields to project if ranking is active
+    if st.session_state[f"{PAGE}.rank_by"] == "Dataset Size" and "size" not in project_fields:
         project_fields.append("size")
     
     query_input = [create_query_structure(
@@ -231,5 +236,65 @@ if query:
         
         result = filtered_result
     
+    # Apply ranking if selected
+    if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+        def convert_size_to_numeric(size_str):
+            """Convert size strings like '273k', '2M' to numeric values"""
+            if not size_str or size_str == "n/a":
+                return None
+            size_str = str(size_str).upper()
+            if size_str.endswith('K'):
+                try:
+                    return float(size_str[:-1]) * 1000
+                except ValueError:
+                    return None
+            elif size_str.endswith('M'):
+                try:
+                    return float(size_str[:-1]) * 1000000
+                except ValueError:
+                    return None
+            else:
+                try:
+                    return float(size_str)
+                except ValueError:
+                    return None
+        
+        def has_valid_ranking_value(item):
+            """Check if item has a valid (non-null) value for the selected ranking field"""
+            if st.session_state[f"{PAGE}.rank_by"] == "Dataset Size":
+                if 'Datasets' in item and 'size' in item['Datasets']:
+                    return convert_size_to_numeric(item['Datasets']['size']) is not None
+                return False
+            return True
+        
+        def get_sort_key(item):
+            if st.session_state[f"{PAGE}.rank_by"] == "Dataset Size":
+                if 'Datasets' in item and 'size' in item['Datasets']:
+                    return convert_size_to_numeric(item['Datasets']['size']) or 0
+                return 0
+            return 0
+        
+        # Filter out items with null/missing ranking values
+        result = [item for item in result if has_valid_ranking_value(item)]
+        
+        # Sort the remaining items
+        reverse_order = st.session_state[f"{PAGE}.sort_order"] == "Descending (High to Low)"
+        result = sorted(result, key=get_sort_key, reverse=reverse_order)
+    
     df = pd.DataFrame(reworked_query_output(result))
     st.dataframe(df)
+
+with st.expander("**📊 Ranking Options**", expanded=False):
+    st.radio(
+        "**Rank by**",
+        ["No ranking", "Dataset Size"],
+        index=0,
+        key=f"{PAGE}.rank_by"
+    )
+    if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+        st.radio(
+            "**Sort order**",
+            ["Ascending (Low to High)", "Descending (High to Low)"],
+            index=1,
+            key=f"{PAGE}.sort_order"
+        )

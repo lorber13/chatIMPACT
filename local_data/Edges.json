@@ -30,7 +30,15 @@
   {"_id":"edge:tr:fingpt-qwen2-docbank","relation_type":"trained_on","from":"model:FinGPT/fingpt-qwen2-7b-lora","to":"dataset:DocBank-Financial"},
 
   {"_id":"edge:tr:minotaur13b-gsm8k","relation_type":"trained_on","from":"model:TheBloke/minotaur-13B-AWQ","to":"dataset:GSM8K"},
+  {"_id":"edge:tr:minotaur13b-gsm8k","relation_type":"trained_on","from":"model:TheBloke/minotaur-13B-AWQ","to":"dataset:PubChemQA"},
+  {"_id":"edge:tr:minotaur13b-gsm8k","relation_type":"trained_on","from":"model:TheBloke/minotaur-13B-AWQ","to":"dataset:SciQ-Physics"},
+
+  {"_id":"edge:tr:minotaurmpt7b-pubchemqa","relation_type":"trained_on","from":"model:openaccess-ai-collective/minotaur-mpt-7b","to":"dataset:GSM8K"},
   {"_id":"edge:tr:minotaurmpt7b-pubchemqa","relation_type":"trained_on","from":"model:openaccess-ai-collective/minotaur-mpt-7b","to":"dataset:PubChemQA"},
+  {"_id":"edge:tr:minotaurmpt7b-pubchemqa","relation_type":"trained_on","from":"model:openaccess-ai-collective/minotaur-mpt-7b","to":"dataset:SciQ-Physics"},
+
+  {"_id":"edge:tr:bagel7b-sciq","relation_type":"trained_on","from":"model:jondurbin/bagel-dpo-7b-v0.4","to":"dataset:GSM8K"},
+  {"_id":"edge:tr:bagel7b-sciq","relation_type":"trained_on","from":"model:jondurbin/bagel-dpo-7b-v0.4","to":"dataset:PubChemQA"},
   {"_id":"edge:tr:bagel7b-sciq","relation_type":"trained_on","from":"model:jondurbin/bagel-dpo-7b-v0.4","to":"dataset:SciQ-Physics"},
 
   {"_id":"edge:tr:bloom-europarl","relation_type":"trained_on","from":"model:bigscience/bloom","to":"dataset:Helsinki-NLP/europarl"},
@@ -40,5 +48,33 @@
   {"_id":"edge:assess:tabby-codegen","relation_type":"assesses_task","from":"metric:Tabby","to":"task:code-generation"},
   {"_id":"edge:eval:tabby-deepseek","relation_type":"evaluates_model","from":"metric:Tabby","to":"model:deepseek-ai/deepseek-coder-6.7b-instruct","score":42.36},
   {"_id":"edge:eval:tabby-owen","relation_type":"evaluates_model","from":"metric:Tabby","to":"model:OwenQ/Owen2.5-Coder-7B-Instruct","score":40.10},
-  {"_id":"edge:eval:tabby-codellama","relation_type":"evaluates_model","from":"metric:Tabby","to":"model:codellama/CodeLlama-7b-Instruct-hf","score":40.08}
+  {"_id":"edge:eval:tabby-codellama","relation_type":"evaluates_model","from":"metric:Tabby","to":"model:codellama/CodeLlama-7b-Instruct-hf","score":40.08},
+
+    {"_id":"edge:ft:meditron-medmcqa","relation_type":"tested_on","from":"model:epfl-llm/meditron-7b","to":"dataset:MedMCQA"},
+  {"_id":"edge:ft:meditron-pubmedqa","relation_type":"tested_on","from":"model:epfl-llm/meditron-7b","to":"dataset:PubMedQA"},
+  {"_id":"edge:test:meditron-mmluclin","relation_type":"tested_on","from":"model:epfl-llm/meditron-7b","to":"dataset:MMLU-Clinical"},
+
+  {"_id":"edge:ft:adapt-medmcqa","relation_type":"tested_on","from":"model:AdaptLLM/medicine-LLM","to":"dataset:MedMCQA"},
+  {"_id":"edge:ft:contactdoc-pubmedqa","relation_type":"tested_on","from":"model:ContactDoctor/Bio-Medical-Llama-3-8B","to":"dataset:PubMedQA"},
+
+  {"_id":"edge:tr:fingpt-llama3-finqa","relation_type":"tested_on","from":"model:FinGPT/fingpt-llama3-8b-lora","to":"dataset:FinQA"},
+  {"_id":"edge:tr:fingpt-rfalcon-contractnli","relation_type":"tested_on","from":"model:FinGPT/fingpt-rfalcon-7b-lora","to":"dataset:ContractNLI"},
+  {"_id":"edge:tr:fingpt-qwen2-docbank","relation_type":"tested_on","from":"model:FinGPT/fingpt-qwen2-7b-lora","to":"dataset:DocBank-Financial"},
+
+  {"_id":"edge:tr:minotaur13b-gsm8k","relation_type":"tested_on","from":"model:TheBloke/minotaur-13B-AWQ","to":"dataset:GSM8K"},
+  {"_id":"edge:tr:minotaur13b-gsm8k","relation_type":"tested_on","from":"model:TheBloke/minotaur-13B-AWQ","to":"dataset:PubChemQA"},
+  {"_id":"edge:tr:minotaur13b-gsm8k","relation_type":"tested_on","from":"model:TheBloke/minotaur-13B-AWQ","to":"dataset:SciQ-Physics"},
+
+  {"_id":"edge:tr:minotaurmpt7b-pubchemqa","relation_type":"tested_on","from":"model:openaccess-ai-collective/minotaur-mpt-7b","to":"dataset:GSM8K"},
+  {"_id":"edge:tr:minotaurmpt7b-pubchemqa","relation_type":"tested_on","from":"model:openaccess-ai-collective/minotaur-mpt-7b","to":"dataset:PubChemQA"},
+  {"_id":"edge:tr:minotaurmpt7b-pubchemqa","relation_type":"tested_on","from":"model:openaccess-ai-collective/minotaur-mpt-7b","to":"dataset:SciQ-Physics"},
+
+  {"_id":"edge:tr:bagel7b-sciq","relation_type":"tested_on","from":"model:jondurbin/bagel-dpo-7b-v0.4","to":"dataset:GSM8K"},
+  {"_id":"edge:tr:bagel7b-sciq","relation_type":"tested_on","from":"model:jondurbin/bagel-dpo-7b-v0.4","to":"dataset:PubChemQA"},
+  {"_id":"edge:tr:bagel7b-sciq","relation_type":"tested_on","from":"model:jondurbin/bagel-dpo-7b-v0.4","to":"dataset:SciQ-Physics"},
+
+  {"_id":"edge:tr:bloom-europarl","relation_type":"tested_on","from":"model:bigscience/bloom","to":"dataset:Helsinki-NLP/europarl"},
+  {"_id":"edge:tr:gpt3-europarl","relation_type":"tested_on","from":"model:openai/gpt-3","to":"dataset:Helsinki-NLP/europarl"},
+  {"_id":"edge:tr:llama3-70b-europarl","relation_type":"tested_on","from":"model:meta-llama/Meta-Llama-3-70B","to":"dataset:Helsinki-NLP/europarl"},
+
 ]

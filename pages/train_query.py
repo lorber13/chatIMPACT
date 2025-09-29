@@ -83,9 +83,9 @@ with col_3:
     )
 
 with col_4:
-    # toggles for binary model attributes
-    st.toggle("**Open Source**", value=False, key=f"{PAGE}.open_source")
-    st.toggle("**Instruction Tuned**", value=False, key=f"{PAGE}.instruction_tuned")
+    # radio buttons for binary model attributes
+    st.radio("**Open Source**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.open_source")
+    st.radio("**Instruction Tuned**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.instruction_tuned")
     st.radio(
         "***Filter on Carbon Emissions***",
         ["No filters", "Carbon Emissions (tCO2e)"],
@@ -145,12 +145,15 @@ with col_7:
     )
 
 # Initialise filters for LLMs
-st.session_state[f"{PAGE}.filters_llm"] = {
-    "openSource": st.session_state[f"{PAGE}.open_source"],
-}
-# Only add instructionTuned filter if the toggle is True (since some models don't have this field)
-if st.session_state[f"{PAGE}.instruction_tuned"]:
-    st.session_state[f"{PAGE}.filters_llm"]["instructionTuned"] = True
+st.session_state[f"{PAGE}.filters_llm"] = {}
+
+# Add openSource filter only if not "No filter"
+if st.session_state[f"{PAGE}.open_source"] != "No filter":
+    st.session_state[f"{PAGE}.filters_llm"]["openSource"] = st.session_state[f"{PAGE}.open_source"] == "True"
+
+# Add instructionTuned filter only if not "No filter"
+if st.session_state[f"{PAGE}.instruction_tuned"] != "No filter":
+    st.session_state[f"{PAGE}.filters_llm"]["instructionTuned"] = st.session_state[f"{PAGE}.instruction_tuned"] == "True"
 
 # State flags for additional manual filtering (on numeric/string fields)
 st.session_state[f"{PAGE}.param_filter_active"] = False
@@ -248,8 +251,8 @@ with col_11:
     )
 
 with col_12:
-    # toggle to indicate whether a dataset is used for fine‑tuning
-    st.toggle("**Fine-Tuning Dataset**", value=None, key=f"{PAGE}.fine_tuning")
+    # radio button to indicate whether a dataset is used for fine-tuning
+    st.radio("**Fine-Tuning Dataset**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.fine_tuning")
     # domain selection
     st.multiselect(
         "**Domain**",
@@ -318,8 +321,8 @@ if st.session_state[f"{PAGE}.type_filter"] == "Row count":
     st.session_state[f"{PAGE}.max_rows"] = max_rows
 
 # Fine-tuning flag
-if st.session_state[f"{PAGE}.fine_tuning"] is not None:
-    st.session_state[f"{PAGE}.filters_ds"]["fineTuning"] = st.session_state[f"{PAGE}.fine_tuning"]
+if st.session_state[f"{PAGE}.fine_tuning"] != "No filter":
+    st.session_state[f"{PAGE}.filters_ds"]["fineTuning"] = st.session_state[f"{PAGE}.fine_tuning"] == "True"
 
 # Domain filter
 if st.session_state[f"{PAGE}.domain"]:
@@ -358,6 +361,21 @@ st.multiselect(
     key=f"{PAGE}.project_ds_multiselect",
 )
 
+with st.expander("**📊 Ranking Options**", expanded=False):
+    st.radio(
+        "**Rank by**",
+        ["No ranking", "Model Parameters", "Model Carbon Emissions", "Dataset Size"],
+        index=0,
+        key=f"{PAGE}.rank_by"
+    )
+    if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+        st.radio(
+            "**Sort order**",
+            ["Ascending (Low to High)", "Descending (High to Low)"],
+            index=1,
+            key=f"{PAGE}.sort_order"
+        )
+
 # Button to trigger the query
 l, l1, c, r1, r = st.columns(5)
 with c:
@@ -386,6 +404,12 @@ if query:
     ):
         llm_project_fields.append("carbon_emissions_tco2e")
 
+    # Add ranking fields to project if ranking is active
+    if st.session_state[f"{PAGE}.rank_by"] == "Model Parameters" and "numberOfParameters" not in llm_project_fields:
+        llm_project_fields.append("numberOfParameters")
+    elif st.session_state[f"{PAGE}.rank_by"] == "Model Carbon Emissions" and "carbon_emissions_tco2e" not in llm_project_fields:
+        llm_project_fields.append("carbon_emissions_tco2e")
+
     dataset_project_fields = st.session_state[f"{PAGE}.project_ds_multiselect"].copy()
     
     # Always include _id for joining with edges
@@ -396,6 +420,10 @@ if query:
         st.session_state.get(f"{PAGE}.size_filter_active", False)
         and "size" not in dataset_project_fields
     ):
+        dataset_project_fields.append("size")
+
+    # Add ranking fields to project if ranking is active
+    if st.session_state[f"{PAGE}.rank_by"] == "Dataset Size" and "size" not in dataset_project_fields:
         dataset_project_fields.append("size")
 
     # -------------------------------------------------------------------------
@@ -557,6 +585,101 @@ if query:
     # Display the joined results in a dataframe. If no matching edges exist,
     # provide a user‑friendly message instead.
     if joined_results:
+        # Apply ranking if selected
+        if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+            def convert_params_to_numeric(param_str):
+                """Convert parameter strings like '7B', '176B' to numeric values in billions"""
+                if not param_str:
+                    return None
+                param_str = str(param_str).upper()
+                if param_str.endswith('B'):
+                    try:
+                        return float(param_str[:-1])
+                    except ValueError:
+                        return None
+                elif param_str.endswith('M'):
+                    try:
+                        return float(param_str[:-1]) / 1000
+                    except ValueError:
+                        return None
+                else:
+                    try:
+                        return float(param_str) / 1000000000
+                    except ValueError:
+                        return None
+            
+            def convert_size_to_numeric(size_str):
+                """Convert size strings like '273k', '2M' to numeric values"""
+                if not size_str or size_str == "n/a":
+                    return None
+                size_str = str(size_str).upper()
+                if size_str.endswith('K'):
+                    try:
+                        return float(size_str[:-1]) * 1000
+                    except ValueError:
+                        return None
+                elif size_str.endswith('M'):
+                    try:
+                        return float(size_str[:-1]) * 1000000
+                    except ValueError:
+                        return None
+                else:
+                    try:
+                        return float(size_str)
+                    except ValueError:
+                        return None
+            
+            def has_valid_ranking_value(item):
+                """Check if item has a valid (non-null) value for the selected ranking field"""
+                if st.session_state[f"{PAGE}.rank_by"] == "Model Parameters":
+                    # Access the field from the Models section
+                    if "Models" in item and "numberOfParameters" in item["Models"]:
+                        param_value = item["Models"]["numberOfParameters"]
+                        return convert_params_to_numeric(param_value) is not None
+                    return False
+                elif st.session_state[f"{PAGE}.rank_by"] == "Model Carbon Emissions":
+                    if "Models" in item and "carbon_emissions_tco2e" in item["Models"]:
+                        try:
+                            value = item["Models"]["carbon_emissions_tco2e"]
+                            return value is not None and float(value) is not None
+                        except (ValueError, TypeError):
+                            return False
+                    return False
+                elif st.session_state[f"{PAGE}.rank_by"] == "Dataset Size":
+                    # Access the field from the Datasets section
+                    if "Datasets" in item and "size" in item["Datasets"]:
+                        size_value = item["Datasets"]["size"]
+                        return convert_size_to_numeric(size_value) is not None
+                    return False
+                return True
+            
+            def get_sort_key(item):
+                if st.session_state[f"{PAGE}.rank_by"] == "Model Parameters":
+                    if "Models" in item and "numberOfParameters" in item["Models"]:
+                        param_value = item["Models"]["numberOfParameters"]
+                        return convert_params_to_numeric(param_value) or 0
+                    return 0
+                elif st.session_state[f"{PAGE}.rank_by"] == "Model Carbon Emissions":
+                    if "Models" in item and "carbon_emissions_tco2e" in item["Models"]:
+                        try:
+                            return float(item["Models"]["carbon_emissions_tco2e"])
+                        except (ValueError, TypeError):
+                            return 0
+                    return 0
+                elif st.session_state[f"{PAGE}.rank_by"] == "Dataset Size":
+                    if "Datasets" in item and "size" in item["Datasets"]:
+                        size_value = item["Datasets"]["size"]
+                        return convert_size_to_numeric(size_value) or 0
+                    return 0
+                return 0
+            
+            # Filter out items with null/missing ranking values
+            joined_results = [item for item in joined_results if has_valid_ranking_value(item)]
+            
+            # Sort the remaining items
+            reverse_order = st.session_state[f"{PAGE}.sort_order"] == "Descending (High to Low)"
+            joined_results = sorted(joined_results, key=get_sort_key, reverse=reverse_order)
+        
         df = pd.DataFrame(reworked_query_output(joined_results))
         st.dataframe(df)
     else:

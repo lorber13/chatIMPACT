@@ -69,8 +69,8 @@ with col_3:
     )
 
 with col_4:
-    st.toggle("**Open Source**", value=False, key=f"{PAGE}.open_source")
-    st.toggle("**Instruction Tuned**", value=False, key=f"{PAGE}.instruction_tuned")
+    st.radio("**Open Source**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.open_source")
+    st.radio("**Instruction Tuned**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.instruction_tuned")
     st.radio(
         "***Filter on Carbon Emissions***",
         ["No filters", "Carbon Emissions (tCO2e)"],
@@ -128,15 +128,30 @@ with col_7:
         """
     )
 
-st.session_state[f"{PAGE}.filters_llm"] = {
-    f"openSource": st.session_state[f"{PAGE}.open_source"],
-    # "quantization": quantization,  # FIXME: fixami
-    # Note: contextLength field not available in current data
-}
+with st.expander("**📊 Ranking Options**", expanded=False):
+    st.radio(
+        "**Rank by**",
+        ["No ranking", "Number of Parameters", "Carbon Emissions"],
+        index=0,
+        key=f"{PAGE}.rank_by"
+    )
+    if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+        st.radio(
+            "**Sort order**",
+            ["Ascending (Low to High)", "Descending (High to Low)"],
+            index=1,
+            key=f"{PAGE}.sort_order"
+        )
 
-# Only add instructionTuned filter if the toggle is True (since some models don't have this field)
-if st.session_state[f"{PAGE}.instruction_tuned"]:
-    st.session_state[f"{PAGE}.filters_llm"]["instructionTuned"] = True
+st.session_state[f"{PAGE}.filters_llm"] = {}
+
+# Add openSource filter only if not "No filter"
+if st.session_state[f"{PAGE}.open_source"] != "No filter":
+    st.session_state[f"{PAGE}.filters_llm"]["openSource"] = st.session_state[f"{PAGE}.open_source"] == "True"
+
+# Add instructionTuned filter only if not "No filter"
+if st.session_state[f"{PAGE}.instruction_tuned"] != "No filter":
+    st.session_state[f"{PAGE}.filters_llm"]["instructionTuned"] = st.session_state[f"{PAGE}.instruction_tuned"] == "True"
 
 st.session_state[f"{PAGE}.param_filter_active"] = False
 st.session_state[f"{PAGE}.carbon_filter_active"] = False
@@ -199,11 +214,17 @@ with c:
     query = st.button("Get results")
 
 if query:
-    # Ensure required fields are included in projection if filtering is active
+    # Ensure required fields are included in projection if filtering or ranking is active
     project_fields = st.session_state[f"{PAGE}.project_llm"].copy()
     if st.session_state.get(f"{PAGE}.param_filter_active", False) and "numberOfParameters" not in project_fields:
         project_fields.append("numberOfParameters")
     if st.session_state.get(f"{PAGE}.carbon_filter_active", False) and "carbon_emissions_tco2e" not in project_fields:
+        project_fields.append("carbon_emissions_tco2e")
+    
+    # Add ranking fields to project if ranking is active
+    if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters" and "numberOfParameters" not in project_fields:
+        project_fields.append("numberOfParameters")
+    elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions" and "carbon_emissions_tco2e" not in project_fields:
         project_fields.append("carbon_emissions_tco2e")
     
     query_input = [create_query_structure(
@@ -278,6 +299,66 @@ if query:
                 filtered_result.append(item)
         
         result = filtered_result
+    
+    # Apply ranking if selected
+    if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+        def convert_params_to_numeric(param_str):
+            """Convert parameter strings like '7B', '176B' to numeric values in billions"""
+            if not param_str:
+                return None
+            param_str = str(param_str).upper()
+            if param_str.endswith('B'):
+                try:
+                    return float(param_str[:-1])
+                except ValueError:
+                    return None
+            elif param_str.endswith('M'):
+                try:
+                    return float(param_str[:-1]) / 1000
+                except ValueError:
+                    return None
+            else:
+                try:
+                    return float(param_str) / 1000000000  # Assume raw number is in units
+                except ValueError:
+                    return None
+        
+        def has_valid_ranking_value(item):
+            """Check if item has a valid (non-null) value for the selected ranking field"""
+            if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters":
+                if 'Models' in item and 'numberOfParameters' in item['Models']:
+                    return convert_params_to_numeric(item['Models']['numberOfParameters']) is not None
+                return False
+            elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions":
+                if 'Models' in item and 'carbon_emissions_tco2e' in item['Models']:
+                    try:
+                        value = item['Models']['carbon_emissions_tco2e']
+                        return value is not None and float(value) is not None
+                    except (ValueError, TypeError):
+                        return False
+                return False
+            return True
+        
+        def get_sort_key(item):
+            if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters":
+                if 'Models' in item and 'numberOfParameters' in item['Models']:
+                    return convert_params_to_numeric(item['Models']['numberOfParameters']) or 0
+                return 0
+            elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions":
+                if 'Models' in item and 'carbon_emissions_tco2e' in item['Models']:
+                    try:
+                        return float(item['Models']['carbon_emissions_tco2e'])
+                    except (ValueError, TypeError):
+                        return 0
+                return 0
+            return 0
+        
+        # Filter out items with null/missing ranking values
+        result = [item for item in result if has_valid_ranking_value(item)]
+        
+        # Sort the remaining items
+        reverse_order = st.session_state[f"{PAGE}.sort_order"] == "Descending (High to Low)"
+        result = sorted(result, key=get_sort_key, reverse=reverse_order)
     
     df = pd.DataFrame(reworked_query_output(result))
     st.dataframe(df)

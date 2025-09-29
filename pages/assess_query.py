@@ -50,12 +50,8 @@ with col_1:
     )
 
 with col_2:
-    st.multiselect(
-        "**Context**",
-        dao.get_all(METRICS, "context"),
-        key=f"{PAGE}.context",
-        default=st.session_state[f"{PAGE}.context"] if f"{PAGE}.context" in st.session_state else None
-    )
+    st.radio("**Context Free**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.contextFree")
+    st.radio("**Feature Based**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.featureBased")
 
 with col_3:
     st.html(
@@ -72,9 +68,7 @@ with col_3:
     )
 
 with col_4:
-    st.toggle("**Trained**",
-              value=False,
-              key=f"{PAGE}.trained")
+    st.radio("**Trained**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.trained")
 
 with col_5:
     st.html(
@@ -91,7 +85,7 @@ with col_5:
     )
 
 with col_6:
-    if st.session_state[f"{PAGE}.trained"]:
+    if st.session_state[f"{PAGE}.trained"] == "True":
         st.multiselect(
             "**Feature Based - End to End**",
             dao.get_all(METRICS, "featureBased/endToEnd"),
@@ -120,21 +114,22 @@ with col_7:
         """
     )
 
-st.session_state[f"{PAGE}.filters_metrics"] = {
-    f"{METRICS}.trained": st.session_state[f"{PAGE}.trained"]
-}
+st.session_state[f"{PAGE}.filters_metrics"] = {}
 
-if st.session_state[f"{PAGE}.context"]:
-    st.session_state[f"{PAGE}.filters_metrics"][f"{METRICS}.context"] = {
-        "$all": st.session_state[f"{PAGE}.context"]
-    }
+# Add filters only if not "No filter"
+if st.session_state[f"{PAGE}.trained"] != "No filter":
+    st.session_state[f"{PAGE}.filters_metrics"][f"{METRICS}.trained"] = st.session_state[f"{PAGE}.trained"] == "True"
+if st.session_state[f"{PAGE}.contextFree"] != "No filter":
+    st.session_state[f"{PAGE}.filters_metrics"][f"{METRICS}.contextFree"] = st.session_state[f"{PAGE}.contextFree"] == "True"
+if st.session_state[f"{PAGE}.featureBased"] != "No filter":
+    st.session_state[f"{PAGE}.filters_metrics"][f"{METRICS}.featureBased"] = st.session_state[f"{PAGE}.featureBased"] == "True"
 
-if not st.session_state[f"{PAGE}.trained"]:
+if st.session_state[f"{PAGE}.trained"] == "False":
     if st.session_state[f"{PAGE}.gran"]:
         st.session_state[f"{PAGE}.filters_metrics"][f"{METRICS}.granularity"] = {
             "$all": st.session_state[f"{PAGE}.gran"]
         }
-if st.session_state[f"{PAGE}.trained"]:
+if st.session_state[f"{PAGE}.trained"] == "True":
     if st.session_state[f"{PAGE}.feat"]:
         st.session_state[f"{PAGE}.filters_metrics"][f"{METRICS}.featureBased/endToEnd"] = {
             "$all": st.session_state[f"{PAGE}.feat"]
@@ -152,14 +147,21 @@ st.multiselect(
 st.session_state[f"{PAGE}.filters_dt"] = {}
 
 if st.session_state[f"{PAGE}.name_dt"]:
-    st.session_state[f"{PAGE}.filters_dt"][f"{DOWNSTREAM_TASKS}.name"] = st.session_state[f"{PAGE}.name_dt"][0]
+    if len(st.session_state[f"{PAGE}.name_dt"]) == 1:
+        # Single selection - use equality filter
+        st.session_state[f"{PAGE}.filters_dt"][f"{DOWNSTREAM_TASKS}.name"] = st.session_state[f"{PAGE}.name_dt"][0]
+    elif len(st.session_state[f"{PAGE}.name_dt"]) > 1:
+        # Multiple selections - use $or with multiple equality conditions
+        st.session_state[f"{PAGE}.filters_dt"]["$or"] = [
+            {f"{DOWNSTREAM_TASKS}.name": name} for name in st.session_state[f"{PAGE}.name_dt"]
+        ]
 
 ### FINAL SECTION FOR QUERYING
 st.markdown("---")
 st.multiselect(
     "**Select the results of the query for Metrics**",
     dao.get_attributes(METRICS),
-    ["name", "description "],
+    ["name", "description"],
     key=f"{PAGE}.project_metrics_multiselect"
 )
 st.session_state[f"{PAGE}.project_metrics"] = [
@@ -173,6 +175,9 @@ st.multiselect(
 )
 st.session_state[f"{PAGE}.project_dt"] = [
     f"{DOWNSTREAM_TASKS}." + att for att in st.session_state[f"{PAGE}.project_dt_multiselect"]]
+
+with st.expander("**📊 Ranking Options**", expanded=False):
+    st.info("Note: Neither Metrics nor Downstream Tasks collections have numeric fields suitable for ranking. Results will be displayed in default order. When ranking is activated on other pages, entries with null values for the ranking field are automatically excluded from results.")
 
 l, l1, c, r1, r = st.columns(5)
 
