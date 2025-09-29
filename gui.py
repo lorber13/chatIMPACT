@@ -1,53 +1,5 @@
 import streamlit as st
 
-# query = [
-#     {
-#         "collection": "Models",
-#         "project": [
-#             "name",
-#             "openSource"
-#         ],
-#         "filters": {
-#             "name": "ll", "openSource": True
-#         }
-#     },
-#     {
-#         "collection", "Downstream Tasks",
-#         "project": [
-#             "name",
-#         ],
-#         "filters": {
-#             "name": "RO"
-#         }
-#     }
-# ]
-#
-# result = [
-#     {
-#         "collection1": {
-#             "attribute1": "examplevalue",
-#             "attribute2": 3,
-#         },
-#         "collection2": {
-#             "attribute1": [
-#                 "value1",
-#                 "value2",
-#             ],
-#         },
-#     },
-#     {
-#         "collection1": {
-#             "attribute1": "examplevalue2",
-#             "attribute2": 5,
-#         },
-#         "collection2": {
-#             "attribute1": [
-#                 "value3",
-#                 "value4",
-#             ],
-#         },
-#     }
-# ]
 
 interactive_image_html = """
 <img src="./app/static/ER_simplified_final_zoomed.png" alt="DB Model" usemap="#image-map" width="700" height="289">
@@ -82,7 +34,7 @@ st.markdown("---")
 
 # Insert clickable image that redirects to different pages, ones for each entity
 
-st.markdown(image_1, unsafe_allow_html=True)
+# st.markdown(image_1, unsafe_allow_html=True)
 
 st.markdown("### A quick guide")
 intro = """
@@ -91,31 +43,98 @@ The following queries will help the user understand how to navigate the interfac
 why the tool is able to answer meaningful questions.  
 """
 st.markdown(intro)
-
+# add some space
+st.markdown("")
+st.markdown("")
+# Add image for Query 1
+st.markdown('<img src="./app/static/1.png" alt="Query 1" width="1000" height="200">', unsafe_allow_html=True)
 query_1_desc = """
-**Query 1:** *“Find the open source models with less than 8 billion parameters, fine-tuned on the medical domain.”*  
-The query considers the Train relationship between the **LargeLanguageModel** and **Dataset** entities.  
-Click on the **Train** relationship to proceed.
+**Query 1:** *“Find the open-source Italian models with less than 8B parameters fine-tuned on the medical domain.”*  
+This query considers the **Train** relationship between the **Model** and **Dataset** entities.  
+Click on the **Train** edge and apply the following filters:  
+- **Model filters:** OpenSource=True, NumberOfParameters < 8B  
+- **Dataset filters:** Domain = Medical, FineTuning=True, Language=Italian  
 """
 st.markdown(query_1_desc)
 
-query_2_desc =  """
-**Query 2**: *“Find an untrained metric with character-based granularity suitable for machine translation.”*  
-This query considers the **Assess** relationship between the **Metric** and **DownstreamTask** entities.  
-Click on the **Assess** relationship to proceed.
+
+st.markdown("")
+st.markdown("")
+# Add image for Query 2
+st.markdown('<img src="./app/static/2.png" alt="Query 2" width="1000" height="200">', unsafe_allow_html=True)
+query_2_desc = """
+**Query 2:** *“Find the open-source models specialized in Financial Document Analysis with less than 8B parameters.”*  
+This query considers the **SuitedFor** relationship between the **Model** and **Task** entities.  
+Click on the **SuitedFor** edge and apply:  
+- **Model filters:** OpenSource=True, NumberOfParameters < 8B  
+- **Task filters:** SubTask = Financial Document Analysis  
 """
 st.markdown(query_2_desc)
 
+
+st.markdown("")
+st.markdown("")
+# Add image for Query 3
+st.markdown('<img src="./app/static/3.png" alt="Query 3" width="1000" height="200">', unsafe_allow_html=True)
 query_3_desc = """
-**Query 3**: *“Find open-source Large Language Models that are specialized in Code Generation with at least 4k context length.”*  
-The query takes into account the **SuitedFor** relationship between the **LargeLanguageModel** and **DownstreamTask** entities.  
-Click on the **SuitedFor** relationship.
+**Query 3:** *“Find datasets to train models for text summarization in legal domains, with docs in English, Italian, Spanish, German, and French.”*  
+This query uses the **Enable** relationship between **Dataset** and **Task**.  
+Click on the **Enable** edge and apply:  
+- **Task filters:** Downstream Task = Summarization  
+- **Dataset filters:** Domain=Law, Language ∈ {English, Italian, Spanish, German, French}  
 """
 st.markdown(query_3_desc)
 
+
+st.markdown("")
+st.markdown("")
+# Add image for Query 4
+st.markdown('<img src="./app/static/4.png" alt="Query 4" width="1000" height="200">', unsafe_allow_html=True)
 query_4_desc = """
-**Query 4**: *“Find the datasets that can be used to train a model for text summarization and belong to the legal domain. Moreover, the datasets should contain documents written in English, Italian, Spanish, German and French."*  
-The query takes into account the **Enable** relationship between the **Dataset** and **DownstreamTask** entities.  
-Click on the **Enable** relationship.
+**Query 4:** *“Find Apache2.0 models trained on at least a dataset from mathematics, chemistry, and physics.”*  
+This query considers the **Train** relationship between **Model** and **Dataset**.  
+Click on the **Train** edge and apply:  
+- **Model filters:** LicenseToUse = Apache2.0  
+- **Dataset filters:** Domain ∈ {Mathematics, Chemistry, Physics}  
 """
 st.markdown(query_4_desc)
+
+st.markdown("")
+st.markdown("")
+# Add image for Query 5
+st.markdown('<img src="./app/static/5.png" alt="Query 5" width="1000" height="200">', unsafe_allow_html=True)
+query_5_desc = """
+**Query 5:** *“Find models with more than 70B parameters trained on English datasets, ranked by lowest carbon emissions.”*  
+This query uses the **Train** relationship between **Model** and **Dataset**.  
+Click on the **Train** edge and apply:  
+- **Model filters:** NumberOfParameters > 70B  
+- **Dataset filters:** Language = English  
+- **Ranking options:** CarbonEmissions (ascending)  
+"""
+st.markdown(query_5_desc)
+
+st.markdown("")
+st.markdown("")
+# Add image for Query 6
+st.markdown('<img src="./app/static/6.png" alt="Query 6" width="1000" height="200">', unsafe_allow_html=True)
+query_6_desc = """
+**Query 6:** *“Find instruction-tuned models under 8B parameters for code generation, ranked by a suitable metric.”*  
+This query considers the **Evaluate** relationship between **Metric**, **Model**, and **Task**.  
+Click on the **triple query button** (Metric–Model–Task) and apply:  
+- **Model filters:** InstructionTuned=True, NumberOfParameters < 8B  
+- **Task filters:** SubTask = Code Generation  
+- **Ranking options:** select a metric suitable for code generation (e.g., Tabby score)  
+"""
+st.markdown(query_6_desc)
+
+st.markdown("")
+st.markdown("")
+
+# Add triple query button
+st.markdown("### Triple Query (Model-Task-Metric)")
+st.markdown("For complex queries involving relationships between Models, Tasks, and Metrics:")
+
+if st.button("🔗 **Triple Query: Model-Task-Metric**", key="trio_query_button", use_container_width=True):
+    st.switch_page("pages/trio_query.py")
+
+st.markdown("---")

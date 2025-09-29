@@ -13,7 +13,7 @@ from dao import Dao
 # - Entries with ``relation_type`` set to ``evaluates_model`` link a metric to a model
 # This creates a triangular relationship: Model <-> Task, Model <-> Metric
 
-PAGE = "Trio"
+PAGE = "Model-Metric-Task"
 DOWNSTREAM_TASKS = "Downstream Tasks"
 MODELS = "Models"
 METRICS = "Metrics"
@@ -36,11 +36,11 @@ st.html(f"<h3 style='text-align: center;'>{DOWNSTREAM_TASKS} filters</h3>")
 col_dt1, col_dt2 = st.columns(2)
 with col_dt1:
     st.multiselect(
-        "**Downstream Task**",
-        dao.get_all("Downstream Tasks", "name"),
-        key=f"{PAGE}.name_dt",
-        default=st.session_state[f"{PAGE}.name_dt"] if f"{PAGE}.name_dt" in st.session_state else None,
-        help="Select specific downstream tasks to find models suited for them and their evaluation metrics."
+        "**Downstream Task Metric Assesses**",
+        dao.get_all(DOWNSTREAM_TASKS, "name"),
+        key=f"{PAGE}.assesses_downstream_task",
+        default=st.session_state[f"{PAGE}.assesses_downstream_task"] if f"{PAGE}.assesses_downstream_task" in st.session_state else None,
+        help="Select downstream tasks that the metrics are designed to assess."
     )
 
 with col_dt2:
@@ -51,19 +51,19 @@ with col_dt2:
 # Initialize downstream task filters
 st.session_state[f"{PAGE}.filters_dt"] = {}
 
-# Add task name filter if selected
-if st.session_state[f"{PAGE}.name_dt"]:
-    st.session_state[f"{PAGE}.filters_dt"]["name"] = {
-        "$in": st.session_state[f"{PAGE}.name_dt"]
-    }
+# Store downstream task metric assesses filter for later use in metrics filtering
+if st.session_state[f"{PAGE}.assesses_downstream_task"]:
+    st.session_state[f"{PAGE}.metric_assesses_filter"] = st.session_state[f"{PAGE}.assesses_downstream_task"]
+else:
+    st.session_state[f"{PAGE}.metric_assesses_filter"] = None
 
 # -----------------------------------------------------------------------------
 # SECTION FOR METRICS FILTERS
 # -----------------------------------------------------------------------------
 st.markdown("---")
 st.html("<h3 style='text-align: center;'>Metrics filters</h3>")
-col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8 = st.columns(
-    [0.2, 5.9, 0.2, 5.9, 0.2, 5.9, 0.2, 5.9]
+col_1, col_2, col_3, col_4, col_5, col_6 = st.columns(
+    [0.2, 5.9, 0.2, 5.9, 0.2, 5.9]
 )
 
 with col_1:
@@ -132,28 +132,6 @@ with col_5:
 
 with col_6:
     st.multiselect(
-        "**Downstream Task Metric Assesses**",
-        dao.get_all(DOWNSTREAM_TASKS, "name"),
-        key=f"{PAGE}.assesses_downstream_task",
-        default=st.session_state[f"{PAGE}.assesses_downstream_task"] if f"{PAGE}.assesses_downstream_task" in st.session_state else None
-    )
-
-with col_7:
-    st.html(
-        """
-            <div class="divider-vertical-line"></div>
-            <style>
-                .divider-vertical-line {
-                    border-left: 2px solid rgba(49, 51, 63, 0.2);
-                    height: 320px;
-                    margin: auto;
-                }
-            </style>
-        """
-    )
-
-with col_8:
-    st.multiselect(
         "**Metric Name**",
         dao.get_all(METRICS, "name"),
         key=f"{PAGE}.metric_name",
@@ -184,8 +162,9 @@ else:
     elif st.session_state[f"{PAGE}.granularity"]:
         st.session_state[f"{PAGE}.filters_metrics"]["granularity"] = {"$in": st.session_state[f"{PAGE}.granularity"]}
 
-    if st.session_state[f"{PAGE}.assesses_downstream_task"]:
-        st.session_state[f"{PAGE}.filters_metrics"]["assessesDownstreamTask"] = {"$in": st.session_state[f"{PAGE}.assesses_downstream_task"]}
+    # Use the stored downstream task metric assesses filter from the downstream task section
+    if st.session_state[f"{PAGE}.metric_assesses_filter"]:
+        st.session_state[f"{PAGE}.filters_metrics"]["assessesDownstreamTask"] = {"$in": st.session_state[f"{PAGE}.metric_assesses_filter"]}
 
 # -----------------------------------------------------------------------------
 # SECTION FOR LARGE LANGUAGE MODEL FILTERS
@@ -634,8 +613,8 @@ if st.button("**Get results**", key=f"{PAGE}.submit"):
             st.info("❗ No metrics match your metric filters. Try relaxing the metric constraints.")
         elif len(models_result) == 0:
             st.info("❗ No models match your model filters. Try relaxing the model constraints.")
-        elif len(tasks_result) == 0 and st.session_state[f"{PAGE}.name_dt"]:
-            st.info("❗ No tasks match your task filter. Try selecting different tasks or leave the task filter empty.")
+        elif len(tasks_result) == 0:
+            st.info("❗ No downstream tasks found in the database.")
         elif len(model_task_pairs) == 0:
             st.info("❗ No model-task relationships found. The selected models and tasks may not be connected via 'suited_for' relationships.")
         else:
