@@ -225,19 +225,6 @@ class Dao:
                     if not self._matches_filters(doc, subf, prefix):
                         return False
                 continue
-            # Handle logical OR separately
-            if key == "$or":
-                if not isinstance(value, list):
-                    return False
-                # At least one subfilter must match
-                or_matched = False
-                for subf in value:
-                    if self._matches_filters(doc, subf, prefix):
-                        or_matched = True
-                        break
-                if not or_matched:
-                    return False
-                continue
             # Determine the attribute name by stripping the prefix if present
             attr = key
             if prefix and key.startswith(prefix + "."):
@@ -317,18 +304,6 @@ class Dao:
         if len(specs) == 1:
             spec = specs[0]
             collection = spec.get("collection")
-            
-            # Special case for Edges collection
-            if collection == "Edges":
-                filters = spec.get("filters") or {}
-                project = spec.get("project") or []
-                result = []
-                for doc in self.edges:
-                    if self._matches_filters(doc, filters, collection):
-                        projected = self._apply_projection(doc, project, collection)
-                        result.append({collection: projected})
-                return result
-            
             if not collection or collection not in self.data:
                 return []
             filters = spec.get("filters") or {}

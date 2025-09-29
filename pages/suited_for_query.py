@@ -3,20 +3,12 @@ import pandas as pd
 from utils import create_query_structure, reworked_query_output
 from dao import Dao
 
-# This Streamlit page provides a combined view over Large Language Models (LLMs)
-# and Downstream Tasks. Users can apply filters to both models and tasks and then
-# correlate them through their "suited_for" relationships. The underlying database
-# contains an ``Edges`` collection where entries with ``relation_type`` set to
-# ``suited_for`` link a model (via the ``from`` field) to a task (via the
-# ``to`` field).
-
 PAGE = "Suited For"
 DOWNSTREAM_TASKS = "Downstream Tasks"
 MODELS = "Models"
 DB_NAME = "ChatIMPACT"
 
-# Initialise data access object
-dao = Dao(DB_NAME)
+dao = Dao("ChatIMPACT")
 
 st.page_link("gui.py", label="Homepage", icon="🏠")
 
@@ -36,39 +28,21 @@ left_co, cent_co,last_co = st.columns(3)
 # st.markdown(query_3_suited_for)
 # st.markdown("---")
 
-# -----------------------------------------------------------------------------
-# SECTION FOR DOWNSTREAM TASK FILTERS
-# -----------------------------------------------------------------------------
-st.markdown("---")
+### SECTION FOR DOWNSTREAM TASKS ###
 st.html(f"<h3 style='text-align: center;'>{DOWNSTREAM_TASKS} filters</h3>")
-
-col_dt1, col_dt2 = st.columns(2)
-with col_dt1:
-    st.multiselect(
-        "**Downstream Task**",
-        dao.get_all("Downstream Tasks", "name"),
-        key=f"{PAGE}.name_dt",
-        default=st.session_state[f"{PAGE}.name_dt"] if f"{PAGE}.name_dt" in st.session_state else None,
-        help="Select specific downstream tasks to find models suited for them. Leave empty to show all task-model relationships."
-    )
-
-with col_dt2:
-    # Show available task names for reference
-    all_task_names = dao.get_all("Downstream Tasks", "name")
-    st.info(f"Available tasks: {', '.join(all_task_names)}")
-
-# Initialize downstream task filters
+st.multiselect(
+    "**Downstream Task**",
+    dao.get_all("Downstream Tasks", "name"),
+    key=f"{PAGE}.name_dt",
+    default=st.session_state[f"{PAGE}.name_dt"] if f"{PAGE}.name_dt" in st.session_state else None
+)
 st.session_state[f"{PAGE}.filters_dt"] = {}
 
-# Add task name filter if selected
 if st.session_state[f"{PAGE}.name_dt"]:
-    st.session_state[f"{PAGE}.filters_dt"]["name"] = {
-        "$in": st.session_state[f"{PAGE}.name_dt"]
-    }
+    st.session_state[f"{PAGE}.filters_dt"][f"{DOWNSTREAM_TASKS}.name"] = st.session_state[f"{PAGE}.name_dt"][0]
 
-# -----------------------------------------------------------------------------
-# SECTION FOR LARGE LANGUAGE MODEL FILTERS
-# -----------------------------------------------------------------------------
+### SECTION FOR LARGE LANGUAGE MODEL ###
+
 st.markdown("---")
 st.html("<h3 style='text-align: center;'>Large Language Model filters</h3>")
 col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8 = st.columns(
@@ -76,7 +50,6 @@ col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8 = st.columns(
 )
 
 with col_1:
-    # vertical divider for spacing
     st.html(
         """
                 <div class="divider-vertical-line"></div>
@@ -94,16 +67,16 @@ with col_2:
     st.radio(
         "***Filter on Number of Parameters***",
         ["No filters", "Number of Parameters (B)"],
-        key=f"{PAGE}.num_param_filter",
+        key=f"{PAGE}.num_param_filter"
     )
     if st.session_state[f"{PAGE}.num_param_filter"] == "Number of Parameters (B)":
         st.number_input(
-            "**Minimum number of parameters (B)**", min_value=0.0, value=0.0, step=0.1,
-            key=f"{PAGE}.min_num_param",
+            "**Minimum number of parameters**", min_value=0, value=0,
+            key=f"{PAGE}.min_num_param"
         )
         st.number_input(
-            "**Maximum number of parameters (B)**", min_value=0.0, value=1000.0, step=0.1,
-            key=f"{PAGE}.max_num_param",
+            "**Maximum number of parameters**", min_value=0, value=None,
+            key=f"{PAGE}.max_num_param"
         )
 
 with col_3:
@@ -121,23 +94,14 @@ with col_3:
     )
 
 with col_4:
-    # radio buttons for binary model attributes
-    st.radio("**Open Source**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.open_source")
-    st.radio("**Instruction Tuned**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.instruction_tuned")
-    st.radio(
-        "***Filter on Carbon Emissions***",
-        ["No filters", "Carbon Emissions (tCO2e)"],
-        key=f"{PAGE}.carbon_filter",
+    st.toggle("**Open Source**", value=False, key=f"{PAGE}.open_source")
+    st.toggle("**Fine-Tuned**", value=False, key=f"{PAGE}.fine_tuned")
+    #quantization = st.toggle("**Quantization**", value=False)
+    st.number_input(
+        "**Minimum context length**",
+        min_value=0,
+        key=f"{PAGE}.cont_length"
     )
-    if st.session_state[f"{PAGE}.carbon_filter"] == "Carbon Emissions (tCO2e)":
-        st.number_input(
-            "**Minimum emissions (tCO2e)**", min_value=0.0, value=0.0, step=0.1,
-            key=f"{PAGE}.min_carbon",
-        )
-        st.number_input(
-            "**Maximum emissions (tCO2e)**", min_value=0.0, value=10000.0, step=0.1,
-            key=f"{PAGE}.max_carbon",
-        )
 
 with col_5:
     st.html(
@@ -154,18 +118,17 @@ with col_5:
     )
 
 with col_6:
-    # multi‑select fields for categorical attributes
     st.multiselect(
         "**Language**",
         dao.get_all("Models", "languages"),
         key=f"{PAGE}.lan_llm",
-        default=st.session_state[f"{PAGE}.lan_llm"] if f"{PAGE}.lan_llm" in st.session_state else None,
+        default=st.session_state[f"{PAGE}.lan_llm"] if f"{PAGE}.lan_llm" in st.session_state else None
     )
     st.multiselect(
-        "**License to Use**",
-        dao.get_all("Models", "license_to_use"),
-        key=f"{PAGE}.license",
-        default=st.session_state[f"{PAGE}.license"] if f"{PAGE}.license" in st.session_state else None,
+        "**Architecture**",
+        dao.get_all("Models", "architecture"),
+        key=f"{PAGE}.arch",
+        default=st.session_state[f"{PAGE}.arch"] if f"{PAGE}.arch" in st.session_state else None
     )
 
 with col_7:
@@ -182,389 +145,64 @@ with col_7:
         """
     )
 
-# Initialise filters for LLMs
-st.session_state[f"{PAGE}.filters_llm"] = {}
+st.session_state[f"{PAGE}.filters_llm"] = {
+    f"{MODELS}.openSource": st.session_state[f"{PAGE}.open_source"],
+    f"{MODELS}.fineTuned": st.session_state[f"{PAGE}.fine_tuned"],
+    # "quantization": quantization,  # FIXME: fixami
+    f"{MODELS}.contextLength": {"$gte": st.session_state[f"{PAGE}.cont_length"]},
+}
 
-# Add openSource filter only if not "No filter"
-if st.session_state[f"{PAGE}.open_source"] != "No filter":
-    st.session_state[f"{PAGE}.filters_llm"]["openSource"] = st.session_state[f"{PAGE}.open_source"] == "True"
-
-# Add instructionTuned filter only if not "No filter"
-if st.session_state[f"{PAGE}.instruction_tuned"] != "No filter":
-    st.session_state[f"{PAGE}.filters_llm"]["instructionTuned"] = st.session_state[f"{PAGE}.instruction_tuned"] == "True"
-
-# State flags for additional manual filtering (on numeric/string fields)
-st.session_state[f"{PAGE}.param_filter_active"] = False
-st.session_state[f"{PAGE}.carbon_filter_active"] = False
-
-# Handle number of parameters filter
 if st.session_state[f"{PAGE}.num_param_filter"] == "Number of Parameters (B)":
-    # When using numeric filters on a string field (e.g. "7B"), we can't rely on
-    # MongoDB's comparison semantics. Instead, we store the bounds in the session
-    # state and perform the comparison after retrieving the results.
-    min_params = st.session_state[f"{PAGE}.min_num_param"]
-    # If the user leaves the max field empty, treat it as a large upper bound
-    max_params = (
-        st.session_state[f"{PAGE}.max_num_param"]
-        if st.session_state[f"{PAGE}.max_num_param"]
-        else 1e9
-    )
-    st.session_state[f"{PAGE}.param_filter_active"] = True
-    st.session_state[f"{PAGE}.min_params"] = min_params
-    st.session_state[f"{PAGE}.max_params"] = max_params
+    st.session_state[f"{PAGE}.filters_llm"]["$and"] = [
+        {f"{MODELS}.numberOfParameters [B]": {"$gte": st.session_state[f"{PAGE}.min_num_param"]}},
+        {
+            f"{MODELS}.numberOfParameters [B]": {"$lte": 
+                st.session_state[f"{PAGE}.max_num_param"] if st.session_state[f"{PAGE}.max_num_param"] else 1e9}
+        },  # TODO: numero
+    ]
 
-# Handle carbon emissions filter
-if st.session_state[f"{PAGE}.carbon_filter"] == "Carbon Emissions (tCO2e)":
-    min_carbon = st.session_state[f"{PAGE}.min_carbon"]
-    max_carbon = (
-        st.session_state[f"{PAGE}.max_carbon"]
-        if st.session_state[f"{PAGE}.max_carbon"]
-        else 1e9
-    )
-    st.session_state[f"{PAGE}.carbon_filter_active"] = True
-    st.session_state[f"{PAGE}.min_carbon_val"] = min_carbon
-    st.session_state[f"{PAGE}.max_carbon_val"] = max_carbon
+if st.session_state[f"{PAGE}.arch"]:
+    st.session_state[f"{PAGE}.filters_llm"][f"{MODELS}.architecture"] = st.session_state[f"{PAGE}.arch"]
 
-# Add language and license filters if set
 if st.session_state[f"{PAGE}.lan_llm"]:
-    st.session_state[f"{PAGE}.filters_llm"]["languages"] = {
-        "$all": st.session_state[f"{PAGE}.lan_llm"]
-    }
+    st.session_state[f"{PAGE}.filters_llm"][f"{MODELS}.languages"] = {"$all": st.session_state[f"{PAGE}.lan_llm"]}
 
-if st.session_state[f"{PAGE}.license"]:
-    st.session_state[f"{PAGE}.filters_llm"]["license_to_use"] = {
-        "$all": st.session_state[f"{PAGE}.license"]
-    }
-
-# -----------------------------------------------------------------------------
-# FINAL SECTION FOR QUERYING AND DISPLAY
-# -----------------------------------------------------------------------------
+### FINAL SECTION FOR QUERYING
 st.markdown("---")
-# Choose which fields to display from models and tasks
-st.multiselect(
-    "**Select the results of the query for LLM**",
-    dao.get_attributes(MODELS),
-    ["name", "version", "numberOfParameters"],
-    key=f"{PAGE}.project_llm_multiselect",
-)
-
 st.multiselect(
     "**Select the results of the query for Downstream Task**",
     dao.get_attributes(DOWNSTREAM_TASKS),
-    ["name", "description"],
-    key=f"{PAGE}.project_dt_multiselect",
+    ["name"],
+    key=f"{PAGE}.project_dt_multiselect"
 )
+st.session_state[f"{PAGE}.project_dt"] = [f"{DOWNSTREAM_TASKS}." + att for att in st.session_state[f"{PAGE}.project_dt_multiselect"]]
 
-# Button to trigger the query
+st.multiselect(
+    "**Select the results of the query for LLM**",
+    dao.get_attributes(MODELS),
+    ["name", "version", "numberOfParameters [B]"],
+    key=f"{PAGE}.project_llm_multiselect"
+)
+st.session_state[f"{PAGE}.project_llm"] = [f"{MODELS}." + att for att in st.session_state[f"{PAGE}.project_llm_multiselect"]]
+
+
 l, l1, c, r1, r = st.columns(5)
+
 with c:
     query = st.button("Get results")
 
 if query:
-    # -------------------------------------------------------------------------
-    # Build projection lists, ensuring fields needed for manual filtering are
-    # included when the corresponding filters are active. Without these
-    # additional fields, later numeric comparisons would fail because the
-    # values would not be present in the results.
-    llm_project_fields = st.session_state[f"{PAGE}.project_llm_multiselect"].copy()
-    
-    # Always include _id for joining with edges
-    if "_id" not in llm_project_fields:
-        llm_project_fields.append("_id")
-    
-    if (
-        st.session_state.get(f"{PAGE}.param_filter_active", False)
-        and "numberOfParameters" not in llm_project_fields
-    ):
-        llm_project_fields.append("numberOfParameters")
-    if (
-        st.session_state.get(f"{PAGE}.carbon_filter_active", False)
-        and "carbon_emissions_tco2e" not in llm_project_fields
-    ):
-        llm_project_fields.append("carbon_emissions_tco2e")
-
-    # Add ranking fields to project if ranking is active
-    if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters" and "numberOfParameters" not in llm_project_fields:
-        llm_project_fields.append("numberOfParameters")
-    elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions" and "carbon_emissions_tco2e" not in llm_project_fields:
-        llm_project_fields.append("carbon_emissions_tco2e")
-
-    task_project_fields = st.session_state[f"{PAGE}.project_dt_multiselect"].copy()
-    
-    # Always include _id for joining with edges
-    if "_id" not in task_project_fields:
-        task_project_fields.append("_id")
-
-    # -------------------------------------------------------------------------
-    # Query models collection with selected projection and filters
-    models_query = create_query_structure(
-        collection=MODELS,
-        project=llm_project_fields,
-        filters=st.session_state[f"{PAGE}.filters_llm"],
-    )
-    models_result = dao.query([models_query])
-
-    # Manual post‑processing for number of parameters
-    if st.session_state.get(f"{PAGE}.param_filter_active", False):
-        def convert_params_to_numeric(param_str: str) -> float:
-            """Convert parameter strings like '7B' or '176M' to numeric (billions)"""
-            if not param_str:
-                return 0.0
-            param_str = str(param_str).upper()
-            try:
-                if param_str.endswith("B"):
-                    return float(param_str[:-1])
-                if param_str.endswith("M"):
-                    return float(param_str[:-1]) / 1000.0
-                return float(param_str)
-            except Exception:
-                return 0.0
-
-        min_params = st.session_state[f"{PAGE}.min_params"]
-        max_params = st.session_state[f"{PAGE}.max_params"]
-        filtered_models = []
-        for item in models_result:
-            param_value = None
-            # Expect model fields under the "Models" key
-            if "Models" in item and "numberOfParameters" in item["Models"]:
-                param_value = item["Models"]["numberOfParameters"]
-            if param_value is not None:
-                numeric_params = convert_params_to_numeric(param_value)
-                if min_params <= numeric_params <= max_params:
-                    filtered_models.append(item)
-            elif min_params == 0:
-                # if no param specified and minimum is zero, include
-                filtered_models.append(item)
-        models_result = filtered_models
-
-    # Manual post‑processing for carbon emissions
-    if st.session_state.get(f"{PAGE}.carbon_filter_active", False):
-        min_carbon = st.session_state[f"{PAGE}.min_carbon_val"]
-        max_carbon = st.session_state[f"{PAGE}.max_carbon_val"]
-        filtered_models = []
-        for item in models_result:
-            carbon_value = None
-            if "Models" in item and "carbon_emissions_tco2e" in item["Models"]:
-                carbon_value = item["Models"]["carbon_emissions_tco2e"]
-            if carbon_value is not None:
-                try:
-                    numeric_carbon = float(carbon_value)
-                    if min_carbon <= numeric_carbon <= max_carbon:
-                        filtered_models.append(item)
-                except Exception:
-                    # skip items where conversion fails
-                    pass
-            elif min_carbon == 0:
-                filtered_models.append(item)
-        models_result = filtered_models
-
-    # -------------------------------------------------------------------------
-    # Retrieve all suited_for edges from the Edges collection first
-    # These records describe which model is suited for which task.
-    
-    edges_query = create_query_structure(
-        collection="Edges",
-        project=["from", "to", "relation_type"],
-        filters={"relation_type": "suited_for"},
-    )
-    edges_result = dao.query([edges_query])
-
-    # -------------------------------------------------------------------------
-    # If task names are selected, filter edges to only those targeting selected tasks
-    # We need to map task display names to task IDs first
-    filtered_edges = edges_result
-    if st.session_state[f"{PAGE}.name_dt"]:
-        # Get all tasks to map names to IDs
-        all_tasks_query = create_query_structure(
-            collection=DOWNSTREAM_TASKS,
-            project=["_id", "name"],
-            filters={},
-        )
-        all_tasks_result = dao.query([all_tasks_query])
-        
-        # Create mapping from display name to task ID
-        name_to_id = {}
-        for task in all_tasks_result:
-            if "Downstream Tasks" in task:
-                task_data = task["Downstream Tasks"]
-                name_to_id[task_data.get("name", "")] = task_data.get("_id", "")
-        
-        # Get task IDs for selected names
-        selected_task_ids = []
-        for selected_name in st.session_state[f"{PAGE}.name_dt"]:
-            if selected_name in name_to_id:
-                selected_task_ids.append(name_to_id[selected_name])
-        
-        # Filter edges to only those targeting selected tasks
-        filtered_edges = []
-        for edge in edges_result:
-            if "Edges" in edge:
-                edge_data = edge["Edges"]
-                target_task = edge_data.get("to", "")
-                if target_task in selected_task_ids:
-                    filtered_edges.append(edge)
-
-    # -------------------------------------------------------------------------
-    # Get all unique task IDs from the filtered edges
-    task_ids_needed = set()
-    for edge in filtered_edges:
-        if "Edges" in edge:
-            task_ids_needed.add(edge["Edges"].get("to", ""))
-    
-    # Query tasks collection for only the tasks we need
-    # Get all tasks first, then filter manually since $in might not work with _id
-    if task_ids_needed:
-        all_tasks_query = create_query_structure(
-            collection=DOWNSTREAM_TASKS,
-            project=task_project_fields,
-            filters={},
-        )
-        all_tasks_result = dao.query([all_tasks_query])
-        
-        # Filter manually to only the tasks we need
-        tasks_result = []
-        for task in all_tasks_result:
-            if "Downstream Tasks" in task:
-                task_id = task["Downstream Tasks"].get("_id", "")
-                if task_id in task_ids_needed:
-                    tasks_result.append(task)
-    else:
-        tasks_result = []
-
-    # -------------------------------------------------------------------------
-    # Combine models and tasks according to the edges. Only those pairs
-    # passing their respective filters will be displayed. We strip the
-    # ``model:`` and ``task:`` prefixes when comparing IDs because the
-    # underlying entries in the Models and Downstream Tasks collections do not include
-    # these prefixes in their ``_id`` fields.
-    joined_results = []
-    for edge in filtered_edges:
-        if "Edges" not in edge:
-            continue
-        edge_data = edge["Edges"]
-        model_id = edge_data.get("from", "").replace("model:", "")
-        task_id = edge_data.get("to", "").replace("task:", "")
-        
-        # find matching model
-        matching_model = None
-        for model in models_result:
-            if "Models" in model:
-                current_id = model["Models"].get("_id", "").replace("model:", "")
-                if current_id == model_id:
-                    matching_model = model
-                    break
-
-        # find matching task
-        matching_task = None
-        for task in tasks_result:
-            if "Downstream Tasks" in task:
-                current_id = task["Downstream Tasks"].get("_id", "").replace("task:", "")
-                if current_id == task_id:
-                    matching_task = task
-                    break
-
-        # if both sides match, combine
-        if matching_model and matching_task:
-            # merge dictionaries – keys from matching_task will overwrite duplicates
-            joined_result = {**matching_model, **matching_task}
-            joined_results.append(joined_result)
-
-    # -------------------------------------------------------------------------
-    # Display the joined results in a dataframe. If no matching edges exist,
-    # provide a user‑friendly message instead.
-    if joined_results:
-        # Apply ranking if selected
-        if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
-            def convert_params_to_numeric(param_str):
-                """Convert parameter strings like '7B', '176B' to numeric values in billions"""
-                if not param_str:
-                    return None
-                param_str = str(param_str).upper()
-                if param_str.endswith('B'):
-                    try:
-                        return float(param_str[:-1])
-                    except ValueError:
-                        return None
-                elif param_str.endswith('M'):
-                    try:
-                        return float(param_str[:-1]) / 1000
-                    except ValueError:
-                        return None
-                else:
-                    try:
-                        return float(param_str) / 1000000000
-                    except ValueError:
-                        return None
-            
-            def has_valid_ranking_value(item):
-                """Check if item has a valid (non-null) value for the selected ranking field"""
-                if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters":
-                    if "Models" in item and "numberOfParameters" in item["Models"]:
-                        return convert_params_to_numeric(item["Models"]["numberOfParameters"]) is not None
-                    return False
-                elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions":
-                    if "Models" in item and "carbon_emissions_tco2e" in item["Models"]:
-                        try:
-                            value = item["Models"]["carbon_emissions_tco2e"]
-                            return value is not None and float(value) is not None
-                        except (ValueError, TypeError):
-                            return False
-                    return False
-                return True
-            
-            def get_sort_key(item):
-                if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters":
-                    if "Models" in item and "numberOfParameters" in item["Models"]:
-                        return convert_params_to_numeric(item["Models"]["numberOfParameters"]) or 0
-                    return 0
-                elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions":
-                    if "Models" in item and "carbon_emissions_tco2e" in item["Models"]:
-                        try:
-                            return float(item["Models"]["carbon_emissions_tco2e"])
-                        except (ValueError, TypeError):
-                            return 0
-                    return 0
-                return 0
-            
-            # Filter out items with null/missing ranking values
-            joined_results = [item for item in joined_results if has_valid_ranking_value(item)]
-            
-            # Sort the remaining items
-            reverse_order = st.session_state[f"{PAGE}.sort_order"] == "Descending (High to Low)"
-            joined_results = sorted(joined_results, key=get_sort_key, reverse=reverse_order)
-        
-        st.success(f"Found {len(joined_results)} model-task relationships matching your filters.")
-        df = pd.DataFrame(reworked_query_output(joined_results))
-        st.dataframe(df)
-        
-        # Show summary of what was found
-        model_names = set()
-        task_names = set()
-        for result in joined_results:
-            if "Models" in result:
-                model_names.add(result["Models"].get("name", "Unknown"))
-            if "Downstream Tasks" in result:
-                task_names.add(result["Downstream Tasks"].get("name", "Unknown"))
-        
-        st.info(f"Models: {', '.join(sorted(model_names))}")
-        st.info(f"Tasks: {', '.join(sorted(task_names))}")
-    else:
-        st.warning("No 'suited for' relationships found matching the specified filters.")
-        st.info("Try adjusting your filters or selecting different downstream tasks. "
-               "Available relationships exist for: Medical NLP, Financial Document Analysis, "
-               "Code Generation, and Text Summarization.")
-
-    with st.expander("**📊 Ranking Options**", expanded=False):
-        st.radio(
-            "**Rank by**",
-            ["No ranking", "Number of Parameters", "Carbon Emissions"],
-            index=0,
-            key=f"{PAGE}.rank_by"
-        )
-        if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
-            st.radio(
-                "**Sort order**",
-                ["Ascending (Low to High)", "Descending (High to Low)"],
-                index=1,
-                key=f"{PAGE}.sort_order"
-            )
+    query_input = [create_query_structure(
+        collection=DOWNSTREAM_TASKS, 
+        project=st.session_state[f"{PAGE}.project_dt"], 
+        filters=st.session_state[f"{PAGE}.filters_dt"]
+    ),
+    create_query_structure(
+        collection=MODELS, 
+        project=st.session_state[f"{PAGE}.project_llm"], 
+        filters=st.session_state[f"{PAGE}.filters_llm"]
+    )]
+    #st.write(query_input)
+    result = dao.query(query_input)
+    df = pd.DataFrame(reworked_query_output(result))
+    st.dataframe(df)

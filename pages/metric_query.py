@@ -21,12 +21,20 @@ st.html("<h3 style='text-align: center;'>Metric filters</h3>")
 col_1, col_2 = st.columns([1, 1])
 
 with col_1:
-    st.radio("**Context Free**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.contextFree")
-    st.radio("**Trained**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.trained")
-    st.radio("**Feature Based**", ["No filter", "True", "False"], index=0, key=f"{PAGE}.featureBased")
+    st.toggle("**Context Free**",
+              value=False,
+              key=f"{PAGE}.contextFree")
+    
+    st.toggle("**Trained**",
+              value=False,
+              key=f"{PAGE}.trained")
+    
+    st.toggle("**Feature Based**",
+              value=False,
+              key=f"{PAGE}.featureBased")
 
 with col_2:
-    if st.session_state[f"{PAGE}.trained"] == "True":
+    if st.session_state[f"{PAGE}.trained"]:
         st.multiselect(
             "**Feature Based - End to End**",
             dao.get_all(COLLECTION, "featureBased/endToEnd"),
@@ -41,22 +49,18 @@ with col_2:
             default=st.session_state[f"{PAGE}.gran"] if f"{PAGE}.gran" in st.session_state else None
         )
 
-st.session_state[f"{PAGE}.filters"] = {}
+st.session_state[f"{PAGE}.filters"] = {
+    "trained": st.session_state[f"{PAGE}.trained"],
+    "contextFree": st.session_state[f"{PAGE}.contextFree"],
+    "featureBased": st.session_state[f"{PAGE}.featureBased"]
+}
 
-# Add filters only if not "No filter"
-if st.session_state[f"{PAGE}.trained"] != "No filter":
-    st.session_state[f"{PAGE}.filters"]["trained"] = st.session_state[f"{PAGE}.trained"] == "True"
-if st.session_state[f"{PAGE}.contextFree"] != "No filter":
-    st.session_state[f"{PAGE}.filters"]["contextFree"] = st.session_state[f"{PAGE}.contextFree"] == "True"
-if st.session_state[f"{PAGE}.featureBased"] != "No filter":
-    st.session_state[f"{PAGE}.filters"]["featureBased"] = st.session_state[f"{PAGE}.featureBased"] == "True"
-
-if st.session_state[f"{PAGE}.trained"] == "False":
+if not st.session_state[f"{PAGE}.trained"]:
     if st.session_state[f"{PAGE}.gran"]:
         st.session_state[f"{PAGE}.filters"]["granularity"] = {
             "$all": st.session_state[f"{PAGE}.gran"]
         }
-if st.session_state[f"{PAGE}.trained"] == "True":
+if st.session_state[f"{PAGE}.trained"]:
     if st.session_state[f"{PAGE}.feat"]:
         st.session_state[f"{PAGE}.filters"]["featureBased/endToEnd"] = {
             "$all": st.session_state[f"{PAGE}.feat"]
@@ -69,9 +73,6 @@ st.multiselect(
     key=f"{PAGE}.project_multiselect"
 )
 st.session_state[f"{PAGE}.project"] = st.session_state[f"{PAGE}.project_multiselect"]
-
-with st.expander("**📊 Ranking Options**", expanded=False):
-    st.info("Note: Metrics collection has no numeric fields suitable for ranking. Results will be displayed in default order. When ranking is activated on other pages, entries with null values for the ranking field are automatically excluded from results.")
 
 l, l1, c, r1, r = st.columns(5)
 
