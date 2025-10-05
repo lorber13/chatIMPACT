@@ -92,6 +92,12 @@ Click on the **Enable** edge and apply:
 """
 st.markdown(query_3_desc)
 
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    if st.button("🚀 **Run Query 3 (Pre-configured)**", key="legal_query_button", use_container_width=True):
+        st.switch_page("pages/legal_query.py")
+
+
 
 st.markdown("")
 st.markdown("")
