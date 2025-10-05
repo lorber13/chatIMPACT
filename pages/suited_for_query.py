@@ -255,6 +255,21 @@ st.multiselect(
     key=f"{PAGE}.project_dt_multiselect",
 )
 
+with st.expander("**📊 Ranking Options**", expanded=False):
+    st.radio(
+        "**Rank by**",
+        ["No ranking", "Number of Parameters", "Carbon Emissions"],
+        index=0,
+        key=f"{PAGE}.rank_by"
+    )
+    if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+        st.radio(
+            "**Sort order**",
+            ["Ascending (Low to High)", "Descending (High to Low)"],
+            index=1,
+            key=f"{PAGE}.sort_order"
+        )
+
 # Button to trigger the query
 l, l1, c, r1, r = st.columns(5)
 with c:
@@ -284,9 +299,9 @@ if query:
         llm_project_fields.append("carbon_emissions_tco2e")
 
     # Add ranking fields to project if ranking is active
-    if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters" and "numberOfParameters" not in llm_project_fields:
+    if st.session_state.get(f"{PAGE}.rank_by", "No ranking") == "Number of Parameters" and "numberOfParameters" not in llm_project_fields:
         llm_project_fields.append("numberOfParameters")
-    elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions" and "carbon_emissions_tco2e" not in llm_project_fields:
+    elif st.session_state.get(f"{PAGE}.rank_by", "No ranking") == "Carbon Emissions" and "carbon_emissions_tco2e" not in llm_project_fields:
         llm_project_fields.append("carbon_emissions_tco2e")
 
     task_project_fields = st.session_state[f"{PAGE}.project_dt_multiselect"].copy()
@@ -474,7 +489,7 @@ if query:
     # provide a user‑friendly message instead.
     if joined_results:
         # Apply ranking if selected
-        if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+        if st.session_state.get(f"{PAGE}.rank_by", "No ranking") != "No ranking":
             def convert_params_to_numeric(param_str):
                 """Convert parameter strings like '7B', '176B' to numeric values in billions"""
                 if not param_str:
@@ -498,11 +513,11 @@ if query:
             
             def has_valid_ranking_value(item):
                 """Check if item has a valid (non-null) value for the selected ranking field"""
-                if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters":
+                if st.session_state.get(f"{PAGE}.rank_by", "No ranking") == "Number of Parameters":
                     if "Models" in item and "numberOfParameters" in item["Models"]:
                         return convert_params_to_numeric(item["Models"]["numberOfParameters"]) is not None
                     return False
-                elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions":
+                elif st.session_state.get(f"{PAGE}.rank_by", "No ranking") == "Carbon Emissions":
                     if "Models" in item and "carbon_emissions_tco2e" in item["Models"]:
                         try:
                             value = item["Models"]["carbon_emissions_tco2e"]
@@ -513,11 +528,11 @@ if query:
                 return True
             
             def get_sort_key(item):
-                if st.session_state[f"{PAGE}.rank_by"] == "Number of Parameters":
+                if st.session_state.get(f"{PAGE}.rank_by", "No ranking") == "Number of Parameters":
                     if "Models" in item and "numberOfParameters" in item["Models"]:
                         return convert_params_to_numeric(item["Models"]["numberOfParameters"]) or 0
                     return 0
-                elif st.session_state[f"{PAGE}.rank_by"] == "Carbon Emissions":
+                elif st.session_state.get(f"{PAGE}.rank_by", "No ranking") == "Carbon Emissions":
                     if "Models" in item and "carbon_emissions_tco2e" in item["Models"]:
                         try:
                             return float(item["Models"]["carbon_emissions_tco2e"])
@@ -530,7 +545,7 @@ if query:
             joined_results = [item for item in joined_results if has_valid_ranking_value(item)]
             
             # Sort the remaining items
-            reverse_order = st.session_state[f"{PAGE}.sort_order"] == "Descending (High to Low)"
+            reverse_order = st.session_state.get(f"{PAGE}.sort_order", "Descending (High to Low)") == "Descending (High to Low)"
             joined_results = sorted(joined_results, key=get_sort_key, reverse=reverse_order)
         
         st.success(f"Found {len(joined_results)} model-task relationships matching your filters.")
@@ -554,17 +569,4 @@ if query:
                "Available relationships exist for: Medical NLP, Financial Document Analysis, "
                "Code Generation, and Text Summarization.")
 
-    with st.expander("**📊 Ranking Options**", expanded=False):
-        st.radio(
-            "**Rank by**",
-            ["No ranking", "Number of Parameters", "Carbon Emissions"],
-            index=0,
-            key=f"{PAGE}.rank_by"
-        )
-        if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
-            st.radio(
-                "**Sort order**",
-                ["Ascending (Low to High)", "Descending (High to Low)"],
-                index=1,
-                key=f"{PAGE}.sort_order"
-            )
+
