@@ -112,6 +112,11 @@ Click on the **Train** edge and apply:
 """
 st.markdown(query_4_desc)
 
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    if st.button("🚀 **Run Query 4 (Pre-configured)**", key="science_query_button", use_container_width=True):
+        st.switch_page("pages/science_query.py")
+
 st.markdown("")
 st.markdown("")
 # Add image for Query 5

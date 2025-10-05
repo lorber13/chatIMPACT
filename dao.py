@@ -259,6 +259,20 @@ class Dao:
                         val = doc.get(attr)
                         if not isinstance(val, list) or not set(op_val).issubset(set(val)):
                             return False
+                    elif op == "$in":
+                        # For array fields: check if any element in doc[attr] is in op_val
+                        # For scalar fields: check if doc[attr] is in op_val
+                        val = doc.get(attr)
+                        if val is None:
+                            return False
+                        if isinstance(val, list):
+                            # Array field: check if any array element is in our target list
+                            if not any(item in op_val for item in val):
+                                return False
+                        else:
+                            # Scalar field: check if value is in our target list
+                            if val not in op_val:
+                                return False
                     else:
                         # Unknown operator – treat as mismatch
                         return False
