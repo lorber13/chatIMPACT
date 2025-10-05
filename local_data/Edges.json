@@ -23,6 +23,7 @@
   {"_id":"edge:test:meditron-mmluclin","relation_type":"tested_on","from":"model:epfl-llm/meditron-7b","to":"dataset:MMLU-Clinical"},
 
   {"_id":"edge:ft:adapt-medmcqa","relation_type":"fine_tuned_on","from":"model:AdaptLLM/medicine-LLM","to":"dataset:MedMCQA"},
+  {"_id":"edge:ft:contactdoc-medmcqa","relation_type":"fine_tuned_on","from":"model:ContactDoctor/Bio-Medical-Llama-3-8B","to":"dataset:MedMCQA"},
   {"_id":"edge:ft:contactdoc-pubmedqa","relation_type":"fine_tuned_on","from":"model:ContactDoctor/Bio-Medical-Llama-3-8B","to":"dataset:PubMedQA"},
 
   {"_id":"edge:tr:fingpt-llama3-finqa","relation_type":"trained_on","from":"model:FinGPT/fingpt-llama3-8b-lora","to":"dataset:FinQA"},
@@ -55,7 +56,9 @@
   {"_id":"edge:test:meditron-mmluclin","relation_type":"tested_on","from":"model:epfl-llm/meditron-7b","to":"dataset:MMLU-Clinical"},
 
   {"_id":"edge:ft:adapt-medmcqa","relation_type":"tested_on","from":"model:AdaptLLM/medicine-LLM","to":"dataset:MedMCQA"},
+  {"_id":"edge:test:contactdoc-medmcqa","relation_type":"tested_on","from":"model:ContactDoctor/Bio-Medical-Llama-3-8B","to":"dataset:MedMCQA"},
   {"_id":"edge:ft:contactdoc-pubmedqa","relation_type":"tested_on","from":"model:ContactDoctor/Bio-Medical-Llama-3-8B","to":"dataset:PubMedQA"},
+  {"_id":"edge:test:contactdoc-mmluclin","relation_type":"tested_on","from":"model:ContactDoctor/Bio-Medical-Llama-3-8B","to":"dataset:MMLU-Clinical"},
 
   {"_id":"edge:tr:fingpt-llama3-finqa","relation_type":"tested_on","from":"model:FinGPT/fingpt-llama3-8b-lora","to":"dataset:FinQA"},
   {"_id":"edge:tr:fingpt-rfalcon-contractnli","relation_type":"tested_on","from":"model:FinGPT/fingpt-rfalcon-7b-lora","to":"dataset:ContractNLI"},

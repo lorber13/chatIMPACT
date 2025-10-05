@@ -51,12 +51,14 @@ st.markdown('<img src="./app/static/1.png" alt="Query 1" width="1000" height="20
 query_1_desc = """
 **Query 1:** *“Find the open-source Italian models with less than 8B parameters fine-tuned on the medical domain.”*  
 This query considers the **Train** relationship between the **Model** and **Dataset** entities.  
-Click on the **Train** edge and apply the following filters:  
-- **Model filters:** OpenSource=True, NumberOfParameters < 8B  
-- **Dataset filters:** Domain = Medical, FineTuning=True, Language=Italian  
 """
 st.markdown(query_1_desc)
 
+# Add button for pre-configured Query 1
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    if st.button("🚀 **Run Query 1 (Pre-configured)**", key="medical_italian_query_button", use_container_width=True):
+        st.switch_page("pages/medical_italian_query.py")
 
 st.markdown("")
 st.markdown("")
