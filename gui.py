@@ -73,6 +73,11 @@ Click on the **SuitedFor** edge and apply:
 """
 st.markdown(query_2_desc)
 
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    if st.button("🚀 **Run Query 2 (Pre-configured)**", key="financial_query_button", use_container_width=True):
+        st.switch_page("pages/financial_query.py")
+
 
 st.markdown("")
 st.markdown("")
