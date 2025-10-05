@@ -699,21 +699,31 @@ if query:
             reverse_order = st.session_state[f"{PAGE}.sort_order"] == "Descending (High to Low)"
             joined_results = sorted(joined_results, key=get_sort_key, reverse=reverse_order)
         
-        # Process results for display
-        processed_results = reworked_query_output(joined_results)
-        
-        # Create DataFrame and display results
-        df = pd.DataFrame(processed_results)
-        
         # Show success message with count
         st.success(f"Found {len(joined_results)} model-task-metric relationships matching your filters.")
         
-        # If ranking by metric score, highlight that scores are included
-        if st.session_state[f"{PAGE}.rank_by"] == "Metric Score":
-            st.info("Results are ranked by metric score (highest to lowest). Scores are shown in the 'Evaluation.score' column.")
+        # If ranking is active, show information about the ranking
+        if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+            st.info(f"Results are ranked by {st.session_state[f'{PAGE}.rank_by']} ({st.session_state[f'{PAGE}.sort_order']}).")
         
+        df = pd.DataFrame(reworked_query_output(joined_results))
         st.dataframe(df)
+        
+        # Show summary of what was found
+        model_names = set()
+        task_names = set()
+        metric_names = set()
+        for result in joined_results:
+            if "Models" in result:
+                model_names.add(result["Models"].get("name", "Unknown"))
+            if "Downstream Tasks" in result:
+                task_names.add(result["Downstream Tasks"].get("name", "Unknown"))
+            if "Metrics" in result:
+                metric_names.add(result["Metrics"].get("name", "Unknown"))
+        
+        st.info(f"**Found Models:** {', '.join(sorted(model_names))}")
+        st.info(f"**Found Tasks:** {', '.join(sorted(task_names))}")
+        st.info(f"**Found Metrics:** {', '.join(sorted(metric_names))}")
     else:
-        st.write(
-            "No three-way relationships found matching the specified filters. Make sure models have both task (suited_for) and metric (evaluates_model) relationships."
-        )
+        st.warning("No three-way relationships found matching the specified filters.")
+        st.info("This means there are no models that are both suited for the selected tasks and evaluated by the selected metrics with the current filters.")

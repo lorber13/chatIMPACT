@@ -757,9 +757,27 @@ if query:
             reverse_order = st.session_state[f"{PAGE}.sort_order"] == "Descending (High to Low)"
             joined_results = sorted(joined_results, key=get_sort_key, reverse=reverse_order)
         
+        # Show success message with count
+        st.success(f"Found {len(joined_results)} model-dataset training relationships matching your filters.")
+        
+        # If ranking is active, show information about the ranking
+        if st.session_state[f"{PAGE}.rank_by"] != "No ranking":
+            st.info(f"Results are ranked by {st.session_state[f'{PAGE}.rank_by']} ({st.session_state[f'{PAGE}.sort_order']}).")
+        
         df = pd.DataFrame(reworked_query_output(joined_results))
         st.dataframe(df)
+        
+        # Show summary of what was found
+        model_names = set()
+        dataset_names = set()
+        for result in joined_results:
+            if "Models" in result:
+                model_names.add(result["Models"].get("name", "Unknown"))
+            if "Datasets" in result:
+                dataset_names.add(result["Datasets"].get("name", "Unknown"))
+        
+        st.info(f"**Found Models:** {', '.join(sorted(model_names))}")
+        st.info(f"**Found Datasets:** {', '.join(sorted(dataset_names))}")
     else:
-        st.write(
-            "No training relationships found matching the specified filters."
-        )
+        st.warning("No training relationships found matching the specified filters.")
+        st.info("This means there are no Apache 2.0 licensed models trained on datasets covering all science domains (Mathematics, Chemistry, AND Physics) in the current database.")
