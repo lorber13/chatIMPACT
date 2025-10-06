@@ -129,3 +129,17 @@ with col2:
         st.switch_page("pages/code_generation_query.py")
 
 st.markdown("---")
+
+# About section
+st.markdown("## 📖 Documentation")
+about_desc = """
+Learn more about the **JSON-LD schema** that powers this tool's backend.
+"""
+st.markdown(about_desc)
+
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    if st.button("**📋 About - JSON-LD Schema**", key="about_button", use_container_width=True):
+        st.switch_page("pages/about.py")
+
+st.markdown("---")
