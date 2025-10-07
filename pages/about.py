@@ -10,15 +10,16 @@ st.html(title_alignment)
 st.markdown("""
 ## Overview
 
-This application implements the **four-entity conceptual map** for the LLM ecosystem - **Model, Dataset, Task, Metric** - and their **six binary relationships** (e.g., *trained_on*, *tested_on*, *suited_for*, *enabled_by*, *evaluates_model*, *assesses*).  
+This application implements a simple query system to explore the content of the **four-entity conceptual map** for the LLM ecosystem - **Model, Dataset, Task, Metric** - and their **six binary relationships** (i.e., *trained_on*, *tested_on*, *suited_for*, *enabled_by*, *evaluates_model*, *assesses*).  
 
 ### Architecture
 
-Two storage implementations:
-- **JSON** (demo): Simple JSON files stored in local. 
+The used implementation supports two types of storage:
+- **JSON** (demo): Simple JSON files stored locally. 
 - **MongoDB** (scalable): with one collection per entity and an **Edges** collection
 
-Both implementations follow the same JSON-LD schema principles with consistent data structures.
+Both kinds of storage follow the same JSON-LD schema principles with consistent data structures.
+In the following, we present JSON documents to store the example instances.
 """)
 
 st.markdown("---")
