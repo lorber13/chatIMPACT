@@ -50,7 +50,7 @@ st.markdown('<img src="./app/static/2.png" alt="Query 2" width="1000" height="20
 st.markdown("""
 **Pre-configured Query:** *"Find the open-source models specialized in Financial Document Analysis with less than 8B parameters."*
 
-This query considers the **SuitedFor** relationship between the **Model** and **Task** entities with the following pre-configured filters:
+This query considers the **suited_for** relationship between the **Model** and **Task** entities with the following pre-configured filters:
             
 - **Model filters:** OpenSource=True, NumberOfParameters < 8B  
 - **Task filters:** SubTask = Financial Document Analysis  
