@@ -25,7 +25,7 @@ st.markdown("---")
 
 st.markdown("### A quick guide")
 intro = """
-To test this Proof of Concept, it is possible to test the queries taken from the paper **"A conceptual map for exploring the landscape of Large Language Models"**. The following queries will help the user understand how to navigate the interface and why the tool is able to answer meaningful questions.  
+As a Proof of Concept, it is possible to test the queries described in the paper **"A conceptual map for exploring the landscape of Large Language Models"**. This supports users in understanding how a tool based on the proposed conceptual map can answer meaningful questions.  
 """
 st.markdown(intro)
 # add some space
@@ -36,7 +36,7 @@ st.markdown("")
 st.markdown('<img src="./app/static/1.png" alt="Query 1" width="1000" height="200">', unsafe_allow_html=True)
 query_1_desc = """
 **Query 1:** *“Find the open-source Italian models with less than 8B parameters fine-tuned on the medical domain.”*  
-This query considers the **Train** relationship between the **Model** and **Dataset** entities.  
+This query considers the **trained_on** relationship between the **Model** and **Dataset** entities.  
 """
 st.markdown(query_1_desc)
 
@@ -53,7 +53,7 @@ st.markdown("")
 st.markdown('<img src="./app/static/2.png" alt="Query 2" width="1000" height="200">', unsafe_allow_html=True)
 query_2_desc = """
 **Query 2:** *“Find the open-source models specialized in Financial Document Analysis with less than 8B parameters.”*  
-This query considers the **SuitedFor** relationship between the **Model** and **Task** entities.  
+This query considers the **suited_for** relationship between the **Model** and **Task** entities.  
 """
 st.markdown(query_2_desc)
 
@@ -70,7 +70,7 @@ st.markdown("")
 st.markdown('<img src="./app/static/3.png" alt="Query 3" width="1000" height="200">', unsafe_allow_html=True)
 query_3_desc = """
 **Query 3:** *“Find datasets to train models for text summarization in legal domains, with docs in English, Italian, Spanish, German, and French.”*  
-This query uses the **Enable** relationship between **Dataset** and **Task**.   
+This query uses the **enabled_by** relationship between **Dataset** and **Task**.   
 """
 st.markdown(query_3_desc)
 
@@ -88,7 +88,7 @@ st.markdown("")
 st.markdown('<img src="./app/static/4.png" alt="Query 4" width="1000" height="200">', unsafe_allow_html=True)
 query_4_desc = """
 **Query 4:** *“Find Apache2.0 models trained on at least a dataset from mathematics, chemistry, and physics.”*  
-This query considers the **Train** relationship between **Model** and **Dataset**.  
+This query considers the **trained_on** relationship between **Model** and **Dataset**.  
 """
 st.markdown(query_4_desc)
 
@@ -104,7 +104,7 @@ st.markdown("")
 st.markdown('<img src="./app/static/5.png" alt="Query 5" width="1000" height="200">', unsafe_allow_html=True)
 query_5_desc = """
 **Query 5:** *“Find models with more than 70B parameters trained on English datasets, ranked by lowest carbon emissions.”*  
-This query uses the **Train** relationship between **Model** and **Dataset**.  
+This query uses the **trained_on** relationship between **Model** and **Dataset**.  
 """
 st.markdown(query_5_desc)
 
@@ -120,7 +120,7 @@ st.markdown("")
 st.markdown('<img src="./app/static/6.png" alt="Query 6" width="1000" height="200">', unsafe_allow_html=True)
 query_6_desc = """
 **Query 6:** *"Find instruction-tuned models under 8B parameters for code generation, ranked by a suitable metric."*  
-This query creates a three-way relationship between **Model**, **Task**, and **Metric** entities using two types of relationships: **suited_for** and **evaluates_model**."""
+This query connects **Model**s to **Task**s through the **suited_for** relationship and **Metric**s to **Model**s through the **evaluates** relationship."""
 st.markdown(query_6_desc)
 
 col1, col2, col3 = st.columns([1, 2, 1])
