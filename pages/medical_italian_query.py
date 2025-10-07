@@ -55,7 +55,7 @@ st.markdown('<img src="./app/static/1.png" alt="Query 1" width="1000" height="20
 st.markdown("""
 **Pre-configured Query:** *"Find the open-source Italian models with less than 8B parameters fine-tuned on the medical domain."*
 
-This query considers the **Train** relationship between the **Model** and **Dataset** entities with the following pre-configured filters:
+This query considers the **trained_on** relationship between the **Model** and **Dataset** entities with the following pre-configured filters:
             
 - **Model filters:** OpenSource=True, NumberOfParameters < 8B  
 - **Dataset filters:** Domain = Medical, FineTuning=True, Language=Italian  
