@@ -3,7 +3,7 @@ import pandas as pd
 from utils import create_query_structure, reworked_query_output
 from dao import Dao
 
-PAGE = "Science"
+PAGE = "Query 4 - Science"
 MODELS = "Models"
 DATASETS = "Datasets"
 DB_NAME = "ChatIMPACT"
@@ -63,7 +63,7 @@ st.image("static/4.png", use_column_width=True)
 st.markdown("""
 **Pre-configured Query:** *"Find Apache 2.0 licensed models trained on datasets covering all science domains (Mathematics, Chemistry, AND Physics)."*
 
-This query considers the **Train** relationship between the **Model** and **Dataset** entities with the following pre-configured filters:
+This query considers the **trained_on** relationship between the **Model** and **Dataset** entities with the following pre-configured filters:
             
 - **Model filters:** OpenSource=True, LicenseToUse=Apache-2.0  
 - **Dataset filters:** Domain = Mathematics OR Chemistry OR Physics  
