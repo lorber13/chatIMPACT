@@ -47,7 +47,7 @@ st.markdown('<img src="./app/static/3.png" alt="Query 3" width="1000" height="20
 st.markdown("""
 **Pre-configured Query:** *"Find datasets to train models for text summarization in legal domains, with docs in English, Italian, Spanish, German, and French."*
 
-This query uses the **Enable** relationship between **Dataset** and **Task** entities with the following pre-configured filters:
+This query uses the **enabled_by** relationship between **Dataset** and **Task** entities with the following pre-configured filters:
             
 - **Task filters:** Downstream Task = Text Summarization  
 - **Dataset filters:** Domain=Law, Language ∈ {English, Italian, Spanish, German, French}  
