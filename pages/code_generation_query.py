@@ -5,7 +5,7 @@ import os
 from utils import create_query_structure, reworked_query_output
 from dao import Dao
 
-PAGE = "Software Development"
+PAGE = "Query 6 - Software Development"
 DOWNSTREAM_TASKS = "Downstream Tasks"
 MODELS = "Models"
 METRICS = "Metrics"
@@ -59,7 +59,7 @@ st.image("static/6.png", use_column_width=True)
 st.markdown("""
 **Pre-configured Query:** *"Find instruction-tuned models under 8B parameters for code generation, ranked by a suitable metric."*
 
-This query creates a three-way relationship between **Model**, **Task**, and **Metric** entities using two types of relationships:
+This query connects **Model**s to **Task**s and **Metric**s to **Model**s using two types of relationships:
 - **suited_for** relationship: We use this link to retrieve models that are suited for specific downstream tasks
 - **evaluates_model** relationship: We use this link to retrieve metrics that evaluate model performance, including the actual evaluation scores
 
