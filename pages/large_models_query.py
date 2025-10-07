@@ -3,7 +3,7 @@ import pandas as pd
 from utils import create_query_structure, reworked_query_output
 from dao import Dao
 
-PAGE = "Management"
+PAGE = "Query 5 - Management"
 MODELS = "Models"
 DATASETS = "Datasets"
 DB_NAME = "ChatIMPACT"
@@ -53,7 +53,7 @@ st.image("static/5.png", use_column_width=True)
 st.markdown("""
 **Pre-configured Query:** *"Find models with more than 70B parameters trained on English datasets, ranked by lowest carbon emissions."*
 
-This query considers the **Train** relationship between the **Model** and **Dataset** entities with the following pre-configured filters:
+This query considers the **trained_on** relationship between the **Model** and **Dataset** entities with the following pre-configured filters:
             
 - **Model filters:** NumberOfParameters > 70B  
 - **Dataset filters:** Language = English  
